@@ -4,7 +4,7 @@ owner = AKG
 controller = AKG
 add_core = AKG
 
-culture = al_misr_arabic
+culture = libyan
 religion = sunni
 capital = "Bardiyah"
 

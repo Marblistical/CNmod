@@ -1,3 +1,17 @@
-#4967 - Malozemelskaya
+owner = BJA
+controller = BJA
+add_core = BJA
+add_core = NEN
+
+capital = "Nes"
+culture = nenets
+religion = ukonusko
+
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
 
 discovered_by = nomad_group

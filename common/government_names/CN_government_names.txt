@@ -92,3 +92,40 @@ gov_shogunate = {
 		}
 	}
 }
+
+
+gov_taifa_government = {
+	rank = {
+		1 = MALIKATE
+	}
+
+	ruler_male = {
+		1 = HAJIB
+	}
+	
+	ruler_female = {
+		1 = HAJIB
+	}
+	consort_male = {
+		1 = MALIK
+	}
+
+	consort_female = {
+		1 = MALIKAH
+	}
+
+	heir_male = {
+		1 = MALIK
+		
+	}
+
+	heir_female = {
+		1 = MALIKAH
+	}
+	
+	trigger = {
+		religion = sunni
+		culture = andalucian
+		has_reform = taifa_government
+	}
+}

@@ -1,0 +1,157 @@
+papal_fief = {}
+
+papal_fief = {
+	copy_from = default
+
+	# Graphics:
+	sprite = GFX_icon_papal_fief
+	diplomacy_overlord_sprite = GFX_diplomacy_leadpapal_fief
+	diplomacy_subject_sprite = GFX_diplomacy_ampapal_fief
+
+	# Triggers:
+	is_potential_overlord = {
+		OR = {
+			tag = PAP
+		}
+		religion = catholic
+		is_excommunicated = no
+		OR = {
+			papacy_active = yes
+			has_country_flag = is_kingdom_of_god_flag
+		}
+	}
+
+	# Properties:
+	transfer_trade_power = yes
+	can_fight_independence_war = yes
+	is_voluntary = yes
+	joins_overlords_wars = no
+	can_be_integrated = no
+	overlord_can_be_subject = yes
+	can_have_subjects_of_other_types = yes
+	can_be_annexed = no
+	takes_diplo_slot = no
+	uses_military_focus = no
+	overlord_protects_external = no
+	can_release_in_peace = yes
+	counts_for_borders = no
+	overlord_enforce_peace_attacking = yes
+	can_use_claims = no
+	allows_taking_land_without_independence = yes
+	can_transfer_in_peace = no
+	can_set_mil_focus = no
+	overlord_can_fabricate_for = no
+	does_overlord_size_count_for_warscore_cost = no
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	opinion_cost_instead_of_favors_cost = yes
+
+	trust_on_start = 10
+
+	liberty_desire_development_ratio = 1
+	pays_overlord = 0.1
+	forcelimit_to_overlord = 0.2
+	naval_forcelimit_to_overlord = 0.1
+	manpower_to_overlord = 0.1
+	sailors_to_overlord = 0.1
+	cities_required_for_bonuses = 1
+
+	relative_power_class = 1
+	diplomacy_view_class = 1
+
+	should_quit_wars_on_activation = no
+
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+		same_overlord = papal_fief
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = papal_fief
+		same_overlord = papal_fief
+	}
+	can_ally = {
+		independent_nations = yes
+		other_overlord = papal_fief
+		same_overlord = papal_fief
+	}
+	can_marry = {
+		independent_nations = yes
+		other_overlord = papal_fief
+		same_overlord = papal_fief
+	}
+
+	# Subject Interactions:
+	# (continuous)
+	scutage = yes
+	# (immediate)
+	request_extra_levies = yes
+	enforce_religion = no
+	siphon_income = yes
+	send_additional_troops = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = papal_fief_modifier
+	}
+	modifier_subject = {
+		trigger = {
+			FROM = {
+				is_papal_controller = yes
+			}
+		}
+		modifier = papal_fief_overlord_is_papal_controller_modifier
+	}
+	modifier_overlord = {
+		trigger = {
+			religion = FROM
+			OR = {
+				government = theocracy
+				crusade_target = {
+					war_with = PREV
+				}
+				AND = {
+					has_opinion = {
+						who = PAP
+						value = 150
+					}
+					FROM = {
+						total_development = 20
+					}
+				}
+			}
+		}
+		modifier = papal_fief_bonus
+	}
+
+	modifier_overlord = clear
+	modifier_overlord = {
+		modifier = papal_fief_overlord_modifier
+	}
+	modifier_overlord = {
+		trigger = {
+			religion = FROM
+			OR = {
+				government = theocracy
+				crusade_target = {
+					war_with = PREV
+				}
+				AND = {
+					has_opinion = {
+						who = PAP
+						value = 150
+					}
+					FROM = {
+						total_development = 20
+					}
+				}
+			}
+		}
+		modifier = papal_fief_overlord_bonus
+	}
+
+}

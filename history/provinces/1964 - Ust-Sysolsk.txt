@@ -1,4 +1,4 @@
-#1964 - Syktyvkar
+#Ust-Sysolsk
 
 owner = SCY
 controller = SCY
@@ -9,10 +9,12 @@ base_tax = 1
 base_production = 1
 trade_goods = fur
 base_manpower = 1
-capital = "Syktyvkar"
+capital = "Ust-Sysola"
 is_city = yes
 add_core = PRM
 add_core = SCY
+
+
 
 discovered_by = eastern
 discovered_by = western

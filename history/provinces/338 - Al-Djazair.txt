@@ -5,7 +5,7 @@ controller = TLC
 add_core = TLC
 add_core = ALG
 
-culture = algerian
+culture = berber
 religion = sunni
 capital = "Al-Djazair"
 

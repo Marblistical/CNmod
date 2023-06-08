@@ -6,7 +6,7 @@ add_core = SLY
 add_core = FZA
 add_core = TRP
 
-culture = tunisian
+culture = libyan
 religion = sunni
 capital = "Ben Jawad"
 

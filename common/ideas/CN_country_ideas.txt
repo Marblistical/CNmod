@@ -868,3 +868,45 @@ KHZ_ideas = { #khazaria
 		vassal_income = 0.2
     }
 }
+
+KLB_ideas = {
+	start = {
+		siege_ability = 0.10
+		land_morale = 0.1		
+	}
+	bonus = {
+		naval_forcelimit_modifier = 0.5
+	}
+	trigger = {
+		tag = KLB
+	}
+
+	free = yes
+	
+	KLB_naval_supremacy = {
+		galley_power = 0.15
+		galley_cost = -0.15
+	}
+	KLB_glorious_army = {
+		prestige_from_land = 0.2
+		prestige_from_naval = 0.2
+		infantry_power = 0.10
+	}
+	KLB_trade = {
+		trade_efficiency = 0.15
+		global_foreign_trade_power = 0.1
+	}
+	KLB_aggressive_impact = {
+		ae_impact = -0.2
+	}
+	KLB_core = {
+		core_creation = -0.1
+	}
+	KLB_missionary_strength = {
+		global_missionary_strength = 0.02
+	}
+	KLB_technology = {
+		technology_cost = -0.1
+		global_institution_spread = 0.25
+	}
+}

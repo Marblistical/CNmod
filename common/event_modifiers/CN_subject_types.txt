@@ -1,0 +1,23 @@
+papal_fief_modifier = {
+	global_tax_modifier = 0.2
+	papal_influence = 2
+	religious_unity = 0.1
+	legitimacy = 0.1
+	republican_tradition = 0.1
+	devotion = 0.1
+}
+
+papal_sanctuary_subject_overlord_is_papal_controller_modifier = {
+	liberty_desire = -20
+}
+
+papal_fief_bonus = {
+	global_manpower_modifier = 0.1
+	land_morale = 0.1
+}
+
+papal_fief_overlord_bonus = {
+	diplomatic_reputation = 0.5
+	vassal_forcelimit_bonus = 0.05
+	land_morale = 0.025
+}

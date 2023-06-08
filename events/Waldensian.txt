@@ -1,0 +1,60 @@
+namespace = waldensian_event
+
+######################
+
+#Random country in the HCE converts
+country_event = {
+	id = waldensian_event.1
+	title = "waldensian_event.1.title"
+	desc = "waldensian_event.1.desc"
+	picture = ANGRY_MOB_eventPicture
+	
+	major = yes
+	major_trigger = {
+		religion_group = christian
+	}
+	
+	trigger = {
+		NOT = { religion = waldensian }
+		religion = catholic
+		is_part_of_hre = yes
+		is_year = 1420
+		is_elector = no
+		NOT = { is_emperor = yes }
+		NOT = { 
+			has_opinion = {
+				who = emperor
+				value = 0
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 0.5
+			capital_distance = {
+				who = PRO
+				distance = 50
+			}
+		}
+	}
+
+	option = {
+		name = "waldensian_event.1.a"
+		ai_chance = { factor = 70 }
+		change_religion = waldensian
+		capital_scope = {
+			change_religion = waldensian
+		}
+	}
+	option = {
+		name = "waldensian_event.1.b"
+		ai_chance = { factor = 30 }
+		add_stability = -1
+		capital_scope = {
+			change_religion = waldensian
+		}
+	}
+}

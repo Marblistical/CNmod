@@ -1,0 +1,619 @@
+namespace = austria_succession
+
+######################
+
+#Styrian Start
+country_event = {
+	id = austria_succession.1
+	title = "austria_succession.1.title"
+	desc = "austria_succession.1.desc"
+	picture = OVEREXTENSION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = STY
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "austria_succession.1.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austria_succession.styria.tt
+	}
+}
+
+#Bohemian Start
+country_event = {
+	id = austria_succession.2
+	title = "austria_succession.2.title"
+	desc = "austria_succession.2.desc"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BOH
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { set_country_flag = can_plot_ernest }
+
+	option = {
+		name = "austria_succession.2.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austria_succession.opponents.tt
+	}
+}
+
+#Milanese Start
+country_event = {
+	id = austria_succession.3
+	title = "austria_succession.3.title"
+	desc = "austria_succession.3.desc"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = MLO
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { set_country_flag = can_plot_ernest }
+
+	option = {
+		name = "austria_succession.3.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austria_succession.opponents.tt
+	}
+}
+
+#Austrian PU Start
+country_event = {
+	id = austria_succession.4
+	title = "austria_succession.4.title"
+	desc = "austria_succession.4.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	trigger = {
+		OR = {
+			tag = HAB
+			tag = TIR
+		}
+		NOT = { has_country_flag = can_plot_ernest }
+		NOT = { is_year = 1416 }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { set_country_flag = can_plot_ernest }
+
+	option = {
+		name = "austria_succession.4.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austria_succession.opponents.tt
+	}
+}
+
+#Trentini Start
+country_event = {
+	id = austria_succession.5
+	title = "austria_succession.5.title"
+	desc = "austria_succession.5.desc"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = TNT
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "austria_succession.5.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austrian_succession.trent.tt
+	}
+}
+
+#Ernest has died!
+country_event = {
+	id = austria_succession.6
+	title = "austria_succession.6.title"
+	desc = "austria_succession.6.desc"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = STY
+		NOT = { has_global_flag = death_of_ernest }
+		NOT = { has_ruler = "Ernest II" }
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = { set_global_flag = death_of_ernest }
+
+	option = {
+		name = "austria_succession.6.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austrian_succession.start.tt
+		every_country = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { tag = ROOT }
+						is_subject_of = ROOT
+					}
+					OR = {
+						tag = MLO
+						tag = BOH
+					}
+				}
+			}
+			country_event = { id = austria_succession.7 }
+		}
+	}
+}
+
+#Countries recieve death of Ernest
+country_event = {
+	id = austria_succession.7
+	title = "austria_succession.7.title"
+	desc = "austria_succession.7.desc"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = { clr_country_flag = can_plot_ernest }
+
+	option = {
+		name = "austria_succession.7.a"
+		ai_chance = { factor = 100 }
+		custom_tooltip = austrian_succession.beginning.tt
+		if = {
+			limit = {
+				is_subject_of = STY
+			}
+			add_liberty_desire = 50
+		}
+	}
+}
+
+#Spy event - initial
+country_event = {
+	id = austria_succession.8
+	title = "austria_succession.8.title"
+	desc = "austria_succession.8.desc"
+	picture = DEATH_OF_HEIR_eventPicture
+
+	trigger = {
+		has_country_flag = can_plot_ernest
+		NOT = { has_country_flag = plotting_against_ernest }
+		NOT = { has_global_flag = someone_plotting_ernest }
+		OR = {
+			has_spy_network_in = {
+				who = STY
+				value = 50
+			}
+			is_year = 1420
+		}
+	}
+
+	option = {
+		name = "austria_succession.8.a"
+		ai_chance = { factor = 10 }
+		ROOT = {
+			clr_country_flag = can_plot_ernest
+		}
+	}
+	option = {
+		name = "austria_succession.8.b"
+		ai_chance = { factor = 30 }
+		set_country_flag = killed_style
+		set_country_flag = plotting_against_ernest
+		set_global_flag = someone_plotting_ernest
+		clr_country_flag = can_plot_ernest
+	}
+	option = {
+		name = "austria_succession.8.c"
+		ai_chance = { factor = 30 }
+		set_country_flag = killed_sneaky
+		set_country_flag = plotting_against_ernest
+		set_global_flag = someone_plotting_ernest
+		clr_country_flag = can_plot_ernest
+	}
+	option = {
+		name = "austria_succession.8.d"
+		ai_chance = { factor = 30 }
+		set_country_flag = killed_brutal
+		set_country_flag = plotting_against_ernest
+		set_global_flag = someone_plotting_ernest
+		clr_country_flag = can_plot_ernest
+	}
+}
+
+#Results of the assassination - success!
+country_event = {
+	id = austria_succession.9
+	title = "austria_succession.9.title"
+	desc = "austria_succession.9.desc"
+	picture = DEATH_OF_HEIR_eventPicture
+
+	trigger = {
+		OR = {
+			has_country_flag = killed_style
+			has_country_flag = killed_sneaky
+			has_country_flag = killed_brutal
+		}
+		has_country_flag = plotting_against_ernest
+	}
+
+	mean_time_to_happen = {
+		months = 9
+	}
+
+	immediate = { 
+		clr_country_flag = plotting_against_ernest
+		clr_global_flag = someone_plotting_ernest
+	}
+
+	option = {
+		name = "austria_succession.9.a"
+		ai_chance = { factor = 30 }
+		trigger = {
+			has_country_flag = killed_style
+		}
+		every_country = {
+			limit = {
+				has_country_flag = can_plot_ernest
+			}
+			clr_country_flag = can_plot_ernest
+		}
+		clr_country_flag = killed_style
+		add_prestige = 5
+		STY = {
+			kill_ruler = yes
+		}
+	}
+	option = {
+		name = "austria_succession.9.b"
+		ai_chance = { factor = 30 }
+		trigger = {
+			has_country_flag = killed_sneaky
+		}
+		every_country = {
+			limit = {
+				has_country_flag = can_plot_ernest
+			}
+			clr_country_flag = can_plot_ernest
+		}
+		clr_country_flag = killed_sneaky
+		add_dip_power = 5
+		STY = {
+			kill_ruler = yes
+		}
+	}
+	option = {
+		name = "austria_succession.9.c"
+		ai_chance = { factor = 30 }
+		trigger = {
+			has_country_flag = killed_brutal
+		}
+		every_country = {
+			limit = {
+				has_country_flag = can_plot_ernest
+			}
+			clr_country_flag = can_plot_ernest
+		}
+		clr_country_flag = killed_brutal
+		STY = {
+			kill_ruler = yes
+		}
+	}
+}
+
+#Results of the assassination - failure.
+country_event = {
+	id = austria_succession.10
+	title = "austria_succession.10.title"
+	desc = "austria_succession.10.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	trigger = {
+		OR = {
+			has_country_flag = killed_style
+			has_country_flag = killed_sneaky
+			has_country_flag = killed_brutal
+		}
+		has_country_flag = plotting_against_ernest
+	}
+
+	mean_time_to_happen = {
+		months = 9
+	}
+
+	immediate = { 
+		clr_country_flag = plotting_against_ernest
+		clr_country_flag = killed_style
+		clr_country_flag = killed_sneaky
+		clr_country_flag = killed_brutal
+		clr_global_flag = someone_plotting_ernest
+	}
+
+	option = {
+		name = "austria_succession.10.a"
+		ai_chance = { factor = 100 }
+		add_prestige = -20
+	}
+}
+
+#Beginning of the disaster
+country_event = {
+	id = austria_succession.11
+	title = "austria_succession.11.title"
+	desc = "austria_succession.11.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "austria_succession.11.a"
+		ai_chance = { factor = 100 }
+		add_stability = -2
+		HAB = {
+			country_event = { id = austria_succession.13 }
+		}
+	}
+}
+
+#End of the disaster
+country_event = {
+	id = austria_succession.12
+	title = "austria_succession.12.title"
+	desc = "austria_succession.12.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = { 
+		set_country_flag = austrian_succession_over
+	}
+
+	option = {
+		name = "austria_succession.12.a"
+		ai_chance = { factor = 100 }
+		add_prestige = 20
+		add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+	}
+}
+
+#Austria Revolts
+country_event = {
+	id = austria_succession.13
+	title = "austria_succession.13.title"
+	desc = "austria_succession.13.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "austria_succession.13.a"
+		ai_chance = { factor = 100 }
+		grant_independence = yes
+		TIR = {
+			country_event = { 
+				id = austria_succession.14 
+				days = 5
+			}
+		}
+		TNT = {
+			country_event = { 
+				id = austria_succession.15 
+				days = 15
+			}
+		}
+		hidden_effect = {
+			STY = {
+				country_event = { id = austria_succession.16 }
+			}
+		}
+	}
+}
+
+#Tirol Revolts
+country_event = {
+	id = austria_succession.14
+	title = "austria_succession.14.title"
+	desc = "austria_succession.14.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "austria_succession.14.a"
+		ai_chance = { factor = 75 }
+		grant_independence = yes
+		hidden_effect = {
+			STY = {
+				country_event = { id = austria_succession.16 }
+			}
+		}
+	}
+	option = {
+		name = "austria_succession.14.b"
+		ai_chance = { factor = 25 }
+		add_liberty_desire = -60
+	}
+}
+
+#Trent leaves
+country_event = {
+	id = austria_succession.15
+	title = "austria_succession.15.title"
+	desc = "austria_succession.15.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "austria_succession.15.a"
+		ai_chance = { factor = 100 }
+		grant_independence = yes
+		hidden_effect = {
+			STY = {
+				country_event = { id = austria_succession.16 }
+			}
+		}
+	}
+}
+
+#One of our subjects leaves our nation 
+country_event = {
+	id = austria_succession.16
+	title = "austria_succession.16.title"
+	desc = "austria_succession.16.desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "austria_succession.16.a"
+		ai_chance = { 
+			factor = 90 
+			modifier = {
+				factor = 0
+				FROM = {
+					tag = TNT
+				}
+			}
+		}
+		if = { 
+			limit = {
+				FROM = {
+					tag = HAB
+				}
+			}
+			declare_war_with_cb = {
+				who = FROM
+				casus_belli = cb_restore_personal_union
+			}
+		}
+		else_if = {
+			limit = {
+				FROM = {
+					tag = TIR
+				}
+			}
+			TIR = {
+				white_peace = HAB
+			}
+			declare_war_with_cb = {
+				who = FROM
+				casus_belli = cb_restore_personal_union
+			}
+		}
+		else = {
+			TNT = {
+				white_peace = HAB
+				white_peace = TIR
+			}
+			declare_war_with_cb = {
+				who = FROM
+				casus_belli = cb_disloyal_vassal
+			}
+		}
+	}
+	option = {
+		name = "austria_succession.16.b"
+		ai_chance = { factor = 90 }
+		add_stability = -1
+		add_prestige = -10
+		if = {
+			limit = {
+				FROM = {
+					tag = TIR
+				}
+			}
+			TIR = {
+				white_peace = HAB
+			}
+		}
+		else = {
+			TNT = {
+				white_peace = HAB
+				white_peace = TIR
+			}
+		}
+	}
+}
+
+#Bohemia intervenes
+country_event = {
+	id = austria_succession.17
+	title = "austria_succession.17.title"
+	desc = "austria_succession.17.desc"
+	picture = HRE_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = BOH
+		is_part_of_hre = yes
+		OR = {
+			134 = {
+				controlled_by = STY
+			}
+			STY = {
+				war_score_against = {
+					who = HAB
+					value = 50
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option = { #We join
+		name = "austria_succession.17.a"
+		ai_chance = { factor = 100 }
+		join_all_defensive_wars_of = HAB
+		add_prestige = 5
+	}
+
+	option = { #No
+		name = "austria_succession.17.b"
+		ai_chance = { factor = 0 }
+		STY = {
+			add_opinion = {
+				who = ROOT
+				modifier = refused_join_war_vs_us
+			}
+		}
+	}
+}

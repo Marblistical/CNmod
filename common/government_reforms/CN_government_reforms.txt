@@ -250,3 +250,65 @@ scytho_rus_reform = {
 		factor = 1000
 	}
 }
+
+taifa_government = {
+	icon = "noble_muslim"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			NOT = { tag = ADU }
+			has_reform = taifa_government
+			have_had_reform = taifa_government
+			AND = {
+				has_reform = taifa_government
+				is_playing_custom_nation = yes
+			}
+		}
+	}
+	trigger = {
+		religion_group = muslim
+		primary_culture = andalucian
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	nation_designer_trigger = {
+		religion_group = muslim
+		primary_culture = andalucian
+	}
+	modifiers = {
+		fort_maintenance_modifier = -0.1
+		global_manpower_modifier = 0.15
+		liberty_desire = 30
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		custom_attributes = {
+			allow_piety_switch_decision = yes	#Enables a decision which gives 1 stabhit, but turns your piety 180�
+		}
+	}
+}
+
+papacy_reform = {
+	potential = {
+		tag = PAP
+	}
+
+	modifiers = {
+		prestige_per_development_from_conversion = 0.33
+		tolerance_own = 1
+		church_influence_modifier = 0.2
+		vassal_manpower_bonus = 0.1
+	}
+	valid_for_nation_designer = no
+	icon = "papacy"
+	allow_normal_conversion = yes
+	legacy_equivalent = papal_government
+	papacy = yes
+	allow_convert = no
+	lock_level_when_selected = yes
+	fixed_rank = 2
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

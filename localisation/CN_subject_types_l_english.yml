@@ -1,0 +1,14 @@
+﻿l_english:
+ papal_fief: "Papal Fief"
+ papal_fief_title: "Papal Fief"
+ papal_fief_title_plural: "Papal Fiefs"
+ papal_fief_is_our: "§Y$NAME$§! is our Papal Fief."
+ papal_fief_long_desc: "A Papal Fief is free in its diplomacy and is essentially independent from the Papacy. The Papacy is not called to a fief's war. It cannot be annexed and if it is either a theocracy, at war with a Crusade Target, the overlord gains a military related modifier. The fief pays very little to the Pope, but in exchange the fief gains a bonus to tax income, diplomatic reputation and devotion. A Papal Sanctuary itself gains a bonus to tax income, legitimacy equivalent, yearly papal influence and religious unity.\n"
+ papal_fief_no_overlord_dow: "You cannot declare war on your own Papal Fief."
+ papal_fief_overlord_title: "Pope"
+
+ papal_fief_modifier: "Papal Fief"
+ papal_fief_overlord_is_papal_controller_modifier: "Overlord is Curia Controller"
+ papal_fief_overlord_modifier: "Has Papal Fiefs"
+ papal_fief_bonus: "Papal Fief is a either a Theocracy, at war with a Crusade Target, or have 150 relations with the Papacy with a total development of 50."
+ papal_fief_overlord_bonus: "The Pope gains a bonus for having a fief be either a Theocracy, at war with a Crusade Target, or have 150 relations with the Papacy with a total development of 50."

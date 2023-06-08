@@ -2,7 +2,7 @@
 
 owner = TLC
 controller = TLC
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Kasdir"
 trade_goods = livestock

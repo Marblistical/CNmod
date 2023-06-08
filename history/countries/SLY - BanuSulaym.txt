@@ -6,6 +6,6 @@ government_rank = 1
 religion = sunni
 religious_school = maliki_school
 
-primary_culture = tunisian
+primary_culture = libyan
 
 capital = 2451

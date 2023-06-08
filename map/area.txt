@@ -32,7 +32,7 @@ norwegian_sea_area = { #Norwegian Sea
 }
 
 white_sea_area = {
-	1263 1264 1652 1888 5228
+	1263 1264 1652
 }
 
 red_sea_area = {
@@ -675,16 +675,20 @@ norrland_area = { #4
 	9 5027 5029
 }
 
-finland_area = { #3
-	27 28 5225
+finland_area = { #5
+	27 28 29 31 4123
 }
 
-karelia_area = { #5
-	30 32 33 34 1961
+laponia_area = { #3
+	315 1777 4151 5033
+}
+
+karelia_area = { #4
+	30 33 34 1961
 }
 
 north_karelia = { #3
-	309 4124 5205
+	32 309 4124 4942
 }
 
 northern_norway = { #3
@@ -865,8 +869,8 @@ vologda_area = { #3
 	314 4262 4263
 }
 
-beloozero_area = { #2
-	312 4261
+beloozero_area = { #3
+	312 4259 4261
 }
 
 astrakhan_area = { #4
@@ -901,12 +905,16 @@ aktobe_area = { #5
 	470 471 472 2366 5114
 }
 
+ural_area = { #5
+	1080 1078 1780 2427
+}
+
 pomor_area = { #4
 	313 1776 1958 4258
 }
 
-arkhangelsk_area = { #5
-	1955 4122 4257 4259 4968
+arkhangelsk_area = { #4
+	1955 4122 4256 4257
 }
 
 bashkiria_area = { #4
@@ -917,8 +925,8 @@ volga_area = { #3
 	2421 4265 1972
 }
 
-galich_area = { #3
-	306 1083 1957
+galich_area = { #4
+	306 1079 1083 1957
 }
 
 kama_area = { #3
@@ -2821,6 +2829,10 @@ irkutsk_area = { #5
 	1060 1062 1063 2442 2443
 }
 
+perm_area = { #5
+	1077 1755 1963 1964 4129
+}
+
 balchasj_area = { #5
 	477 478 2355 2360 4685
 }
@@ -3913,6 +3925,18 @@ south_laos_area = { }
 # CN AREAS #
 ############
 
+CN1_area = {
+	4967 4968
+}
+
+CN2_area = {
+	4971 4974
+}
+
+CN3_area = {
+	4977
+}
+
 CN_vasterbotten_area = {
 	11 18 5024
 }
@@ -3921,12 +3945,24 @@ CN_norrbotten_area = {
 	4113 5025 5028 5030
 }
 
-CN_norra_ostrobotten_area = {
-	19 5032 5036 5037 5224
+CN_kemijoki_area = {
+	5032 5036 5037
 }
 
-CN_sodra_ostrobotten_area = {
-	5022 5023 5026 5031
+CN_oulu_area = {
+	19 4114 5031 5035
+}
+
+CN_oulu_area = {
+	19 4114 5031 5035
+}
+
+CN_korsholm_area = {
+	5022 5023 5026
+}
+
+CN_white_karelia_area = {
+	1776 4152 5034
 }
 
 CN_koshi_area = {
@@ -3943,36 +3979,4 @@ CN_terai_area = {
 
 CN_madhesh_area = {
 	4483 5124 5131
-}
-
-CN_tavastland_area = {
-	29 4123 5227
-}
-
-CN_savolax_area = {
-	31 5035 5226
-}
-
-CN_onega_area = {
-	4942 5034 5208 5209
-}
-
-CN_finnmark_area = {
-	315 4151 5219 5223
-}
-
-CN_kola_area = {
-	5033 5202 5203 5204
-}
-
-CN_lower_pechora_area = {
-	4971 4977 5214
-}
-
-CN_upper_pechora_area = {
-	1080 4974 5220
-}
-
-CN_vyatka_area = {
-	1079 5231 5232 5233
 }

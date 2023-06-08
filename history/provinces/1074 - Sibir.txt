@@ -1,9 +1,7 @@
-#1074 - Qashliq
-owner = SIB
-controller = SIB
-add_core = SIB
-culture = siberian
-religion = sunni
+#1074 - Sibir
+
+culture = khanty
+religion = tengri_pagan_reformed
 capital = "Qashliq"
 trade_goods = fur
 hre = no
