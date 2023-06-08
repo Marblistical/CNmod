@@ -1,0 +1,16 @@
+estate_scy_mushirkun_autonomy_privilege_mod = {
+	religion = yes
+	min_local_autonomy = 80
+	local_unrest = -4
+	local_missionary_strength = -1
+}
+
+SCY_triumph_against_pagans = {
+	tolerance_own = 1
+}
+
+SCY_campaign_against_pagans = {
+	religion = yes
+	local_unrest = 10
+	local_missionary_strength = 0.03
+}

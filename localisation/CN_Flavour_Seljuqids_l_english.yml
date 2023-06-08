@@ -1,0 +1,74 @@
+﻿l_english:
+ seljuqid_collapse:0 "Collapse of the Seljuqid Caliphate"
+ desc_seljuqid_collapse:0 "While our centuries of rule have stretched our sublime state from Alexandria to Merv, the days of Seljuquid dominance seem numbered. Unhappy subjects, waiting rivals, and imperial decadence threaten to destroy all we hold dear."
+
+ seljuqid_flavor.10.t:0 "Collapse of the Seljuqid Caliphate"
+ seljuqid_flavor.10.d:0 "After years of stagnation and, more importantly, costly warfare, the Seljuqid Caliphate seems death-bound. Rebels terrorize the nation, loyalty is lost, and claimants to our mantle have begun to appear. The slow decay has turned sudden, and only Allah can save us now."
+ seljuqid_flavor.10.a:0 "May we persevere through these troubling times."
+
+ seljuqid_flavor.1.t:0 "Rise of the Musaid Dynasty"
+ seljuqid_flavor.1.d:0 "The Musaids, based out of Basrah, have risen up in Mesopotamia! Under Salmaan al-Musa their banner advances towards Isfahan, where they intend to usurp the title of Caliph! We must quickly respond, however difficult it may be."
+ seljuqid_flavor.1.a:0 "Death to the traitors!"
+ seljuqid_flavor.1.b:0 "I wish I were al-Musa right now..."
+
+ seljuqid_flavor.2.t:0 "Rise of the Riganid Dynasty"
+ seljuqid_flavor.2.d:0 "The Riganids, based out of Shiraz, have risen up in Fars! Under Rayan Rigani they intend to end our rule as to proclaim a new Persian dynasty! We must quickly respond, however difficult it may be."
+ seljuqid_flavor.2.a:0 "Death to the traitors!"
+ seljuqid_flavor.2.b:0 "I wish I were Rigani right now..."
+
+ seljuqid_flavor.3.t:0 "Volunteers Rally to Our Cause"
+ seljuqid_flavor.3.d:0 "Our uprising against Seljuqid leadership has proven popular, and men are flocking to the standard! Do we incorporate them into our army?"
+ seljuqid_flavor.3.a:0 "Welcome to the $COUNTRY_ADJ$ army, boys!"
+ seljuqid_flavor.3.b:0 "Let them return to their families, their services are not needed."
+
+ seljuqid_flavor.4.t:0 "Our Own Path"
+ seljuqid_flavor.4.d:0 "With chaos reigning in the Caliphate, it is clear the Seljuqids can no longer protect us nor themselves. Perhaps, it is time for $COUNTRY$ to be independent once again?"
+ seljuqid_flavor.4.a:0 "We no longer need the Seljuqids, independent we will be!"
+ seljuqid_flavor.4.b:0 "Such betrayal is an absurd notion!"
+
+ seljuqid_flavor.5.t:0 "$FROMCOUNTRY$ Declares Independence"
+ seljuqid_flavor.5.d:0 "In our moment of weakness, $FROMCOUNTRY$ has declared they will no longer be our vassal! This is unnacceptable, but can we afford to punish them?"
+ seljuqid_flavor.5.a:0 "Let's put their silly ideas to rest!"
+ seljuqid_flavor.5.b:0 "Retribution will have to wait."
+
+ AKGULIDS_NAME:0 "Akgulids"
+ AKGULIDS_NAME_ADJ:0 "Akgulid"
+
+ seljuqid_flavor.6.t:0 "The Akgulid Position"
+ seljuqid_flavor.6.d:0 "The beginning of the end is here. From Anatolia to Persia, the people rise up against Seljuqid rule and new leaders of new states are proclaimed. Considering the neglect with which the Seljuks treat our beylik, now would be the best opportunity to break free and secure an empire of our own. But with treason comes a hefty risk; should the Akgulid beys seek a Caliphate of their own, there is no guarantee of victory."
+ seljuqid_flavor.6.a:0 "March on Damascus and Medina!"
+ seljuqid_flavor.6.b:0 "Let us leave the beast to rot."
+ seljuqid_flavor.6.c:0 "Islam must remain protected under the Seljuqid banner, we must rush to their aid!"
+
+ seljuqid_flavor.7.t:0 "The Akgulid Treachery"
+ seljuqid_flavor.7.d:0 "The Akgulid beys of Egypt, who we have so generously given power, have turned their weapons on us! From Cairo, they claim that the Seljuqid caliphs have lost the favor of Allah and rule corruptly. This is obviously ridiculous, but their message resonates with the people. Their armies cross the Sinai to besiege Syria and Hejaz with popular support, and we have only one man fit enough to respond."
+ seljuqid_flavor.7.a:0 "We must send general Bucak before the situation gets out of hand!"
+
+ seljuqid_flavor.8.t:0 "Syria Defects to the Akgulids"
+ seljuqid_flavor.8.d:0 "The capture of numerous cities in the region and our own local unpopularity has resulted in the speedy collapse of Seljuqid authority in Syria. Now, the Akgulids control the territory and aim to push even deeper into our Caliphate!"
+ seljuqid_flavor.8.a:0 "We can halt their advance yet!"
+
+ seljuqid_flavor.9.t:0 "Hejaz Defects to the Akgulids"
+ seljuqid_flavor.9.d:0 "The capture of numerous cities in the region and our own local unpopularity has resulted in the speedy collapse of Seljuqid authority in Hejaz. Now, the Akgulids control the territory and aim to push even deeper into our Caliphate!"
+ seljuqid_flavor.9.a:0 "We can halt their advance yet!"
+
+  seljuqid_flavor.11.t:0 "Syria Defects to Us"
+ seljuqid_flavor.11.d:0 "We have made ample progress in Syria such that the local governors and people accept our rule over the Seljuqid oppression. Men join our advancing army by the thousands on the quest to overthrow the Mad Caliph in Isfahan!"
+ seljuqid_flavor.11.a:0 "Let the people share this victory."
+
+ seljuqid_flavor.12.t:0 "Hejaz Defects to Us"
+ seljuqid_flavor.12.d:0 "We have made ample progress in Hejaz such that the local imams and people accept our rule over the Seljuqid oppression. Men join our advancing army by the thousands as the holy cities are liberated!"
+ seljuqid_flavor.12.a:0 "Let the people share this victory."
+
+ seljuqid_flavor.16.t:0 "Alexandria Defects to Us"
+ seljuqid_flavor.16.d:0 "We have entered the city of Alexandria to the cheers of locals and merchants! They accept our rule over the Seljuqids, and men join our advancing army by the thousands as Egypt is united!"
+ seljuqid_flavor.16.a:0 "Let the people share this victory."
+
+ seljuqid_flavor.15.t:0 "Alexandria Defects to the Akgulids"
+ seljuqid_flavor.15.d:0 "The capture of the important port city and our own local unpopularity has resulted in the speedy collapse of Seljuqid authority in Lower Egypt. Now, the Akgulids control the territory and aim to push even deeper into our Caliphate!"
+ seljuqid_flavor.15.a:0 "We can halt their advance yet!"
+
+ seljuqid_flavor.13.t:0 "The Declaration of the Republic of Alexandria"
+ seljuqid_flavor.13.d:0 "The merchants and citizens of Alexandria have rallied under the republican banner of Hossam Kassab, inspired by Safwani ideals from Al-Andalus. They have assumed control of the city and our soldiers have fled with barely any blood spilled, and as such war is not yet apparent. We can always declare with our clear claim on the city, but for now there is tenuous peace."
+ seljuqid_flavor.13.a:0 "We can always crush them another time, preferably soon."
+ seljuqid_flavor.13.b:0 "I wish I were Kassab right now..."

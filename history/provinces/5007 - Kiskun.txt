@@ -1,0 +1,19 @@
+#5007 - Kiskun
+
+owner = HUN
+controller = HUN 
+culture = cuman
+religion = catholic
+capital = "Kiskunság"
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = HUN
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

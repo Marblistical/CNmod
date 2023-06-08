@@ -1,0 +1,59 @@
+graphical_culture = muslimgfx
+color = { 136 138 145 }
+
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"‘Abd Allâh #2" = 10
+	"al-Mansûr #0" = 10
+	"Abû Bakr #0" = 10
+	"Muhammad #0" = 10
+	"‘Abbâs #0" = 10
+	"Hakam #0" = 10
+	"‘Umar #0" = 10
+	"Yahyâ #0" = 10
+	"Sabûr #1" = 10
+	"Fadl #0" = 10
+	
+	"‘Alîya #0" = -1
+	"Fâhima #0" = -1
+	"Haifa #0" = -1
+}
+
+leader_names = {
+	"Banû Jahwar" "Banû Hamdân"
+	"Banû Hasan" "Banû Ghânîya"
+	"Banû ‘Umayya" "Banû Hayy"
+	"Banû Aftas" "Banû Sabûr"
+}
+
+ship_names = {
+	Batalyaws Al-Qantara
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$" 
+}
+
+fleet_names = {
+	"Sarie Al $PROVINCE$" 
+}

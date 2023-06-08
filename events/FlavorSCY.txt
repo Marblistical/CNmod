@@ -1,0 +1,200 @@
+namespace = scy_flavor
+
+country_event = {
+	id = scy_flavor.1
+	title = scy_flavor.1.title
+	desc = scy_flavor.1.desc
+	picture = muslimgfx_CITY_DEVELOPMENT_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = scy_flavor.1.a
+		add_adm_power = -100
+		add_estate_loyalty = {
+			estate = estate_scy_mushirkun
+			loyalty = 10
+		}
+		country_event = {
+			id = scy_flavor.2
+			days = 30
+		}
+	}
+	option = {
+		name = scy_flavor.1.b
+		hidden_effect = {
+			release_provinces_of_religion_group_as_vassal = {
+				country = NEN
+				religion_group = uralic_pagan
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = PRM
+				religion_group = uralic_pagan
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = BJA
+				religion_group = uralic_pagan
+			}
+			if = { # Onega does not start as a core of Bjarmaland but is Bjarman culture
+				limit = {
+					BJA = {
+						is_subject_of = PREV
+					}
+					owns = 4258
+					4258 = {
+						religion_group = uralic_pagan
+					}
+				}
+
+				4258 = { # Onega
+					cede_province = BJA
+					add_core = BJA
+				}
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = MRY
+				religion_group = uralic_pagan
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = MRL
+				religion_group = uralic_pagan
+			}
+			# Mari El is Sunni by default
+			if = {
+				limit = {
+					MRL = {
+						is_subject_of = PREV
+						dominant_religion = ukonusko
+					}
+				}
+
+				MRL = {
+					change_religion = ukonusko
+				}
+			}
+			if = {
+				limit = {
+					MRL = {
+						is_subject_of = PREV
+						dominant_religion = marifaith
+					}
+				}
+
+				MRL = {
+					change_religion = marifaith
+				}
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = UDM
+				religion_group = uralic_pagan
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = KMA
+				religion_group = uralic_pagan
+			}
+			release_provinces_of_religion_group_as_vassal = {
+				country = KRL
+				religion_group = uralic_pagan
+			}
+		}
+		custom_tooltip = SCY_release_finnic_pagans
+	}
+	option = {
+		name = scy_flavor.1.c
+		remove_estate_privilege = estate_scy_mushirkun_autonomy
+		add_estate_loyalty = {
+			estate = estate_scy_ahl_al_kitab
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_scy_mushirkun
+			loyalty = -20
+		}
+		every_owned_province = {
+			limit = {
+				religion_group = uralic_pagan
+			}
+
+			add_province_modifier = {
+				name = SCY_campaign_against_pagans
+				duration = 5475
+			}
+		}
+	}
+}
+
+country_event = {
+	id = scy_flavor.2
+	title = scy_flavor.2.title
+	desc = scy_flavor.2.desc
+	picture = MUSLIM_SCHOLAR_WRITING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = scy_flavor.2.a
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 5
+		}
+		add_estate_loyalty = {
+			estate = estate_scy_mushirkun
+			loyalty = -5
+		}
+		add_prestige = 5
+		country_event = {
+			id = scy_flavor.3
+			days = 365
+		}
+	}
+	option = {
+		name = scy_flavor.2.b
+		add_estate_loyalty = {
+			estate = estate_scy_ahl_al_kitab
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		country_event = {
+			id = scy_flavor.3
+			days = 365
+		}
+	}
+	option = {
+		name = scy_flavor.2.c
+		add_adm_power = -20
+		add_estate_loyalty = {
+			estate = estate_scy_mushirkun
+			loyalty = 5
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -5
+		}
+		country_event = {
+			id = scy_flavor.3
+			days = 365
+		}
+	}
+}
+
+country_event = {
+	id = scy_flavor.3
+	title = scy_flavor.3.title
+	desc = scy_flavor.3.desc
+	picture = MYSTIC_IN_PRAYER_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = scy_flavor.3.a
+		add_prestige = 20
+		add_dip_power = 100
+		add_estate_loyalty = {
+			estate = estate_scy_mushirkun
+			loyalty = 20
+		}
+	}
+}

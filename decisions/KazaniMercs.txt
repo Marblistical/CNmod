@@ -1,0 +1,39 @@
+country_decisions = {
+
+	kazani_mercenaries_decision = {
+		major = no
+		potential = {
+			normal_or_historical_nations = yes
+			1082 = {
+				owned_by = ROOT
+			}
+			NOT = { has_country_flag = has_kazani_mercs_flag }
+		}
+
+		provinces_to_highlight = {
+			province_id = 1082
+			NOT = { is_core = ROOT }
+		}
+
+		allow = {
+			is_nomad = yes
+			accepted_culture = kazani
+			1082 = {
+				is_core = ROOT
+			}
+		}
+
+		effect = {
+			unlock_merc_company = {
+				merc_company = merc_kazani_tatars
+			}
+			1082 = {
+				set_local_autonomy = 90
+			}
+			set_country_flag = has_kazani_mercs_flag
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+}

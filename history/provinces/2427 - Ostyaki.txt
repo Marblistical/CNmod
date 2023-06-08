@@ -1,0 +1,16 @@
+#2427 - Ostyaki
+
+owner = SIB
+controller = SIB
+add_core = SIB
+add_core = KMA
+capital = "Beloyarskiy"
+culture = mansi
+religion = ukonusko
+trade_goods = fur
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = nomad_group

@@ -1,0 +1,20 @@
+# 2185 - Mergen
+
+owner = YUA
+controller = YUA
+add_core = YUA
+add_core = MYR
+
+culture = daur
+religion = tengri_pagan_reformed
+capital = "Mergen"
+
+trade_goods = naval_supplies
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = nomad_group

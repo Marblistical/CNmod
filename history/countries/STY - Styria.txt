@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = austrian_archduchy_reform
+government_rank = 1
+elector = yes
+primary_culture = austrian
+religion = catholic
+technology_group = western
+capital = 1863	# Graz
+national_focus = ADM
+
+add_accepted_culture = slovene
+
+1386.7.10 = {
+	monarch = {
+		name = "Wilhelm I"
+		dynasty = "von Habsburg"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1406.7.16 = {
+	monarch = {
+		name = "Ernst I"
+		dynasty = "von Habsburg"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1424.6.11 = {
+	monarch = {
+		name = "Friedrich III"
+		dynasty = "von Habsburg"
+		adm = 2
+		dip = 5
+		mil = 1
+	}
+}
+
+

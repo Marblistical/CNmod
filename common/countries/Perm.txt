@@ -1,0 +1,43 @@
+#Great Perm
+
+graphical_culture = easterngfx
+
+color = { 206 139 80 }
+revolutionary_colors = { 5 0 15 }
+
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	spy_ideas
+	quantity_ideas
+	economic_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+ship_names = { #to do
+	Cherdyn Pelym Kudym-Osha Shudeg
+	Voleg Rateg Koleg Uzheg
+	Baseg Yus Pokcha Vychegda Sysola
+	Iskor Kama Vishera Kolva Yazva Uros Vilgort
+}

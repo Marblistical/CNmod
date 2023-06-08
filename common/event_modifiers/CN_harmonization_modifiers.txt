@@ -1,0 +1,4 @@
+harmonized_uralic_group = {
+	hostile_attrition = 1
+	religion = yes
+}

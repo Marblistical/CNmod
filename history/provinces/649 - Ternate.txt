@@ -1,0 +1,18 @@
+#649 - Ternate
+
+owner = TER
+controller = TER
+add_core = TER
+
+culture = moluccan
+religion = sunni
+capital = "Ternate"
+
+trade_goods = cloves
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+
+discovered_by = chinese

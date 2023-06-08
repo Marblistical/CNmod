@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "CN_NORTHERN_THUNDERDOME_NAME"
+	desc = "CN_NORTHERN_THUNDERDOME_DESC"
+	date = 1415.1.1
+	
+	center = 280
+	
+	country = POL
+	easy_country = POL
+	country = LIT
+	country = HUN
+	country = SWE
+	easy_country = SWE
+	country = BOH
+	country = NOV
+	country = SCY
+	country = BJA
+	country = KHZ
+	country = NOG
+}

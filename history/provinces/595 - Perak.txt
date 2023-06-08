@@ -1,0 +1,23 @@
+#595 - Perak
+
+owner = MSA
+controller = MSA
+add_core = MSA
+add_core = MLC
+add_core = PRK
+
+culture = malayan
+religion = sunni
+capital = "Perak"
+
+trade_goods = copper
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

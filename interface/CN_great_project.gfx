@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_great_project_university_of_bordeaux"
+		texturefile = "gfx//interface//great_projects//great_project_university_of_bordeaux.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_languedoc_canal"
+		texturefile = "gfx//interface//great_projects//great_project_languedoc_canal.dds"
+	}
+}

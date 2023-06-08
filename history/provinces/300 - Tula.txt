@@ -1,0 +1,21 @@
+#300 - Tula
+
+owner = SCY
+controller = SCY
+culture = vyatichi
+religion = sunni
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = iron 
+base_manpower = 1
+capital = "Tula"
+is_city = yes
+add_core = VYA
+add_core = SCY
+
+discovered_by = eastern
+discovered_by = western
+
+
+discovered_by = nomad_group

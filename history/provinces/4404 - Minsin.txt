@@ -1,0 +1,20 @@
+#4404 - Minsin
+
+owner = HJS
+controller = HJS
+add_core = HJS
+add_core = MKA
+
+culture = kachin
+religion = animism
+capital = "Minsin"
+
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

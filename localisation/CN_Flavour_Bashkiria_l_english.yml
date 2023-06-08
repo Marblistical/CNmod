@@ -1,0 +1,32 @@
+﻿l_english:
+ bsh_flavor.1.title:0 "Forming Khantia-Mansia"
+ bsh_flavor.1.desc:0 "The emergence of greater political organization in Yugra has led us to the current predicament. The Khanty and Mansi request that we bestow the lands in which their people live to the Chiefdom of Khantia-Mansia. We could decide to win their favor by honoring their request, but is it really wise to hand away territory we already control?"
+ bsh_flavor.1.a:0 "They deserve to rule over their people."
+ bsh_flavor.1.b:0 "These lands are ours."
+ bsh_flavor.1.c:0 "Create Khantia-Mansia out of our land."
+ bsh_flavor.1.d:0 "They are better off under us."
+ bsh_flavor.1.e:0 "We have no lands to give them!"
+
+ BSH_cede_khantia_provinces:0 "§Y[Root.GetName]§! cedes all owned provinces of §YKhanty§! and §YMansi§! Culture to §YKhantia-Mansia§!"
+ BSH_create_khantia_new:0 "Found §YKhantia-Mansia§! as a vassal out of all owned provinces of §YKhanty§! and §YMansi§! Culture"
+
+ bsh_flavor.2.title:0 "The League of Tartary"
+ bsh_flavor.2.desc:0 "To our west lies the Scytho-Rus' Khaganate, a formidable force that has expanded north in recent times and undoubtedly has aspirations to subjugate us. There have been two proposals from our four tribes, one of defense and one of offense. One suggestion posits that we focus on diplomatically uniting the other Kipchak polities which border us and forcibly incorporating those who resist, that way we will be ready to face the Scythians when the time comes. On the other hand, we could quickly rush down our neighbors and sabotage the Scythian vassal system, depriving them of power until we emerge ready to overrun Scythia. So, Bashkir khan, what do we do?"
+ bsh_flavor.2.a:0 "Let us unite the Kipchak peoples!"
+ bsh_flavor.2.b:0 "The Scythian state must fall now!"
+
+ BSH_tartar_path:0 "§Y[Root.GetName]§! unlocks the §YTatar§! Path of the mission tree."
+ BSH_scythian_path:0 "§Y[Root.GetName]§! unlocks the §YScythian§! Path of the mission tree."
+
+ bsh_flavor.3.title:0 "$FROMCOUNTRY$ Invites Us To Join the League of Tatary"
+ bsh_flavor.3.desc:0 "The Bashkir Khan has invited us into the nascent League of Tatary, a collection of step polities united against Scythian and other outsider expansion. With $FROMCOUNTRY$ at the head of this decentralized state, joining would sacrifice our autonomy but likely increase our chance of survival and even expansion. What do we make of this offer?"
+ bsh_flavor.3.a:0 "Together, who could possibly stop us?"
+ bsh_flavor.3.b:0 "We do not bow to the khan in $FROMCOUNTRY$!"
+
+ bsh_flavor.4.title:0 "$FROMCOUNTRY$ Joins the League"
+ bsh_flavor.4.desc:0 "$FROMCOUNTRY$ has agreed to join the League of Tatary, they are our vassal now."
+ bsh_flavor.4.a:0 "Fantastic!"
+
+ bsh_flavor.5.title:0 "$FROMCOUNTRY$ Refuses to Join the League"
+ bsh_flavor.5.desc:0 "$FROMCOUNTRY$! has refused to join the League of Tatary, they view us with hostility and suspicion now."
+ bsh_flavor.5.a:0 "Foolish to think they have a choice."

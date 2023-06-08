@@ -1,0 +1,22 @@
+#5177 - Piombino
+
+owner = WRE
+controller = WRE
+add_core = WRE
+add_core = PIO
+
+culture = tuscan
+religion = catholic
+capital = "Piombino"
+
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+is_city = yes	# Estimated
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

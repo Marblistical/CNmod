@@ -1,0 +1,42 @@
+country_decisions = {
+
+   frisian_nation = {
+		major = yes
+		potential = {
+			NOT = { government = monarchy }
+			NOT = { exists = FRL }
+			primary_culture = frisian
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = united_frisia_flag }
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 100 	#friesland
+				province_id = 1931	#ostfriesland
+				province_id = 4382 	#groningen
+				province_id = 5136 	#north frisia
+				province_id = 5137	#westfriesland
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns = 100
+			owns = 1931
+			owns = 4382
+			owns = 5136
+			owns = 5137
+		}
+		effect = {
+			set_country_flag = united_frisia_flag
+			change_tag = FRL
+			restore_country_name = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

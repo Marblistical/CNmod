@@ -1,0 +1,19 @@
+#4266 - Izhkar
+
+owner = SIB
+controller = SIB
+add_core = SIB
+add_core = UDM
+capital = "Izhkar"
+culture = udmurt
+religion = animism
+trade_goods = iron
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = ottoman

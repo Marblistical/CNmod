@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = nomad_group
+religion = ukonusko
+
+primary_culture = nenets
+
+capital = 2445

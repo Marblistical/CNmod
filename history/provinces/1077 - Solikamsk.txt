@@ -1,0 +1,18 @@
+#1077 - Solikamsk
+
+owner = SIB
+controller = SIB
+add_core = SIB
+add_core = PRM
+capital = "Sovkar"
+culture = komi
+religion = komifaith
+trade_goods = salt # was center of salt mining
+hre = no
+base_tax = 1
+base_production = 4 #Salt Mines
+base_manpower = 1
+is_city = yes
+
+discovered_by = eastern
+discovered_by = nomad_group

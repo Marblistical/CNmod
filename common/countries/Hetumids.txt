@@ -1,0 +1,36 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 168  41  58 }
+
+revolutionary_colors = { 0 1 2 } #placeholder
+
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	diplomatic_ideas
+	humanist_ideas
+	quality_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+}
+
+historical_units = { 
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+ship_names = {
+	placeholder
+}

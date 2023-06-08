@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = meryan
+religion = ukonusko
+technology_group = nomad_group
+capital = 4263 #sol galitskaya

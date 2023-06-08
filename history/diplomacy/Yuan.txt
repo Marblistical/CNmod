@@ -1,0 +1,27 @@
+vassal = {
+	first = YUA
+	second = OIR
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = YUA
+	second = MJZ
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = YUA
+	second = EJZ
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = YUA
+	second = KOR
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}

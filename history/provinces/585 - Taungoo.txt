@@ -1,0 +1,20 @@
+#585 - Toungoo
+
+owner = AVA
+controller = AVA
+add_core = AVA
+add_core = TAU
+
+culture = burmese
+religion = buddhism
+capital = "Toungoo"
+
+trade_goods = chinaware
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

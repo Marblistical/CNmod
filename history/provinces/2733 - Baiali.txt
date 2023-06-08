@@ -1,0 +1,20 @@
+#2733 - Baiali
+
+owner = BTJ
+controller = BTJ
+add_core = BTJ
+
+culture = paman
+religion = dreamtime
+capital = "Baiali"
+
+trade_goods = livestock
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+discovered_by = aboriginal_tech
+discovered_by = chinese
+discovered_by = muslim

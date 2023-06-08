@@ -1,0 +1,93 @@
+uralic_pagan = {
+
+	ukonusko = {
+		color = { 119 131 140 }
+		icon = 32
+		country = {
+			defensiveness = 0.1
+			global_trade_goods_size_modifier = 0.1
+		}
+		country_as_secondary = {
+			defensiveness = 0.1
+			global_trade_goods_size_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		heretic = { JOMALINUSKO }
+	}
+
+	marifaith = {
+		color = { 91 115 110 }
+		icon = 37
+		allowed_conversion = {
+        		ukonusko
+		}
+		on_convert = {
+       		change_religion = marifaith
+      		add_prestige = -100	
+    			add_country_modifier = {
+              		name = "conversion_zeal"
+                		duration = 3650
+			}
+		}
+  
+		country = {
+			land_attrition = -0.10
+			stability_cost_modifier = -0.1
+		}
+		country_as_secondary = {
+			stability_cost_modifier = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		personal_deity = yes
+		
+		heretic = { GREAT_GOD }
+	}
+
+	komifaith = {
+		color = { 114 105 106 }
+		icon = 38
+		allowed_conversion = {
+        		ukonusko
+		}
+		on_convert = {
+       		change_religion = komifaith
+      		add_prestige = -100	
+    			add_country_modifier = {
+              		name = "conversion_zeal"
+                		duration = 3650
+			}
+		}
+  
+		country = {
+			land_attrition = -0.10
+			discipline = 0.05
+		}
+		country_as_secondary = {
+			discipline = 0.05
+		}
+		
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { OMOLIST KULIST }
+
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		
+		aspects = {
+			evil_kul_aspect #dip-mil
+			equal_kul_aspect #mil-dip
+			zarni_an_aspect #adm-cash
+		}
+		aspects_name = KOMI_ASPECTS
+	}
+	harmonized_modifier = harmonized_uralic_group
+	
+	crusade_name = HOLY_WAR
+}

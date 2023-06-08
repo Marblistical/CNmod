@@ -1,0 +1,100 @@
+
+seljuqid_collapse = {
+	potential = {
+		NOT = {
+			has_country_flag = seljuqid_collapse_over
+		}
+		tag = SLJ
+		normal_or_historical_nations = yes
+	}
+	
+	can_start = {
+		has_any_disaster = no
+		NOT = {
+			stability = 3
+		}
+		is_year = 1420
+	}
+	
+	can_stop = {
+		has_any_disaster = yes
+	}
+	
+	progress = {
+		modifier = {
+			average_home_autonomy = 25
+			factor = 1
+		}
+		modifier = {
+			corruption = 3
+			factor = 1
+		}
+		modifier = {
+			is_in_war = {
+				duration = 1825
+				attacker_leader = ROOT
+			}
+			factor = 3
+		}
+		modifier = {
+			is_in_war = {
+				duration = 1825
+			}
+			factor = 2
+		}
+		modifier = {
+			is_in_war = {
+				duration = 1095
+				attacker_leader = ROOT
+			}
+			factor = 2
+		}
+		modifier = {
+			is_in_war = {
+				duration = 1095
+			}
+			factor = 1
+		}
+		modifier = {
+			is_in_war = {
+				attacker_leader = ROOT
+				duration = 365
+			}
+			factor = 1
+		}
+	}
+	
+	can_end = {
+		NOT = { num_of_rebel_armies = 1 }
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		is_at_war = no
+		stability = 1
+	}
+	
+	modifier = {
+		global_unrest = 10
+		land_morale = -0.20
+		manpower_recovery_speed = -0.3
+		stability_cost_modifier = 0.5
+		global_tax_modifier = -0.25
+	}
+	
+	on_start = seljuqid_flavor.10
+	on_end = seljuqid_flavor.100
+	
+	on_monthly = {
+		events = {
+			seljuqid_flavor.1 #Musaids
+			seljuqid_flavor.2 #Rianids
+			seljuqid_flavor.8 #AkgulidSyria
+			seljuqid_flavor.9 #AkgulidHejaz
+			seljuqid_flavor.13 #AlexandriaIndependence
+			seljuqid_flavor.15 #AkgulidAlexandria needs Safwani added
+			#willdo seljuqid_flavor.17 #orthodox cbs
+			#willdo seljuqid_flavor.19 #anxi
+		}
+		random_events = {
+			#add naval defection and increase autonomy events
+		}
+	}
+}

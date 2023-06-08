@@ -1,0 +1,110 @@
+country_decisions = {
+	
+	scytho_bashkir_unity = {
+		major = yes
+		potential = {
+			tag = BSH
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = scytho_bashkir_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				OR = {
+					province_id = 475 #bashkiria
+					province_id = 1754 #murom
+					province_id = 303 #ukek
+				}
+				owned_by = SCY
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			has_reform = steppe_horde
+			owns_core_province = 475
+			owns_core_province = 1754
+			owns_core_province = 303
+			NOT = { exists = SCY }
+			accepted_culture = bashkir
+			accepted_culture = arsiyah
+		}
+		effect = {
+			add_prestige = 10
+			set_country_flag = scytho_bashkir_flag
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			override_country_name = SCYTHO_BASHKIR_NAME
+			custom_tooltip = scytho_bashkir_claims
+			hidden_effect = {
+				ural_region = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				crimea_region = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				ruthenia_region = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				russia_region = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				lower_yik_area = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				nogai_area = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				aktobe_area = {
+					limit = {
+						culture_group = scythian
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+}

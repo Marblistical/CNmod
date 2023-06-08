@@ -1,0 +1,252 @@
+liao_empire_reform = {
+	icon = asian_scripture
+	allow_normal_conversion = no
+	potential = { tag = LIA }
+	lock_level_when_selected = yes
+	maintain_dynasty = yes
+	valid_for_nation_designer = no
+	modifiers = {
+		culture_conversion_cost = 2
+		expand_administration_cost = 2
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
+shogunate = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_japan_flag }
+		OR = {
+			AND = {
+				capital_scope = {
+					province_id = 1020
+				}
+				culture_group = japanese_g
+				NOT = { exists = JAP }
+				NOT = { have_had_reform = northern_shogunate }
+				NOT = { have_had_reform = southern_shogunate }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = shogunate
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+		owns = 1020
+	}
+	legacy_equivalent = shogunate_legacy
+	fixed_rank = 2
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+	can_change_primary_culture = no
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
+	}
+
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
+		amount_of_samurai = 10
+		has_samurai = yes
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+northern_shogunate = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_japan_flag }
+		OR = {
+			AND = {
+				capital_scope = {
+					province_id = 1028
+				}
+				culture_group = japanese_g
+				NOT = { exists = JAP }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = shogunate
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+		owns = 1028
+	}
+	legacy_equivalent = shogunate_legacy
+	fixed_rank = 2
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+	can_change_primary_culture = no
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
+	}
+
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
+		amount_of_samurai = 10
+		has_samurai = yes
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+southern_shogunate = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_country_flag = formed_japan_flag }
+		OR = {
+			AND = {
+				capital_scope = {
+					province_id = 4183
+				}
+				culture_group = japanese_g
+				NOT = { exists = JAP }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = shogunate
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	nation_designer_trigger = {
+		culture_group = japanese_g
+		technology_group = chinese
+		capital_scope = { region = japan_region }
+		owns = 4183
+	}
+	legacy_equivalent = shogunate_legacy
+	fixed_rank = 2
+	maintain_dynasty = yes
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	lock_level_when_selected = yes
+	can_change_primary_culture = no
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
+	}
+
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		max_absolutism = 5
+		amount_of_samurai = 10
+		has_samurai = yes
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+SUH_united_emirates = {
+	icon = "people_walking"
+	allow_normal_conversion = no
+	duration = 4
+	lock_level_when_selected = yes
+	potential = {
+		tag = SUH
+	}
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	
+	modifiers = {
+		global_unrest = -2
+		max_absolutism = -20
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+}
+
+scytho_rus_reform = {
+	icon = "horde_riding"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			has_reform = scytho_rus_reform
+			have_had_reform = scytho_rus_reform
+			tag = SCY
+		}
+	}
+	fixed_rank = 3
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+ 	locked_government_type = yes
+	valid_for_new_country = no
+	nomad = yes
+	raze_province = yes
+ 	maintain_dynasty = yes
+
+	modifiers = {
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		reinforce_cost_modifier = -0.5
+		loot_amount = 0.50
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+		disables_estate_nomadic_tribes = yes
+		enables_estate_church = yes
+		enables_estate_burghers = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		has_harem = yes
+	}
+	ai = {
+		factor = 1000
+	}
+}

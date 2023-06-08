@@ -1,0 +1,22 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = turko_mongol
+add_accepted_culture = nogaybak
+religion = sunni
+technology_group = nomad_group
+capital = 465	# Saraycik
+religious_school = hanafi_school
+historical_rival = LIA
+historical_rival = KMK
+
+1415.1.1 = {
+	monarch = {
+		name = "Edigu"
+		dynasty = "Ediguid"
+		birth_date = 1352.1.13
+		adm = 5
+		dip = 2
+		mil = 3
+	}
+}
+

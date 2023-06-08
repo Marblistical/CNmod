@@ -1,0 +1,36 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 137 28 34 }
+
+revolutionary_colors = { 15 0 9 } #placeholder
+
+historical_idea_groups = {
+	administrative_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	religious_ideas
+}
+
+historical_units = {
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
+}
+
+ship_names = {
+	
+}

@@ -1,0 +1,1205 @@
+bsh_gold = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = no
+
+	bsh_bashgird = {
+		icon = mission_zambezi_gold
+		required_missions = {} #none
+		position = 2
+		provinces_to_highlight = {
+			province_id = 2444 #Bashgird
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				NOT = { base_production = 5 }
+			}
+		}
+		trigger = {
+			2444 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				base_production = 5
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_dip_power = 25
+			add_adm_power = 25
+			add_mil_power = 25
+		}
+	}
+	
+	bsh_wealth = {
+		icon = mission_high_income
+		required_missions = {
+			bsh_bashgird
+		}
+			
+		trigger = { 
+			share_of_starting_income = 2 
+		}
+
+		effect = {
+			add_country_modifier = { 
+				name = growing_economy
+				duration = 5475
+			}
+		}
+	}
+}
+
+bsh_north = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_tatar_brotherhood = {
+		icon = mission_recruit_the_cossacks
+		position = 2
+		required_missions = { } #none
+
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					ROOT = {
+						NOT = {
+							development_in_provinces = {
+								value = 10
+								OR = {
+									culture = kazani
+									culture = siberian
+								}
+							}
+						}
+					}
+				}
+				OR = {
+					culture = kazani
+					culture = siberian
+				}
+				owned_by = ROOT
+			}
+			else = {
+				owned_by = ROOT
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			development_in_provinces = {
+				value = 10
+				OR = {
+					culture = kazani
+					culture = siberian
+				}
+			}
+		}
+				
+		effect = {
+			custom_tooltip = BSH_north_claims
+			hidden_effect = {
+				ural_region = {
+					limit = {
+						OR = {
+							culture = kazani
+							culture = siberian
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+				west_siberia_region = {
+					limit = {
+						OR = {
+							culture = kazani
+							culture = siberian
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	bsh_northern_shield = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { 
+			bsh_tatar_brotherhood
+		} 
+
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							1082 = { country_or_non_sovereign_subject_holds = ROOT }
+							1075 = { country_or_non_sovereign_subject_holds = ROOT }
+						}
+					}
+				}
+				OR = {
+					province_id = 1075 #Tyumen
+					province_id = 1082 #Kazan
+					province_id = 475 #Bashkortostan
+					province_id = 2444 #Bashgird
+				}
+			}
+			else = {
+				OR = {
+					province_id = 475 #Bashkortostan
+					province_id = 2444 #Bashgird
+				}
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+			
+		trigger = {
+			475 = { country_or_non_sovereign_subject_holds = ROOT }
+			2444 = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				1075 = { country_or_non_sovereign_subject_holds = ROOT }
+				1082 = { country_or_non_sovereign_subject_holds = ROOT }
+			}
+		}
+				
+		effect = {
+			add_country_modifier = {
+				name = northern_shield
+				duration = 5475
+			}
+			add_country_modifier = {
+				name = kazani_mercenaries
+				duration = 5475
+			}
+		}
+	}
+	bsh_fur_wars = {
+		icon = mission_expand_into_the_forest
+		required_missions = { 
+			bsh_northern_shield
+		} 
+
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					ROOT = {
+						NOT = {
+							fur = 10
+						}
+					}
+				}
+				trade_goods = fur
+				NOT = { owned_by = ROOT }
+			}
+			else = {
+				owned_by = ROOT
+				NOT = { owned_by = ROOT }
+			}
+		}
+			
+		trigger = {
+			fur = 10
+			army_size = 20
+		}
+				
+		effect = {
+			add_years_of_income = 0.5
+			add_country_modifier = {
+				name = siberian_fur_trade
+				duration = 5475
+			}
+		}
+	}
+	bsh_ostyaks = {
+		icon = mission_extent_yasak_to_the_east
+		required_missions = { 
+			bsh_fur_wars
+		} 
+
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					OR = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 1
+								is_core = ROOT
+								OR = {
+									culture = khanty
+									culture = mansi
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					owned_by = ROOT
+					NOT = { owned_by = ROOT }
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						OR = {
+							ROOT = {
+								num_of_owned_provinces_with = {
+									value = 1
+									OR = {
+										culture = khanty
+										culture = mansi
+									}
+								}
+							}
+						}
+					}
+					AND = {
+						owned_by = ROOT
+						OR = {
+							culture = khanty
+							culture = mansi
+						}
+					}
+				}
+				else = {
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 1
+				is_core = ROOT
+				OR = {
+					culture = khanty
+					culture = mansi
+				}
+			}
+		}	
+		effect = {
+			add_adm_power = 25
+			add_dip_power = 25
+			custom_tooltip = BSH_ostyak_furs
+			hidden_effect = {
+				ural_region = {
+					limit = {
+						owned_by = ROOT
+						OR = {
+							culture = khanty
+							culture = mansi
+						}
+						trade_goods = fur
+					}
+					add_province_modifier = {
+						name = ostyak_hunters
+						duration = 7300
+					}
+				}
+				west_siberia_region = {
+					limit = {
+						owned_by = ROOT
+						OR = {
+							culture = khanty
+							culture = mansi
+						}
+						trade_goods = fur
+					}
+					add_province_modifier = {
+						name = ostyak_hunters
+						duration = 7300
+					}
+				}
+			}
+		}
+	}
+	bsh_found_khantia = {
+		icon = mission_collect_yasak
+		required_missions = { 
+			bsh_ostyaks
+		} 
+
+		trigger = {
+			OR = {
+				accepted_culture = khanty
+				accepted_culture = mansi
+			}
+			1064 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { exists = KMA }
+				}
+				custom_tooltip = BSH_khantia
+				hidden_effect = {
+					ural_area = {
+						limit = {
+							OR = {
+								culture = khanty
+								culture = mansi
+							}
+							is_empty = yes
+						}
+						cede_province = KMA
+					}
+					ob_area = {
+						limit = {
+							OR = {
+								culture = khanty
+								culture = mansi
+							}
+							is_empty = yes
+						}
+						cede_province = KMA
+					}
+					kara_area = {
+						limit = {
+							OR = {
+								culture = khanty
+								culture = mansi
+							}
+							is_empty = yes
+						}
+						cede_province = KMA
+					}
+					vassalize = KMA
+					KMA = {
+						define_ruler = {
+							name = "Yadiger"
+							dynasty = "Taibugid"
+							culture = bashkir
+							adm = 4
+							dip = 2
+							mil = 2
+						}
+						change_government = tribal
+						add_government_reform = steppe_horde
+						primary_culture = khanty
+						add_accepted_culture = mansi
+						change_religion = ROOT
+						capital_scope = {
+							build_to_forcelimit = {
+								infantry = 0.6
+								cavalry = 0.3
+							}
+						}
+					}
+				}
+				country_event = { id = bsh_flavor.1 }
+			}
+			else = {
+				add_country_modifier = {
+					name = siberian_settlers
+					duration = 5475
+				}
+			}
+		}
+	}
+}
+
+bsh_primary = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_diplomacy = {
+		icon = personal_diplomacy
+		required_missions = {} #none
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = BSH_friends
+				num_of_allies = 1
+				calc_true_if = {
+					all_ally = { has_opinion = { who = ROOT value = 150 } }
+					amount = 1
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ural_splendor
+				duration = 5475
+			}
+		}
+	}
+	bsh_to_be_bashkir = {
+		icon = mission_develop_the_scandes
+		required_missions = {
+			bsh_diplomacy
+		}
+		trigger = {
+			is_subject = no
+			development_in_provinces = {
+				value = 50
+				is_state_core = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			country_event = { id = bsh_flavor.2 }
+		}
+	}
+}
+
+bsh_fort = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = no
+
+	bsh_defenses = {
+		icon = alpine_fortifications
+		position = 5
+		required_missions = {} #none
+		trigger = {
+			2444 = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				is_in_war = {
+    					defenders = ROOT
+				}
+				army_size_percentage = 1
+			}
+		}
+		effect = {
+			2444 = {
+				add_building = fort_15th
+			}
+		}
+	}
+	bsh_fortress_bashkiria = {
+		icon = fortress_switzerland
+		position = 6
+		required_missions = {
+			bsh_defenses
+		}
+		trigger = {
+			fort_15th = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = fortress_bashkiria
+				duration = 7300
+			}
+			define_general = {
+				shock = 2
+				fire = 3
+				manuever = 6
+				siege = 3
+				name = "Zöfär Galiullin"
+				trait = defensive_planner_personality
+			}
+		}
+	}
+}
+
+bsh_west_conquest = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_nogai = {
+		icon = mission_cossack_cavalry
+		required_missions = {
+			bsh_to_be_bashkir
+		}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = nogai_area
+				area = lower_yik_area
+				area = aktobe_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			nogai_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_yik_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aktobe_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+				
+		effect = {
+			astrakhan_area = {
+				limit = {
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	bsh_astrakhan = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = {
+			bsh_nogai
+		}
+		position = 4
+		provinces_to_highlight = {
+			area = astrakhan_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			astrakhan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+				
+		effect = {
+			add_country_modifier = {
+				name = expansionist_country
+				duration = 5475
+			}
+		}
+	}
+}
+
+bsh_east_conquest = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_kazakh = {
+		icon = mission_cossack_cavalry
+		required_missions = {
+			bsh_to_be_bashkir
+		}
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = kazakhstan_area
+				area = aqmola_area
+				area = balchasj_area
+			}
+			NOT = {country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			kazakhstan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			aqmola_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			balchasj_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			yrtesh_area = {
+				limit = {
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+	bsh_kyrgyz = {
+		icon = mission_non-western_cavalry_raid
+		required_missions = {
+			bsh_kazakh
+		}
+		position = 4
+		provinces_to_highlight = {
+			area = yrtesh_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			yrtesh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+				
+		effect = {
+			add_country_modifier = {
+				name = greater_tumens
+				duration = 5475
+			}
+		}
+	}
+}
+
+bsh_branching = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+		NOT = { has_country_flag = tatar_league_flag }
+		NOT = { has_country_flag = scythia_conquest_flag }
+	}
+	has_country_shield = yes
+	
+	bsh_branch_1 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = {
+			bsh_to_be_bashkir
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = branching_mission_trigger_bsh
+				always = no
+			}
+		}
+		effect = {
+			custom_tooltip = branching_mission_effects_bsh
+		}
+	}
+
+	bsh_branch_2 = {
+		icon = mission_unknown_mission
+		always = no_triggers
+		required_missions = {
+			bsh_branch_1
+		}
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = branching_mission_trigger_bsh
+				always = no
+			}
+		}
+		effect = {
+			custom_tooltip = branching_mission_effects_bsh
+		}
+	}
+}
+
+bsh_tartar_league = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		has_country_flag = tatar_league_flag
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_form_the_league = {
+		icon = mission_diplomatic_relation
+		position = 3
+		required_missions = {
+			bsh_to_be_bashkir
+		}
+		trigger = {
+			prestige = 50
+			OR = {
+				legitimacy = 75
+				horde_unity = 75
+			}
+			OR = {
+				KAZ = {
+					is_vassal = no
+					has_opinion = { who = ROOT value = 190 }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 250
+						}
+					}
+				}
+				SIB = {
+					is_vassal = no
+					has_opinion = { who = ROOT value = 190 }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 250
+						}
+					}
+				}
+				NOG = {
+					is_vassal = no
+					has_opinion = { who = ROOT value = 190 }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 250
+						}
+					}
+				}
+				KZH = {
+					is_vassal = no
+					has_opinion = { who = ROOT value = 190 }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 250
+						}
+					}
+				}
+				AST = {
+					is_vassal = no
+					has_opinion = { who = ROOT value = 190 }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 250
+						}
+					}
+				}
+				BLK = {
+					is_vassal = no
+					has_opinion = { who = ROOT value = 190 }
+					NOT = {
+						border_distance = {
+							who = ROOT
+							distance = 250
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					KAZ = {
+						exists = yes
+						is_vassal = no
+						NOT = {
+							border_distance = {
+								who = ROOT
+								distance = 250
+							}
+						}
+					}
+				}
+				KAZ = {	
+					country_event = { id = bsh_flavor.3 }
+				}
+			}
+			if = {
+				limit = {
+					SIB = {
+						exists = yes
+						is_vassal = no
+						NOT = {
+							border_distance = {
+								who = ROOT
+								distance = 250
+							}
+						}
+					}
+				}
+				SIB = {	
+					country_event = { id = bsh_flavor.3 }
+				}
+			}
+			if = {
+				limit = {
+					NOG = {
+						exists = yes
+						is_vassal = no
+						NOT = {
+							border_distance = {
+								who = ROOT
+								distance = 250
+							}
+						}
+					}
+				}
+				NOG = {	
+					country_event = { id = bsh_flavor.3 }
+				}
+			}
+			if = {
+				limit = {
+					KZH = {
+						exists = yes
+						is_vassal = no
+						NOT = {
+							border_distance = {
+								who = ROOT
+								distance = 250
+							}
+						}
+					}
+				}
+				KZH = {	
+					country_event = { id = bsh_flavor.3 }
+				}
+			}
+			if = {
+				limit = {
+					AST = {
+						exists = yes
+						is_vassal = no
+						NOT = {
+							border_distance = {
+								who = ROOT
+								distance = 250
+							}
+						}
+					}
+				}
+				AST = {	
+					country_event = { id = bsh_flavor.3 }
+				}
+			}
+			if = {
+				limit = {
+					BLK = {
+						exists = yes
+						is_vassal = no
+						NOT = {
+							border_distance = {
+								who = ROOT
+								distance = 250
+							}
+						}
+					}
+				}
+				BLK = {	
+					country_event = { id = bsh_flavor.3 }
+				}
+			}
+		}
+	}
+	bsh_oghuric = {
+		icon = mission_non-western_soldiers
+		position = 4
+		required_missions = {
+			bsh_form_the_league
+		}
+		provinces_to_highlight = {
+			is_capital = yes
+			owned_by = SCY
+			owner = { army_size = ROOT }
+		}
+		trigger = {
+			OR = {
+				legitimacy = 75
+				horde_unity = 75
+			}
+			SCY = {
+				NOT = {
+					army_size = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = KHZ
+				}
+				add_casus_belli = {
+					target = KHZ
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			else = {
+				custom_tooltip = BSH_khazar_claims
+				hidden_effect = {
+					crimea_region = {
+						limit = {
+							culture = khazar
+							NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = VLB
+				}
+				add_casus_belli = {
+					target = VLB
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			else = {
+				custom_tooltip = BSH_volga_bulgar_claims
+				hidden_effect = {
+					ural_region = {
+						limit = {
+							culture = bulgar
+							NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+			add_country_modifier = {
+				name = tatar_hegemon
+				duration = -1
+			}
+		}
+	}
+}
+
+bsh_scythian_path = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		has_country_flag = scythia_conquest_flag
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_subvert_scythia = {
+		icon = mission_take_over_the_kremlin
+		position = 3
+		required_missions = {
+			bsh_to_be_bashkir
+		}
+
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					NOT = {
+						ROOT = {
+							has_spy_network_in = {
+								who = SCY
+								value = 50
+							}
+						}
+					}
+				}
+				owned_by = SCY
+			}
+			else = {
+				owned_by = ROOT
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			is_vassal = no
+			if = {
+				limit = {
+					exists = KMK
+				}
+				KMK = {
+					has_opinion = { who = ROOT value = 100 }
+				}
+			}
+			OR = {
+				ROOT = {
+					has_spy_network_in = {
+						who = SCY
+						value = 50
+					}
+				}
+				NOT = { exists = SCY }
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					KMK = {
+						vassal_of = SCY
+					}
+				}
+				KMK = {	
+					country_event = { id = bsh_flavor.6 }
+				}
+			}
+			if = {
+				limit = {
+					exists = KMK
+					KMK = {
+						NOT = { vassal_of = SCY }
+					}
+					KMK = {
+						NOT = { vassal_of = ROOT }
+					}
+				}
+				add_casus_belli = {
+					target = KMK
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						NOT = { exists = KMK }
+						KMK = {
+							vassal_of = ROOT
+						}
+					}
+				}
+				custom_tooltip = BSH_kalmyk_claims
+				hidden_effect = {
+					samara_area = {
+						limit = {
+							OR = {
+								culture = kalmyk
+								province_id = 473 #Samara
+							}
+							NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						}
+						add_claim = ROOT
+					}
+				}
+			}
+			penza_area = {
+				limit = { 
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_claim = ROOT
+			}
+			saratov_area = {
+				limit = { 
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_claim = ROOT
+			}
+			lower_don_area = {
+				limit = { 
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
+
+	bsh_volga_union = {
+		icon = mission_advance_to_the_dnieper
+		position = 4
+		required_missions = {
+			bsh_subvert_scythia
+		}
+
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							ROOT = {
+								num_of_owned_provinces_with = {
+									value = 5
+									culture_group = scythian
+								}
+							}
+							303 = {
+								owned_by = ROOT
+								development = 15
+							}
+						}
+					}
+				}
+				OR = {
+					province_id = 303
+					culture_group = scythian
+				}
+			}
+			else = {
+				owned_by = ROOT
+				NOT = { owned_by = ROOT }
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+	
+		trigger = {
+			OR = {
+				ROOT = {
+					num_of_owned_provinces_with = {
+						value = 5
+						culture_group = scythian
+					}
+				}
+				303 = {
+					owned_by = ROOT
+					development = 15
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = union_with_arsiyah
+				duration = -1
+			}
+			add_accepted_culture = arsiyah
+			add_prestige = 5
+		}
+	}			
+}
+
+bsh_finishing_mission = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	bsh_undying = {
+		icon = mission_lit_harness_steppes
+		position = 5
+		required_missions = {
+			bsh_astrakhan
+			bsh_kyrgyz
+		}
+		trigger = {
+			is_subject = no
+			is_great_power = yes
+			prestige = 50
+		}
+		effect = {
+			add_country_modifier = {
+				name = undying_khanate
+				duration = -1
+			}
+			add_country_modifier = {
+				name = taming_the_steppe
+				duration = 5475
+			}
+		}
+	}
+}
+

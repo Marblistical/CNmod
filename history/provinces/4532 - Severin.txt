@@ -1,0 +1,22 @@
+# Severin
+
+owner = RMN
+controller = RMN
+add_core = RMN
+add_core = WAL
+
+culture = romanian
+religion = orthodox
+capital = "Severin"
+
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

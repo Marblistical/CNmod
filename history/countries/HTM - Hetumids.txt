@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+
+religion = sunni
+religious_school = shafii_school
+
+primary_culture = armenian
+
+capital = 327 #Adana
+
+1405.1.1 = {
+	monarch = {
+		name = "Levon V"
+		dynasty = "Hetum"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

@@ -1,0 +1,109 @@
+namespace = incidents_waldensian
+
+#Waldensian Spread
+country_event = {
+	id = incidents_waldensian.1
+	title = "incidents_waldensian.1.title"
+	desc = "incidents_waldensian.1.desc"
+	picture = HRE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AQT
+		is_elector = yes
+		is_subject = no
+		is_year = 1415
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = "incidents_waldensian.1.a"
+		set_imperial_incident = incident_waldensian
+	}
+	
+}
+
+country_event = {
+	id = incidents_waldensian.2
+	title = "incidents_waldensian.2.title"
+	desc = "incidents_waldensian.2.desc"
+	picture = HRE_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+	major_trigger = {
+		is_part_of_hre = yes
+		NOT = {
+			is_year = 1490
+		}
+	}
+
+	option = {
+		name = "incidents_waldensian.2.a"
+		custom_tooltip = waldensian.2.a_tt
+		AQT = {
+			country_event = {
+				id = flavor_aqt.4
+				days = 5
+			}
+		}
+
+	}
+	option = {
+		name = "incidents_waldensian.2.b"
+		custom_tooltip = waldensian.2.b_tt
+		AQT = {
+			country_event = {
+				id = flavor_aqt.5
+				days = 5
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				NOT = {
+						religion = waldensian
+				}
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = PRO
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = SWI
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = PIE
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = KNZ
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = CMO
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = BIE
+			}
+			add_casus_belli = {
+				type = cb_heretic 
+				months = 300
+				target = AQL
+			}
+		}
+	}
+}

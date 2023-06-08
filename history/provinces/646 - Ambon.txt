@@ -1,0 +1,18 @@
+#646 - Ambon
+
+owner = AMB
+controller = AMB
+add_core = AMB
+
+culture = moluccan
+religion = animism
+capital = "Ambon"
+
+trade_goods = unknown
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese

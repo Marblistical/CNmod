@@ -1,0 +1,22 @@
+#1955 - Kholmogory
+
+owner = BJA
+controller = BJA
+add_core = BJA
+
+culture = bjarmian
+religion = ukonusko
+capital = "Kaijakar"
+
+hre = no
+base_tax = 2 
+base_production = 1
+trade_goods = fur 
+base_manpower = 1
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+
+extra_cost = 16
+center_of_trade = 2

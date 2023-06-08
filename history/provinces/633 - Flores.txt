@@ -1,0 +1,18 @@
+#633 - Flores
+
+owner = MSA
+controller = MSA
+add_core = MSA
+
+culture = nusa_tenggara
+religion = sunni
+capital = "Flores"
+
+trade_goods = incense
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+discovered_by = chinese

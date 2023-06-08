@@ -1,0 +1,17 @@
+﻿l_english:
+ # mushirkun localization
+ estate_scy_mushirkun:0 "Mushirkun"
+ estate_scy_mushirkun_desc:0 "Mushirkun are those who commit the sin of shirk, those who reject monotheism. Scythia's position on the frontier of the dar al-Tawhid has brought under it a small yet significant minority of Buddhists, Ukonuskoists and other polytheists. They live in a delicate balance, having their rights undermined by the conservative Ulema and encroaching Orthodox Christians and only haven't been extinguished due to the power struggle between the Ulema and the Orthodox Church."
+ estate_scy_mushirkun_ownership:0 "Mushirkun Land Ownership"
+ scy_mushirkun_loyalty_modifier:1 "Mushirkun Loyalty Equilibrium"
+ scy_mushirkun_influence_modifier:0 "Mushirkun Influence"
+ 
+ #mushirkun privileges
+ estate_scy_mushirkun_indefinite_treaties:0 "Indefinite peace treaties with the Mushirkun"
+ estate_scy_mushirkun_indefinite_treaties_desc:0 "We are obligated to show hospitality to and defend the Mushirkun peoples who seek our protection as per the Qur'an. The ways in which we are obligated to the Mushirkun have been codified through decades of struggle and cooperation and there is little we can do to change this, not without causing a major upheaval of society.\n\n§RTo overturn this privilege could upset more than just the Mushirkun!§!"
+ estate_scy_mushirkun_autonomy:0 "Mushirkun self-government"
+ estate_scy_mushirkun_autonomy_desc:0 "The Mushirkun live on our frontiers and are trouble to govern over. By reducing their obligations to us, they can be more content with our rule."
+ estate_scy_mushirkun_autonomy_privilege_mod:0 "Mushirkun self-government"
+ estate_scy_mushirkun_autonomy_effect_tooltip:2 "Every owned province NOT of §YMuslim§!, §YChristian§!, §YJewish§! or §YZoroastrian§! faith gains §Y'Mushirkun self-government'§!, giving the following effects:\nMinimum local autonomy: §R80.0%§!\nLocal unrest: §G-4.00§!"
+ estate_scy_mushirkun_autonomy_revoke_effect_tooltip:1 "The modifier §Y'Mushirkun self-government'§! is removed from all owned provinces."
+ desc_estate_scy_mushirkun_autonomy_privilege_mod:1 "With the privileges afforded to this estate, the Mushirkun have total self-governance. They will refuse to see the light of Allah or pay their taxes."

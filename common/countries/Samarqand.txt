@@ -1,0 +1,76 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 39 135 77 }
+
+revolutionary_colors = { 1 0 1 } #placeholder
+
+historical_idea_groups = {
+	quantity_ideas
+	trade_ideas
+	economic_ideas
+	offensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	aristocracy_ideas
+	spy_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	muslim_cavalry_archers
+	shaybani
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+		"Tekesh #0" = 50
+		"Uziaq #0" = 40
+		"Yunus #1" = 40
+		"Qutuz #0" = 30
+		"Manqatuy #0" = 30
+		"Atliq #0" = 30
+		"Qaymaqar #0" = 30
+		"Muhammad #2" = 20
+		"Ak #0" = 20
+		"Khafiz #0" = 20
+		"Batir #0" = 20
+		"Komil #0" = 20
+		"Aminjon #0" = 20
+		"Ghulam #0" = 20
+		"Behnam #0" = 20
+		"Youssef #0" = 10
+		"Saman #0" = 10
+		"Rasoul #0" = 10
+		"Ferdous #0" = 10
+		"Amir #0" = 10
+		"Arzhang #0" = 10
+		"Parsa #0" = 10
+		"Asghar #0" = 10
+		"Haazim #0" = 10
+		"Saalih #0" = 10
+		"Raaji #0" = 10
+		"Zaki #0" = 10
+		"Idrees #0" = 10
+		"Uwais #0" = 10
+		"Ruogang #0" = 10
+		"Jun #0" = 10
+		
+}
+
+leader_names = {
+	placeholder
+}
+
+ship_names = {
+	placeholder
+}

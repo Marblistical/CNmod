@@ -1,0 +1,87 @@
+country_decisions = {
+	
+	unite_komi_mu = {
+		major = yes
+		potential = {
+			tag = PRM
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = komi_mu_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				superregion = eastern_europe_superregion
+				superregion = tartary_superregion
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			culture = komi
+			is_empty = no
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			primary_culture = komi
+			custom_trigger_tooltip = {
+				tooltip = PRM_komi_mu_culture
+				NOT = { 
+					eastern_europe_superregion = {
+						culture = komi
+						is_empty = no
+						NOT = {
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+					}
+				}
+				NOT = { 
+					tartary_superregion = {
+						culture = komi
+						is_empty = no
+						NOT = {
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			set_country_flag = komi_mu_flag
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			override_country_name = KOMI_MU_NAME
+			custom_tooltip = komi_mu_annexations
+			hidden_effect = {
+				eastern_europe_superregion = {
+					limit = {
+						culture = komi
+						is_empty = yes
+					}
+					add_core = ROOT
+					cede_province = ROOT
+				}
+				tartary_superregion = {
+					limit = {
+						culture = komi
+						is_empty = yes
+					}
+					add_core = ROOT
+					cede_province = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+}

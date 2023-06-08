@@ -1,0 +1,77 @@
+incident_waldensian = {
+    event = incidents_waldensian.2
+	default_option = 0
+	
+	can_stop = {
+		NOT = {
+			exists = BUR
+		}
+	}
+
+	0 = {
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				religion = waldensian
+			}
+		}
+	}
+	
+	1 = {
+		factor = 1
+		modifier = {
+			factor = 100
+			OR = {
+				ai_attitude = {
+					who = PRO
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = PRO
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = PRO
+					attitude = attitude_outraged
+				}
+				ai_attitude = {
+					who = SWI
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = SWI
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = SWI
+					attitude = attitude_outraged
+				}
+				ai_attitude = {
+					who = PIE
+					attitude = attitude_hostile
+				}
+				ai_attitude = {
+					who = PIE
+					attitude = attitude_threatened
+				}
+				ai_attitude = {
+					who = PIE
+					attitude = attitude_outraged
+				}
+				tag = AQT
+				ai_attitude = {
+					who = AQT
+					attitude = ally
+				}
+				ai_attitude = {
+					who = AQT
+					attitude = friendly
+				}
+				ai_attitude = {
+					who = AQT
+					attitude = loyal
+				}
+			}
+		}
+	}

@@ -1,0 +1,18 @@
+#632 - Sumbawa
+
+owner = MSA
+controller = MSA
+add_core = MSA
+
+culture = nusa_tenggara
+religion = sunni
+capital = "Sumbawa"
+
+trade_goods = spices
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese

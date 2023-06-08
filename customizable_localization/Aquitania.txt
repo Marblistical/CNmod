@@ -1,0 +1,35 @@
+#aqt_control_borderlands
+defined_text = {
+	name = AQT_EXPAND_boolean
+	random = no
+
+	text = {
+		localisation_key = CN_yes
+		trigger = {
+			owns_core_province = 4386 #poitou
+			owns_core_province = 190 #bourbonnais
+		}
+	}
+	text = {
+		localisation_key = CN_no
+	}
+}
+
+#aqt_allies_empire
+defined_text = {
+	name = AQT_ALLIES_boolean
+	random = no
+
+	text = {
+		localisation_key = CN_yes
+		trigger = {
+			OR = {
+				any_ally = { tag = MLO }
+				any_ally = { tag = BOH }
+			}
+		}
+	}
+	text = {
+		localisation_key = CN_no
+	}
+}

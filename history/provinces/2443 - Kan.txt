@@ -1,0 +1,15 @@
+#2443 - Kansk
+
+owner = OIR
+controller = OIR
+add_core = OIR
+culture = kamassian
+religion = tengri_pagan_reformed
+capital = "Kansk"
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = nomad_group

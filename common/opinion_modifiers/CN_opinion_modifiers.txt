@@ -1,0 +1,42 @@
+annexed_elector = {
+	opinion = -50
+	yearly_decay = 5
+}
+aqt_angrier_cordoba = {
+	opinion = -100
+	yearly_decay = 1
+}
+aqt_angry_cordoba = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+volga_friction = {
+	opinion = -50
+	yearly_decay = 2
+}
+
+united_lands = {
+	opinion = 100
+	yearly_decay = 2
+}
+
+tatar_league = {
+	opinion = 50
+	yearly_decay = 2
+}
+
+denied_tatar_league = {
+	opinion = -25
+	yearly_decay = 1
+}
+
+abandoned_seljuqids = {
+	opinion = -100
+	yearly_decay = 2
+}
+
+rejected_proposal_aqt = {
+	opinion = -25	
+	yearly_decay = 2
+}

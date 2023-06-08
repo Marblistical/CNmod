@@ -1,0 +1,15 @@
+# 4691 - As
+
+owner = SIB
+controller = SIB
+add_core = SIB
+add_core = KMA
+culture = mansi
+religion = ukonusko
+capital = "As"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+discovered_by = nomad_group

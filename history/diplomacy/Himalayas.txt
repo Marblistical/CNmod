@@ -1,0 +1,76 @@
+vassal = {
+	first = JML
+	second = DTI
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = JML
+	second = RUK
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = JML
+	second = DNG
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = JML
+	second = PPA
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = JML
+	second = KKI
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = JML
+	second = LOM
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = NPL
+	second = GRK
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = NPL
+	second = CDD
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = NPL
+	second = LWA
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = NPL
+	second = MKP
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
+	first = NPL
+	second = DLK
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}

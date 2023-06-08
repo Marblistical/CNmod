@@ -1,0 +1,23 @@
+# Giurgiu
+
+owner = RMN
+controller = RMN
+add_core = RMN
+add_core = WAL
+
+culture = romanian
+religion = orthodox
+capital = "Giurgiu"
+
+trade_goods = livestock
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+fort_15th = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

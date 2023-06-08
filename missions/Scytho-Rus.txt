@@ -1,0 +1,64 @@
+scy_mushirkun = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SCY
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = no
+
+	scy_finnic_pagans = {
+		icon = mission_the_sami
+		required_missions = { } #none
+
+		trigger = {
+			OR = {
+				AND = {
+					NOT = {
+						has_estate_privilege = estate_scy_mushirkun_autonomy
+					}
+					NOT = {
+						any_owned_province = {
+							religion_group = uralic_pagan
+						}
+					}
+				}
+				any_owned_province = {
+					religion_group = uralic_pagan
+					num_of_times_improved_by_owner = 5
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					NOT = {	
+						any_owned_province = {
+							religion_group = uralic_pagan
+						}
+					}
+				}
+
+				add_prestige = 10 
+				add_country_modifier = {
+					name = SCY_triumph_against_pagans
+					duration = 5475
+				}
+			}
+
+			else = {
+				country_event = { id = scy_flavor.1 }
+				random_owned_province = {
+					limit = {
+						religion_group = uralic_pagan
+						development = 8
+					}
+
+					center_of_trade = 1
+				}
+			}
+		}
+	}
+}

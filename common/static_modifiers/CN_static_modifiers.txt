@@ -1,0 +1,13 @@
+all_nations = {
+	global_tax_income = 12
+	land_forcelimit	= 3
+	naval_forcelimit = 10
+	diplomatic_upkeep = 1
+	diplomatic_annexation_cost = 1
+}
+
+subject_nation = {
+	global_tax_income = -6
+	land_forcelimit	= -1
+	naval_forcelimit = -6
+}

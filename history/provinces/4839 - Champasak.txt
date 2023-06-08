@@ -1,0 +1,17 @@
+owner = CHK
+controller = CHK
+add_core = CHK
+
+culture = lao
+religion = animism
+capital = "Champasak"
+
+trade_goods = tea
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

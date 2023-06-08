@@ -1,0 +1,20 @@
+#Galich
+
+owner = SCY
+controller = SCY
+capital = "Galich"
+culture = russian
+religion = orthodox
+trade_goods = salt
+hre = no
+base_tax = 1
+base_production = 2 #Huge Salt Mine
+base_manpower = 1
+is_city = yes
+add_core = NZH
+add_core = SCY
+
+discovered_by = eastern
+discovered_by = western
+
+discovered_by = nomad_group

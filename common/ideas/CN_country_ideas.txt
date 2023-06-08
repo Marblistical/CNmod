@@ -1,0 +1,870 @@
+
+LIA_ideas = { #Western Liao
+    start = {
+        discipline = 0.05
+        years_of_nationalism = -5
+    }
+    
+    bonus = {
+        artillery_power = 0.15
+    }
+    
+    trigger = {
+        tag = LIA
+    }
+	
+    free = yes
+    
+    LIA_journey_to_the_west = { 
+		infantry_power = 0.10
+    }
+    
+    LIA_liao_religious_freedom = { #The Liao allowed their subjects essentially complete freedom to practice their religion, making integration easier (represented through harmonization ingame)
+		harmonization_speed = 0.25
+    }
+    
+    LIA_gunpowder_empire = { #The Liao rapidly embraced cannons and firearms in the 16th century
+		fire_damage = 0.10
+		siege_ability = 0.10
+    }
+    
+    LIA_silk_crossroads = { #Control over the silk road and central location between Persia, Russia, India and China gives the Liao pretty good trade influence
+		global_trade_power = 0.1
+		trade_steering = 0.1
+    }
+    
+    LIA_bureaucratic_empire = { #The Liao Bureaucracy is the backbone of the Empire, it's pretty damn big and pretty damn effective
+		core_creation = -0.15
+    }
+	
+	LIA_economic_planning = { #dengism
+		build_cost = -0.1
+		build_time = -0.15
+    }
+	
+	LIA_imperial_reorganization = { #Pretty much the Liao Tanzimat: period of wide-reaching social and economic reform in the Liao during the mid-late 1700s
+		country_admin_power = 1
+		production_efficiency = 0.1
+		imperial_mandate = 0.05
+	}
+}
+
+TAG_ideas = { #Liu
+
+    start = {
+    }
+    bonus = {
+    }
+    trigger = {
+		tag = LIU
+    }
+
+    free = yes
+
+    TAG_idea = {
+    }
+
+    TAG_idea = {
+    }
+
+    TAG_idea = {
+    }
+
+    TAG_idea = {
+    }
+
+    TAG_idea = {
+    }
+
+    TAG_idea = {
+    }
+
+    TAG_idea = {
+    }
+}
+
+SMR_ideas = { #Samarqand
+
+    start = {
+		tolerance_heathen = 2 #The city is very diverse religion-wise
+		trade_efficiency = 0.1 #silk road
+    }
+    bonus = {
+		land_morale = 0.10
+    }
+    trigger = {
+		tag = SMR
+    }
+
+    free = yes
+
+    SMR_liao_frontier = { #Samarqand is located on the south-western end of the Liao in 1415 and with imperial support is able to maintain a larger military
+		land_forcelimit_modifier = 0.2
+    }
+
+    SMR_restore_samarqand_observatory = { #Ulugh Beg built an observatory in Samarqand but after he died its been kinda abandoned, lets patch it up because its actually pretty useful for science
+		technology_cost = -0.1
+    }
+
+    SMR_bank_of_samarqand = { #Established in 1502, the Bank of Samarqand is an institution backed by the Liao Government that loans money not for profit, but to make development and disaster recovery easier
+	 	development_cost = -0.1
+		global_monthly_devastation = -0.05
+		interest = -0.5
+    }
+
+    SMR_liao_renaissance = { #Samarqand was one of the main centers of the Liao Renaissance, attracting scholars from all across the silk road
+		global_institution_spread = 0.1
+		advisor_cost = -0.1
+    }
+
+    SMR_imperial_auxilliaries = { #Troops from Samarqand were often used by the Liao for their campaigns in Persia
+		fire_damage = 0.1
+    }
+
+    SMR_metropolitanate_of_samarqand = { #Samarqand has historically cooperated with the Nestorian church to create a vast spy network throughout the middle east
+		spy_offence = 0.15
+		church_loyalty_modifier = 0.05
+    }
+
+    SMR_northern_capital = { #Samarqand ended up becoming the secondary capital of the Liao
+		prestige = 1
+    }
+}
+
+BJA_ideas = { #Bjarmaland
+	start = {
+		hostile_attrition = 1
+		tolerance_heathen = 3
+	}
+
+	bonus = {
+		colonists = 1
+	}
+
+	trigger = {
+        tag = BJA
+	}
+
+	free = yes
+
+	BJA_sioda_bohiosessa = { #"War in the North," the Bjarmians are a proud and fringe group, the only independent Finnic nation who will give their all to live and die in the North
+		land_morale = 0.1
+	}
+
+	BJA_winters_embrace = { #Defense of the Arctic haven
+		defensiveness = 0.15
+	}
+
+	BJA_lineage_of_two_gods = { #The Bjarmians have the power of Allah and Ukko on their side
+		legitimacy = 1
+		global_manpower_modifier = 0.1
+	}
+
+	BJA_sintmaogeus = { #the birthright (Sintmäogeus) of the Bjarmians
+		fabricate_claims_cost = -0.25
+	}
+
+	BJA_multicultural_delegates = { #the cultures of the uralics and the steppe come together to make a charismatic diplomatic situation
+		improve_relation_modifier = 0.25
+	}
+
+	BJA_ukkos_bolt = { #strike like the thunderbolt of Ukko
+		movement_speed = 0.15
+		leader_land_shock = 1
+	}
+
+	BJA_arctic_fleet = { #a fleet made for ice
+		global_ship_cost = -0.1
+		own_coast_naval_combat_bonus = 1
+	}
+}
+
+UKO_ideas = { #ukko
+
+    start = {
+		num_accepted_cultures = 3
+		female_advisor_chance = 0.25 #mári
+    }
+    bonus = {
+		fire_damage_received = -0.15
+    }
+    trigger = {
+		tag = UKO
+    }
+
+    free = yes
+
+    UKO_frozen_confederation = { #ukko is a massive frozen hellhole with little to no infrastructure, but we're gonna make it work somehow
+		republican_tradition = 0.5
+		hostile_attrition = 2
+    }
+
+    UKO_ukko = { #the country is literally called "ukko"
+		tolerance_own = 2
+		global_missionary_strength = 0.02
+    }
+
+    UKO_go_east = { #we must find the mythical land of yamalium
+		colonists = 1
+		auto_explore_adjacent_to_colony = yes
+    }
+
+    UKO_new_confederal_army = { #reform the army, make it an actual fighting force
+		artillery_power = 0.1
+		land_maintenance_modifier = -0.1
+    }
+	
+	UKO_central_heating = { #it's cold here, let's make some fires
+		development_cost = -0.15
+    }
+
+    UKO_hydraulic_empire = { #hydropower
+		global_trade_goods_size_modifier = 0.1
+    }
+
+    UKO_scientific_wonders = { #ukko has really cool technology like khruschchyovkas
+		technology_cost = -0.1
+		build_cost = -0.25
+    }
+}
+
+SUH_ideas = { #Suhraltanubia
+
+	start = {
+		global_sailors_modifier = 0.2
+		tolerance_heathen = 2
+	}
+	bonus = {
+		naval_morale = 0.15
+	}
+	trigger = {
+		culture = suhraltanubi
+	}
+	
+	free = yes
+
+	SUH_suhraltanubi_trade = { #trade contact with indonesia, china and arabia
+		trade_steering = 0.1
+		trade_range_modifier = 0.25
+	}
+	
+	SUH_crab_fighting = { #CN rp reference
+		leader_land_shock = 1
+	}
+	
+	SUH_el_diab = { #el diab canonically circumnavigates the world, his example inspires a lot of suhraltanubi
+		leader_naval_manuever = 1
+		may_explore = yes
+	}
+	
+	SUH_surfs_up = { #surfin suhraltanub-i-a
+		global_unrest = -1
+		prestige = 1
+	}
+	
+	SUH_polynesian_integration = { #integrate and convert the pacific tribes
+		global_colonial_growth = 20
+		years_of_nationalism = -5
+	}
+	
+	SUH_walythian_empire = { #suhraltanubia is a massive sprawl of islands, controlling a massive sprawl of islands requires a big navy
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	SUH_marine_corps = { #MARINES OOORA
+		allowed_marine_fraction = 0.5
+		movement_speed_onto_off_boat_modifier = 0.2
+	}
+}
+
+SCY_ideas = { #Scytho-Rus'
+
+	start = {
+		cavalry_power = 0.15
+		harsh_treatment_cost = -0.2
+	}
+	bonus = {
+		global_manpower_modifier = 0.1
+	}
+	trigger = {
+		tag = SCY
+	}
+	
+	free = yes
+
+	SCY_rushing_army = { #early game horde and in-lore fast expansion
+		cavalry_flanking = 0.5
+		cavalry_cost = -0.05
+	}
+
+	SCY_vassals = { #scytho-rus' had a lot of border vassals (we should probs give them strong duchies of some sort)
+		vassal_forcelimit_bonus = 1
+	}
+
+	SCY_exploitation_of_the_slavs = { #bit of realism
+		global_tax_modifier = 0.1
+	}
+
+	SCY_alim = { #khagan alim
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+		global_institution_spread = 0.1
+
+	}
+
+	SCY_conquest_of_siberia = { #hypothetical
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
+		land_morale = 0.1
+	}
+
+	SCY_modernizing_an_empire = { 
+		technology_cost = -0.05
+		embracement_cost = -0.1
+	}
+
+	SCY_expansion_of_liberties = { 
+		num_accepted_cultures = 1
+	}
+}
+
+SLJ_ideas = { #Seljuqids
+
+	start = { #some modifiers to show the strength of Seljuqid/Caliphate institutions
+		global_tax_modifier = 0.1
+		land_morale = 0.1
+		
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	trigger = {
+		tag = SLJ
+	}
+	
+	free = yes
+
+	SLJ_ghazis = { #border cavalry of the turkic and greater islamic world
+		cavalry_cost = -0.1
+		cavalry_power = 0.1
+	}
+
+	SLJ_the_mad_caliph = { #the seljuqid mad wars led by Ikram al-e Saljuq II
+		fabricate_claims_cost= -0.2
+		war_exhaustion_cost = -0.1
+	}
+
+	SLJ_the_caliphate = { 
+		prestige = 1
+	}
+
+	SLJ_global_navy = { #expansion of the navy
+		light_ship_cost = -0.15
+		global_trade_power = 0.15
+	}
+
+	SLJ_expand_administration = { 
+		governing_capacity_modifier = 0.15
+	}
+
+	SLJ_lord_of_all_muslims = { 
+		tolerance_own = 2
+		num_accepted_cultures = 1
+	}
+
+	SLJ_birlik = { #unity
+		discipline = 0.05
+		all_estate_loyalty_equilibrium = 0.1
+	}
+}
+
+AQT_ideas = { #Aquitaine
+
+	start = {
+		global_tax_modifier = 0.1
+		warscore_cost_vs_other_religion = -0.25
+		
+	}
+	bonus = {
+		monthly_reform_progress = 0.5
+	}
+	trigger = {
+		tag = AQT
+	}
+	
+	free = yes
+
+	AQT_fort = { 
+		fort_level = 1
+		fort_maintenance_modifier = -0.5
+	}
+
+	AQT_trade = { 
+		global_trade_power = 0.1
+		development_cost_modifier = -0.05
+	}
+
+	AQT_vassals = { 
+		diplomatic_reputation = 1
+	}
+
+	AQT_technology = { 
+		technology_cost = -0.1
+	}
+
+	AQT_unrest = { 
+		legitimacy = 0.5
+		global_unrest = -1
+	}
+
+	AQT_discpline = { 
+		discipline = 0.05
+	}
+
+	AQT_spy_movement = { 
+		movement_speed = 0.10
+		spy_offence = 0.1
+	}
+
+}
+
+FCA_ideas = { #Franca
+
+	start = {
+		army_tradition_decay = -0.05
+		free_policy = 1
+		
+	}
+	bonus = {
+		administrative_efficiency = 0.05
+	}
+	trigger = {
+		tag = FCA
+	}
+	
+	free = yes
+
+	FCA_morale = { 
+		land_morale = 0.10
+	}
+
+	FCA_warscore_cost = { 
+		local_warscore_cost_modifier = -0.2
+	}
+
+	FCA_years_nationalism = { 
+		years_of_nationalism = -5
+	}
+
+	FCA_merchants = { 
+		merchants = 1
+		global_trade_power = 0.1
+		trade_goods_size_modifier = 0.1
+	}
+
+	FCA_governing_cost = { 
+		governing_capacity_modifier = 0.25
+	}
+
+	FCA_discpline = { 
+		discipline = 0.05
+	}
+
+	FCA_tolerance = { 
+		religious_unity = 0.2
+		tolerance_heretic = 2
+		tolerance_own = 1
+		relation_with_same_religion = 25
+		relation_with_heretics = 25
+	}
+
+}
+
+KMK_ideas = { #Kalmykia
+
+	start = {
+		general_cost = -0.25
+		cavalry_power = 0.15
+
+	}
+	bonus = {
+		land_maintenance_modifier = -0.1
+	}
+	trigger = {
+		tag = KMK
+	}
+	
+	free = yes
+
+	KMK_western_heir = { 
+		cavalry_flanking = 0.5
+		cavalry_cost = -0.15
+	}
+
+	KMK_peace_with_the_world = { 
+		tolerance_heathen = 1
+		global_unrest = -1
+	}
+
+	KMK_dorbet = { 
+		leader_land_manuever = 1
+	}
+
+	KMK_battle_of_samara = { 
+		leader_land_shock = 1
+	}
+
+	KMK_buddhist_manuscripts = { 
+		technology_cost = -0.05
+	}
+
+	KMK_huurl = { 
+		legitimacy = 1
+		horde_unity = 1
+	}
+
+	KMK_the_frontier = {
+		land_attrition = -0.1
+	}
+
+}
+
+BSH_ideas = { #Bashkiria
+
+	start = {
+		global_manpower_modifier = 0.1 
+		hostile_attrition = 1 #hard to conquer
+
+	}
+	bonus = {
+		free_mil_policy = 1
+	}
+	trigger = {
+		tag = BSH
+	}
+	
+	free = yes
+
+	BSH_supplant_the_bulgars = { #bulgars historically ruled the Bashkirs
+		land_morale = 0.1
+		prestige = 1
+	}
+
+	BSH_fort_murtaza = { #MLB reference lel
+		fort_maintenance_modifier = -0.10
+		defensiveness = 0.2
+	}
+
+	BSH_galiullin = { #chad general
+		leader_land_manuever = 1
+	}
+
+	BSH_northern_route = { 
+		trade_efficiency = 0.05
+		caravan_power = 0.2
+	}
+
+	BSH_bashkir_khan = { #bashkir tribes come together
+		legitimacy = 1
+		horde_unity = 1
+	}
+
+	BSH_mountain = { #urals and folklore
+		fire_damage_received = -0.1
+		shock_damage_received = -0.05
+
+	}
+
+	BSH_tatar_mercenaries = { #bashkirs fought with and against the kazan tatars
+		mercenary_discipline = 0.05
+	}
+}
+
+XIA_ideas = { #definetly not the xia
+
+    start = {
+		tolerance_heretic = 1 #ming yuzhen was a buddhist
+		defensiveness = 0.2 #sichuan is naturally very defensible
+    }
+    bonus = {
+		imperial_mandate = 0.05
+    }
+    trigger = {
+		tag = XIA
+    }
+
+    free = yes
+
+    XIA_red_turbans_sichuan = { #ming yuzhen absolutely destroyed the yuan in sichuan while invading the region for the red turbans
+		land_morale = 0.1
+    }
+	
+	XIA_red_turban_rivalry = { #the xia was originally founded cuz the leader of the han assassinated a red turban rebel, starting a big rivalry that lasts to this day
+		diplomatic_reputation = 1
+		spy_offence = 0.15
+    }
+
+    XIA_conquer_yunnan_mongols = { #the xia has been trying (and failing) to subdue the yuan remnants in the dali kingdom for decades
+		fort_maintenance_modifier = -0.2
+    }
+
+    XIA_sichuan_agriculture = { #wow this giant river basin is great for agriculture? i had no idea
+		production_efficiency = 0.1
+    }
+
+    XIA_diplomatic_unification = { #war bad, just vassalize everyone
+		diplomatic_upkeep = 1
+		liberty_desire = -15
+    }
+
+    XIA_sichuan_missionaries = { #catholic and nestorian missionaries fuck around in sichuan building churches and introducing new technology
+		global_institution_spread = 0.25
+    }
+
+    XIA_southward_bound = { #inrp the xia were mostly focused on expanding southwards after unifying china
+		infantry_power = 0.1
+    }
+}
+
+KRS_ideas = { #Kursk
+
+	start = {
+		manpower_recovery_speed = 0.15
+		global_regiment_cost = -0.10
+
+	}
+	bonus = {
+		fire_damage = 0.1	
+	}
+	trigger = {
+		tag = KRS
+	}
+	
+	free = yes
+
+	KRS_rebuild = { #irl Kursk was destroyed by the mongols, gonna use that as inspiration for some Crimea lore
+		build_cost = -0.1
+	}
+
+	KRS_dva_kurska = { #playing Lithuania and Scytho-Rus' against eachother
+		improve_relation_modifier = 0.2
+	}
+
+	KRS_vsevol = { #chad general w/ recruiter
+		leader_land_fire = 1
+		global_regiment_recruit_speed = -0.10
+	}
+
+	KRS_resist_ordo = { #ordo did assassination in lore
+		global_spy_defence = 0.3
+	}
+
+	KRS_all_must_serve = { 
+		global_manpower_modifier = 0.2
+		may_recruit_female_generals = yes
+	}
+
+	KRS_death_to_vyatichi = { #rivalry and war
+		culture_conversion_cost = -0.15
+	}
+
+	KRS_patriarch_of_kursk = {
+		global_missionary_strength = 0.01
+		yearly_patriarch_authority = 0.005
+	}
+}
+
+NOG_ideas = { #Nogai
+
+    start = { #Nogai ideas about expansion
+		shock_damage = 0.10
+		fabricate_claims_cost = -0.25
+    }
+
+    bonus = {
+		discipline = 0.05
+    }
+
+    trigger = {
+		tag = NOG
+    }
+
+    free = yes
+
+    NOG_mongol_slayer = { #Nogai-Cuman revolt was responsible for the downfall of the western mongols
+		prestige = 1
+    }
+
+    NOG_firstborn = { #firstborn kipchak
+		cavalry_power = 0.15
+		core_creation = -0.1
+    }
+
+    NOG_manghit = { #manghit were the turko-mongol elite of the nogai horde
+		num_accepted_cultures = 1
+    }
+
+    NOG_slave_raids = {
+		loot_amount = 0.25
+    }
+
+    NOG_ulus = { #subdivisions of the horde
+		leader_land_shock = 1
+    }
+
+    NOG_emir = { #manghit drew legitimacy from islam, not descendence from genghis
+		legitimacy = 1
+		horde_unity = 1
+		manpower_in_true_faith_provinces = 0.15
+    }
+
+    NOG_yaik_peasants = {
+		global_tax_modifier = 0.1
+    }
+}
+
+VYA_ideas = { #vyatichi
+
+    start = {
+		global_missionary_strength = 0.01 #islamic slavs
+		defensiveness = 0.15
+    }
+
+    bonus = {
+		fire_damage = 0.1
+    }
+    trigger = {
+		tag = VYA
+    }
+
+    free = yes
+
+    VYA_resist = { #unique vyatichi identity
+		culture_conversion_cost = -0.15
+    }
+
+    VYA_slavic_khanate = {
+		cavalry_cost = -0.1
+    }
+
+    VYA_warrior_society = {
+		global_manpower_modifier = 0.15
+    }
+
+    VYA_commit = {
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.2
+    }
+
+    VYA_our_forest = {
+		movement_speed = 0.1
+		land_attrition = -0.10
+    }
+
+    VYA_danepr_doctrine = {
+		infantry_power = 0.10
+    }
+
+    VYA_jihad = {
+		war_exhaustion = -0.02
+		manpower_recovery_speed = 0.1	
+    }
+}
+
+SHL_ideas = {
+
+    start = {
+		drill_decay_modifier = -0.15 #standing army
+		navy_tradition = 1 #i hate störtebeker
+    }
+    bonus = {
+		backrow_artillery_damage = 0.1
+    }
+    trigger = {
+		tag = SHL
+    }
+
+    free = yes
+
+    SHL_three_people = { #germans, frisians, danes
+		num_accepted_cultures = 1
+		naval_morale = 0.1
+    }
+
+    SHL_northern_frontier = { #fuck denmark i hate denmark
+		defensiveness = 0.2
+    }
+
+    SHL_margraviate_that_never_was = { #the burgundians called us a little bitch? they're 10 times more of a little bitch for not doing anything about the reformation and we'll tell them exactly that in this nice letter
+		global_heretic_missionary_strength = 0.02
+		power_projection_from_insults = 0.5
+    }
+
+	SHL_holy_war = { #i love war
+		army_tradition = 0.5
+		manpower_recovery_speed = 0.1
+    }
+
+    SHL_westsiedlung = { #german settlers in avalon
+		colonists = 1
+		range = 0.5
+    }
+
+    SHL_cow = { #for better or for worse, the name holstein will be forever linked to the holstein cow
+		production_efficiency = 0.1
+    }
+
+    SHL_global_missionaries = { #trade and conquest abroad
+		warscore_cost_vs_other_religion = -0.2
+		merchants = 1
+    }
+}
+
+KHZ_ideas = { #khazaria
+
+    start = {
+		manpower_in_true_faith_provinces = 0.2
+		global_tax_modifier = 0.1
+    }
+    bonus = {
+		advisor_cost = -0.15
+    }
+    trigger = {
+		tag = KHZ
+    }
+
+    free = yes
+
+    KHZ_chagan_bulan = { #conversion to judaism
+		global_missionary_strength = 0.01
+    }
+
+    KHZ_diarchy = { #khazar chaghan and bek
+		legitimacy = 1
+		horde_unity = 1
+		diplomatic_reputation = 1
+    }
+
+    KHZ_arsiyah = { #arsiyah used to serve the khazars
+		shock_damage_received = -0.10
+    }
+
+    KHZ_seven_judges = { #seven judges of Atil, 2 jewish, 2 christian, 2 muslim, 1 pagan
+		tolerance_own = 1
+		tolerance_heathen = 1
+    }
+
+    KHZ_great_standing_army = { #have had a standing army for centuries
+		land_maintenance_modifier = -0.1
+		land_morale = 0.1
+    }
+
+    KHZ_tuduns = { #local governors
+		global_autonomy = -0.05
+    }
+
+    KHZ_caucasian_hegemon = {
+		global_trade_power = 0.1
+		vassal_income = 0.2
+    }
+}

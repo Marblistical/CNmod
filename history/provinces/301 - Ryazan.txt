@@ -1,0 +1,23 @@
+#301 - Ryazan
+
+owner = SCY
+controller = SCY
+add_core = SCY
+add_core = RYA
+ 
+culture = russian
+religion = orthodox
+capital = "Pereyaslavl-Ryazansky"
+
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = LIA
+discovered_by = nomad_group

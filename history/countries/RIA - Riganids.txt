@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+technology_group = muslim
+
+religion = shiite
+religious_school = jafari_school
+
+primary_culture = persian
+
+capital = 2218 #Shiraz

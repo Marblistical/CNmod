@@ -1,0 +1,37 @@
+government = monarchy
+add_government_reform = liao_empire_reform
+government_rank = 3
+technology_group = chinese
+
+religion = confucianism
+add_harmonized_religion = sunni
+add_harmonized_religion = vajrayana
+add_harmonized_religion = tengri_pagan_reformed
+add_harmonized_religion = catholic
+
+primary_culture = khitan
+add_accepted_culture = uyghur
+add_accepted_culture = uzbehk
+
+capital = 2125	#Balashagun
+
+set_estate_privilege = estate_liao_khans_nomadic_privileges
+
+khorasan_region = { discover_country = LIA }
+central_asia_region = { discover_country = LIA }
+
+historical_rival = SLJ
+historical_rival = YUA
+historical_friend = LIU
+historical_friend = SMR
+
+1405.11.23 = {
+	monarch = {
+		name = "Fen"
+		dynasty = "Yelü"
+		birth_date = 1374.8.9
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}

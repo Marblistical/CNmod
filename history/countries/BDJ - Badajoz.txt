@@ -1,0 +1,81 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 218
+religious_school = maliki_school
+
+1045.1.1 = {
+	monarch = {
+		name = "Abû Bakr"
+		dynasty = "Banû Aftas"
+		culture = berber
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+	heir = {
+		name = "Yahyâ"
+		monarch_name = "Yahyâ"
+		dynasty = "Banû Aftas"
+		birth_date = 1045.1.1
+		death_date = 1072.1.1
+		culture = berber
+		claim = 70
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1067.1.1 = {
+	monarch = {
+		name = "Yahyâ"
+		dynasty = "Banû Aftas"
+		birth_date = 1045.1.1
+		culture = berber
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1072.1.1 = {
+	monarch = {
+		name = "‘Umar"
+		dynasty = "Banû Aftas"
+		birth_date = 1045.1.1
+		culture = berber
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1094.1.1 = {
+	monarch = {
+		name = "al-Mansûr"
+		dynasty = "Banû Aftas"
+		culture = berber
+		adm = 0
+		dip = 3
+		mil = 0
+	}
+}
+1116.1.1 = {
+	monarch = {
+		name = "Hakam"
+		dynasty = "Banû Hayy"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1143.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Banû Hayy"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,20 @@
+#580 - Kale
+
+owner = AVA
+controller = AVA
+add_core = AVA
+add_core = KAL
+
+culture = chin
+religion = animism
+capital = "Kale"
+
+trade_goods = ivory
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

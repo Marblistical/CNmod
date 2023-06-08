@@ -1,0 +1,147 @@
+﻿l_english:
+  #Waldensian
+  waldensian: "Waldensian"
+  waldensian_religion_desc: "Originally a reform movement within the Catholic church, the Waldensians were forced to turn anti-clerical following their excommunication and advocated for a return to vows of poverty and earlier forms of Christianity. The religion takes its name from its founder Peter Waldo, who began preaching in Lyon and surrounding areas in the 12th century. Waldensians are opposed to capital punishment and believe that laymen can also administer the sacraments. The Protestants eventually considered Waldensians as precursors to the Reformation.\n\nIn the game the Waldensian faith has been significantly cut down by repression and mostly survives in the remote mountainous regions of Piedmont and Arpitania."
+  
+  PAUPERES: "Pauperes"
+  ULTRAMONTANI: "Ultramontani"
+  
+  waldensian_rebels_demand: "Convert $COUNTRYNAME$"
+  waldensian_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  waldensian_rebels_title: "Religious"
+  waldensian_rebels_name: "$RELIGION$ Zealots"
+  waldensian_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  waldensian_rebels_army: "$RELIGION$ Army"
+
+  #Lollard
+  lollard: "Lollard"
+  lollard_religion_desc:0 "Lollards are members of the movement which came to be known as Lollardy, a movement based originally on the teachings of John Wycliffe and which laid much of the groundwork for not just other reformers like Jan Hus but for the greater Protestant Reformation in total. Wycliffe and his peers believed not just in the use of the vernacular in scripture - indeed, Wycliffe oversaw the first translations of the Bible into Middle English - but also in the doctrine of \"sola scriptura\" which would later underpin Lutheranism and other Protestant denominations. Lollardy's advocacy for anti-clerical reform garnered support from the peasantry and many academics at Oxford and elsewhere throughout Great Britain as well as from some members of the English nobility, who saw the confiscation of church property as an attractive way to gain income from England's monasteries."
+
+  PAPIST: "Papist"
+
+  lollard_rebels_demand: "Convert $COUNTRYNAME$"
+  lollard_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  lollard_rebels_title: "Religious"
+  lollard_rebels_name: "$RELIGION$ Zealots"
+  lollard_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  lollard_rebels_army: "$RELIGION$ Army"
+
+  # Ukonusko
+  ukonusko: "Ukonusko"
+  ukonusko_religion_desc:0 "Ukonuskoists are followers of the native religion of the Finno-Ugric peoples. Believing in a varied pantheon which changes from locality to locality, all Ukonuskoists nevertheless believe in the supremacy of Ukko. The spirits of the dead, good and bad, travel to Tuonela, a realm sectioned off from the overworld via a great river. Shamans have the power to travel to and from Tuonela to communicate with these spirits and ask what sacrifices are needed to heal people or bring good fortunes; the sacrifices restore the balance between the mortal and immortal worlds. These sacrifices take place at holy natural sites such as sacred forests and large, unusually shaped rocks."
+
+  JOMALINUSKO: "Jomalanusko"
+
+  ukonusko_rebels_demand: "Convert $COUNTRYNAME$"
+  ukonusko_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  ukonusko_rebels_title: "Religious"
+  ukonusko_rebels_name: "$RELIGION$ Zealots"
+  ukonusko_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  ukonusko_rebels_army: "$RELIGION$ Army"
+  
+  # Nestorian
+  nestorian: "Nestorian"
+  nestorian_religion_desc:0 "The Church of the East, also called the Nestorian Church, is a christian denomination that split from mainstream christianity in the early 5th century. Initially most Nestorian Christians lived in Persia and Mesopotamia, but the religion spread eastwards over the centuries, eventually reaching as far as China and India.\n\nDue to repeated persecution and suppression, the Church eventually began to decline, and by 1415 has been reduced to minor communities of faithful mostly residing in the Western Liao Empire, the government apparatus of which the Church has strongly tied itself to in an attempt to ensure the faith's survival."
+
+  CHALDEAN: "Chaldean"
+
+  nestorian_rebels_demand: "Convert $COUNTRYNAME$"
+  nestorian_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  nestorian_rebels_title: "Religious"
+  nestorian_rebels_name: "$RELIGION$ Zealots"
+  nestorian_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  nestorian_rebels_army: "$RELIGION$ Army"
+
+  # Humlian
+  humlian: "Humlian"
+  humlian_religion_desc:0 "Arrising rather quietly in the borderlands of Catholicism and Orthodoxy, the independent Church of Bosnia came into being in the 11th century and expanded throughout the center of the country. Its formation was one formed largely of neglect for the region by the Papacy and a desire to ensure Bosnian independence from Hungarian influence which was being exerted religiously. The church combined elements of Catholicism and Orthodoxy with some inspirations from Bogomilism, though was ultimately a splinter of the Roman Catholic Church in its majority. Several crusades and inquisitions imposed on Bosnia have proven rather ineffective, and the Humlian faith still resides within Bosnia and Herzegovina as the 15th century progresses."
+
+  USORAN: "Usoran"
+
+  humlian_rebels_demand: "Convert $COUNTRYNAME$"
+  humlian_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  humlian_rebels_title: "Religious"
+  humlian_rebels_name: "$RELIGION$ Zealots"
+  humlian_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  humlian_rebels_army: "$RELIGION$ Army"
+  
+  # Kirat Mundhum
+  mundhum: "Kirat Mundhum"
+  mundhum_religion_desc:0 "Kirat Mundhum is a term for the ethnic religions of the Kirat peoples. All of these religions have their own similar religious texts, named Mundhum in Yakthung, Dum in Rai and etc. For the Rai, the supreme deities are Sumnima and Paruhang. For the Yakthung, there is one supreme deity, Tagera Ningwaphuma, who can manifest on earth as Yuma or Theba. All Kirati people share much mythology and all worship Birupakshya, whose idol in Yambu is said to have been erected by ancient Kirati kings who ruled the Nepali Valley. Submerged within stone yet slowly emerging, it is said that the end of the world will occur once the idol raises from the ground. Buddhist and Hindu influences on Kirat Mundhum are strong, though the religion still retains its own identity."
+
+  YUMAISM: "Yumaist"
+
+  mundhum_rebels_demand: "Convert $COUNTRYNAME$"
+  mundhum_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  mundhum_rebels_title: "Religious"
+  mundhum_rebels_name: "$RELIGION$ Zealots"
+  mundhum_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  mundhum_rebels_army: "$RELIGION$ Army"
+
+  #Capetism
+  capet: "Capet"
+  capet_religion_desc: "Largely influenced as a result of Gallicianist doctrine, the King of Aquitaine had distanced his country by rejecting Papal authority, thus being branded as heresy by adherents of the Roman Church. The religion places greater importance of the individual for belief over the religious structure where, to the nobility of Aquitaine, it is clear to them that the mainstream Church values had been lost to corruption. It is up to the true believers of God's will to spread the rightful truth, starting from Aquitaine to the rest of the Christian world."
+
+  capet_center_of_reformation:0 "Center of Reformation"
+
+  DISSENTER: "Dissenter"
+
+  capetism_rebels_demand: "Convert $COUNTRYNAME$"
+  capetism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  capetism_rebels_title: "Religious"
+  capetism_rebels_name: "$RELIGION$ Zealots"
+  capetism_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers.
+  capetism_rebels_army: "$RELIGION$ Army"
+
+ uralic_pagan: "Uralic Pagan"
+
+  #Mari
+  marifaith: "Cimarii Jüla"
+  marifaith_religion_desc: "The native faith of the Mari people persists in parts of Russia (Mari El) in the year 1415. Despite the increasing prevalence of Islam and Ukonusko, Cimarii Jüla followers continue to meet in sacred groves where they worship their pantheon of dozens of gods. Of importance is the 'Great God' Kugu Jumo, who is said to be the head of the pantheon (and who some heretics recognize as the only true God). Mari native faith prioritizes the worship of nature, public ritual, and mass prayer."
+
+  GREAT_GOD: "Osh Kugu Jumo"
+
+  marifaith_rebels_demand: "Convert $COUNTRYNAME$"
+  marifaith_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  marifaith_rebels_title: "Religious"
+  marifaith_rebels_name: "$RELIGION$ Zealots"
+  marifaith_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  marifaith_rebels_army: "$RELIGION$ Army"
+
+ kugu_jumo: "Kugu"
+ kugu_jumo_desc: "Kugu Jumo, known in monotheist circles as 'Osh Kugu Jumo', is the greatest and eldest god of the Mari - for this reason he is also called 'Kugurak' for 'the Elder.' Many hypostases, which are occasionally referred to as lesser gods, are aspects of Kugu Jumo. Such gods include Tul (god of fire), Saksa (god of fertility), and Tutyra (god of fog). As a result, Kugo Jumo can be known as the god of all things aforementioned and especially light. Kugu Jumo is associated with a duck as many central Finno-Ugric gods are."
+ purysho: "Püryshö"
+ purysho_desc: "Püryshö is the god of fate. He does not just know the future, he actively makes it. The effects of Püryshö are particularly seen upon the lives of man and not animals, which are believed to be in harmony with nature."
+ azyren: "Azyren"
+ azyren_desc: "Azyren is the god of death and decay. Many warriors leave offerings and make animal sacrifices to him, but it should be known that Azyren is not evil, for death is just the final part of life. The tragic Keremets, spirits of the vengeful and cruelly killed, are the source of true pain and suffering in the world."
+ shochyn_ava: "Shochyn"
+ shochyn_ava_desc: "Shochyn-Ava is one of the mother goddesses and is the goddess of child birth. Midwives and prospective parents often pray to her for a safe birth."
+ shudyr_shamych: "Shüdyr"
+ shudyr_shamych_desc: "Shüdyr-Shamych is the god of the stars. Mari shamans/priests, known as "Kart" have often looked to the heavens for guidance. As a result, the celestial realm is often associated with wisdom as well."
+ uzhara: "Uzhara"
+ uzhara_desc: "Uzhara or Uzhara-ava is the goddess of the dawn. As the goddess of the dawn, she is associated with the sun, an important entity in Mari belief. Her dawn marking a new day acts as an inspiration for all that is good."
+
+  #Komi
+  komifaith: "Komi Esköm"
+  komifaith_religion_desc: "The native Komi religion, Komi Esköm, is built primarily around the two gods En/Yon and Kul'/Omol'. They are seen as the demiurges of the Komi people, having created the world together but have since feuded with one another. The reasons for their feud and the morals of the gods are not agreed upon in Komi Esköm. Some believe En is good while Kul' is evil in seeking to destroy En's creations. Others see the gods as petty brothers who are ultimately neither good nor evil, simply shaping the world humanity lives in through their rivalry. Things such as the Sun, the mountains, and squirrels are said to have been made by En, while Kul' made the Moon, the underground, and martens."
+
+  OMOLIST: "Omolist"
+  KULIST: "Kulist"
+
+  komifaith_rebels_demand: "Convert $COUNTRYNAME$"
+  komifaith_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  komifaith_rebels_title: "Religious"
+  komifaith_rebels_name: "$RELIGION$ Zealots"
+  komifaith_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+  komifaith_rebels_army: "$RELIGION$ Army"
+
+   KOMI_ASPECTS_LONG:0 "Komi Esköm Doctrine"
+   KOMI_ASPECTS_SHORT:0 "doctrinal decision"
+
+   evil_kul_aspect:0 "Kul' the Evil"
+   desc_evil_kul_aspect:0 "Kul' (also known as Omol') is a controversial god, and we have determined he is evil! As an evil god, we must do our best to resist his effects on En's creations, which includes ourselves."
+   equal_kul_aspect:0 "Kul' the Equal"
+   desc_equal_kul_aspect:0 "Kul' (also known as Omol') is a controversial god, and we have determined he is equal to En! As brotherly gods, En and Kul' are simply in petty feud and do not pose an existential threat to our existence."
+   zarni_an_aspect:0 "Pray to Zarni An"
+   desc_zarni_an_aspect:0 "Zarni An is the most influential spirit in Komi Esköm, often being referred to as a goddess in her own right. Statues of her line the rivers of Komi Mu and people pray for good fortune and wealth. She is associated with gold, and is often depicted covered in such."
+

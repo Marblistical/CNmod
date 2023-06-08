@@ -1,0 +1,21 @@
+# - Chimbote
+
+owner = TCY
+controller = TCY
+add_core = TCY
+add_core = CHM
+
+culture = chimuan
+religion = inti
+capital = "Chimbote"
+
+trade_goods = cocoa
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = TCY
+discovered_by = south_american
+discovered_by = andean

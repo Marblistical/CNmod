@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = lezgin
+religion = sunni
+technology_group = nomad_group
+capital = 425

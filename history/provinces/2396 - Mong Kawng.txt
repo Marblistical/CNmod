@@ -1,0 +1,20 @@
+#2396 - Mong Kawng
+
+owner = CDL
+controller = CDL
+add_core = CDL
+add_core = MKA
+
+culture = kachin
+religion = buddhism
+capital = "Mong Kawng"
+
+trade_goods = gems
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

@@ -1,0 +1,226 @@
+namespace = nog_flavor
+
+country_event = {
+	id = nog_flavor.1
+	title = nog_flavor.1.title
+	desc = nog_flavor.1.desc
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = nog_flavor.1.a	
+		add_adm_power = 50
+		capital_scope = {
+			add_province_modifier = { 
+				name = legitimized_capital 
+				duration = 5475
+			}
+		ai_chance = { factor = 70 }
+		}
+	}
+	option = {
+		name = nog_flavor.1.b
+		trigger = {
+			owns_core_province = 465
+			NOT = { capital = 465 } #nogay
+		}
+		465 = {
+			move_capital_effect = yes
+			add_province_modifier = { 
+				name = legitimized_capital 
+				duration = 5475
+			}
+		}
+		add_adm_power = 20
+		ai_chance = { factor = 10 }
+	}
+	option = {
+		name = nog_flavor.1.c
+		trigger = {
+			owns_core_province = 2420
+			NOT = { capital = 2420 } #agyidel
+		}
+		2420 = {
+			move_capital_effect = yes
+			add_province_modifier = { 
+				name = legitimized_capital 
+				duration = 5475
+			}
+		}
+		add_adm_power = 20
+	}
+	option = {
+		name = nog_flavor.1.d
+		trigger = {
+			owns_core_province = 466
+			NOT = { capital = 466 } #sarai
+		}
+		466 = {
+			move_capital_effect = yes
+			add_province_modifier = { 
+				name = legitimized_capital 
+				duration = 5475
+			}
+		}
+		add_adm_power = 20
+		ai_chance = { factor = 10 }
+	}
+	option = {
+		name = nog_flavor.1.e
+		trigger = {
+			owns_core_province = 1970
+			NOT = { capital = 1970 } #syghnak
+		}
+		1970 = {
+			move_capital_effect = yes
+			add_province_modifier = { 
+				name = legitimized_capital 
+				duration = 5475
+			}
+		}
+		add_adm_power = 20
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = nog_flavor.2
+	title = nog_flavor.2.title
+	desc = nog_flavor.2.desc
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = nog_flavor.2.a
+		add_dip_power = 50
+		464 = {
+			add_base_tax = 1
+			add_base_production = 1
+		}
+		ai_chance = { factor = 50 }
+	}
+
+	option = {
+		name = nog_flavor.2.b
+		add_mil_power = 25
+		SCY = {
+			add_opinion = {
+				who = ROOT
+				modifier = volga_friction
+			}
+		}
+		create_general = { tradition = 100 }
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = nog_flavor.3
+	title = nog_flavor.3.title
+	desc = nog_flavor.3.desc
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = nog_flavor.3.a
+		change_adm = 1
+		add_prestige = 5
+		2411 = {
+			change_culture = nogaybak
+			add_base_manpower = 1
+		}
+		ai_chance = { factor = 50 }
+	}
+
+	option = {
+		name = nog_flavor.3.b
+		yedisan_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		crimea_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		azov_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		zaporizhia_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		custom_tooltip = NOG_crimea_autonomy
+		hidden_effect = {
+			crimea_region = {
+				limit = { 
+					culture = crimean
+					owned_by = ROOT
+				}
+				add_province_modifier = { 
+					name = crimean_autonomy 
+					duration = 5475
+				}
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = nog_flavor.4
+	title = nog_flavor.4.title
+	desc = nog_flavor.4.desc
+	picture = BUDDHA_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = nog_flavor.4.a
+		trigger = {
+			exists = KMK
+		}
+		every_capital_province = {
+			limit = {
+				owned_by = KMK
+			}
+			add_claim = ROOT
+		}
+		add_mil_power = 25
+		ai_chance = { factor = 25 }
+	}
+	option = {
+		name = nog_flavor.4.b
+		trigger = {
+			exists = KMK
+		}
+		add_prestige = 10
+		ai_chance = { factor = 75 }
+	}
+	option = {
+		name = nog_flavor.4.c
+		trigger = {
+			NOT = { exists = KMK }
+		}
+		add_prestige = 20
+		ai_chance = { factor = 100 }
+}

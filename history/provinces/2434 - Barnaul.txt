@@ -1,0 +1,15 @@
+#2434 - Barnaul
+
+owner = OIR
+controller = OIR
+add_core = OIR
+culture = kirgiz
+religion = tengri_pagan_reformed
+capital = "Barnaul"
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = nomad_group

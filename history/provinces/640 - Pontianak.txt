@@ -1,0 +1,22 @@
+#640 - Pontianak
+
+owner = MSA
+controller = MSA
+add_core = MSA
+add_core = SMB
+
+culture = bornean
+religion = hinduism
+capital = "Pontianak"
+
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

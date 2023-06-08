@@ -1,0 +1,25 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = eastern
+
+religion = sunni
+religious_school = hanafi_school
+
+primary_culture = bjarmian
+
+historical_rival = NOV
+historical_friend = SCY
+
+capital = 1955	#Arkhangelsk/Kaijakar
+
+1415.1.1 = {
+	monarch = {
+		name = "Biatari"
+		dynasty = "Buki"
+		birth_date = 1384.12.21
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,21 @@
+#4854 - Badtjala
+
+owner = BTJ
+controller = BTJ
+add_core = BTJ
+
+culture = suhraltanubi
+religion = sunni
+capital = "Badtajala"
+
+hre = no
+trade_goods = grain
+base_manpower = 2
+base_tax = 4
+base_production = 3
+center_of_trade = 1
+is_city = yes
+
+discovered_by = aboriginal_tech
+discovered_by = chinese
+discovered_by = muslim

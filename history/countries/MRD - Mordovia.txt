@@ -1,0 +1,9 @@
+government = tribal
+add_government_reform = steppe_nomads
+government_rank = 1
+primary_culture = mokshan
+add_accepted_culture = erzyan
+religion = sunni
+religious_school = hanafi_school
+technology_group = nomad_group
+capital = 302	# Tambov

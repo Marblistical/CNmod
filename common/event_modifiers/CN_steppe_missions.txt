@@ -1,0 +1,117 @@
+capital_development = { #Nogai Only
+	global_autonomy = -0.05
+	development_cost = -0.05
+}
+
+legitimized_capital = { #Nogai Only
+	local_development_cost = -0.05
+}
+
+ambition_proclaimed = { #Nogai Only
+	war_exhaustion = -0.10
+}
+
+war_in_the_steppe = { #General
+	land_maintenance_modifier = -0.10
+	general_cost = -0.2
+}
+
+capture_of_astrakhan = { #Nogai Only
+	land_morale = 0.10
+	raze_power_gain = 0.2
+}
+
+greater_tumens = { #General
+	global_manpower_modifier = 0.1
+}
+
+kazani_mercenaries = { #General
+	global_trade_power = 0.05
+	mercenary_cost = -0.1
+}
+
+scythian_river = { #Nogai Only
+	local_defensiveness = 0.1
+}
+
+scythian_slayer = { #Nogai Only
+	manpower_recovery_speed = 0.10
+}
+
+crimean_autonomy = { #Nogai Only
+	local_years_of_nationalism = -5
+}
+
+rule_through_islam = { #Nogai Only
+	global_missionary_strength = 0.03
+	diplomatic_reputation = 1
+}
+
+charismatic_horde = { #Nogai Only
+	loot_amount = 0.10
+	improve_relation_modifier = 0.1
+}
+
+professional_army = { #General
+	discipline = 0.05
+}
+
+destruction_of_jochids = { #Nogai Only
+	land_morale = 0.05
+}
+
+northern_shield = { #Bashkiria Only
+	land_morale = 0.05
+	global_missionary_strength = 0.01
+}
+
+siberian_fur_trade = { #General
+	merchants = 1
+	caravan_power = 0.2
+}
+
+ostyak_hunters = { #Bashkiria Only
+	local_production_efficiency = 0.25
+}
+
+siberian_settlers = { #General
+	global_colonial_growth = 25
+}
+
+ural_splendor = {#Bashkiria Only
+	monthly_splendor = 1
+	development_cost = -0.05
+}
+
+fortress_bashkiria = { #Bashkiria Only
+	fort_maintenance_modifier = -0.1
+}
+
+undying_khanate = { #Bashkiria Only
+	land_morale = 0.05
+}
+
+leader_of_tatars = { #Bashkiria Only
+	improve_relation_modifier = 0.2
+	diplomatic_reputation = 1
+}
+
+tatar_hegemon = { #Bashkiria Only
+	diplomatic_upkeep = 1
+}
+
+defense_of_tatary = { #General-Bashkir-Triggered
+	land_morale = 0.05
+}
+
+league_member = { #General-Bashkir-Triggered
+	liberty_desire = -50
+}
+
+taming_the_steppe = { #General
+	diplomatic_annexation_cost = -0.5
+}
+
+union_with_arsiyah = { #Bashkiria Only
+	num_accepted_cultures = 1
+}

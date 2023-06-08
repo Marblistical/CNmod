@@ -1,0 +1,74 @@
+evil_kul_aspect = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	trigger = {
+		NOT = { has_country_modifier = equal_kul }
+	}
+	effect = {
+		add_dip_power = -50
+		add_mil_power = 50
+		add_country_modifier = {
+			name = evil_kul
+			duration = 5475
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}
+		modifier = {
+			factor = 3
+			personality = ai_militarist
+		}	
+	}
+}
+
+equal_kul_aspect = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	trigger = {
+		NOT = { has_country_modifier = evil_kul }
+	}
+	effect = {
+		add_mil_power = -50
+		add_dip_power = 50
+		add_country_modifier = {
+			name = equal_kul
+			duration = 5475
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+	}
+}
+
+zarni_an_aspect = {
+	sprite = "GFX_dissolve_monasteries_icon"
+	cost = 100
+	trigger = {
+		NOT = { has_country_modifier = evil_kul }
+	}
+	effect = {
+		add_adm_power = -25
+		add_legitimacy = -10
+		add_horde_unity = -10
+		add_years_of_income = 3
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			is_in_large_debt = yes
+		}
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}	
+	}
+}

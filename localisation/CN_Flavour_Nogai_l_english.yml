@@ -1,0 +1,26 @@
+﻿l_english:
+ nog_flavor.1.title:0 "The Manghud Capitals"
+ nog_flavor.1.desc:0 "Throughout the centuries that our Turko-Mongol traditions formed, there were several capitals. Despite our willingness to distance ourselves from these Jochid centers of power, it is undeniable that they are desirable and legitimate capitals for any steppe horde with a history such as ours. Perhaps now would be an appropriate time to select a capital of capitals for our growing realm?"
+ nog_flavor.1.a:0 "Our current capital will do just fine."
+ nog_flavor.1.b:0 "Let us return to the fourth capital of Saray-Juk!"
+ nog_flavor.1.c:0 "Let us return to the third capital of Agyidel!"
+ nog_flavor.1.d:0 "Let us return to the second capital of Sarai!"
+ nog_flavor.1.e:0 "Let us return to the first capital of Syghnak!"
+
+ nog_flavor.2.title:0 "Scythians on the River"
+ nog_flavor.2.desc:0 "With the conquest of Astrakhan we now stretch over the mighty Volga. This new artery of trade and movement we have acquired is one we begrudgingly share with the Scytho-Rus' to the west. The woodland Khaganate has previously made clear its ambitions in the region, ambitions that will surely clash with ours. How will we conduct ourselves in the face of such a threat?"
+ nog_flavor.2.a:0 "Let us not press the issue, peace is needed... for now."
+ nog_flavor.2.b:0 "Let them run from the Volga's shore before it turns red with their blood!"
+
+ nog_flavor.3.title:0 "The Border Nogai"
+ nog_flavor.3.desc:0 "In the 14th century, many Nogai soldiers and raiders operated in the north of the Crimean Khanate. They defended the borders, raided enemy Slavs, and participated in the Crimean slave trade. Now that Mansur is in our hands, do we return these border Nogai to their old posts?"
+ nog_flavor.3.a:0 "Establish the border Nogai."
+ nog_flavor.3.b:0 "Leave the Crimeans in the region to their own devices."
+
+ nog_flavor.4.title:0 "The Kalmyk Question"
+ nog_flavor.4.desc:0 "With the gathering of a vast war chest, the question must be asked, what will we do with it? Among the Nogai tribes there is a common assumption: the Kalmyks' time is up. The Oirat pretenders have outstayed their welcome and proven difficult to dislodge by our ancestors and by the Scythians, this would surely be a worthy use of our assets."
+ nog_flavor.4.a:0 "Prepare to crush the Kalmyks."
+ nog_flavor.4.b:0 "We have no need of these extra measures."
+ nog_flavor.4.c:0 "This problem has been dealt with."
+
+ NOG_crimea_autonomy:0 "All owned §YCrimean§! Culture provinces in the §YPontic Steppe§! Region get '§YCrimean Autonomy§!' for §Y15 years§!, giving the following effects: \nYears of Separatism: §G-5§!"

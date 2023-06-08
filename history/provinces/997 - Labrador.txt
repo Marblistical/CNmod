@@ -1,0 +1,16 @@
+#997 - Labrador
+
+owner = VIN
+controller = VIN
+add_core = VIN
+
+culture = innu
+religion = totemism
+capital = "Labrador"
+
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes

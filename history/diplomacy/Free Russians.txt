@@ -1,0 +1,20 @@
+vassal = {
+	first = BEZ
+	second = PSK
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+guarantee = {
+	first = POL
+	second = NOV
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+guarantee = {
+	first = POL
+	second = BEZ
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}

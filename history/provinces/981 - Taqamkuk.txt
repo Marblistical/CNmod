@@ -1,0 +1,18 @@
+#981 - Taqamkuk
+
+owner = VIN
+controller = VIN
+add_core = VIN
+
+culture = innu
+religion = totemism
+capital = "Taqamkuk"
+
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+discovered_by = north_american

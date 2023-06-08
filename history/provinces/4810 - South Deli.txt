@@ -1,0 +1,20 @@
+owner = MSA
+controller = MSA
+add_core = MSA
+add_core = DLI
+
+culture = sumatran
+religion = sunni
+capital = "Deli"
+
+trade_goods = spices
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

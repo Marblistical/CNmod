@@ -1,0 +1,229 @@
+aquitania_resurgence = {
+	prestige = 0.5
+}
+
+aquitania_imperative = {
+	land_morale = 0.10
+}
+
+iberia_pious = {
+	local_missionary_strength = 0.02
+}
+
+cordovan_tolerated = {
+	technology_cost = -0.15
+	global_unrest = 2
+	tolerance_heathen = 1
+}
+
+cordovan_converted = {
+	technology_cost = -0.1
+	global_unrest = 1
+	tolerance_heathen = -3
+}
+
+cordovan_exiled = {
+	technology_cost = -0.05
+}
+
+aquitania_buldwark = {
+	diplomats = 1
+	diplomatic_reputation = 1
+}
+
+aquitania_allies = {
+	ae_impact = -0.1
+}
+
+aquitania_cynical_plays = {
+	province_warscore_cost = -0.25
+}
+
+aquitania_recent_conversion = {
+	global_heretic_missionary_strength = -0.03
+}
+
+aquitania_self_dependence = {
+	administrative_efficiency = 0.05
+}
+
+aquitania_capetist_agenda = {
+	missionaries = 1
+	global_missionary_strength = 0.01
+}
+
+aquitania_defender = {
+	diplomatic_reputation = 2
+}
+
+aquitania_defense_empire = {
+	prestige_decay = -0.01
+	monthly_splendor = 2
+	legitimacy = 1
+	monthly_reform_progress_modifier = -0.2
+}
+
+aquitania_further_interests = {
+	spy_offence = 0.2
+	fabricate_claims_cost = -0.5
+	monthly_favor_modifier = 0.1
+	improve_relation_modifier = -0.2
+}
+
+aquitania_power_challenge = {
+	province_warscore_cost = -0.2
+	global_tax_modifier = 0.1
+}
+
+aquitania_imperial_blessing = {
+	reasons_to_elect = 25
+	envoy_travel_time = -0.2
+}
+
+aquitania_charles_legacy = {
+	imperial_authority_value = 0.1
+}
+
+aquitania_development = {
+	local_build_cost = -0.1
+}
+
+aquitania_unrivaled = {
+	global_tax_modifier = 0.25
+	inflation_reduction = 0.15
+	prestige = 1
+}
+
+aquitania_normand_ext = {
+	legitimacy = 0.5
+	improve_relation_modifier = 0.15
+}
+
+aquitania_prep_seas = {
+	naval_morale = 0.1
+}
+
+aquitania_winds_tell = {
+	diplomatic_reputation = 1
+}
+
+aquitania_toulon_dockyard = {
+	local_manpower_modifier = 0.25
+	local_ship_cost = -0.25
+	local_ship_repair = 0.25
+}
+
+aquitania_own_paris = {
+	diplomatic_reputation = 1
+	core_creation = -0.05
+}
+
+aquitania_neustria = {
+	siege_ability = 0.1
+	global_manpower_modifier = 0.15
+}
+
+aquitania_versailles = {
+	global_tax_modifier = 0.1
+	technology_cost = -0.05
+}
+
+aquitania_golden_fleece = {
+	prestige = 1
+}
+
+aquitania_compagnies_ordonnance = {
+	merc_maintenance_modifier = -0.15
+}
+
+aquitania_bur_estates_general = {
+	mercenary_manpower = 0.5
+}
+
+aquitania_reform_of_feudal_army = {
+	discipline = 0.05
+}
+
+aquitania_integrated_towns = {
+	trade_efficiency = 0.10
+}
+
+aquitania_freedom_of_worship = {
+	tolerance_heretic = 2
+}
+
+aquitania_bur_regimental_system = {
+	global_manpower_modifier = 0.25
+}
+
+aquitania_bur_claim ={
+	local_governing_cost = -0.25
+	local_development_cost_modifier = -0.25
+	institution_growth = 1
+	local_unrest = 2
+}
+
+aquitania_bur_incorporate = {
+	core_creation = -0.5
+}
+
+aquitania_wine_industry = {
+	global_trade_power = 0.05
+	trade_goods_size_modifier = 0.1
+}
+
+aquitania_reshuffled_estates = {
+	global_tax_modifier = 0.1
+}
+
+aquitania_centralized_authority = {
+	autonomy_change_time = -0.05
+	years_of_nationalism = -5
+}
+
+aquitania_roman_legacy = {
+	prestige_decay = -0.02
+	land_morale = 0.10
+}
+
+aquitania_bordeaux_luxury = {
+	local_build_time = -0.15
+	local_build_cost = -0.25
+}
+
+aquitania_cultural_centers = {
+	development_cost = -0.1
+}
+
+aquitania_humanities = {
+	innovativeness_gain = 0.25
+	reform_progress_growth = 0.1
+}
+
+aquitania_architect_genius = {
+	build_cost = -0.2
+	prestige_decay = -0.01
+}
+
+aquitania_monopolize_trade = {
+	trade_steering = 0.15
+	global_trade_power = 0.1
+}
+
+aquitania_greater_govern = {
+	state_maintenance_modifier = -0.25
+}
+
+aquitania_surplus_dev = {
+	development_cost = -0.1
+}
+
+aquitania_mankind_genius = {
+	local_build_cost = -0.1
+	prestige = 1
+	monthly_splendor = 1
+}
+
+aquitania_industralization = {
+	trade_goods_size_modifier = 0.2
+}

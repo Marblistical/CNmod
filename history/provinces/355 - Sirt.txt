@@ -1,0 +1,23 @@
+#355 - Sirt
+
+owner = SLY
+controller = SLY
+add_core = SLY
+add_core = FZA
+add_core = TRP
+
+culture = tunisian
+religion = sunni
+capital = "Ben Jawad"
+
+trade_goods = fish
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

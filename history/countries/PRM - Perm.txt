@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = komi
+religion = komifaith
+technology_group = nomad_group
+capital = 1963	# Cherdyn

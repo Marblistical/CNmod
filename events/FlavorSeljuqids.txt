@@ -1,0 +1,1029 @@
+
+namespace = seljuqid_flavor
+
+###################
+# Disaster Events #
+###################
+
+country_event = { 
+	id = seljuqid_flavor.10 #DisasterBegins
+	title = seljuqid_flavor.10.t
+	desc = seljuqid_flavor.10.d
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = seljuqid_collapse_ongoing
+			random_owned_province = {
+				limit = {
+					superregion = near_east_superregion
+				}
+				spawn_rebels = {
+					type = noble_rebels 
+					size = 5
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = near_east_superregion
+				}
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = near_east_superregion
+				}
+				spawn_rebels = {
+					type = noble_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = near_east_superregion
+				}
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = near_east_superregion
+				}
+				spawn_rebels = {
+					type = noble_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = persia_superregion
+				}
+				spawn_rebels = {
+					type = noble_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = persia_superregion
+				}
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = persia_superregion
+				}
+				spawn_rebels = {
+					type = noble_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = persia_superregion
+				}
+				spawn_rebels = {
+					type = anti_tax_rebels
+					size = 6
+				}
+			}
+			random_owned_province = {
+				limit = {
+					superregion = persia_superregion
+				}
+				spawn_rebels = {
+					type = noble_rebels
+					size = 6
+				}
+			}
+		}
+	}
+
+	option = { 
+		name = seljuqid_flavor.10.a 
+		add_stability = -3
+		add_prestige = -25
+		add_legitimacy = -50
+		hidden_effect = {
+			every_subject_country = {
+				limit = {
+					NOT = { tag = AKG }
+				}
+				country_event = { 
+					id = seljuqid_flavor.4
+					days = 31
+					random = 150
+				}
+			}
+			if = {
+				limit = {
+					AKG = {
+						vassal_of = ROOT
+					}
+				}
+				AKG = {
+					country_event = { 
+						id = seljuqid_flavor.6
+						days = 31
+						random = 150
+					}
+				}
+			}		
+		}
+	}
+}
+
+country_event = { 
+	id = seljuqid_flavor.100 #disaster ends
+	title = seljuqid_flavor.100.t
+	desc = seljuqid_flavor.100.d
+	picture = WOUNDED_SOLDIERS_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = seljuqid_flavor.100.a 
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.1 #Musaids
+	title = seljuqid_flavor.1.t
+	desc = seljuqid_flavor.1.d
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		NOT = { exists = MUS }
+		num_of_owned_provinces_with = {
+			value = 10
+			OR = {
+				area = basra_area
+				area = iraq_arabi_area
+				area = khuzestan_area
+				area = mosul_area
+				area = shahrizor_area
+			}
+			controlled_by = REB
+		}
+		any_owned_province = {
+			NOT = {
+				OR = {
+					area = basra_area
+					area = iraq_arabi_area
+					area = khuzestan_area
+					area = mosul_area
+					area = shahrizor_area
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						controlled_by = REB
+						controlled_by = ROOT
+					}
+					OR = {
+						area = basra_area
+						area = iraq_arabi_area
+						area = khuzestan_area
+						area = mosul_area
+						area = shahrizor_area
+					}
+				}
+				add_core = MUS
+				clear_rebels = yes
+			}
+			release = MUS
+			MUS = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+						artillery = 0.1
+					}
+				}
+				change_government = monarchy
+				add_government_reform = iqta
+				adopt_reform_progress = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.1.a
+		add_stability = -1
+		MUS = {
+			define_ruler = {
+				name = "Salmaan"
+				dynasty = "al-Musa"
+				adm = 1
+				dip = 4
+				mil = 3
+				age = 34
+			}
+			add_yearly_manpower = 15
+			add_treasury = 200
+			add_country_modifier = {
+				name = death_to_seljuqids
+				duration = 5475
+			}
+		}
+		declare_war = MUS
+		hidden_effect = {
+			MUS = {
+				country_event = { 
+					id = seljuqid_flavor.3
+					days = 31
+				}
+			}
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.1.b
+		trigger = {
+			ai = no
+		}
+		add_stability = -1
+		declare_war = MUS
+		MUS = {
+			define_ruler = {
+				name = "Salmaan"
+				dynasty = "al-Musa"
+				adm = 1
+				dip = 4
+				mil = 3
+				age = 34
+			}
+			add_yearly_manpower = 15
+			add_treasury = 200
+			add_country_modifier = {
+				name = death_to_seljuqids
+				duration = 5475
+			}
+		}
+		hidden_effect = {
+			MUS = {
+				country_event = { 
+					id = seljuqid_flavor.3
+					days = 31
+				}
+			}
+		}
+		switch_tag = MUS
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.2 #Rianids
+	title = seljuqid_flavor.2.t
+	desc = seljuqid_flavor.2.d
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		NOT = { exists = RIA }
+		num_of_owned_provinces_with = {
+			value = 5
+			OR = {
+				area = qashqaistan_area
+				area = persian_gulf_coast
+				area = farsistan_area
+			}
+			controlled_by = REB
+		}
+		any_owned_province = {
+			NOT = {
+				OR = {
+					area = qashqaistan_area
+					area = persian_gulf_coast
+					area = farsistan_area
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						controlled_by = REB
+						controlled_by = ROOT
+					}
+					OR = {
+						area = qashqaistan_area
+						area = persian_gulf_coast
+						area = farsistan_area
+					}
+				}
+				add_core = RIA
+				clear_rebels = yes
+			}
+			release = RIA
+			RIA = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+						artillery = 0.1
+					}
+				}
+				change_government = monarchy
+				add_government_reform = iqta
+				adopt_reform_progress = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.2.a
+		add_stability = -1
+		RIA = {
+			define_ruler = {
+				name = "Rayan"
+				dynasty = "Rigani"
+				adm = 3
+				dip = 5
+				mil = 2
+				age = 22
+			}
+			add_yearly_manpower = 15
+			add_treasury = 100
+			add_country_modifier = {
+				name = death_to_seljuqids
+				duration = 5475
+			}
+		declare_war = RIA
+		}
+		hidden_effect = {
+			RIA = {
+				country_event = { 
+					id = seljuqid_flavor.3
+					days = 31
+				}
+			}
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.2.b
+		trigger = {
+			ai = no
+		}
+		add_stability = -1
+		RIA = {
+			define_ruler = {
+				name = "Rayan"
+				dynasty = "Rigani"
+				adm = 3
+				dip = 5
+				mil = 2
+				age = 22
+			}
+			add_yearly_manpower = 15
+			add_treasury = 100
+			add_country_modifier = {
+				name = death_to_seljuqids
+				duration = 5475
+			}
+		}
+		declare_war = RIA
+		hidden_effect = {
+			RIA = {
+				country_event = { 
+					id = seljuqid_flavor.3
+					days = 31
+				}
+			}
+		}
+		switch_tag = RIA
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.3 #RebelArmies
+	title = seljuqid_flavor.3.t
+	desc = seljuqid_flavor.3.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.3.a
+		capital_scope = {
+			build_to_forcelimit = {
+				infantry = 0.6
+				cavalry = 0.3
+				artillery = 0.1
+			}
+		}
+		ai_chance = { factor = 90 }
+	}
+	option = {
+		name = seljuqid_flavor.3.b
+		add_stability = 1
+		add_prestige = 5
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.4 #VassalIndependence
+	title = seljuqid_flavor.4.t
+	desc = seljuqid_flavor.4.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.4.a
+		grant_independence = yes
+		hidden_effect = {
+			white_peace = every_war_enemy_country
+		}
+		add_mil_power = 25
+		SLJ = {
+			country_event = { 
+				id = seljuqid_flavor.5
+			}
+		}
+		ai_chance = { 
+			factor = 2
+		}
+	}
+	option = {
+		name = seljuqid_flavor.4.b
+		add_legitimacy = 25
+		add_adm_power = 25
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				NOT = { liberty_desire = 25 }
+				factor = 2
+			}
+			modifier = {
+				NOT = { liberty_desire = 10 }
+				factor = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.5 #VassalIndependenceResponse
+	title = seljuqid_flavor.5.t
+	desc = seljuqid_flavor.5.d
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.5.a
+		declare_war_with_cb = {
+    			who = FROM
+   			casus_belli = cb_disloyal_vassal
+		}
+		add_opinion = {
+			who = FROM
+			modifier = abandoned_seljuqids
+		}
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = abandoned_seljuqids
+			}
+		}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = seljuqid_flavor.5.b
+		add_prestige = -10
+		add_opinion = {
+			who = FROM
+			modifier = abandoned_seljuqids
+		}
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = abandoned_seljuqids
+			}
+		}
+		ai_chance = { 
+			factor = 2
+			modifier = {
+				is_in_war = {
+  					duration = 30
+				}
+				factor = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.6 #AkgulidTreachery
+	title = seljuqid_flavor.6.t
+	desc = seljuqid_flavor.6.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.6.a
+		grant_independence = yes
+		add_country_modifier = {
+			name = death_to_seljuqids
+			duration = 5475
+		}
+		add_country_modifier = {
+			name = akgulid_gates
+			duration = 5475
+		}
+		hidden_effect = {
+			white_peace = every_war_enemy_country
+		}
+		declare_war = SLJ
+		override_country_name = AKGULIDS_NAME
+		add_opinion = {
+			who = FROM
+			modifier = abandoned_seljuqids
+		}
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = abandoned_seljuqids
+			}
+		}
+		SLJ = {
+			country_event = { 
+				id = seljuqid_flavor.7
+			}
+		}
+		ai_chance = { 
+			factor = 10
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.6.b
+		grant_independence = yes
+		add_country_modifier = {
+			name = death_to_seljuqids
+			duration = 5475
+		}
+		add_country_modifier = {
+			name = akgulid_gates
+			duration = 5475
+		}
+		if = {
+			limit = {
+				is_in_war = {
+					duration = 1
+				}
+			}
+			white_peace = every_war_enemy_country
+		}
+		override_country_name = AKGULIDS_NAME
+		add_opinion = {
+			who = FROM
+			modifier = abandoned_seljuqids
+		}
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = abandoned_seljuqids
+			}
+		}
+		SLJ = {
+			country_event = { 
+				id = seljuqid_flavor.5
+			}
+		}
+		ai_chance = { 
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = seljuqid_flavor.6.c
+		add_legitimacy = 25
+		add_adm_power = 25
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				NOT = { liberty_desire = 25 }
+				factor = 2
+			}
+			modifier = {
+				NOT = { liberty_desire = 10 }
+				factor = 4
+			}
+		}
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.7 #AkgulidTreacheryResponse
+	title = seljuqid_flavor.7.t
+	desc = seljuqid_flavor.7.d
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.7.a
+		define_general = {
+			name = "Demirhan Bucak"
+    			shock = 1
+   			fire = 3
+    			manuever = 1
+    			siege = 1
+		}
+		add_stability = -1
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.8 #AkgulidSyria
+	title = seljuqid_flavor.8.t
+	desc = seljuqid_flavor.8.d
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		exists = AKG
+		num_of_owned_provinces_with = {
+			value = 10
+			OR = {
+				area = CN_sinai_area
+				area = palestine_area
+				area = trans_jordan_area
+				area = syria_area
+				area = aleppo_area
+				area = phoenicia_area
+			}
+			controlled_by = AKG
+		}
+		any_owned_province = {
+			NOT = {
+				OR = {
+					area = CN_sinai_area
+					area = palestine_area
+					area = trans_jordan_area
+					area = syria_area
+					area = aleppo_area
+					area = phoenicia_area
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						controlled_by = REB
+						controlled_by = AKG
+						controlled_by = ROOT
+					}
+					OR = {
+						area = CN_sinai_area
+						area = palestine_area
+						area = trans_jordan_area
+						area = syria_area
+						area = aleppo_area
+						area = phoenicia_area
+					}
+				}
+				add_core = AKG
+				clear_rebels = yes
+				cede_province = AKG
+			}
+			AKG = {
+				country_event = { 
+					id = seljuqid_flavor.11
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seljuqid_flavor.8.a
+		add_stability = -1
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.9 #AkgulidHejaz
+	title = seljuqid_flavor.9.t
+	desc = seljuqid_flavor.9.d
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		exists = AKG
+		num_of_owned_provinces_with = {
+			value = 5
+			OR = {
+				area = tabuk_area
+				area = nafud_area
+				area = medina_area
+				area = mecca_area
+				area = qasim_area
+			}
+			controlled_by = AKG
+		}
+		any_owned_province = {
+			NOT = {
+				OR = {
+					area = tabuk_area
+					area = nafud_area
+					area = medina_area
+					area = mecca_area
+					area = qasim_area
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						controlled_by = REB
+						controlled_by = AKG
+						controlled_by = ROOT
+					}
+					OR = {
+						area = tabuk_area
+						area = nafud_area
+						area = medina_area
+						area = mecca_area
+						area = qasim_area
+					}
+				}
+				add_core = AKG
+				clear_rebels = yes
+				cede_province = AKG
+			}
+			AKG = {
+				country_event = { 
+					id = seljuqid_flavor.12
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seljuqid_flavor.9.a
+		add_stability = -1
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.11 #AkgulidSyriaManpower
+	title = seljuqid_flavor.11.t
+	desc = seljuqid_flavor.11.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.11.a
+		add_yearly_manpower = 5
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.12 #AkgulidHejazManpower
+	title = seljuqid_flavor.12.t
+	desc = seljuqid_flavor.12.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.12.a
+		add_yearly_manpower = 5
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.16 #AkgulidAlexandriaManpower
+	title = seljuqid_flavor.16.t
+	desc = seljuqid_flavor.16.d
+	picture = MILITARY_CAMP_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = seljuqid_flavor.16.a
+		add_yearly_manpower = 1
+	}
+}
+
+country_event = {
+	id = seljuqid_flavor.15 #AkgulidAlexandria
+	title = seljuqid_flavor.15.t
+	desc = seljuqid_flavor.15.d
+	picture = SIEGE_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		exists = AKG
+		358 = {
+			owned_by = SLJ
+			controlled_by = AKG
+		}
+		any_owned_province = {
+			NOT = {
+				OR = {
+					area = delta_area
+					area = bahari_area
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						controlled_by = REB
+						controlled_by = AKG
+						controlled_by = ROOT
+					}
+					OR = {
+						area = delta_area
+						area = bahari_area
+					}
+				}
+				add_core = AKG
+				clear_rebels = yes
+				cede_province = AKG
+			}
+			AKG = {
+				country_event = { 
+					id = seljuqid_flavor.16
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = seljuqid_flavor.15.a
+		add_stability = -1
+	}
+}
+
+country_event = { #NOT FINISHED NOR FUNCTIONAL UNTIL SAFWANI ADDED
+	id = seljuqid_flavor.13 #AlexandriaIndependence
+	title = seljuqid_flavor.13.t
+	desc = seljuqid_flavor.13.d
+	picture = SIEGE_eventPicture #change
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		358 = {
+			owned_by = SLJ
+			controlled_by = SLJ
+		}
+		OR = {
+			egypt_region = {
+				religion = safwani
+			}
+			mashriq_region = {
+				religion = safwani
+			}
+			arabia_region = {
+				religion = safwani
+			}
+			balkans_region = {
+				religion = safwani
+			}
+			anatolia_region = {
+				religion = safwani
+			}
+			maghreb_region = {
+				religion = safwani
+			}
+			italy_region = {
+				religion = safwani
+			}
+			iberia_region = {
+				religion = safwani
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			358 = {
+				# change_religion = safwani ### not done
+				add_core = ALX
+				clear_rebels = yes
+			}
+			release = ALX
+			ALX = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+						artillery = 0.1
+					}
+				}
+				change_government = republic
+				# add_government_reform = safwani_republic ### not done
+				# religion = safwani ### not done
+				adopt_reform_progress = ROOT
+			}
+			ADU = {
+				country_event = { 
+					id = seljuqid_flavor.14 #not made yet
+				}
+			}
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.13.a
+		add_yearly_manpower = -1
+		ALX = {
+			define_ruler = {
+				name = "Hossam"
+				dynasty = "Kassab"
+				adm = 1
+				dip = 4
+				mil = 3
+				age = 33
+			}
+			add_yearly_manpower = 3
+			add_treasury = 50
+			add_country_modifier = {
+				name = death_to_seljuqids
+				duration = 5475
+			}
+		}
+	}
+
+	option = {
+		name = seljuqid_flavor.13.b
+		trigger = {
+			ai = no
+		}
+		add_yearly_manpower = -1
+		ALX = {
+			define_ruler = {
+				name = "Hossam"
+				dynasty = "Kassab"
+				adm = 1
+				dip = 4
+				mil = 3
+				age = 33
+			}
+			add_yearly_manpower = 3
+			add_treasury = 50
+			add_country_modifier = {
+				name = death_to_seljuqids
+				duration = 5475
+			}
+		}
+		switch_tag = ALX
+	}
+}

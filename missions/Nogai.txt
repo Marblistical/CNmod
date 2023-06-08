@@ -1,0 +1,750 @@
+nog_development = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = no
+
+	nog_fourth_capital = {
+		icon = mission_central_asian_city
+		required_missions = { } #none
+
+		provinces_to_highlight = {
+			province_id = 465 #nogay
+			OR = {
+				NOT = { development = 15 }
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			465 = { #nogay
+				owned_by = ROOT
+				is_core = ROOT
+				development = 15
+			}
+		}
+				
+		effect = {
+			country_event = { id = nog_flavor.1 }
+			add_country_modifier = {
+				name = capital_development
+				duration = 5475
+			}
+		}
+	}
+
+	nog_steppe_wealth = {
+		icon = mission_high_income
+		required_missions = {
+			nog_fourth_capital
+		}
+			
+		trigger = { 
+			share_of_starting_income = 2 
+		}
+
+		effect = {
+			add_country_modifier = { 
+				name = growing_economy
+				duration = 5475
+			}
+		}
+	}
+}
+
+nog_might = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = no
+
+	nog_proclaim_ambition = {
+		icon = mission_unite_home_region
+		required_missions = { } #none
+
+		trigger = {
+			any_rival_country = { is_great_power = yes } # one of your rivals must be a great power 
+		}
+				
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = ambition_proclaimed
+				duration = 5475
+			}
+		}
+	}
+
+	nog_prove_might = {
+		icon = mission_break_the_tatar_yoke
+		required_missions = {
+			nog_proclaim_ambition
+		}
+			
+		trigger = { 
+			power_projection = 50
+		}
+
+		effect = {
+			add_country_modifier = { 
+				name = war_in_the_steppe
+				duration = 7300
+			}
+		}
+	}
+}
+
+nog_primary_conquest = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	nog_prepare = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { } #none
+
+		trigger = {
+			army_size_percentage = 1
+		}
+				
+		effect = {
+			aqmola_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+			balchasj_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+			bashkiria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+		}
+	}
+
+	nog_subjugate_kazakhs = {
+		icon = mission_cossack_cavalry
+		required_missions = {
+			nog_prepare
+		}
+
+		provinces_to_highlight = {
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = aqmola_area
+				area = balchasj_area
+				area = kazakhstan_area
+			}
+		}
+			
+		trigger = { 
+			aqmola_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			balchasj_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kazakhstan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			astrakhan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+			add_country_modifier = {
+				name = expansionist_country
+				duration = 5475
+			}
+		}
+	}
+	
+	nog_capture_astrakhan = {
+		icon = mission_steppe_warriors
+		required_missions = {
+			nog_subjugate_kazakhs
+			nog_subjugate_bashkirs
+		}
+
+		provinces_to_highlight = {
+			province_id = 464 #Astrakhan
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+			
+		trigger = { 
+			owns_core_province = 464 #Astrakhan
+		}
+
+		effect = {
+			country_event = { id = nog_flavor.2 }
+			ishim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+			add_country_modifier = {
+				name = capture_of_astrakhan
+				duration = 5475
+			}
+		}
+	}
+
+	nog_service = {
+		icon = mission_recruit_the_cossacks
+		required_missions = {
+			nog_capture_astrakhan
+		}
+
+		provinces_to_highlight = {
+			if = {
+				NOT = {
+					crimea_region = {
+						country_or_non_sovereign_subject_holds = ROOT
+						NOT = { area = astrakhan_area }
+					}
+				}
+			}
+			region = crimea_region
+			NOT = { area = astrakhan_area}
+		}
+
+		trigger = {
+			crimea_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				NOT = { area = astrakhan_area }
+			}
+		}
+		
+		effect = {
+			custom_tooltip = NOG_crimea
+			hidden_effect = {
+				crimea_region = {
+					limit = {
+						culture = crimean
+						NOT = { is_core = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+	}
+
+	nog_crimean_conquest = {
+		icon = mission_sca_lit_conquer_crimea
+		required_missions = {
+			nog_service
+		}
+
+		provinces_to_highlight = {
+			region = crimea_region
+			OR = {
+				culture = crimean
+				province_id = 2411 #mansur
+			}
+			NOT = {country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = NOG_crimea_conquest_culture
+				NOT = { 
+					crimea_region = {
+						culture = crimean
+						NOT = {
+							country_or_non_sovereign_subject_holds = ROOT
+						}
+					}
+				}
+				2411 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+
+		effect = {
+			country_event = { id = nog_flavor.3 }
+		}
+	}
+}
+
+nog_northern_conquests = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	nog_subjugate_bashkirs = {
+		icon = mission_cossack_cavalry
+		position = 2
+		required_missions = {
+			nog_prepare
+		}
+
+		provinces_to_highlight = {
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = bashkiria_area
+			}
+		}
+			
+		trigger = { 
+			bashkiria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = greater_tumens
+				duration = 5475
+			}
+		}
+	}
+	nog_subjugate_sibirs = {
+		icon = mission_cossack_cavalry
+		position = 4
+		required_missions = {
+			nog_capture_astrakhan
+		}
+
+		provinces_to_highlight = {
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = ishim_area
+			}
+		}
+			
+		trigger = { 
+			ishim_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			volga_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+			1082 = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+		}
+	}
+	nog_northern_route = {
+		icon = mission_sovereign_principality
+		position = 5
+		required_missions = {
+			nog_subjugate_sibirs
+		}
+
+		provinces_to_highlight = {
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { development = 15 }
+			province_id = 1082
+		}
+			
+		trigger = { 
+			1082 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				development = 15
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = kazani_mercenaries
+				duration = 7300
+			}
+		}
+	}
+}
+
+nog_volga_politics = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	nog_left_bank = {
+		icon = mission_advance_to_the_dnieper
+		position = 4
+		required_missions = {
+			nog_capture_astrakhan
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				owned_by = SCY
+				province_id = 466 #Sarai
+			}
+			OR = {
+				area = volga_area
+				area = lower_yik_area
+				area = astrakhan_area
+				area = samara_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+			
+		trigger = { 
+			is_subject = no
+			volga_area = {
+				type = all
+				NOT = {owned_by = SCY}
+			}
+			lower_yik_area = {
+				type = all
+				NOT = {owned_by = SCY}
+			}
+			astrakhan_area = {
+				type = all
+				NOT = {owned_by = SCY}
+			}
+			samara_area = {
+				type = all
+				NOT = {owned_by = SCY}
+			}
+			466 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			volga_area = {
+				limit = { 
+				owned_by = ROOT
+				}
+				add_province_modifier = { 
+					name = scythian_river
+					duration = 5475
+				}
+			}
+			lower_yik_area = {
+				limit = { 
+				owned_by = ROOT 
+				}
+				add_province_modifier = { 
+					name = scythian_river
+					duration = 5475
+				}	
+			}
+			astrakhan_area = {
+				limit = { 
+				owned_by = ROOT 
+				}
+				add_province_modifier = { 
+					name = scythian_river
+					duration = 5475
+				}	
+			}
+			samara_area = {
+				limit = { 
+				owned_by = ROOT 
+				}
+				add_province_modifier = { 
+					name = scythian_river
+					duration = 5475
+				}	
+			}
+		}
+	}
+	nog_scythian_menace = {
+		icon = mission_consolidate_the_state
+		position = 5
+		required_missions = {
+			nog_left_bank
+		}
+			
+		trigger = { 
+			army_size = 35
+		}
+
+		effect = {
+			lower_don_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+			penza_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+			saratov_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+			add_country_modifier = {
+				name = scythian_slayer
+				duration = -1
+			}
+		}
+	}
+}
+
+nog_islam = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	nog_rule_through_islam = {
+		icon = mission_mosque
+		position = 4
+		required_missions = {} #none
+
+		trigger = {
+			temple = 3
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = rule_through_islam
+				duration = 5475
+			}
+		}
+	}
+	nog_legacy = {
+		icon = mission_marwari_horses
+		position = 5
+		required_missions = {
+			nog_rule_through_islam
+		}
+
+		provinces_to_highlight = {
+			province_id = 1970 #Syghnak
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+
+		trigger = {
+			owns_core_province = 1970 #Syghnak
+			religious_unity = 1
+		}
+
+		effect = {
+			kyzylkum_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+			syr_darya_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = NOG
+			}
+		}
+	}
+	nog_increased_raids = {
+		icon = mission_non-western_cavalry_raid
+		position = 6
+		required_missions = {
+			nog_legacy
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = syr_darya_area
+				area = kyzylkum_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+
+		trigger = {
+			kyzylkum_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			syr_darya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			jetysuu_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+			zungaria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+			north_zungaria = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_claim = NOG
+			}
+		}
+	}
+}
+
+nog_mongols = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = NOG
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = no
+
+	nog_old_habits = {
+		icon = mission_diplomatic_relation
+		position = 4
+		required_missions = {} #none
+
+		trigger = {
+			prestige = 50
+			OR = {
+				horde_unity = 75
+				legitimacy = 75
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = charismatic_horde
+				duration = 5475
+			}
+		}
+	}
+	nog_warchest = {
+		icon = mission_war_chest
+		position = 5
+		required_missions = {
+			nog_old_habits
+		} 
+
+		trigger = {
+			treasury = 500
+		}
+
+		effect = {
+			country_event = { id = nog_flavor.4 }
+			add_country_modifier = {
+				name = professional_army
+				duration = 5475
+			}
+		}
+	}
+
+	nog_jochids = {
+		icon = mission_manchu_warrior
+		position = 6
+		required_missions = {nog_warchest} 
+		
+		provinces_to_highlight = {
+			OR = {
+				OR = {
+					owned_by = OIR
+					owned_by = KMK
+					owned_by = GLH
+				}
+				AND = {
+					if = {
+						AND = {
+							NOT = { 
+								473 = { country_or_non_sovereign_subject_holds = ROOT }
+							}
+							NOT = {
+								1065 = { country_or_non_sovereign_subject_holds = ROOT }
+							}
+						}
+					}			
+					OR = {
+						province_id = 473 #Samara
+						province_id = 1065 #Kuznetsk
+					}
+				}
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			NOT = { exists = OIR }
+			NOT = { exists = KMK }
+			NOT = { exists = GLH }
+			OR = {
+				473 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				1065 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = destruction_of_jochids
+				duration = -1
+			}
+		}
+	}
+}
+
+		

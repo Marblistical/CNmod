@@ -1,0 +1,12 @@
+﻿l_english:
+incidents_waldensian.1.title:0 "Call to Action"
+incidents_waldensian.1.desc:0 "The monarch of Aquitainia has grown increasingly uncomfortable with the heresy in Lyon and the Alps, deeming them to be a danger to the empire. The monarch has thusforth called a meeting to coordinate efforts from the empire to destroy the heretics once and for all, and to restore the guidance of the true followers of God to the region."
+incidents_waldensian.1.a:0 "Time to decide."
+incidents_waldensian.2.title:0 "The Waldensian Heresy"
+incidents_waldensian.2.desc:0 "The empire has long tolerated Waldensians, but shall that come to an end?"
+incidents_waldensian.2.a:0 "No Issue"
+waldensian.2.a_tt:0 "There is no place for paranoia in the empire."
+incidents_waldensian.2.b:0 "Waldensian Crusade"
+waldensian.2.b_tt:0 "Down with the heresy, to preserve the legacy of Charlemagne and God!"
+
+incident_waldensian:0 "The Waldensian Heresy"

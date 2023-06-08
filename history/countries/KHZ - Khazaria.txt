@@ -1,0 +1,21 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = nomad_group
+
+religion = jewish
+
+primary_culture = khazar
+
+capital = 287 #Kuban
+
+1415.1.1 = {
+	monarch = {
+		name = "Biyaberd"
+		dynasty = "Aratzova"
+		birth_date = 1398.2.2
+		adm = 2
+		dip = 1
+		mil = 4
+	}
+}

@@ -1,0 +1,20 @@
+#4260 - Vyshny Volochyok
+
+owner = BEZ
+controller = BEZ
+add_core = BEZ
+
+culture = russian
+religion = orthodox
+capital = "Vyshny Volochyok"
+
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = naval_supplies
+base_manpower = 1
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group

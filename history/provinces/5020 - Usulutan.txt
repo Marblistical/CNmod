@@ -1,0 +1,31 @@
+# No previous file for Usulután
+
+culture = lenca
+owner = LCA
+controller = LCA
+add_core = LCA
+is_city = yes
+religion = mesoamerican_religion
+capital = "Usulután"
+trade_goods = coffee
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = mesoamerican
+
+
+1525.1.1 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	culture = castillian
+	religion = catholic
+	is_city = yes
+	trade_goods = fish
+} # First settlers
+1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence

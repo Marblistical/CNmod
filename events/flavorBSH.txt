@@ -1,0 +1,376 @@
+namespace = bsh_flavor
+
+country_event = {
+	id = bsh_flavor.1
+	title = bsh_flavor.1.title
+	desc = bsh_flavor.1.desc
+	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bsh_flavor.1.a
+		trigger = {
+			exists = KMA
+			ROOT = {
+				num_of_owned_provinces_with = {
+					value = 1
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+				}
+			}
+		}
+		add_dip_power = 25
+		custom_tooltip = BSH_cede_khantia_provinces
+		hidden_effect = {
+			ural_region = {
+				limit = {
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+					owned_by = ROOT
+				}
+				cede_province = KMA
+				add_core = KMA
+			}
+			west_siberia_region = {
+				limit = {
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+					owned_by = ROOT
+				}
+				cede_province = KMA	
+				add_core = KMA
+			}
+		}
+		KMA = {
+			add_opinion = {
+				who = ROOT
+				modifier = united_lands
+			}
+		}
+		ai_chance = { factor = 60 }
+	}
+	option = {
+		name = bsh_flavor.1.b
+		trigger = {
+			exists = KMA
+			ROOT = {
+				num_of_owned_provinces_with = {
+					value = 1
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+				}
+			}
+		}
+		add_adm_power = 25
+		add_prestige = 5
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = bsh_flavor.1.c
+		trigger = {
+			NOT = { exists = KMA }
+			ROOT = {
+				num_of_owned_provinces_with = {
+					value = 1
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+				}
+			}
+		}
+		add_dip_power = 25
+		custom_tooltip = BSH_create_khantia_new
+		hidden_effect = {
+			ural_region = {
+				limit = {
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+					owned_by = ROOT
+				}
+				cede_province = KMA
+				add_core = KMA
+			}
+			west_siberia_region = {
+				limit = {
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+					owned_by = ROOT
+				}
+				cede_province = KMA
+				add_core = KMA
+			}
+			vassalize = KMA
+			KMA = {
+				define_ruler = {
+					name = "Yadiger"
+					dynasty = "Taibugid"
+					culture = bashkir
+					adm = 4
+					dip = 2
+					mil = 2
+				}
+				change_government = tribal
+				add_government_reform = steppe_horde
+				primary_culture = khanty
+				add_accepted_culture = mansi
+				change_religion = ROOT
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+					}
+				}
+			}
+		}
+		KMA = {
+			add_opinion = {
+				who = ROOT
+				modifier = united_lands
+			}
+		}
+		ai_chance = { factor = 60 }
+	}
+	option = {
+		name = bsh_flavor.1.d
+		trigger = {
+			NOT = { exists = KMA }
+			ROOT = {
+				num_of_owned_provinces_with = {
+					value = 1
+					OR = {
+						culture = khanty
+						culture = mansi
+					}
+				}
+			}
+		}
+		add_adm_power = 25
+		add_prestige = 5
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = bsh_flavor.1.e
+		trigger = {
+			ROOT = {
+				NOT = {
+					num_of_owned_provinces_with = {
+						value = 1
+						OR = {
+							culture = khanty
+							culture = mansi
+						}
+					}
+				}
+			}
+		}
+		add_adm_power = 25
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = bsh_flavor.2
+	title = bsh_flavor.2.title
+	desc = bsh_flavor.2.desc
+	picture = MONGOL_BANNERS_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bsh_flavor.2.a
+		add_country_modifier = {
+			name = leader_of_tatars
+			duration = 7300
+		}
+		change_dip = 1
+		custom_tooltip = BSH_tartar_path
+		hidden_effect = {
+			set_country_flag = tatar_league_flag
+			swap_non_generic_missions = yes
+		}
+		ai_chance = { factor = 50 }
+	}
+	option = {
+		name = bsh_flavor.2.b
+		add_country_modifier = {
+			name = war_in_the_steppe
+			duration = 7300
+		}
+		lower_yik_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		aktobe_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		nogai_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		kazakhstan_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		aqmola_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		balchasj_area = {
+			limit = {
+				NOT = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			add_claim = ROOT
+		}
+		custom_tooltip = BSH_scythian_path
+		hidden_effect = {
+			set_country_flag = scythia_conquest_flag
+			swap_non_generic_missions = yes
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = bsh_flavor.3
+	title = bsh_flavor.3.title
+	desc = bsh_flavor.3.desc
+	picture = MONGOL_BANNERS_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bsh_flavor.3.a
+		FROM = {
+			vassalize = ROOT
+			add_opinion = {
+				who = ROOT
+				modifier = tatar_league
+			}
+			country_event = { id = bsh_flavor.4 }
+		}
+		add_opinion = {
+			who = FROM
+			modifier = tatar_league
+		}
+		add_country_modifier = {
+			name = defense_of_tatary
+			duration = 5475
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				is_rival = FROM
+			}
+			modifier = {
+				factor = 0.5
+				army_size = FROM
+			}
+			modifier = {
+				factor = 2
+				alliance_with = FROM
+			}
+			modifier = {
+				factor = 2
+				has_opinion = {
+					who = FROM
+					value = 50
+				}
+			}
+			modifier = {
+				factor = 2
+				has_opinion = {
+					who = FROM
+					value = 150
+				}
+			}
+		}
+	}
+	option = {
+		name = bsh_flavor.3.b
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = denied_tatar_league
+			}
+			country_event = { id = bsh_flavor.5 }
+		}
+		add_opinion = {
+			who = FROM
+			modifier = denied_tatar_league
+		}
+		add_prestige = 5
+		ai_chance = { factor = 4 }
+	}
+}
+
+country_event = {
+	id = bsh_flavor.4
+	title = bsh_flavor.4.title
+	desc = bsh_flavor.4.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bsh_flavor.4.a
+		FROM = {
+			add_country_modifier = {
+				name = league_member
+				duration = 5475
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = bsh_flavor.5
+	title = bsh_flavor.5.title
+	desc = bsh_flavor.5.desc
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = bsh_flavor.5.a
+		ai_chance = { factor = 100 }
+	}
+}

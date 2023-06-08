@@ -1,0 +1,19 @@
+#581 - Sagaing
+
+owner = AVA
+controller = AVA
+add_core = AVA
+
+culture = burmese
+religion = buddhism
+capital = "Sagaing"
+
+trade_goods = cotton
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 4
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

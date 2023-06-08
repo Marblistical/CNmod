@@ -1,0 +1,322 @@
+
+namespace = yuan_flavour
+
+#########################
+# Yuan Disaster Prelude #
+#########################
+
+country_event = {
+	id = yuan_collapse.1
+	title = yuan_collapse.1.t
+	desc = yuan_collapse.1.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			tag = YUA
+			tag = LIA
+			tag = WUU
+		}
+	}
+	
+	option = {		
+		name = "yuan_collapse.1.a"
+		trigger = { tag = YUA }
+		add_country_modifier = { 
+			name = YUA_yuan_collapse_prelude
+			duration = -1
+		}
+	}
+	option = {		
+		name = "yuan_collapse.1.b"
+		trigger = { tag = WUU }
+	}
+	option = {		
+		name = "yuan_collapse.1.c"
+		trigger = { tag = LIA }
+		add_country_modifier = { 
+			name = WUU_LIA_yuan_collapse_prelude
+			duration = -1
+		}
+		turpan_kumul_area = { add_permanent_claim = LIA }
+		zungaria_area = { add_permanent_claim = LIA }
+		west_gansu_area = { add_permanent_claim = LIA }
+	}
+}
+
+country_event = { 
+	id = yuan_collapse.2 #chinese revolt in zhili
+	title = yuan_collapse.2.t
+	desc = yuan_collapse.2.d
+	picture = BORDER_TENSION_eventPicture
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	fire_only_once = yes
+	
+	trigger = {
+		has_disaster_progress = {
+			disaster = yuan_collapse
+			value = 20
+		}
+	}
+	
+	option = {
+		name = yuan_collapse.2.a
+		random_owned_province = {
+			limit = { culture = chihan }
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = yuan_collapse.3 #flavor event about coming tuvan revolt
+	title = yuan_collapse.3.t
+	desc = yuan_collapse.3.d
+	picture = BORDER_TENSION_eventPicture
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	fire_only_once = yes
+	
+	trigger = {
+		has_disaster_progress = {
+			disaster = yuan_collapse
+			value = 50
+		}
+	}
+	
+	option = { name = yuan_collapse.3.a }
+}
+
+country_event = { 
+	id = yuan_collapse.4 #oirat-uyghur clashes, what do we do?
+	title = yuan_collapse.4.t
+	desc = yuan_collapse.4.d
+	picture = BORDER_TENSION_eventPicture
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	fire_only_once = yes
+	
+	trigger = {
+		has_disaster_progress = {
+			disaster = yuan_collapse
+			value = 60
+		}
+	}
+	
+	option = { 
+		name = yuan_collapse.4.a #blame the oirats
+		4683 = {
+			spawn_rebels = { 
+				type = nationalist_rebels 
+				size = 1
+				win = yes 
+			}
+		}
+	}
+	
+	option = { 
+		name = yuan_collapse.4.b #blame the uyghurs and the liao
+		713 = {
+			spawn_rebels = { 
+				type = nationalist_rebels 
+				size = 1
+				win = yes 
+			}
+		}
+	}
+}
+
+###################
+# Disaster Events #
+###################
+
+country_event = { 
+	id = yuan_collapse.10 #disaster begins
+	title = yuan_collapse.10.t
+	desc = yuan_collapse.10.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+		hidden_effect = { 
+			add_stability = -6 
+			remove_country_modifier = YUA_yuan_collapse_prelude
+			WUU = { country_event = { id = yuan_collapse.30 days = 60 } }
+			LIA = { country_event = { id = yuan_collapse.30 days = 60 } }
+		} 
+	}
+	
+	option = { 
+		name = yuan_collapse.10.a 
+		add_mandate = -10
+	}
+}
+
+country_event = { 
+	id = yuan_collapse.20 #tuvan revolt
+	title = yuan_collapse.20.t
+	desc = yuan_collapse.20.d
+	picture = BORDER_TENSION_eventPicture
+	
+	trigger = {
+		tag = YUA
+		has_disaster = yuan_collapse
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			716 = { add_core = TUV cede_province = TUV }
+			1063 = { add_core = TUV cede_province = TUV }
+		}
+	}
+	
+	option = {
+		name = yuan_collapse.20.a
+		declare_war = TUV
+		hidden_effect = { TUV = { country_event = { id = yuan_collapse.21 days = 2 } } }
+	}
+	option = {
+		name = yuan_collapse.20.b
+		declare_war = TUV
+		switch_tag = TUV
+		hidden_effect = { TUV = { country_event = { id = yuan_collapse.21 days = 2 } } }
+	}
+	option = {
+		name = yuan_collapse.20.c
+		add_truce_with = TUV
+		add_prestige = -10
+	}
+}
+
+country_event = { 
+	id = yuan_collapse.21 #todo: give tuva war buffs
+	title = yuan_collapse.21.t
+	desc = yuan_collapse.21.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = yuan_collapse.21.a
+	}
+}
+
+country_event = { 
+	id = yuan_collapse.22 #Yan Revolt
+	title = yuan_collapse.22.t
+	desc = yuan_collapse.22.d
+	picture = BORDER_TENSION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = YUA
+		has_disaster = yuan_collapse
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = yuan_collapse.22.a
+		704 = {
+			spawn_rebels = { 
+				type = nationalist_rebels 
+				size = 3
+				win = yes 
+			}
+		}
+		697 = {
+			spawn_rebels = { 
+				type = nationalist_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		1816 = {
+			spawn_rebels = { 
+				type = nationalist_rebels 
+				size = 2 
+			}
+		}
+		hebei_area = { add_province_modifier = { name = YUA_disrupted_supply_lines duration = -1 } }
+		liaoning_area = { add_province_modifier = { name = YUA_disrupted_supply_lines duration = -1 } }
+		695 = { add_province_modifier = { name = YUA_disrupted_supply_lines duration = -1 } }
+		696 = { add_province_modifier = { name = YUA_disrupted_supply_lines duration = -1 } }
+		697 = { add_province_modifier = { name = YUA_disrupted_supply_lines duration = -1 } }
+	}
+}
+
+country_event = { 
+	id = yuan_collapse.30 #wu and liao invade the yuan
+	title = yuan_collapse.30.t
+	desc = yuan_collapse.30.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = yuan_collapse.30.a
+		trigger = { tag = WUU }
+		remove_country_modifier = WUU_LIA_yuan_collapse_prelude
+		declare_war_with_cb = {
+			who = YUA
+			casus_belli = cb_take_mandate
+		}
+	}
+	option = {
+		name = yuan_collapse.30.b
+		trigger = { tag = LIA }
+		remove_country_modifier = WUU_LIA_yuan_collapse_prelude
+		declare_war_with_cb = {
+			who = YUA
+			casus_belli = cb_conquest
+			war_goal_province = 2122 #Hami
+		}
+	}
+}
+
+################
+# Disaster End #
+################
+
+country_event = { 
+	id = yuan_collapse.100
+	title = yuan_collapse.100.t
+	desc = yuan_collapse.100.d
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = yuan_collapse.100.a
+		set_country_flag = yuan_collapse_over
+		hidden_effect = {
+			hebei_area = { remove_province_modifier = { name = YUA_disrupted_supply_lines } }
+			liaoning_area = { remove_province_modifier = { name = YUA_disrupted_supply_lines } }
+			695 = { remove_province_modifier = { name = YUA_disrupted_supply_lines } }
+			696 = { remove_province_modifier = { name = YUA_disrupted_supply_lines } }
+			697 = { remove_province_modifier = { name = YUA_disrupted_supply_lines } }
+		}
+	}
+}

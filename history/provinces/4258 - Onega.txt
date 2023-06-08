@@ -1,0 +1,17 @@
+#4258 - Onega
+
+owner = NOV 
+controller = NOV 
+culture = bjarmian
+religion = ukonusko
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fur 
+base_manpower = 1
+capital = "Onega"
+is_city = yes
+add_core = NOV
+add_core = BJA
+discovered_by = eastern
+discovered_by = western
