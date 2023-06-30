@@ -59,6 +59,11 @@
  austria_succession.17.a:0 "Styria's downfall is near."
  austria_succession.17.b:0 "It is none of our business."
 
+ occitania.1.title:0 "Legacy of the Troubadours"
+ occitania.1.desc:0 "wow"
+ occitania.1.a:0 "History to be preserved and maintained."
+ occitania.1.b:0 "We have other things to focus on."
+
 #Tooltips
 austria_succession.styria.tt:0 "Should our monarch §Y[STY.Monarch.GetName]§! §Rdie§!, the §YAustrian Succession War§! will begin."
 austria_succession.opponents.tt:0 "We will have an opportunity to protect our interests in Austria, involving assassination. (Upon reaching a spy network of 50 on Styria, an event will occur giving you the chance to assassinate Ernest of Austria. This opportunity may only happen once.)"
@@ -66,3 +71,7 @@ austrian_succession.trent.tt:0 "It would be wise to look for allies before we ar
 austrian_succession.start.tt:0 "§RThe fate of Austria begins. Actors outside of our state will now begin to move openly against us. Our own vassals will be rebellious towards us!§!"
 austrian_succession.beginning.tt:0 "An opportunity rises once more, to kill the filth of Styria."
 austrian_succession.slain.tt:0 "The archduke of Austria has been slain!"
+
+#Modifiers
+occitania_preserve:0 "Preserve the Troubadours"
+occitania_refused:0 "Economic Focus"

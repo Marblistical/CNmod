@@ -255,6 +255,8 @@ taifa_government = {
 	icon = "noble_muslim"
 	allow_normal_conversion = yes
 	potential = {
+		religion_group = muslim
+		primary_culture = andalucian
 		OR = {
 			NOT = { tag = ADU }
 			has_reform = taifa_government
@@ -264,10 +266,6 @@ taifa_government = {
 				is_playing_custom_nation = yes
 			}
 		}
-	}
-	trigger = {
-		religion_group = muslim
-		primary_culture = andalucian
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 5

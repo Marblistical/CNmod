@@ -395,7 +395,7 @@ AQT_ideas = { #Aquitaine
 	free = yes
 
 	AQT_fort = { 
-		fort_level = 1
+		global_garrison_growth = 0.15
 		fort_maintenance_modifier = -0.5
 	}
 
@@ -908,5 +908,45 @@ KLB_ideas = {
 	KLB_technology = {
 		technology_cost = -0.1
 		global_institution_spread = 0.25
+	}
+}
+
+PRS_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		prestige = 0.5
+	}
+	
+	bonus = {
+		development_cost_in_primary_culture = -0.25
+	}	
+
+	trigger = {
+		tag = PRS
+	}
+	
+	free = yes	
+	
+	PRS_culture = {
+		culture_conversion_time = -0.25
+	}
+	PRS_heretic_conversion = {
+		global_heretic_missionary_strength = 0.03
+	}
+	PRS_vassal_forcelimit = {
+		vassal_forcelimit_bonus = 0.15
+	}
+	PRS_mercs = {
+		mercenary_cost = -0.2
+		merc_maintenance_modifier = -0.1
+	}
+	PRS_tax = {
+		global_tax_modifier = 0.1
+	}
+	PRS_policy = {
+		free_policy = 1
+	}
+	PRS_admin = {
+		administrative_efficiency = 0.025
 	}
 }

@@ -43,7 +43,7 @@ country_event = {
 
 	option = {
 		name = "waldensian_event.1.a"
-		ai_chance = { factor = 70 }
+		ai_chance = { factor = 40 }
 		change_religion = waldensian
 		capital_scope = {
 			change_religion = waldensian
@@ -51,7 +51,7 @@ country_event = {
 	}
 	option = {
 		name = "waldensian_event.1.b"
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 60 }
 		add_stability = -1
 		capital_scope = {
 			change_religion = waldensian

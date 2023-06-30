@@ -1,0 +1,36 @@
+namespace = papal_fiefdoms
+
+######################
+
+#Checks if Overlord is the Pope
+country_event = {
+	id = papal_fiefdoms.1
+	title = "papal_fiefdoms.1.title"
+	desc = "papal_fiefdoms.1.desc"
+	picture = ANGRY_MOB_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			is_subject_of = PAP
+		}
+		is_subject_of_type = papal_fief
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "papal_fiefdoms.1.a"
+		ai_chance = { factor = 100 }
+		grant_independence = yes
+		every_province = {
+			limit = {
+				owned_by = ROOT
+			}
+			add_permanent_claim = PAP
+		}
+	}
+}
