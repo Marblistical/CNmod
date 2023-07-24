@@ -351,7 +351,7 @@
  PRS_vassal_forcelimit:0 "Additional Levies"
  PRS_vassal_forcelimit_desc:0 ""
  PRS_mercs:0 "Efficient Mercenaries"
- PRS_merc_descs:0 ""
+ PRS_merc_desc:0 ""
  PRS_tax:0 "Crownland Tax"
  PRS_tax_desc:0 ""
  PRS_policy:0 "Charlemagne's Legacy"
