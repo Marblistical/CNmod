@@ -3,9 +3,9 @@
 owner = KLB
 controller = KLB
 culture = sicilian 
-religion = catholic 
+religion = shiite
 hre = no 
-base_tax = 6 
+base_tax = 5
 base_production = 6
 trade_goods = fish
 base_manpower = 5

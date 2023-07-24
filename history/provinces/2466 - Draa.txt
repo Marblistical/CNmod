@@ -4,7 +4,7 @@ owner = TFL
 controller = TFL
 add_core = TFL
 
-culture = moroccan
+culture = berber
 religion = sunni
 capital = "Tagmadert"
 

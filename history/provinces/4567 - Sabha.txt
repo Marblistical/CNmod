@@ -1,6 +1,6 @@
 #Sabha
 
-culture = tunisian
+culture = libyan
 religion = sunni
 capital = "Sabha"
 

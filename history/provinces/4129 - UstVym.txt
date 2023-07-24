@@ -1,4 +1,4 @@
-#4129 - Jemdïn
+#4129 - Ust-Vym
 
 owner = SCY
 controller = SCY
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 trade_goods = fur
 base_manpower = 1
-capital = "Jemdïn"
+capital = "Ust-Vym"
 is_city = yes
 add_core = PRM
 add_core = SCY

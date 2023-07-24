@@ -4,7 +4,7 @@ owner = SLY
 controller = SLY
 add_core = SLY
 
-culture = al_misr_arabic
+culture = libyan
 religion = sunni
 capital = "Benghazi"
 

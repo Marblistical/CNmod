@@ -1,0 +1,5 @@
+﻿l_english:
+ integrate_papal_fief:0 "Integrate Fief"
+ integrate_papal_fief_desc:0 "There is no need for this fief."
+ cb_papal_integration:0 "Donation of Pepin"
+ cb_papal_integration_desc:0 "War goal is to take the fief"

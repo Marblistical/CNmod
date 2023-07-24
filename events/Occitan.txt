@@ -1,0 +1,52 @@
+namespace = occitania
+
+######################
+
+#Troubadours
+country_event = {
+	id = occitania.1
+	title = "occitania.1.title"
+	desc = "occitania.1.desc"
+	picture = CITY_VIEW_eventPicture
+	
+	trigger = {
+		OR = {
+			culture = gascon
+			culture = occitain
+			culture = provencal
+		}
+		NOT = { is_year = 1425 }
+		NOT = { 
+			OR = { 
+				has_country_modifier = occitania_preserve 
+				has_country_modifier = occitania_refused 
+			}
+		}
+		treasury = 75
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	#Yes we will preserve the legacy
+	option = {
+		name = "occitania.1.a"
+		ai_chance = { factor = 50 }
+		add_treasury = -75
+		add_country_modifier = {
+			name = "occitania_preserve"
+			duration = 3650
+		}
+	}
+	#We need to focus on other things
+	option = {
+		name = "occitania.1.b"
+		ai_chance = { factor = 50 }
+		add_treasury = 50
+		add_country_modifier = {
+			name = "occitania_refused"
+			duration = 3650
+		}
+	}
+}

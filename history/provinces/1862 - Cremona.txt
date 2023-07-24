@@ -1,7 +1,7 @@
 #1862 - Cremona
 
-owner = MLO
-controller = MLO
+owner = TNT
+controller = TNT
 culture = lombard
 religion = catholic
 hre = yes
@@ -11,6 +11,7 @@ trade_goods = grain
 base_manpower = 4
 capital = "Cremona"
 is_city = yes	# Estimated
+add_core = TNT
 add_core = MLO
 discovered_by = western
 discovered_by = eastern

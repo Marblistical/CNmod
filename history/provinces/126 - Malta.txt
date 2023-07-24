@@ -2,8 +2,8 @@
 
 owner = KLB
 controller = KLB
-culture = maltese 
-religion = catholic 
+culture = siculo
+religion = shiite
 hre = no 
 base_tax = 2
 base_production = 2

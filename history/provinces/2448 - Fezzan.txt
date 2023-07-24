@@ -1,6 +1,6 @@
 #2448 - Fezzan
 
-culture = tunisian
+culture = libyan
 religion = sunni
 capital = "Murzuk"
 

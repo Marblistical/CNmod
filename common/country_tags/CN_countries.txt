@@ -26,7 +26,7 @@ BLK = "countries/Balkaria.txt"
 DUR = "countries/Durdzuketia.txt"
 KAI = "countries/Kaitag.txt"
 KHZ = "countries/Khazaria.txt"
-TRK = "countries/Tarki.txt"
+TKK = "countries/Tarki.txt"
 QUB = "countries/Quba.txt"
 
 #Central Asia

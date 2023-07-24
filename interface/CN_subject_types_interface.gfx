@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_papal_fief"
+		texturefile = "gfx/interface/icon_papal_fief.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadpapal_fief"
+		texturefile = "gfx//interface//icon_diplomacy_leadpapal_fief.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_ampapal_fief"
+		texturefile = "gfx//interface//icon_diplomacy_ampapal_fief.dds"
+	}
+}

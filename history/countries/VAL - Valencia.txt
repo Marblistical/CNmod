@@ -8,7 +8,7 @@ technology_group = western
 capital = 220	# Valencia
 
 1415.1.1 = {
-	add_government_reform = iqta
+	add_government_reform = taifa_government
 	primary_culture = andalucian
 	religion = sunni
 	technology_group = muslim

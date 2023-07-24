@@ -6,7 +6,7 @@ add_core = SLY
 add_core = TUN
 add_core = TRP
 
-culture = tunisian
+culture = libyan
 religion = sunni
 capital = "Thubaqt"
 

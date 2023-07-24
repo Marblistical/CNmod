@@ -1,0 +1,8 @@
+occitania_preserve = {
+	prestige = 0.5
+	monthly_reform_progress = 0.25
+}
+
+occitania_refused = {
+	trade_efficiency = 0.1
+}

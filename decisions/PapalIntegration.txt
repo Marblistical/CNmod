@@ -1,0 +1,59 @@
+country_decisions = {
+
+	integrate_fief = {
+		major = yes
+		potential = {
+			tag = PAP
+		}
+		provinces_to_highlight = {
+			owner = {
+				is_subject_of = ROOT
+				has_subject_of_type = papal_fief
+			}
+		}
+		allow = {
+			stability = 3
+			prestige = 25
+			all_subject_country = { 
+				NOT = { liberty_desire = 50 }
+			}
+			is_year = 1444
+		}
+		effect = {
+			add_casus_belli = {
+				target = CMR
+				type = cb_papal_integration
+				months = 1200
+			}
+			add_casus_belli = {
+				target = ANC
+				type = cb_papal_integration
+				months = 1200
+			}
+			add_casus_belli = {
+				target = URB
+				type = cb_papal_integration
+				months = 1200
+			}
+			add_casus_belli = {
+				target = RAV	
+				type = cb_papal_integration
+				months = 1200
+			}
+			add_casus_belli = {
+				target = BLG
+				type = cb_papal_integration
+				months = 1200
+			}
+			add_casus_belli = {
+				target = FER
+				type = cb_papal_integration
+				months = 1200
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+
+}

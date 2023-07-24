@@ -4,7 +4,7 @@ owner = BSH
 controller = BSH
 add_core = BSH
 
-culture = siberian
+culture = bashkir
 religion = tengri_pagan_reformed
 capital = "Chelyaba"
 

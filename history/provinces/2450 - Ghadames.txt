@@ -1,6 +1,6 @@
 # - Ghadames
 
-culture = tunisian
+culture = berber
 religion = sunni
 capital = "Ghadames"
 
