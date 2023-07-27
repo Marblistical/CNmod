@@ -3,7 +3,7 @@
 owner = LPP
 controller = LPP
 add_core = LPP
-culture = hannoverian
+culture = lower_saxon
 religion = catholic
 trade_goods = cloth #linen
 capital = "Bielefeld"

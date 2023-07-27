@@ -3,8 +3,8 @@
 owner = MJO
 controller = MJO
 add_core = MJO
-culture = catalan
-religion = catholic
+culture = andalucian
+religion = sunni
 hre = no
 base_tax = 2 
 base_production = 1

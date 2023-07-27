@@ -1,0 +1,44 @@
+kmk_intro = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = BSH
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+
+	kmk_western_lineage = {
+		icon = 
+		required_missions = {} #none
+		position = 1
+		trigger = {
+			development_in_provinces = {
+				value = 10
+				is_state_core = ROOT
+			}
+		}
+		effect = {
+			add_dip_power = 25
+			add_adm_power = 25
+			add_mil_power = 25
+			country_event = { id = kmk_flavor.1 }
+		}
+	}
+
+	kmk_horde_state = {
+		icon = 
+		required_missions = { kmk_western_lineage }
+		position = 2
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			country_event = { id = kmk_flavor.2 }
+			add_country_modifier = {
+				name = kalmyk_horde
+				duration = 7300
+			}
+		}
+	}
+}

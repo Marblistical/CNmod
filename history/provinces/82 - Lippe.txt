@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = HES
 controller = HES
-culture = hannoverian
+culture = lower_saxon
 religion = catholic
 trade_goods = wool
 capital = "Arnsberg"

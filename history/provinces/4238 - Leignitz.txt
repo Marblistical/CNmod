@@ -3,7 +3,7 @@
 #Coal
 owner = BOH
 controller = BOH
-culture = schlesian
+culture = saxon
 religion = catholic
 capital = "Liegnitz"
 trade_goods = glass

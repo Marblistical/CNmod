@@ -3,7 +3,7 @@
 owner = BRA
 controller = BRA
 add_core = BRA
-culture = saxon
+culture = lower_saxon
 religion = catholic
 hre = yes
 base_tax = 1

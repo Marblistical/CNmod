@@ -2899,6 +2899,18 @@ east_slavic = {
 		}
 	}
 	
+	rusyn = {
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+		dynasty_names = {
+			placeholder
+		}
+	}
+
 	dynasty_names = {
 		Rurikovich Godunov Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov
 		Belosselsky Chelyadnin Potyomkin Poloch Izbor Tversky Lukisky Pleskov Toropetsky Dukhovsky
@@ -10927,6 +10939,19 @@ slavic = {
 			"Krum" "Dulo" "Cometopuli" "Asen" "Terter" "Shishman" "Teleki"
 		}
 	}
+
+	rusyn_new = {
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+		dynasty_names = {
+			placeholder
+		}
+	}
+
 	dynasty_names = {
 		Rurikovich Godunov Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov
 		Belosselsky Chelyadnin Potyomkin Poloch Izbor Tversky Lukisky Pleskov Toropetsky Dukhovsky

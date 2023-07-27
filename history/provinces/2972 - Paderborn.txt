@@ -1,7 +1,7 @@
 #Paderborn
 owner = LPP
 controller = LPP
-culture = hannoverian
+culture = lower_saxon
 religion = catholic
 trade_goods = wool
 capital = "Paderborn"

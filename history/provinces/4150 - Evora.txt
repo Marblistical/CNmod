@@ -2,8 +2,8 @@
 
 owner = POR
 controller = POR
-culture = portugese
-religion = catholic
+culture = andalucian
+religion = sunni
 capital = "Évora"
 trade_goods = wine
 hre = no
