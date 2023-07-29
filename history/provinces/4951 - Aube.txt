@@ -1,7 +1,7 @@
 # 4951 Aube
 
-owner = LGS
-controller = LGS
+owner = TOE
+controller = TOE
 capital = "Sens"
 is_city = yes
 culture = burgundian
@@ -11,8 +11,7 @@ base_tax = 1
 base_production = 1
 trade_goods = grain
 base_manpower = 2
-add_core = LGS
-add_core = CHP
+add_core = TOE
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

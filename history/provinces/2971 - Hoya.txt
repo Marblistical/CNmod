@@ -1,7 +1,7 @@
 #2971 - Hoya
 
-owner = OSN
-controller = OSN
+owner = HOY
+controller = HOY
 culture = lower_saxon
 religion = catholic
 capital = "Hoya"
@@ -11,7 +11,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = OSN
 add_core = HOY
 discovered_by = eastern
 discovered_by = western

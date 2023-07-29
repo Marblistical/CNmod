@@ -1,5 +1,5 @@
-owner = ANS
-controller = ANS
+owner = DWT
+controller = DWT
 capital = "Nördlingen"
 is_city = yes
 culture = swabian
@@ -9,8 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = grain
-add_core = ANS
-add_core = BAV
 add_core = DWT
 
 discovered_by = eastern

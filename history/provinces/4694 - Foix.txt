@@ -1,5 +1,5 @@
-owner = TOU
-controller = TOU
+owner = FOI
+controller = FOI
 capital = "Foix"
 is_city = yes
 culture = gascon
@@ -9,8 +9,6 @@ base_tax = 1
 base_production = 1
 trade_goods = wool
 base_manpower = 2
-add_core = TOU
-add_core = AQT
 add_core = FOI
 
 discovered_by = eastern

@@ -175,7 +175,7 @@ province;red;green;blue;x;x
 174;24;124;255;Gascogne;x
 175;153;126;0;Armagnac;x
 176;25;128;64;B�arn;x
-177;153;130;128;Maine;x
+177;153;130;128;Le Mans;x
 178;25;132;192;Anjou;x
 179;153;134;255;Berry;x
 180;25;136;0;Poitou;x
@@ -205,7 +205,7 @@ province;red;green;blue;x;x
 204;29;56;255;Dauphin�;x
 205;157;58;0;Savoie;x
 206;29;60;64;Galicia;x
-207;157;62;128;Asturias;x
+207;157;62;128;Oviedo;x
 208;29;64;192;Le�n;x
 209;157;66;255;Vizcaya;x
 210;30;68;0;Navarra;x
@@ -4762,7 +4762,7 @@ province;red;green;blue;x;x
 4761;154;237;147;Traungau;x
 4762;243;138;80;Wienerwald;x
 4763;238;230;38;Alps6;x
-4764;179;106;111;Salins;x
+4764;179;106;111;Claude;x
 4765;255;253;196;Mulhouse;x
 4766;138;136;91;Verdun;x
 4767;253;135;143;Zweibrucken;x
@@ -4944,7 +4944,7 @@ province;red;green;blue;x;x
 4943;225;43;23;Andorra;x
 4944;219;208;94;Landes;x
 4945;174;128;85;Gard;x
-4946;74;132;128;Lozere;x
+4946;74;132;128;Gevaudan;x
 4947;170;174;213;Cantal;x
 4948;143;170;62;Orange;x
 4949;158;80;134;Cheateauroux;x
@@ -4964,7 +4964,7 @@ province;red;green;blue;x;x
 4963;134;56;56;Massa;x
 4964;170;209;224;San Marino;x
 4965;75;58;109;Belluno;x
-4966;168;94;107;Tauste;x
+4966;168;94;107;Huesca;x
 4967;68;111;89;CN4967;x
 4968;89;51;171;CN4968;x
 4969;166;99;151;CN4969;x
@@ -4996,7 +4996,7 @@ province;red;green;blue;x;x
 4995;160;93;175;Trikala;x
 4996;104;80;117;Boeotia;x
 4997;188;92;169;Nijmegen;x
-4998;182;151;173;Sieg;x
+4998;182;151;173;Sayn;x
 4999;172;154;182;Gunzburg;x
 5000;211;107;103;Arlberg;x
 5001;217;156;78;Frankfurtoder;x
@@ -5185,7 +5185,7 @@ province;red;green;blue;x;x
 5184;107;255;225;Lower Himalayas;x
 5185;122;255;135;Himalayas;x
 5186;93;55;124;Limerick;x
-5187;113;198;82;Mide;x
+5187;113;198;82;Ossory;x
 5188;150;172;183;Oriel;x
 5189;97;115;206;Lanarkshire;x
 5190;219;94;83;Durham;x
@@ -5200,3 +5200,43 @@ province;red;green;blue;x;x
 5199;198;194;70;Liepaja;x
 5200;74;170;132;Starodub;x
 5201;124;89;186;Alcaniz;x
+5202;109;70;85;Setubal;x
+5203;185;206;45;Minho;x
+5204;201;155;176;Trujillo;x
+5205;65;76;204;Ponferrada;x
+5206;196;108;56;Gijon;x
+5207;183;193;94;Aranjuez;x
+5208;194;78;170;Alava;x
+5209;151;186;33;Tudela;x
+5210;143;151;159;Jaca;x
+5211;210;11;104;Tortosa;x
+5212;113;101;132;Mayo;x
+5213;158;45;128;Cornouaille;x
+5214;57;181;182;Aunis;x
+5215;118;92;188;Laval;x
+5216;96;193;122;Vendome;x
+5217;100;154;112;Dieppe;x
+5218;147;217;140;Sancerre;x
+5219;77;148;175;Melun;x
+5220;102;145;107;Hurepoix;x
+5221;111;133;160;Senlis;x
+5222;37;124;130;Meaux;x
+5223;102;183;117;Laon;x
+5224;28;85;182;Macon;x
+5225;62;190;111;Dole;x
+5226;226;98;18;ChannelIslands;x
+5227;194;71;106;Bazas;x
+5228;190;92;139;Bergerac;x
+5229;65;130;198;Correze;x
+5230;143;101;39;Bigorre;x
+5231;159;197;173;Comminges;x
+5232;188;150;115;Albi;x
+5233;208;175;161;Beziers;x
+5234;88;96;157;Millau;x
+5235;109;85;115;Uzes;x
+5236;145;188;159;Avignon;x
+5237;196;60;135;Draguignan;x
+5238;176;162;31;Thiers;x
+5239;176;137;119;StEtienne;x
+5240;101;56;193;Vienne;x
+5241;198;109;47;Chablais;x

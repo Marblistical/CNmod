@@ -138,7 +138,7 @@ aquitainia_conquer = {
 				}
 				add_permanent_claim = ROOT 
 			}
-			eastern_aragon_area = { 
+			jaca_area = { 
 				limit = { 
 					NOT = { owned_by = ROOT } 
 					NOT = { is_core = ROOT } 
@@ -159,7 +159,7 @@ aquitainia_conquer = {
 		provinces_to_highlight = {
 			OR = {
 				area = aragon_area
-				area = eastern_aragon-area
+				area = jaca_area
 			}	
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -168,7 +168,7 @@ aquitainia_conquer = {
 		}
 		trigger = {
 			aragon_area = { type = all	country_or_non_sovereign_subject_holds = ROOT }
-			eastern_aragon_area = { type = all	country_or_non_sovereign_subject_holds = ROOT }
+			jaca_area = { type = all	country_or_non_sovereign_subject_holds = ROOT }
 		}
 		effect = {
 			if = {
@@ -193,14 +193,7 @@ aquitainia_conquer = {
 						valid_for_personal_unions_trigger = yes
 					}
 				}
-				castille_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
-				valladolid_area = {
+				castile_area = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -208,6 +201,13 @@ aquitainia_conquer = {
 					add_permanent_claim = root
 				}
 				burgos_area = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
+				toledo_area = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -221,7 +221,14 @@ aquitainia_conquer = {
 					}
 					add_permanent_claim = root
 				}
-				2754 = {
+				5208 = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
+				1745 = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -235,14 +242,7 @@ aquitainia_conquer = {
 				}
 			}
 			else = {
-				castille_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
-				valladolid_area = {
+				castile_area = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -250,6 +250,13 @@ aquitainia_conquer = {
 					add_permanent_claim = root
 				}
 				burgos_area = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
+				toledo_area = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -270,6 +277,13 @@ aquitainia_conquer = {
 					}
 					add_permanent_claim = root
 				}
+				asturias_area = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
 				209 = {
 					limit = {
 						NOT = { is_core = root }
@@ -277,7 +291,7 @@ aquitainia_conquer = {
 					}
 					add_permanent_claim = root
 				}
-				2754 = {
+				5208 = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -292,6 +306,13 @@ aquitainia_conquer = {
 					add_permanent_claim = root
 				}
 				4788 = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
+				5204 = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -1466,6 +1487,13 @@ aquitainia_dynastic = {
 				}
 				add_permanent_claim = ROOT 
 			}
+			rouen_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = ROOT 
+			}
 			every_country = {
 				limit = {
 					dynasty = "de Peitieus"
@@ -1492,7 +1520,10 @@ aquitainia_dynastic = {
 		position = 4
 		completed_by = 1444.1.1
 		provinces_to_highlight = {
-			area = normandy_area
+			OR = {
+				area = normandy_area
+				area = rouen_area
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1500,6 +1531,7 @@ aquitainia_dynastic = {
 		}
 		trigger = {
 			normandy_area = { type = all	country_or_non_sovereign_subject_holds = ROOT }
+			rouen_area = { type = all	country_or_non_sovereign_subject_holds = ROOT }
 		}
 		effect = {
 			add_country_modifier = {
@@ -1520,10 +1552,14 @@ aquitainia_dynastic = {
 		position = 5
 		completed_by = 1444.1.1
 		provinces_to_highlight = {
-			area = normandy_area
+			OR = {
+				area = normandy_area
+				area = rouen_area
+			}
 		}
 		trigger = {
 			normandy_area = { type = all	country_or_non_sovereign_subject_holds = ROOT NOT = { local_autonomy = 5 } }
+			rouen_area = { type = all	country_or_non_sovereign_subject_holds = ROOT NOT = { local_autonomy = 5 } }
 		}
 		effect = {
 			add_country_modifier = {

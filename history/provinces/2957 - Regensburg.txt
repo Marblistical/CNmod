@@ -1,8 +1,7 @@
 # - Regensburg
 
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = REG
+controller = REG
 add_core = REG
 culture = austrian
 religion = catholic

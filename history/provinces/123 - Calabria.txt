@@ -11,7 +11,7 @@ capital = "Reggio di Calabria"
 hre = no 
 base_tax = 2 
 base_production = 2
-trade_goods = fish
+trade_goods = silk
 base_manpower = 2
 is_city = yes 
 

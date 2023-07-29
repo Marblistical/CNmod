@@ -1,8 +1,7 @@
 # 1742 - Upper Guelders
 
-owner = BRB
-controller = BRB
-add_core = BRB
+owner = GEL
+controller = GEL
 add_core = GEL
 is_city = yes
 capital = "Roermond"

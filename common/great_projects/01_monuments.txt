@@ -17320,7 +17320,7 @@ dujiangyan = {
 }
 
 palace_of_the_popes = {
-	start = 202 #Avignon
+	start = 5236 #Avignon
 	date = 1335.10.07
 	time = { months = 0	}
 	build_cost = 0
@@ -17396,10 +17396,10 @@ palace_of_the_popes = {
 			}
 			if = {
 				limit = { 
-					202 = { has_cardinal = no } 
+					5236 = { has_cardinal = no } 
 					owner = { religion = catholic }
 				}
-				202 = { add_cardinal = yes }
+				5236 = { add_cardinal = yes }
 			}
 		}
 		
@@ -17437,10 +17437,10 @@ palace_of_the_popes = {
 			}
 			if = {
 				limit = { 
-					202 = { has_cardinal = no } 
+					5236 = { has_cardinal = no } 
 					owner = { religion = catholic }
 				}
-				202 = { add_cardinal = yes }
+				5236 = { add_cardinal = yes }
 			}
 		}
 	}
@@ -17476,10 +17476,10 @@ palace_of_the_popes = {
 			}
 			if = {
 				limit = { 
-					202 = { has_cardinal = no } 
+					5236 = { has_cardinal = no } 
 					owner = { religion = catholic }
 				}
-				202 = { add_cardinal = yes }
+				5236 = { add_cardinal = yes }
 			}
 		}
 	}

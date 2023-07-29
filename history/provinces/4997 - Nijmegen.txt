@@ -1,7 +1,7 @@
 #4997 - Nijmegen - Principal cities: Nijmegen
 
-owner = UTR
-controller = UTR 
+owner = GEL
+controller = GEL
 capital = "Nijmegen"
 is_city = yes
 culture = dutch
@@ -9,9 +9,8 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 2
-trade_goods = livestock
+trade_goods = wool
 base_manpower = 3
-add_core = UTR
 add_core = GEL
 
 discovered_by = eastern

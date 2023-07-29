@@ -1,7 +1,7 @@
 #1874 - Bremen
 
-owner = HAN
-controller = HAN
+owner = BRE
+controller = BRE
 culture = lower_saxon
 religion = catholic
 capital = "Bremen"
@@ -11,7 +11,6 @@ base_tax = 3
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = HAN
 add_core = BRE
 fort_15th = yes
 add_local_autonomy = 50

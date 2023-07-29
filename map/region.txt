@@ -11,16 +11,22 @@ random_new_world_region = {
 france_region = {
 	areas = {
 		brittany_area
+		neustria_area
 		normandy_area
+		rouen_area
 		provence_area
 		guyenne_area
 		languedoc_area
+		septimania_area
 		massif_central_area
+		limousin_area
 		savoy_dauphine_area
+		lyonnais_area
+		dauphine_area
 		lorraine_area
-		picardy_area
 		champagne_area
 		ile_de_france_area
+		valois_area
 		berrichon_area
 		south_champagne_area
 		gard_area
@@ -63,6 +69,7 @@ low_countries_region = {
 	areas = {
 		wallonia_area
 		flanders_area
+		picardy_area
 		holland_area
 		frisia_area
 		guelders_area
@@ -192,19 +199,20 @@ ural_region = {
 iberia_region = {
 	areas = {
 		aragon_area
-		eastern_aragon_area
+		jaca_area
 		catalonia_area
 		tarragona_area
 		valencia_area
 		lower_andalucia_area
 		upper_andalucia_area
-		castille_area
-		south_castile_area
-		burgos_area
+		castile_area
+		murcia_area
+		toledo_area
 		leon_area
 		alentejo_area
 		porto_area
-		valladolid_area
+		burgos_area
+		asturias_area
 		lisbon_area
 		basque_country
 		galicia_area

@@ -6,7 +6,7 @@ color = { 91 121 158 }
 
 historical_idea_groups = {
 	aristocracy_ideas
-	diplomacy_ideas
+	diplomatic_ideas
 	administrative_ideas
 }
 

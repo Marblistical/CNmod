@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = HES
-controller = HES
+owner = KOL
+controller = KOL
 culture = lower_saxon
 religion = catholic
 trade_goods = wool
@@ -16,7 +16,7 @@ base_manpower = 1
 hre = yes
 is_city = yes
 add_core = WES
-add_core = HES
+add_core = KOL
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

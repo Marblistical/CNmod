@@ -282,56 +282,80 @@ bahama_channel_area = {
 # France					 		   #
 ########################################
 
-brittany_area = { #5
+brittany_area = { #3
 	color = { 118  99  151 }
 
-	169 170 171 172 4384
+	170 171 5213
 }
 
-normandy_area = { #5
-	167 168 1879 4385 5138
+neustria_area = { #3
+	169 172 4384
+}
+
+normandy_area = { #4
+	168 1879 4385 5226
+}
+
+rouen_area = { #3
+	167 5138 5217
 }
 
 provence_area = { #5
-	201 202 2991 4696 4948
+	201 2991 4696 5236 5237
 }
 
-poitou_area = { #4
-	180 4111 4386 4387
+poitou_area = { #5
+	180 4111 4386 4387 5214
 }
 
-guyenne_area = { #5
-	194 198 4112 174 5140
+guyenne_area = { #4
+	174 4944 5227 5140
+}
+
+limousin_area = { #5
+	194 195 4697 5228 5229
 }
 
 pyrenees_area = { #5
-	175 173 176 4694 4944
+	175 173 176 5230 5231
 }
 
-languedoc_area = { #4
-	200 2753 4695 196
+languedoc_area = { #5
+	196 198 4112 5232 5234
 }
 
-gard_area = { #3
-	4391 4945 4946
+septimania_area = { #5
+	200 2753 4694 4695 5233
 }
 
-bourgogne_area = { #3
+gard_area = { #4
+	4391 4945 4946 5235
+}
+
+bourgogne_area = { #4
+	193 4764 4954 5225
+}
+
+west_burgundy_area = { #4
 	color = { 144 0 32 }
-	193 4764 4954
+	192 1877 4392 5224
 }
 
-west_burgundy_area = { #3
-	192 1877 4392
-}
-
-massif_central_area = { #5
+massif_central_area = { #3
 	color = { 26 26 217 }
-	195 199 4697 4777 4947
+	199 4947 5238
 }
 
-savoy_dauphine_area = { #5 Savoy and Dauphiné, Upper Burgundy 
-	203 204 205 4719 4720
+savoy_dauphine_area = { #3 Savoy, Upper Burgundy 
+	205 4719 5241
+}
+
+lyonnais_area = { #3
+	203 4777 5239
+}
+
+dauphine_area = { #4
+	202 204 4948 5240
 }
 
 lorraine_area = { #5
@@ -342,30 +366,34 @@ picardy_area = { #5
 	87 88 89 1743 4957
 }
 
-ile_de_france_area = { #4
+ile_de_france_area = { #5
 	color = { 44 120 234 }
-	182 183 4955 4956
+	183 4955 5219 5220 5221
 }
 
-champagne_area = { #3
-	181 186 5139
+valois_area = { #3
+	182 4956 5223
+}
+
+champagne_area = { #4
+	181 186 5139 5222
 }
 
 south_champagne_area = { #4
 	4390 4950 4951 4952
 }
 
-loire_area = { #5
+loire_area = { #4
 	color = { 231 143 5 }
-	177 178 4389
+	177 178 4389 5215
 }
 
-orleans_area = { #4
-	184 185 4388 4776 
+orleans_area = { #5
+	184 185 4388 4776 5216
 }
 
-berrichon_area = { #4
-	179 190 191 4949
+berrichon_area = { #5
+	179 190 191 4949 5218
 }
 
 ########################################
@@ -405,16 +433,16 @@ north_brabant_area = { #3
 # Iberia					 		   #
 ########################################
 
-aragon_area = { #3
-	2990 4557 4966
+aragon_area = { #4
+	214 2990 4557 5201
 }
 
-eastern_aragon_area = { #3
-	211 214 5201
+jaca_area = { #3
+	211 4966 5210
 }
 
-tarragona_area = { #4
-	2987 2988 4943 4988
+tarragona_area = { #5
+	2987 2988 4943 4988 5211
 }
 catalonia_area = { #3
 	197 212 213 
@@ -432,18 +460,18 @@ upper_andalucia_area = { #4
 	222 223 226 4546
 }
 
-castille_area = { #4
+castile_area = { #5
 	color = { 58 58 207 }
-	217 219 4551 4980
+	217 2755 4551 4789 4980
 }
 
-south_castile_area = { #4
+murcia_area = { #3
 color = { 78 170 194 }
-	221 2751 2754 4547
+	221 2751 4547
 }
 
-valladolid_area = { #4
-	215 1745 4552 4789
+burgos_area = { #4
+	215 1746 2989 4552
 }
 
 galicia_area = { #4
@@ -454,33 +482,37 @@ baleares_area = {
 	333 4559 4560
 }
 
-burgos_area = { #3
-	1746 2755 2989
+toledo_area = { #3
+	219 2754 5207
 }
 
-basque_country = { #2
-	209 210
+basque_country = { #4
+	209 210 5208 5209
 }
 
 leon_area = { #4
 	color = { 243 235 28 }
-	207 208 216 4553 
+	208 216 4553 5205
 }
 
-extremadura_area = {
-	4788 218 1747
+asturias_area = { #3
+	207 1745 5206
 }
 
-porto_area = { #3
-	231 232 4556
+extremadura_area = { #4
+	218 1747 4788 5204
+}
+
+porto_area = { #4
+	231 232 4556 5203
 }
 
 alentejo_area = { #4
 	229 230 4150 4979
 }
 
-lisbon_area = { #4
-	227 228 1851 4787 
+lisbon_area = { #5
+	227 228 1851 4787 5202
 }
 
 macaronesia_area = { #3
@@ -575,8 +607,8 @@ munster_area = { #5
 	375 4118 4377 4378 5186
 }
 
-connacht_area = { #3
-	376 4119 5015
+connacht_area = { #4
+	376 4119 5015 5212
 }
 
 leinster_area = { #5
@@ -1062,8 +1094,8 @@ grisons_area = { #3
 	1873 4722 4740 
 }
 
-romandie_area = { #4
-	1867 1871 4721 4959
+romandie_area = { #5
+	1867 1871 4720 4721 4959
 }
 
 upper_rhineland_area = { #5 # now 'Baden'

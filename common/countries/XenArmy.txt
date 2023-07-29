@@ -8,7 +8,7 @@ revolutionary_colors = { 1 0 1 } #placeholder
 
 historical_idea_groups = {
 	offensive_ideas
-	espionage_ideas
+	spy_ideas
 	quality_ideas
 	quantity_ideas
 	administrative_ideas

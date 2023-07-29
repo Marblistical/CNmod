@@ -1,7 +1,7 @@
 # 176 Béarn - Principal cities: Pau
 
-owner = AQT
-controller = AQT
+owner = BNA
+controller = BNA
 capital = "Pau"
 is_city = yes
 culture = gascon
@@ -11,8 +11,7 @@ base_tax = 1
 base_production = 1
 trade_goods = wool
 base_manpower = 1
-add_core = AQT
-add_core = FOI
+add_core = BNA
 
 discovered_by = eastern
 discovered_by = western

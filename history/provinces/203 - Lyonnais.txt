@@ -1,7 +1,7 @@
 # 203 Lyonnais - Principal cities: Lyon
 
-owner = PRO
-controller = PRO
+owner = LYO
+controller = LYO
 capital = "Lyon"
 is_city = yes
 culture = arpitan
@@ -11,7 +11,6 @@ base_tax = 6
 base_production = 6
 trade_goods = paper #Great printing industry form the 15th century and french center of paperproduction in Ambert close by (even though not the main trade good for that province).
 base_manpower = 6
-add_core = PRO
 add_core = LYO
 fort_15th = yes
 discovered_by = eastern

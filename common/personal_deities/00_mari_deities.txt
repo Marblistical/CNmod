@@ -3,7 +3,7 @@
 
 kugu_jumo = {
 	sprite = 13
-	allow = { 
+	potential = { 
 		religion = marifaith
 	}
 	global_missionary_strength = 0.02
@@ -31,7 +31,7 @@ purysho = {
 	legitimacy = 1
 	horde_unity = 1
 	monarch_lifespan = 0.1
-	allow = { religion = marifaith }
+	potential = { religion = marifaith }
 	sprite = 15
 	
 	ai_will_do = {
@@ -46,7 +46,7 @@ purysho = {
 azyren = {
 	shock_damage = 0.10
 	mil_advisor_cost = -0.25
-	allow = { religion = marifaith }
+	potential = { religion = marifaith }
 	sprite = 14
 	
 	ai_will_do = {
@@ -65,7 +65,7 @@ azyren = {
 shochyn_ava = {
 	global_manpower_modifier = 0.10
 	heir_chance = 0.5
-	allow = { religion = marifaith }
+	potential = { religion = marifaith }
 	sprite = 17
 	
 	ai_will_do = {
@@ -84,7 +84,7 @@ shochyn_ava = {
 shudyr_shamych = {
 	global_institution_spread = 0.1
 	adm_advisor_cost = -0.25
-	allow = { religion = marifaith }
+	potential = { religion = marifaith }
 	sprite = 18
 	
 	ai_will_do = {
@@ -103,7 +103,7 @@ shudyr_shamych = {
 uzhara = { 
 	improve_relation_modifier = 0.2
 	dip_advisor_cost = -0.25
-	allow = { religion = marifaith }
+	potential = { religion = marifaith }
 	sprite = 16
 	
 	ai_will_do = {

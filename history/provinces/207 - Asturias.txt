@@ -1,9 +1,5 @@
 #207 - Asturias
 
-latent_trade_goods = {
-	coal
-}
-
 owner = LON
 controller = LON
 add_core = LON
@@ -13,7 +9,7 @@ religion = catholic
 hre = no
 base_tax = 2
 base_production = 3
-trade_goods = livestock 
+trade_goods = iron
 base_manpower = 2
 capital = "Oviedo" 
 is_city = yes
