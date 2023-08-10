@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = romagnan
+religion = catholic
+capital = 5251
+fixed_capital = 5251
+
+#History, currently empty.
+
+1415.1.1 = { 
+	monarch = {
+		name = "Antonio"
+		dynasty = "Ordelaffi"
+		birth_date = 1388.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

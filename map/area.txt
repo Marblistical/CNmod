@@ -363,7 +363,7 @@ lorraine_area = { #5
 }
 
 picardy_area = { #5
-	87 88 89 1743 4957
+	87 88 89 4957
 }
 
 ile_de_france_area = { #5
@@ -400,16 +400,20 @@ berrichon_area = { #5
 # Low Countries				 		   #
 ########################################
 
-wallonia_area = { #5
-	91 93 94 1866 4958
+wallonia_area = { #4
+	91 93 1743 1866
+}
+
+luxembourg_area = { #3
+	94 4958 5260
 }
 
 holland_area = { #4
 	96 97 4383 5137
 }
 
-flanders_area = { #3
-	90 1865 4769
+flanders_area = { #4
+	90 1865 4769 5258
 }
 
 frisia_area = { #3
@@ -420,13 +424,13 @@ guelders_area = { #5
 	98 99 4381 4997 5196
 }
 
-brabant_area = { #3
+brabant_area = { #4
 	color = { 118 193 153 }
-	92 1744 2974
+	92 95 1744 4770
 }
 
 north_brabant_area = { #3
-	95 4770 1742
+	1742 2974 5259
 }
 
 ########################################
@@ -530,25 +534,34 @@ venetia_area = { #5
 fruili_area = { #3
 	111 4965 5145
 }
-lombardy_area = { #5
-	104 2981 4728 2979 5143
+
+lombardy_area = { #3
+	104 4740 5143
 }
 
-po_valley_area = { #4
+po_valley_area = { #5
 	color = { 205 190 47 }
-	109 1862 4739 107
+	107 109 1862 4739 5248
 }
 
 piedmont_area = { #5
-	103 1875 4727 4961 4987
+	103 1875 4727 4987 5242
 }
 
-coastal_tuscany_area = { #4
-	115 2980 5147 5177
+montferrato_area = { #4
+	4728 4961 5243 5244
 }
 
-tuscany_area = { #4
-	116 117 2978 5146
+novara_area = { #4
+	2979 2981 5245 5246
+}
+
+south_tuscany_area = { #3
+	117 5147 5177
+}
+
+north_tuscany_area = { #5
+	115 116 2978 2980 5146
 }
 
 liguria_area = { #3
@@ -571,20 +584,29 @@ naples_area = { #4  #Campania
 	121 2983 4734 4983
 }
 
-lazio_area = { #5 Lazio-Umbria
-	118 2976 4731 4732 4985
+lazio_area = { #3
+	118 4732 4985
+}
+
+umbria_area = { #4
+	2976 4731 5254 5255
 }
 
 calabria_area = { #4 (+Lucania)
 	123 1934 2984 4981
 }
-apulia_area = { #4
-	122 1933 2985 4982
+
+apulia_area = { #5
+	122 1933 2985 4982 5257
 }
 
-emilia_romagna_area = { #5
+emilia_area = { #4
 	color = { 24 222 66 }
-	105 106 113 114 4730
+	105 106 5249 5250
+}
+
+romagna_area = { #5
+	113 114 4730 5251 5252
 }
 
 west_liguria_area = { #4
@@ -595,8 +617,8 @@ central_italy_area = { #4
 	119 2977 4964 5148
 }
 
-abruzzo_area = { #3
-	120 4733 4984
+abruzzo_area = { #4
+	120 4733 4984 5256
 }
 
 ########################################
@@ -1091,7 +1113,7 @@ switzerland_area = { #5
 }
 
 grisons_area = { #3
-	1873 4722 4740 
+	1873 4722 5247 
 }
 
 romandie_area = { #5
@@ -1234,8 +1256,8 @@ herzegovina_area = { #3
 	139 1831 4990
 }
 
-slovenia_area = { #3
-	129 1769 4751
+slovenia_area = { #4
+	129 1769 4751 5253
 }
 
 istria_area = { #3

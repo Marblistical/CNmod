@@ -1,9 +1,9 @@
 #4740 - Como
 
-owner = CMO
-controller = CMO
+owner = MLO
+controller = MLO
 culture = lombard
-religion = waldensian
+religion = catholic
 hre = yes
 base_tax = 4
 base_production = 4
@@ -12,7 +12,7 @@ base_manpower = 2
 fort_15th = yes # Extensive fortifications were only dismantled in 1525-7
 capital = "Como"
 is_city = yes	# Estimated
-add_core = CMO
+add_core = MLO
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

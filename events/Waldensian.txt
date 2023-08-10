@@ -30,10 +30,10 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 180
 
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			capital_distance = {
 				who = PRO
 				distance = 50
@@ -43,7 +43,7 @@ country_event = {
 
 	option = {
 		name = "waldensian_event.1.a"
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 20 }
 		change_religion = waldensian
 		capital_scope = {
 			change_religion = waldensian
@@ -51,7 +51,7 @@ country_event = {
 	}
 	option = {
 		name = "waldensian_event.1.b"
-		ai_chance = { factor = 60 }
+		ai_chance = { factor = 80 }
 		add_stability = -1
 		capital_scope = {
 			change_religion = waldensian

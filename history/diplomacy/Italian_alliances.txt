@@ -213,6 +213,30 @@ dependency = {
 	end_date = 1534.1.1
 }
 
+dependency = {
+    subject_type = "papal_fief"
+	first = PAP
+	second = FRL
+	start_date = 1415.1.1
+	end_date = 1534.1.1
+}
+
+dependency = {
+    subject_type = "papal_fief"
+	first = PAP
+	second = RMI
+	start_date = 1415.1.1
+	end_date = 1534.1.1
+}
+
+dependency = {
+    subject_type = "papal_fief"
+	first = PAP
+	second = PGA
+	start_date = 1415.1.1
+	end_date = 1534.1.1
+}
+
 # Lodovico III "il Turco" ~ Barbara , dt. Johann "der Alchemist" Hohenzollern (Brandenburg)
 #royal_marriage = {
 #	first = MAN 

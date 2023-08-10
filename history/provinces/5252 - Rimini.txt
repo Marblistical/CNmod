@@ -1,0 +1,39 @@
+#5252 - Rimini
+
+owner = RMI
+controller = RMI
+culture = romagnan 
+religion = catholic 
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Rimini"
+is_city = yes
+add_core = RMI
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+1506.10.7 = { 
+	owner = PAP
+	controller = PAP
+	add_core = PAP
+}
+1805.12.26 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = PAP
+} # Treaty of Pressburg
+1814.4.11 = {
+	owner = PAP
+	controller = PAP
+	add_core = PAP
+	remove_core = ITA
+} # Treaty of Fontainebleau, Napoleon abdicates unconditionally

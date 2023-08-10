@@ -68,6 +68,7 @@ scandinavia_region = {
 low_countries_region = {
 	areas = {
 		wallonia_area
+		luxembourg_area
 		flanders_area
 		picardy_area
 		holland_area
@@ -84,8 +85,10 @@ italy_region = {
 		venetia_area
 		lombardy_area
 		piedmont_area
-		coastal_tuscany_area
-		tuscany_area
+		montferrato_area
+		novara_area
+		south_tuscany_area
+		north_tuscany_area
 		liguria_area
 		corsica_sardinia_area
 		sicily_area
@@ -93,11 +96,13 @@ italy_region = {
 		calabria_area
 		apulia_area
 		west_liguria_area
-		emilia_romagna_area
+		emilia_area
+		romagna_area
 		fruili_area
 		central_italy_area
 		abruzzo_area
 		lazio_area
+		umbria_area
 		po_valley_area
 		western_sicily_area
 	}
