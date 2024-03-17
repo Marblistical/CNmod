@@ -2,7 +2,7 @@
 capital = "Frankfurt"
 culture = hessian
 religion = catholic
-trade_goods = paper
+trade_goods = beer
 owner = FRN
 base_tax = 7
 base_production = 7

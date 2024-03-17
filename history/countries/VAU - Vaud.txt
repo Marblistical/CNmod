@@ -1,0 +1,23 @@
+government = republic
+add_government_reform = canton_government
+government_rank = 1
+technology_group = western
+religion = waldensian
+primary_culture = arpitan
+add_accepted_culture = swiss
+capital = 1867
+add_army_professionalism = 0.1
+
+1054.1.1 = {
+	monarch = {
+		name = "Patriziat"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+
+1528.1.1 = { religion = reformed }
+
+1798.1.1 = { add_government_reform = constitutional_republic }

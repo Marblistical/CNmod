@@ -9,7 +9,7 @@ culture = hejazi_culture
 religion = shiite
 capital = "Qunfudhah"
 
-trade_goods = incense
+trade_goods = fish
 hre = no
 base_tax = 2 
 base_production = 2

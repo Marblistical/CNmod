@@ -51,16 +51,18 @@ scandinavia_region = {
 		northern_norway
 		eastern_norway
 		western_norway
-		bothnia_area
 		subarctic_islands_area
-		laponia_area
+		kola_area
 		vastra_gotaland_area
-		ostra_svealand_area
-		CN_vasterbotten_area
-		CN_norrbotten_area
-		CN_kemijoki_area
-		CN_oulu_area
-		CN_korsholm_area
+		bergslagen_area
+		vasterbotten_area
+		lappland_area
+		lappi_area
+		osterbotten_area
+		savonia_area
+		uusimaa_area
+		inland_norway
+		finmark_area
 	}
 }
 
@@ -90,7 +92,8 @@ italy_region = {
 		south_tuscany_area
 		north_tuscany_area
 		liguria_area
-		corsica_sardinia_area
+		corsica_area
+		sardinia_area
 		sicily_area
 		naples_area
 		calabria_area
@@ -111,8 +114,9 @@ italy_region = {
 
 north_german_region = {
 	areas = { 
-		leizpig_area
-		south_saxony_area
+		meissen_area
+		merseburg_area
+		lusatia_area
 		northern_saxony_area
 		thuringia_area
 		neumark_area
@@ -121,13 +125,16 @@ north_german_region = {
 		osnabruck_area
 		hinter_pommern_area
 		north_rhine_area
-		lower_rhineland_area
+		trier_area
+		palatinate_area
 		westphalia_area
 		north_westphalia_area
+		mainz_area
 		hesse_area
 		lower_saxony_area
 		weser_area
 		holstein_area
+		schleswig_area
 		mecklenburg_area
 		braunschweig_area
 		prignitz_area
@@ -149,6 +156,7 @@ south_german_region = {
 		carinthia_area
 		switzerland_area
 		grisons_area
+		upper_palatinate_area
 		lower_bavaria_area
 		upper_bavaria_area
 		upper_austria_area
@@ -170,16 +178,16 @@ russia_region = {
 		pskov_area
 		beloozero_area
 		pomor_area
-		karelia_area
+		ingria_area
 		ryazan_area
-		north_karelia
+		karelia_area
 		tver_area
 		yaroslavl_area
 		vladimir_area
 		oka_area
 		arkhangelsk_area
 		vologda_area
-		CN_white_karelia_area
+		white_karelia_area
 	}
 }
 
@@ -210,6 +218,7 @@ iberia_region = {
 		valencia_area
 		lower_andalucia_area
 		upper_andalucia_area
+		jaen_area
 		castile_area
 		murcia_area
 		toledo_area
@@ -254,7 +263,7 @@ baltic_region = {
 	areas = {
 		lithuania_area
 		livonia_area
-		estonia_ingria_area
+		estonia_area
 		curonia_area
 		west_prussia_area
 		east_prussia_area

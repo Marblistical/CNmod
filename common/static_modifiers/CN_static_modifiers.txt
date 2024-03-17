@@ -1,13 +1,34 @@
 all_nations = {
 	global_tax_income = 12
-	land_forcelimit	= 3
+	land_forcelimit	= 2
 	naval_forcelimit = 10
 	diplomatic_upkeep = 1
 	diplomatic_annexation_cost = 1
+	merchants = 1
+	development_cost = 1.5
 }
 
 subject_nation = {
 	global_tax_income = -6
 	land_forcelimit	= -1
-	naval_forcelimit = -6
+	naval_forcelimit = -4
+}
+
+provincial_tax_income = {
+	tax_income = -0.25
+	province_trade_power_value = 0.25
+	regiment_recruit_speed = -0.01
+}
+
+provincial_production_size = {
+	trade_goods_size = 0.15
+	ship_recruit_speed = -0.01
+	local_great_project_upgrade_time = -0.01
+}
+
+core = {
+	local_tax_modifier = 1				#90% more in a core
+	local_manpower_modifier = 1			#75% more in a core
+	local_sailors_modifier = 1
+	allowed_num_of_buildings = 2
 }

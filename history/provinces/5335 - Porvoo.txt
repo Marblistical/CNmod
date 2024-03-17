@@ -1,0 +1,17 @@
+#5335 - Porvoo
+
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = FIN
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Porvoo"
+is_city = yes
+discovered_by = western
+discovered_by = eastern

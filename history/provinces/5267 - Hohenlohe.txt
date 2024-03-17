@@ -1,0 +1,19 @@
+owner = HEL
+controller = HEL
+capital = "Ohringen"
+is_city = yes
+culture = franconian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = beer
+add_core = HEL
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

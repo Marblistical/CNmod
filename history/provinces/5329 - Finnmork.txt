@@ -1,0 +1,17 @@
+#5329 - Finnmork
+
+owner = NOR
+controller = NOR
+culture = sapmi
+religion = ukonusko
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+capital = "
+is_city = yes
+add_core = NOR
+add_local_autonomy = 70
+discovered_by = eastern
+discovered_by = western

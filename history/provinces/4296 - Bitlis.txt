@@ -9,7 +9,7 @@ culture = kurdish
 religion = sunni
 capital = "Bitlis"
 
-trade_goods = wool
+trade_goods = livestock
 hre = no
 base_tax = 1
 base_production = 1

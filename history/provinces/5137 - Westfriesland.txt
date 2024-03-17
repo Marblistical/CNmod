@@ -8,8 +8,8 @@ culture = frisian
 religion = catholic
 capital = "Alkmaar"
 
-trade_goods = livestock
-hre = no
+trade_goods = dairy
+hre = yes
 base_tax = 2
 base_production = 1
 base_manpower = 1

@@ -8,7 +8,7 @@ culture = al_suryah_arabic
 religion = sunni
 capital = "Al Karak"
 
-trade_goods = grain
+trade_goods = wool
 hre = no
 base_tax = 1 
 base_production = 1

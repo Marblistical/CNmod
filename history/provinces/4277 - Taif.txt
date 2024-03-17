@@ -9,7 +9,7 @@ culture = hejazi_culture
 religion = sunni
 capital = "Taif"
 
-trade_goods = wool
+trade_goods = fruit
 hre = no
 base_tax = 2
 base_production = 3

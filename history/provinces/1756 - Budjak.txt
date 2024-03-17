@@ -13,7 +13,7 @@ hre = no
 base_tax = 1
 base_production = 1
 is_city = yes
-trade_goods = wool
+trade_goods = livestock
 base_manpower = 1
 fort_15th = yes #Akkerman Fortress
 

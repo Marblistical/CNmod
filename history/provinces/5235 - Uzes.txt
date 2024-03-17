@@ -1,9 +1,9 @@
-﻿#5235 - Uzès
+#5235 - Uzes
 
 owner = TOU
 controller = TOU
 add_core = TOU
-capital = "Uzès"
+capital = "Uzes"
 is_city = yes
 culture = provencal
 religion = catholic

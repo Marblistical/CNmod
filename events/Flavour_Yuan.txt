@@ -1,5 +1,4 @@
-
-namespace = yuan_flavour
+namespace = yuan_collapse
 
 #########################
 # Yuan Disaster Prelude #

@@ -9,7 +9,7 @@ culture = hejazi_culture
 religion = sunni
 capital = "Jiddah"
 
-trade_goods = incense
+trade_goods = spices
 hre = no
 base_tax = 2 
 base_production = 3

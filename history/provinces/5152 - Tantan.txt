@@ -9,7 +9,7 @@ culture = berber
 religion = sunni
 capital = "Tan-Tan"
 
-trade_goods = naval_supplies
+trade_goods = fish
 hre = no
 base_tax = 1
 base_production = 1

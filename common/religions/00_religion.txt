@@ -871,7 +871,7 @@ christian = {
 		}
 		
 		province = {
-			local_missionary_strength = -0.03 # particularly resilent in the face of centuries of persecution
+			local_missionary_strength = -0.025 # particularly resilent in the face of centuries of persecution
 		}
 		
 		heretic = { PAUPERES ULTRAMONTANI }

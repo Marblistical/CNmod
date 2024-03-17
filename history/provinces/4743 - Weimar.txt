@@ -3,6 +3,7 @@
 owner = THU
 controller = THU
 add_core = THU
+add_core = WEI
 culture = saxon
 religion = catholic
 hre = yes

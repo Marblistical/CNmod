@@ -9,7 +9,7 @@ culture = mazandarani
 religion = shiite
 capital = "Rustamdar"
 
-trade_goods = silk
+trade_goods = fruit
 hre = no
 base_tax = 3
 base_production = 3

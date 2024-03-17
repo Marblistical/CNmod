@@ -10,7 +10,7 @@ culture = armenian
 religion = sunni
 capital = "Sivas"
 
-trade_goods = livestock
+trade_goods = grain
 hre = no
 base_tax = 3
 base_production = 3

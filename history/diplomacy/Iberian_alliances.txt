@@ -380,6 +380,13 @@ vassal = {
 }
 
 vassal = {
+	first = ADU
+	second = TOL
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+
+vassal = {
 	first = POR
 	second = ORC
 	start_date = 1415.1.1

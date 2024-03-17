@@ -9,7 +9,7 @@ culture = hejazi_culture
 religion = sunni
 capital = "Ma'din Sulaym"
 
-trade_goods = livestock
+trade_goods = gold
 hre = no
 base_tax = 1 
 base_production = 1

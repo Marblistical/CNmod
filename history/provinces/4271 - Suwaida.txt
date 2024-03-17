@@ -10,7 +10,7 @@ culture = al_suryah_arabic
 religion = shiite
 capital = "As-Suwayda"
 
-trade_goods = livestock
+trade_goods = fruit
 hre = no
 base_tax = 1 
 base_production = 1

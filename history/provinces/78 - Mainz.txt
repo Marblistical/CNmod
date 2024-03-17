@@ -2,7 +2,7 @@
 capital = "Mainz"
 culture = hessian
 religion = catholic
-trade_goods = paper
+trade_goods = wine
 owner = MAI
 base_tax = 4 
 base_production = 4

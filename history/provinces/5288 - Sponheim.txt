@@ -1,0 +1,18 @@
+#5288 - Sponheim
+
+capital = "Sponheim"
+culture = hessian
+religion = catholic
+trade_goods = wine
+owner = SPH
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+controller = SPH
+add_core = SPH
+hre = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

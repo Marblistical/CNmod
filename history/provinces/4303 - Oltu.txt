@@ -11,7 +11,7 @@ culture = armenian
 religion = coptic
 capital = "Oltu"
 
-trade_goods = livestock
+trade_goods = wool
 hre = no
 base_tax = 1
 base_production = 1

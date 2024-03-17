@@ -4,11 +4,12 @@ owner = SHL
 controller = SHL
 add_core = SHL
 add_core = SLW
+add_core = NFL
 culture = frisian
 religion = catholic
-capital = "Eidum" #todo: check this
+capital = "Husum"
 
-trade_goods = salt
+trade_goods = grain
 hre = no
 base_tax = 1
 base_production = 1

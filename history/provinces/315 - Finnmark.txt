@@ -3,13 +3,13 @@
 owner = NOR
 controller = NOR
 culture = sapmi
-religion = catholic
+religion = ukonusko
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
 trade_goods = fish
-capital = "Vardø"
+capital = "Tromsø"
 is_city = yes
 add_core = NOR
 add_local_autonomy = 70

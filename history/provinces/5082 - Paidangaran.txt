@@ -9,7 +9,7 @@ culture = azerbaijani
 religion = shiite
 capital = "Paidangaran"
 
-trade_goods = cotton
+trade_goods = cloth
 hre = no
 base_tax = 1
 base_production = 2

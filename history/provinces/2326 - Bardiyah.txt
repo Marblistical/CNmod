@@ -8,7 +8,7 @@ culture = libyan
 religion = sunni
 capital = "Bardiyah"
 
-trade_goods = livestock
+trade_goods = fish
 hre = no
 base_tax = 1 
 base_production = 1

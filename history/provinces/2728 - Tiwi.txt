@@ -1,8 +1,8 @@
 #2728 - Tiwi
 
 add_core = SUH
-controller = SUH
 owner = SUH
+controller = SUH
 add_core = TIW
 
 culture = suhraltanubi

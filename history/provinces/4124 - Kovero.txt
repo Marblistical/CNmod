@@ -1,7 +1,11 @@
-culture = sapmi
-religion = ukonusko
+owner = NOV
+controller = NOV
+add_core = NOV
+add_core = KRL
+culture = karelian
+religion = catholic
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
 trade_goods = fur
 base_manpower = 1

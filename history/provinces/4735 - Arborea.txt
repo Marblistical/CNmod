@@ -1,13 +1,12 @@
 # 4725 - Arborea
 
-owner = WRE
-controller = WRE
-add_core = WRE
+owner = SAR
+controller = SAR
 add_core = SAR
 
 culture = sardinian 
 religion = catholic 
-capital = "Olbia"
+capital = "Oristano"
 
 hre = no 
 base_tax = 1

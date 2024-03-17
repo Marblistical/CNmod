@@ -8,7 +8,7 @@ culture = algerian
 religion = sunni
 capital = "Msila"
 
-trade_goods = salt
+trade_goods = cotton
 hre = no
 base_tax = 1 
 base_production = 1

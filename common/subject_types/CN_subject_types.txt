@@ -10,12 +10,10 @@ papal_fief = {
 
 	# Triggers:
 	is_potential_overlord = {
-		OR = {
-			tag = PAP
-		}
 		religion = catholic
 		is_excommunicated = no
 		OR = {
+			tag = PAP
 			papacy_active = yes
 			has_country_flag = is_kingdom_of_god_flag
 		}

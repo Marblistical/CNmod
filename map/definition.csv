@@ -20,7 +20,7 @@ province;red;green;blue;x;x
 19;130;70;255;�sterbotten;x
 20;2;72;0;Tr�ndelag;x
 21;131;74;64;H�logaland;x
-22;3;76;128;Oplandene;x
+22;3;76;128;Hedmark;x
 23;131;78;192;Bergenshus;x
 24;3;80;255;Stavanger;x
 25;131;82;0;Gotland;x
@@ -4744,7 +4744,7 @@ province;red;green;blue;x;x
 4743;70;32;26;Weimar;x
 4744;35;63;199;Zwickau;x
 4745;86;194;97;R�gen;x
-4746;213;132;0;Wolgast;x
+4746;200;137;221;Wolgast;x
 4747;111;118;8;Dramburg;x
 4748;170;79;248;Brandenburg;x
 4749;39;120;238;Stargardland;x
@@ -5024,7 +5024,7 @@ province;red;green;blue;x;x
 5023;67;153;33;Skelleftea;x
 5024;86;155;71;Pitea;x
 5025;25;158;45;Lulea;x
-5026;60;158;99;Kalix;x
+5026;60;158;99;Uppland;x
 5027;24;38;191;Sorsele;x
 5028;67;56;188;Jokkmokk;x
 5029;9;17;183;Gallivare;x
@@ -5035,7 +5035,7 @@ province;red;green;blue;x;x
 5034;86;16;183;Savukoski;x
 5035;88;40;183;Kittila;x
 5036;69;23;183;Kemijarvi;x
-5037;82;158;106;Kemi;x
+5037;175;45;130;Sodermanland;x
 5038;122;61;142;MountAbu;x
 5039;198;85;100;Sangli;x
 5040;167;167;151;Balaghat;x
@@ -5259,3 +5259,84 @@ province;red;green;blue;x;x
 5258;201;43;66;Dunkirk;x
 5259;147;158;75;Limburg;x
 5260;93;181;122;Bitburg;x
+5261;183;100;110;Colmar;x
+5262;94;156;86;Furstenberg;x
+5263;84;34;40;Hohenzollern;x
+5264;132;89;194;Kempten;x
+5265;233;190;128;Cham;x
+5266;178;128;58;Eichstatt;x
+5267;101;44;165;Hohenlohe;x
+5268;211;167;80;Saarbrucken;x
+5269;186;82;163;Darmstadt;x
+5270;85;170;190;Mark;x
+5271;70;116;147;Ravensberg;x
+5272;70;151;143;Waldeck;x
+5273;66;49;116;Henneberg;x
+5274;213;128;174;Eisenach;x
+5275;132;85;97;Naumburg;x
+5276;114;55;134;Halberstadt;x
+5277;101;116;101;Meissen;x
+5278;163;150;66;Dannenberg;x
+5279;198;113;105;Schwerin;x
+5280;68;196;77;Pinneberg;x
+5281;175;59;38;Hadersleben;x
+5282;213;132;0;Kammin;x
+5283;127;115;182;Pitten;x
+5284;40;82;112;Schladming;x
+5285;183;51;104;Brixen;x
+5286;226;219;77;Alps7;x
+5287;3;8;41;Riva;x
+5288;190;159;186;Sponheim;x
+5289;169;106;204;Usedom;x
+5290;167;74;89;Hulst;x
+5291;150;100;222;Leuven;x
+5292;83;74;181;Bouillon;x
+5293;190;159;116;Boulogne;x
+5294;143;148;173;Lubin;x
+5295;100;193;110;Litomerice;x
+5296;201;194;101;Beroun;x
+5297;193;134;206;Teschen;x
+5298;55;211;167;Pedroches;x
+5299;151;178;136;Alhama;x
+5300;89;132;35;Ubeda;x
+5301;212;104;114;Alcaraz;x
+5302;200;150;247;Molina;x
+5303;198;135;87;Bonifacio;x
+5304;174;70;132;Gallura;x
+5305;77;22;113;Nuoro;x
+5306;170;51;74;Catania;x
+5307;69;208;224;Alborean Sea;x
+5308;57;188;239;Balearic Sea;x
+5309;93;205;225;Latin Coast;x
+5310;65;200;234;Sicilian Coast;x
+5311;50;179;239;Ausonian Sea;x
+5312;51;205;217;Dalmatian Coast;x
+5313;45;184;239;Hellenic Trench;x
+5314;67;176;219;South Aegean Sea;x
+5315;85;201;250;Danube Delta;x
+5316;93;194;240;Halys Sea;x
+5317;42;177;211;Kerch Strait;x
+5318;201;143;140;Vendsyssel;x
+5319;55;116;140;Sjaelland;x
+5320;150;50;199;Helsingborg;x
+5321;174;85;143;Rumlaborg;x
+5322;56;146;154;Sogn;x
+5323;55;31;77;Buskerud;x
+5324;162;211;55;Oppland;x
+5325;88;119;111;Glamdal;x
+5326;44;34;145;Kopperberg;x
+5327;74;137;193;Medelpad;x
+5328;150;150;149;Inntrondelag;x
+5329;255;160;228;Finnmork;x
+5330;170;255;217;Lake Inari;x
+5331;48;131;255;Kuusamo;x
+5332;104;93;92;Satakunta;x
+5333;124;32;72;Rautalampi;x
+5334;176;65;103;Hollola;x
+5335;68;124;124;Porvoo;x
+5336;3;7;71;Kymenlaakso;x
+5337;103;133;48;Saaminki;x
+5338;122;88;216;Suojarven;x
+5339;103;113;42;Mujejarven;x
+5340;83;207;13;Pechenga;x
+5341;170;75;165;Loyyavrsiyt;x

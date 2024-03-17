@@ -10,7 +10,7 @@ capital = "el Qasr"
 
 is_city = yes
 base_manpower = 2
-trade_goods = livestock
+trade_goods = dates
 hre = no
 base_tax = 1 
 base_production = 1

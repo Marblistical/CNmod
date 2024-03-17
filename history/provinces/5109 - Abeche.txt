@@ -1,11 +1,11 @@
-﻿#5109 - Abeche
+#5109 - Abeche
 
 owner = WAD
 controller = WAD
 add_core = WAD
 culture = tunjur 
 religion = shamanism #Fetishism
-capital = "Abéché"
+capital = "Abeche"
 native_size = 50
 native_ferocity = 4
 native_hostileness = 9 

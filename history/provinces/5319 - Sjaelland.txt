@@ -1,0 +1,23 @@
+#Sjaelland, incl. Roskilde, Ringsted
+
+add_core = DAN
+owner = DAN
+controller = DAN
+culture = danish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = glass
+base_manpower = 2
+capital = "Roskilde"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1534.7.15 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # 'Grevefejden'(Christofer of Oldenburg)
+1536.1.1 = { religion = protestant }
+1536.7.28 = { revolt = {} controller = DAN } # Liberated by Christian III
+1550.1.1 = { trade_goods = naval_supplies }

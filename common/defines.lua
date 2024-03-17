@@ -1,7 +1,7 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "1444.11.11",
+	START_DATE = "1415.01.01",
 	END_DATE = "1821.1.2",
 	MAX_RANDOM_NEW_WORLD = "1492.1.1",
 
@@ -561,9 +561,9 @@ NCountry = {
 	EMBRACE_INSTITUTION_COST = 2.5,				-- 2.5 per development (autonomy modified)
 	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
 	CORRUPTION_COST = 0.05,						-- cost for monthly combat per development
-	STATE_MAINTENANCE_DEV_FACTOR = 0.007,		-- per dev
+	STATE_MAINTENANCE_DEV_FACTOR = 0.001,		-- per dev
 	STATE_MAINTENANCE_DISTANCE_FACTOR = 0.001,	-- distance
-	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continet
+	STATE_MAINTENANCE_CONTINENT_FACTOR = 0.25,	-- different continent
 	STATE_MAINTENANCE_CULTURE_FACTOR = 0.25,		-- non accepted culture
 
 	ALLOW_ZERO_BASE_VALUES = 0,						-- Affects base tax, base manpower, and base production
@@ -1170,13 +1170,13 @@ NEconomy = {
 	BASE_INTERESTS = 4.0,							-- Base interests
 	LAND_MAINTENANCE_FACTOR = 0.25,					-- _EDEF_LAND_MAINTENANCE_FACTOR
 	HEAVY_SHIP_MAINT_FACTOR = 0.10,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
-	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
+	LIGHT_SHIP_MAINT_FACTOR = 0.02,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
 	GALLEY_MAINT_FACTOR = 0.04,						-- _EDEF_GALLEY_MAINT_FACTOR_
-	TRANSPORT_MAINT_FACTOR = 0.04,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
-	COLONIAL_MAINTENANCE_FACTOR = 8.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
+	TRANSPORT_MAINT_FACTOR = 0.05,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
+	COLONIAL_MAINTENANCE_FACTOR = 4.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
 	MISSIONARY_MAINTENANCE_FACTOR = 0.0,				-- How much a missionary costs in itself
-	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0.5,	-- How much this is ncreased from development
-	MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 0.75,		-- How much this is ncreased from local autonomy
+	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0.25,	-- How much this is ncreased from development
+	MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 0.50,		-- How much this is ncreased from local autonomy
 	MISSIONARY_MAINTENANCE_AUTONOMY_BASE = 1.0,			-- The local autonomy is added to this base in the formula.
 	MISSIONARY_MAINTENANCE_DEVELOPMENT_CAP = 30,		-- Where dev will get capped by the system for calculations.
 	MERCHANT_TIME_DISTANCE = 0.25,					-- _EDEF_MERCHANT_TIME_DISTANCE_
@@ -1329,7 +1329,7 @@ NMilitary = {
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,
 	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,
-	FORTRESS_COST = 0.5,							-- base fort cost
+	FORTRESS_COST = 0.25,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
@@ -1696,7 +1696,7 @@ NAI = {
 	HRE_DESIRE_THREATENED_BY_MULTIPLIER = 1.0,
 	
 	ONLY_INFANTRY_MERCS = 1, --Set to 0 to let AI hire artillery and cavalry mercenaries.
-	AI_FORT_PER_DEV_RATIO = 75, -- How much development the AI wants per fort (approximately)
+	AI_FORT_PER_DEV_RATIO = 50, -- How much development the AI wants per fort (approximately)
 	FORT_ON_BORDER_MULT = 0.75, -- 
 	FORT_NEXT_TO_FORT_MULT = 0.75, -- 
 	FORT_MAINTENANCE_CHEAT = 0, -- Set to 1 to enable AI fort maintenance cheating. Was once active in vanilla, but no longer

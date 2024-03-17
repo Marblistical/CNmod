@@ -10,7 +10,7 @@ culture = al_suryah_arabic
 religion = shiite
 capital = "Sayda"
 
-trade_goods = naval_supplies
+trade_goods = glass
 hre = no
 base_tax = 5 
 base_production = 5

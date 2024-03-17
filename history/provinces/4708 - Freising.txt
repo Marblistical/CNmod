@@ -8,7 +8,7 @@ hre = yes
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain #Weihenstephaner beer
+trade_goods = dairy #Weihenstephaner beer
 add_core = BAV
 
 discovered_by = eastern

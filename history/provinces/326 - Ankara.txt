@@ -10,7 +10,7 @@ culture = turkish
 religion = sunni
 capital = "Ankara"
 
-trade_goods = cloth
+trade_goods = copper
 hre = no
 base_tax = 2
 base_production = 3

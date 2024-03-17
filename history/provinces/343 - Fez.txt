@@ -9,7 +9,7 @@ culture = moroccan
 religion = sunni
 capital = "Fez"
 
-trade_goods = cloth
+trade_goods = livestock
 hre = no
 base_tax = 5
 base_production = 5

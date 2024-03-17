@@ -9,7 +9,7 @@ culture = hejazi_culture
 religion = sunni
 capital = "Makkah"
 
-trade_goods = incense
+trade_goods = paper
 hre = no
 base_tax = 4 
 base_production = 4

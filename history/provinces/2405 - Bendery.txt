@@ -9,7 +9,7 @@ culture = romanian
 religion = orthodox
 capital = "Bender"
 
-trade_goods = wine
+trade_goods = wool
 hre = no
 base_tax = 1
 base_production = 1

@@ -9,7 +9,7 @@ culture = romanian
 religion = orthodox
 capital = "Craiova"
 
-trade_goods = copper
+trade_goods = wine
 hre = no
 base_tax = 2
 base_production = 1

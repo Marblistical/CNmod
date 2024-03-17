@@ -8,7 +8,7 @@ culture = khazar
 religion = jewish
 capital = "Cherny Yar"
 
-trade_goods = livestock
+trade_goods = wool
 hre = no
 base_tax = 2 
 base_production = 1

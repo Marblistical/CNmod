@@ -8,7 +8,7 @@ culture = al_suryah_arabic
 religion = sunni
 capital = "Latakia"
 
-trade_goods = cotton
+trade_goods = wine
 hre = no
 base_tax = 3
 base_production = 4

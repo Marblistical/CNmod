@@ -9,7 +9,7 @@ culture = kurdish
 religion = sunni
 capital = "Urfa"
 
-trade_goods = wool
+trade_goods = cotton
 hre = no
 base_tax = 3 
 base_production = 3

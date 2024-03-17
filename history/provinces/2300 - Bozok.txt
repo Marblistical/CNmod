@@ -10,7 +10,7 @@ culture = turkish
 religion = sunni
 capital = "Yozgat"
 
-trade_goods = grain
+trade_goods = livestock
 hre = no
 base_tax = 1
 base_production = 1

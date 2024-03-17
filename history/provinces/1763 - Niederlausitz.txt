@@ -1,13 +1,12 @@
 #1763 - Niederlausitz
 
-owner = BOH
-controller = BOH
+owner = SOR
+controller = SOR
 add_core = SOR
-add_core = BOH
 capital = "Cottbus"
 culture = sorbian
 religion = catholic
-trade_goods = livestock
+trade_goods = wool
 hre = yes
 base_tax = 2
 base_production = 1

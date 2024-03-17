@@ -1,9 +1,9 @@
-﻿#5233 - Béziers
+#5233 - Beziers
 
 owner = TOU
 controller = TOU
 add_core = TOU
-capital = "Béziers"
+capital = "Beziers"
 is_city = yes
 culture = occitain
 religion = catholic

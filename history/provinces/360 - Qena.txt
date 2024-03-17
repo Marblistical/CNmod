@@ -8,7 +8,7 @@ culture = al_misr_arabic
 religion = sunni
 capital = "Qus"
 
-trade_goods = livestock
+trade_goods = cloth
 hre = no
 base_tax = 1
 base_production = 1

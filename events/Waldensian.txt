@@ -18,8 +18,12 @@ country_event = {
 		NOT = { religion = waldensian }
 		religion = catholic
 		is_part_of_hre = yes
-		is_year = 1420
+		is_incident_happened = incidents_waldensian
 		is_elector = no
+		had_global_flag = {
+			flag = recent_waldensian
+			days = 730
+		}
 		NOT = { is_emperor = yes }
 		NOT = { 
 			has_opinion = {
@@ -43,16 +47,19 @@ country_event = {
 
 	option = {
 		name = "waldensian_event.1.a"
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 10 }
 		change_religion = waldensian
+		set_global_flag = recent_waldensian
 		capital_scope = {
 			change_religion = waldensian
 		}
+		
 	}
 	option = {
 		name = "waldensian_event.1.b"
-		ai_chance = { factor = 80 }
+		ai_chance = { factor = 90 }
 		add_stability = -1
+		set_global_flag = recent_waldensian
 		capital_scope = {
 			change_religion = waldensian
 		}

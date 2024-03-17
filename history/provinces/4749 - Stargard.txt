@@ -1,14 +1,14 @@
 # 4749 - Stargard
 
-owner = MKL
-controller = MKL
-add_core = MKL
+owner = STR
+controller = STR
+add_core = STR
 culture = pommeranian
 religion = catholic
 hre = yes
 base_tax = 1
 base_production = 1
-trade_goods = livestock
+trade_goods = grain
 base_manpower = 1
 capital = "Neubrandenburg"
 is_city = yes

@@ -1,16 +1,16 @@
-﻿# 4945 - Principal cities: Nîmes
+# 4945 - Principal cities: Nimes
 
 owner = TOU
 controller = TOU
 add_core = TOU
-capital = "Nîmes"
+capital = "Nimes"
 is_city = yes
 culture = provencal
 religion = catholic
 hre = yes
 base_tax = 3
 base_production = 4
-trade_goods = wool
+trade_goods = fish
 base_manpower = 2
 
 discovered_by = eastern

@@ -1,14 +1,14 @@
 #48 - Kolberg
 
-owner = STE
-controller = STE
-add_core = STE
+owner = KMI
+controller = KMI
+add_core = KMI
 culture = pommeranian
 religion = catholic
 hre = yes
 base_tax = 1
 base_production = 1
-trade_goods = fish
+trade_goods = salt
 base_manpower = 2
 capital = "Kolberg"
 is_city = yes

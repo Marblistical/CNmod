@@ -10,7 +10,7 @@ culture = al_suryah_arabic
 religion = sunni
 capital = "Tadmuriyah"
 
-trade_goods = livestock
+trade_goods = gems
 hre = no
 base_tax = 1 
 base_production = 1

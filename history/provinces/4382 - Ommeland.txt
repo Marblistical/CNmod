@@ -1,7 +1,7 @@
 # 4383 Ommeland - Groningen, Ommeland & Drenthe
 
-owner = EFR
-controller = EFR
+owner = GRN
+controller = GRN
 capital = "Groningen"
 is_city = yes
 culture = frisian
@@ -10,9 +10,8 @@ hre = yes
 base_tax = 1
 base_production = 2
 base_manpower = 2
-trade_goods = cloth 
-add_core = EFR
-add_core = FRI
+trade_goods = beer
+add_core = GRN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

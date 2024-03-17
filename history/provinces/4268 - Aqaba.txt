@@ -8,7 +8,7 @@ culture = al_suryah_arabic
 religion = sunni
 capital = "Aqaba"
 
-trade_goods = fish
+trade_goods = copper
 hre = no
 base_tax = 1 
 base_production = 1

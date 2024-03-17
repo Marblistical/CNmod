@@ -11,7 +11,6 @@ historical_idea_groups = {
 	quantity_ideas
 	innovativeness_ideas
 	maritime_ideas
-	trade_ideas
 	diplomatic_ideas
 	economic_ideas
 	quality_ideas
