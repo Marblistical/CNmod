@@ -2,7 +2,7 @@
 
 owner = SWI
 controller = SWI
-culture = swabian
+culture = swiss
 religion = waldensian
 capital = "Chur"
 trade_goods = iron

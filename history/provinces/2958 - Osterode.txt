@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital = "Osterode"
-culture = pruthenian
+culture = prussian
 religion = catholic
 trade_goods = livestock
 hre = yes

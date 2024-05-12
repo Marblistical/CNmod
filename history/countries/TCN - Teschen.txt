@@ -1,16 +1,16 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 2
+government_rank = 1
 technology_group = western
 primary_culture = schlesian
 religion = catholic
-capital = 10468 #Teschen
+capital = 5297 #Teschen
 
 1442.1.1 = {
 	monarch = {
 		name = "Boleslaus II"
 		birth_date = 1423.1.1 #age = 19
-		culture = silesian
+		culture = schlesian
 		dynasty = "Piast"
 		adm = 2
 		dip = 2

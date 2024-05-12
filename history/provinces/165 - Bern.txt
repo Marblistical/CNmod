@@ -2,7 +2,7 @@
 
 owner = SWI
 controller = SWI 
-culture = swabian
+culture = swiss
 religion = waldensian
 capital = "Bern"
 trade_goods = dairy

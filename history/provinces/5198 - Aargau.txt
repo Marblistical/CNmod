@@ -2,7 +2,7 @@
 
 owner = SWI
 controller = SWI
-culture = swabian
+culture = swiss
 religion = waldensian
 capital = "Aarau"
 trade_goods = livestock

@@ -3,7 +3,7 @@
 owner = REG
 controller = REG
 add_core = REG
-culture = austrian
+culture = bavarian
 religion = catholic
 base_tax = 4
 base_production = 3

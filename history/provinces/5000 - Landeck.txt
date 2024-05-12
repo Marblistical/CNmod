@@ -3,7 +3,7 @@
 owner = TIR
 controller = TIR
 add_core = TIR
-culture = austrian
+culture = bavarian
 religion = catholic
 base_tax = 1
 base_production = 1

@@ -2,7 +2,7 @@
 
 owner = SWI
 controller = SWI
-culture = swabian
+culture = swiss
 religion = waldensian
 capital = "St Gallen"
 trade_goods = wine

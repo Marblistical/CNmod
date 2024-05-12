@@ -2,7 +2,7 @@
 
 owner = HUN
 controller = HUN 
-culture = rusyn
+culture = slovak
 religion = catholic
 capital = "Kassa"
 trade_goods = grain

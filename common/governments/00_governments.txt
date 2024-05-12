@@ -97,6 +97,7 @@ monarchy = {
 				barbary_sultanate_reform
 				roman_empire_reform
 				persian_government_reform
+				zoroastrian_persian_government_reform
 				portuguese_monarchy_reform
 				holy_imperial_monarchy_reform
 				burgundian_state_reform
@@ -108,7 +109,26 @@ monarchy = {
 				courts_of_navarra
 				league_of_lezhe_reform
 				tibetan_dual_government_reform
-				sisterhood_of_jeanne_darc_reform
+				#1.36
+				#Turkomen
+				turkoman_ottoman_institutions
+				pronoiar_monarchy_reform #custom nation
+				#Egypt 
+				egyptian_government_reform
+				#1.37
+				ayyubid_dynasty
+				arabic_plutocracy_reform
+				apostolic_kingdom
+				imperial_hungarian_government
+				andean_empire_reform
+				aztec_empire_reform
+				maya_confederation_reform
+				divine_kingship_reform
+				nahuatl_monarchy_reform
+				empire_of_trebizond
+				austrian_absolute_monarchy
+				merchant_aristocracy_reform
+				gothic_monarchy_reform
 				#charlemagne's nightmare
 				liao_empire_reform
 				northern_shogunate

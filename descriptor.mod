@@ -6,7 +6,6 @@ tags={
 	"Missions And Decisions"
 }
 replace_path="common/bookmarks"
-replace_path="history/diplomacy"
 replace_path="missions"
 name="Charlemagne's Nightmare"
 supported_version="1.36.*"

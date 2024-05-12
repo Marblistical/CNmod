@@ -1,6 +1,6 @@
 owner = SWI
 controller = SWI
-culture = swabian
+culture = swiss
 religion = waldensian
 capital = "Illanz"
 trade_goods = dairy

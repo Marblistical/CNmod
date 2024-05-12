@@ -2,9 +2,9 @@
 
 owner = LIT
 controller = LIT
-culture = lithuanian
+culture = samogitian
 religion = catholic
-capital = "Varniai"
+capital = "Raseine"
 trade_goods = livestock
 hre = no
 base_tax = 2

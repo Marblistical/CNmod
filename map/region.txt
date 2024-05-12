@@ -262,24 +262,32 @@ british_isles_region = {
 baltic_region = {
 	areas = {
 		lithuania_area
+		trakai_area
 		livonia_area
+		vidzeme_area
 		estonia_area
 		curonia_area
 		west_prussia_area
 		east_prussia_area
+		masuria_area
 		samogitia_area
 	}
 }
 
 poland_region = {
 	areas = {
-		wielkopolska_area
-		malopolska_area
-		red_ruthenia_area
-		mazovia_area
+		ponzan_area
+		kalisz_area
+		krakow_area
+		kuyavia_area
+		halychia_area
+		opillia_area
+		plock_area
+		warsaw_area
 		silesia_area
 		central_poland_area
 		sandomierz_area
+		lublin_area
 		upper_silesia_area
 	}
 }
@@ -337,15 +345,21 @@ balkan_region = {
 
 carpathia_region = {
 	areas = {
+		kisalfold_area
 		transdanubia_area
 		central_hungary_area
 		alfold_area
+		crisana_area
 		slovakia_area
 		east_slovakia_area
+		zakarpattia_area
 		transylvania_area
+		szekelyfold_area
 		moldova_area
 		banat_area
-		wallachia_area
+		oltenia_area
+		upper_muntenia_area
+		lower_muntenia_area
 		moldavia_area
 	}
 }

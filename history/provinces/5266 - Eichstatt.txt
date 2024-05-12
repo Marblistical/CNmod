@@ -3,7 +3,7 @@
 owner = EIH
 controller = EIH
 add_core = EIH
-culture = austrian
+culture = bavarian
 religion = catholic
 base_tax = 1
 base_production = 2

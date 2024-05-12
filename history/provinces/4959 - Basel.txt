@@ -2,7 +2,7 @@
 
 owner = BSL
 controller = BSL
-culture = swabian
+culture = swiss
 religion = catholic
 capital = "Basel"
 trade_goods = paper

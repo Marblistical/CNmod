@@ -1,0 +1,17 @@
+#5350 - Pernau
+
+owner = LVA
+controller = LVA
+culture = estonian
+religion = catholic
+capital = "Pernau"
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = LVA
+add_core = EST
+discovered_by = western
+discovered_by = eastern

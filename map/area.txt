@@ -778,67 +778,99 @@ greenland_area = { #2
 ########################################
 
 estonia_area = { #4
-	35 36 1834 1842
+	35 36 1842 5351
 }
 
-livonia_area = { #4
-	37 38 273 4241
+livonia_area = { #3
+	37 1834 5350
 }
 
-curonia_area = { #4
-	39 1935 5014 5199
+vidzeme_area = { #4
+	38 273 4241 5349
 }
 
-east_prussia_area = { #5
-	40 41 767 2958 42
+curonia_area = { #5
+	39 1935 5014 5199 5348
 }
 
-west_prussia_area = { #4 (South West Prussia)
-	1859 2997 43 1841
+masuria_area = { #3
+	767 2958 5343
 }
 
-wielkopolska_area = { #5
-   254 4526 2963 4523 5002
+east_prussia_area = { #4
+	40 41 42 5344
 }
 
-malopolska_area = { #3
-	262 2959 2960 
+west_prussia_area = { #5 (South West Prussia)
+	43 1841 1859 2997 5342
 }
 
-red_ruthenia_area = { #5 
-	261 1940 2424 2961 4541
+ponzan_area = { #3
+   254 5354 5355
+}
+
+kalisz_area = { #4
+	255 2963 4526 5002
+}
+
+krakow_area = { #5
+	262 2424 2959 2960 5359
+}
+
+halychia_area = { #3
+	261 4541 5366
+}
+
+opillia_area = { #4
+	1940 2961 5364 5365
 }
 
 podolia_volhynia_area = { #3
 	281 4540 1943 
 }
 
-volhynia_area = { # 4
+volhynia_area = { #4
 	279 2962 4539 4538
 }
 
-pripyat_area = { #4
-	 278 1941 4537 4545
+pripyat_area = { #5
+	278 1941 4537 4545 5362
 }
 
-podlasie_area = {
-	269 277 1937
+podlasie_area = { #3
+	269 277 5361
 }
 
-mazovia_area = { #4
-	256 257 1938 4524 4525
+kuyavia_area = { #3
+	4523 4524 4528 
 }
 
-central_poland_area = { #4
-	255 1939 4528 4533
+plock_area = { #3
+	256 1938 5356
 }
 
-sandomierz_area = { #4
-	258 259 260 4527
+warsaw_area = { #3
+	257 4525 5357
 }
 
-samogitia_area = { #4
-	270 271 1936 4534 
+central_poland_area = { #3
+	258 1939 4533
+}
+
+sandomierz_area = { #3
+	259 4527 5358
+}
+
+lublin_area = { #4
+	260 4538 5360 5363
+}
+
+samogitia_area = { #3
+	271 5346 5347
+}
+
+trakai_area = { #5
+	270 1936 1937 4534 5345
 }
 
 lithuania_area = { #5
@@ -1007,12 +1039,12 @@ saratov_area = { #3
 # Germany			 				   #
 ########################################
 
-silesia_area = { #4
-	263 4723 5003 5297
+silesia_area = { #5
+	263 4723 5003 5297 5353
 }
 
-upper_silesia_area = { #3
-	264 2966 4238
+upper_silesia_area = { #4
+	264 2966 4238 5352
 }
 
 bohemia_area = { #5
@@ -1237,32 +1269,52 @@ silistria_area = { #5
 	4704 4706 159 1764 4992
 }
 
-wallachia_area = { #5
-	160 161 2998 4531 4532
+oltenia_area = { #3
+	160 4532 5384
 }
 
-moldavia_area = { #4
-	268 4529 4530 5009
+upper_muntenia_area = { #3
+	161 4531 5385
 }
 
-moldova_area = { #3
-	1756 2405 5010
+lower_muntenia_area = { #3
+	2998 5386 5387
+}
+
+moldavia_area = { #5
+	268 4529 4530 5009 5388
+}
+
+moldova_area = { #4
+	1756 2405 5010 5389
+}
+
+crisana_area = { #3
+	157 4991 5379
 }
 
 transylvania_area = { #4 
-	158 1951 4127 4128 5008
+	1951 4127 5380 5381
 }
 
-banat_area = { #3
-	156 1954 4126
+szekelyfold_area = { #4
+	158 4128 5008 5382
 }
 
-slovakia_area = { #3
-	154 1772 4236
+banat_area = { #4
+	156 1954 4126 5383
 }
 
-east_slovakia_area = { #3
-	162 1318 1952
+slovakia_area = { #4
+	154 1772 4236 5367
+}
+
+east_slovakia_area = { #4
+	1318 5368 5369 5370
+}
+
+zakarpattia_area = { #3
+	162 1952 5371
 }
 
 serbia_area = { #5
@@ -1307,16 +1359,25 @@ east_adriatic_coast_area = { #3
 }
 
 alfold_area = { #4
-	155 157 1953 4991
+	155 1953 5377 5378
 }
 
-transdanubia_area = { #5
+transdanubia_area = { #4
 	color = { 171 92 22 }
-	135 1864 4240 5006
+	1864 4240 5006 5373
 }
 
-central_hungary_area = { #3
-	153 5007 4125
+transdanubia_area = { #4
+	color = { 171 92 22 }
+	1864 4240 5006 5373
+}
+
+kisalfold_area = { #3
+	135 5372 5374
+}
+
+central_hungary_area = { #5
+	153 5007 4125 5375 5376
 }
 
 ########################################
