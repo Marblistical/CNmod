@@ -13,6 +13,38 @@ guiTypes = {
 		position = { x = 42 y = 48 }
 	}
 
+	windowType = {
+		name = "frontend_link_item"
+		size = { x = 36 y = 36 }
+		guiButtonType = {
+			name = "button"
+			quadTextureSprite = "homepage"
+		}
+		iconType = {
+			name = "frame"
+			spriteType = "icon_link_frame"
+			alwaystransparent = yes
+		}
+	}
+
+	windowType = {
+		name = "start_type_option"
+		size = { x=80 y=50 }
+
+		guiButtonType = {
+			name = "button"
+			quadTextureSprite = "GFX_start_type_option_bg"
+			position = { x = 0 y = 0 }
+		}
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_start_type_option_icon"
+			position = { x = 0 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
 	instantTextBoxType = {
 				name = "select_nation_label"
 				position = { x = 50 y = 50 }
@@ -458,6 +490,10 @@ guiTypes = {
 					name ="version_background"
 					spriteType = "GFX_frontend_version_bg"
 					position = { x= -32 y = 20 }
+					if_resolution = {
+						max_height = 1079
+						position = { x= 10 y = 20 }
+					}
 				}
 				
 				instantTextBoxType = {
@@ -469,6 +505,10 @@ guiTypes = {
 					format = centre
 					maxWidth = 147
 					maxHeight = 20
+					if_resolution = {
+						max_height = 1079
+						position = { x = 67 y = 38 }
+					}
 				}
 
 				guiButtonType = {
@@ -534,13 +574,6 @@ guiTypes = {
 					fixedsize = yes
 					alwaystransparent = yes
 				}
-
-				#iconType =
-				#{
-				#	name ="frontend_small_frame"
-				#	spriteType = "GFX_frontend_small_frame"
-				#	position = { x= 1240 y = 37 }
-				#}
 			}
 
 			windowType = { #SOCIAL BUTTONS
@@ -568,84 +601,42 @@ guiTypes = {
 
 					if_resolution = {
 						max_height = 1079
-						position = { x = -170 y = -5 }
+						position = { x = -173 y = -5 }
 					}
 				}
 				
-				guiButtonType = {
-					name = "homepage_button"
-					position = { x = -38 y = 14 }
-					quadTextureSprite ="homepage"
-					
+				OverlappingElementsBoxType = {
+					name = "frontend_links"
+					position = { x = -50 y = 14 }
+					size = { x = 205 y = 64 }
+					first_on_top = yes
+					format = center
 					if_resolution = {
 						max_height = 1079
-						position = { x = -98 y = 14 }
-					}
-				}
-
-				guiButtonType = {
-					name = "forum_button"
-					position = { x = 0 y = 14 }
-					quadTextureSprite ="forum"
-					
-					if_resolution = {
-						max_height = 1079
-						position = { x = -60 y = 14 }
-					}
-				}
-
-				guiButtonType = {
-					name = "facebook_button"
-					position = { x = 36 y = 14 }
-					quadTextureSprite ="facebook"
-
-					if_resolution = {
-						max_height = 1079
-						position = { x = -24 y = 14 }
-					}
-				}
-
-				guiButtonType = {
-					name = "twitter_button"
-					position = { x = 72 y = 14 }
-					quadTextureSprite ="twitter"
-					
-					if_resolution = {
-						max_height = 1079
-						position = { x = 12 y = 14 }
+						position = { x = -123 y = 14 }
+						size = { x = 110 y = 64 }
 					}
 				}
 				
 				checkboxType = {
 					name = "login_logout_button"
-					position = { x = 128 y = 8 }
+					position = { x = 144 y = 7 }
 					quadTextureSprite ="GFX_login_logout_button"
 
 					if_resolution = {
 						max_height = 1079
-						position = { x = 68 y = 8 }
+						position = { x = -13 y = 8 }
 					}
 				}
 				
 				checkboxType = {
 					name = "epic_button"
-					position = { x = 177 y = 8 }
+					position = { x = 185 y = 7 }
 					quadTextureSprite ="GFX_login_epic_logout_button"
 
 					if_resolution = {
 						max_height = 1079
-						position = { x = 117 y = 8 }
-					}
-				}
-				
-				iconType = {
-					name ="frontend_small_frame"
-					spriteType = "GFX_frontend_small_frame"
-					position = { x= -40 y = 12 }
-
-					if_resolution = {
-						max_height = 1079
-						position = { x= -100 y = 12 }
+						position = { x = 28 y = 8 }
 					}
 				}
 			}
@@ -1214,69 +1205,32 @@ guiTypes = {
 					position = { x= 4 y = 31 }
 					Orientation = "UPPER_LEFT"
 				}
-
-
-
-
-
-
-
-				guiButtonType = {
-					name = "newgame_tab"
-					position = { x = 39 y = 48 }
-					quadTextureSprite ="GFX_tab_small_116"
-					Orientation = "UPPER_LEFT"
-				}
-
-				guiButtonType = {
-					name = "savedgame_tab"
-					position = { x = 146 y = 48 }
-					quadTextureSprite ="GFX_tab_small_116"
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "bookmarks_label"
-					position = { x = 45 y = 59 }
-
-					font = "vic_18"
-					borderSize = {x = 0 y = 0}
-					text = "FE_HISTORICAL_START"
-					maxWidth = 100
-					maxHeight = 20
-					fixedsize = yes
-					alwaystransparent = yes
-					Orientation = "UPPER_LEFT"
-					format = centre
-					alwaystransparent = yes
-				}
-
-				instantTextBoxType = {
-					name = "savedgames_label"
-					position = { x = 152 y = 59 }
-
-					font = "vic_18"
-					borderSize = {x = 0 y = 0}
-					text = "FE_SAVED_GAMES"
-					maxWidth = 100
-					maxHeight = 20
-					fixedsize = yes
-					alwaystransparent = yes
-					Orientation = "UPPER_LEFT"
-					format = centre
-					alwaystransparent = yes
+				
+				OverlappingElementsBoxType = {
+					name = "start_type_options"
+					position = { x = 32 y = 49 }
+					size = { x = 250 y = 50 }
+					orientation = "UPPER_LEFT"
+					spacing = 2
+					format = center
 				}
 
 				listboxType = {
-					name ="enabled_dlc_list"
-					position = { x = 291 y = 40 }
-					backGround=""
-					size = { x=50 y =500 }
-					Orientation = "UPPER_LEFT"
+					name = "enabled_dlc_list_1"
+					position = { x = 300 y = 60 }
+					size = { x = 50 y = 500 }
+					orientation = "UPPER_LEFT"
 					horizontal = 0
-					spacing = 0
 					scrollbartype = "standardlistbox_slider"
-					borderSize = {x = 0 y = 0}
+				}
+
+				listboxType = {
+					name = "enabled_dlc_list_0"
+					position = { x = 291 y = 40 }
+					size = { x = 40 y = 500 }
+					orientation = "UPPER_LEFT"
+					horizontal = 0
+					scrollbartype = "standardlistbox_slider"
 				}
 
 				### SAVE GAMES
@@ -1429,12 +1383,11 @@ guiTypes = {
 						orientation = "UPPER_LEFT"
 					}
 
-
 					instantTextBoxType = {
 						name = "daymonth"
-						position = { x = 82 y = 70 }
+						position = { x = 82 y = 113 }
 
-						font = "vic_18s"
+						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = ""
 						maxWidth = 110
@@ -1513,6 +1466,30 @@ guiTypes = {
 						name = "day_up"
 						position = { x = -10000 y = -10000 } # Hidden off screen
 						quadTextureSprite ="GFX_arrow_right_small"
+					}
+				}
+
+				#### BOOKMARKS
+				windowType = {
+					name = "lessons"
+					position = { x=20 y=90 }
+					size = { x=292 y=450 }
+
+					smoothListBoxType = {
+						name = "lessons_list_box"
+						position = { x = 0 y = 0 }
+						size = { x = 260 y = 410 }
+						scrollbartype = "standardlistbox_slider"
+					}
+
+					guiButtonType = {
+						name = "open_music_player"
+						position = { x=18 y=-24 }
+						quadTextureSprite = "button_type_4"
+						buttonText = "GAMESETUP_OPEN_MUSIC_PLAYER"
+						buttonFont = "vic_22"
+						orientation = "LOWER_LEFT"
+						clicksound = click
 					}
 				}
 
@@ -2996,20 +2973,13 @@ guiTypes = {
 
 	### DLC entry
 	windowType = {
-		name = "enabled_dlc_entry_odd"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=50 y= 25 }
+		name = "enabled_dlc_entry_0"
+		size = { x = 50 y = 40 }
 		moveable = 0
-		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
-		fullScreen = no
 
 		iconType = {
 			name = "dlc_icon_bg"
 			spriteType = "GFX_dlc_icon_bg"
-			position = { x = 0 y = 0 }
 			alwaystransparent = yes
 		}
 
@@ -3027,15 +2997,9 @@ guiTypes = {
 	}
 
 	windowType = {
-		name = "enabled_dlc_entry_even"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=50 y= 25 }
+		name = "enabled_dlc_entry_1"
+		size = { x = 50 y = 40 }
 		moveable = 0
-		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
-		fullScreen = no
 
 		iconType = {
 			name = "dlc_icon_bg"
@@ -3811,6 +3775,48 @@ guiTypes = {
 			quadTextureSprite ="button_type_7"
 			buttonText = "IRONMAN_START"
 			buttonFont = "vic_18"
+		}
+	}
+
+	windowType={
+		name = "lesson_channel_entry"
+		size = { x = 256 y = 44 }
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite = "GFX_lesson_channel_bg"
+		}
+		
+		instantTextboxType = {
+			name = "label"
+			position = { x = 0 y = 11 }
+			font = "vic_22"
+			maxWidth = 256
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+	windowType = {
+		name = "lesson_entry"
+		size = { x = 256 y = 44 }
+
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite = "GFX_lesson_bg"
+		}
+
+		instantTextboxType = {
+			name = "label"
+			position = { x = 0 y = 11 }
+			font = "vic_22"
+			maxWidth = 256
+			maxHeight = 20
+			format = center
+			fixedsize = yes
+			alwaystransparent = yes
 		}
 	}
 }
