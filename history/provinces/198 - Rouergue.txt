@@ -1,5 +1,9 @@
 # 198 Rouergue - Principal cities: Rodez
 
+latent_trade_goods = {
+	coal
+}
+
 owner = TOU
 controller = TOU
 capital = "Rodez"

@@ -1,5 +1,9 @@
 # 204 Dauphiné - Principal cities: Grenoble
 
+latent_trade_goods = {
+	coal
+}
+
 owner = PRO
 controller = PRO
 capital = "Grenoble"

@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = tanistry_reform
+government_rank = 1
+technology_group = western
+primary_culture = irish
+religion = catholic
+capital = 5440
+1415.1.1 = {
+	monarch = {
+		name = "Cathal"
+		dynasty = "O' Conchobair"
+		birth_date = 1382.3.4
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}

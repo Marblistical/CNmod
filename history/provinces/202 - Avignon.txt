@@ -1,5 +1,9 @@
 # 202 Gap - Principal cities: Gap
 
+latent_trade_goods = {
+	coal
+}
+
 owner = PRO
 controller = PRO
 capital = "Gap"

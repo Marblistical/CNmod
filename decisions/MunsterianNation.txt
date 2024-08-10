@@ -1,0 +1,69 @@
+country_decisions = {
+
+	munster_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			
+			NOT = { has_country_flag = formed_munster_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = MCM }
+			OR = {
+				tag = DMS
+				tag = MNS
+				tag = ORD
+			}
+			primary_culture = irish
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 375
+				province_id = 4118
+				province_id = 4377
+				province_id = 4378
+				province_id = 5186
+				province_id = 5437
+				province_id = 5438
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			owns_core_province = 375
+			owns_core_province = 4118
+			owns_core_province = 4377
+			owns_core_province = 4378
+			owns_core_province = 5186
+			owns_core_province = 5437
+			owns_core_province = 5438
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = MCM
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			set_country_flag = formed_munster_flag 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

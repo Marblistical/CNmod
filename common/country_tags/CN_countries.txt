@@ -6,13 +6,23 @@ GYY = "countries/GiyaYuwi.txt"
 SUH = "countries/Suhraltanubia.txt"
 
 #British Isles
+BCN = "countries/Brecon.txt"
 BRF = "countries/Breifne.txt"
+DBG = "countries/Denbigh.txt"
 DYF = "countries/Dyfed.txt"
 GWE = "countries/Gwent.txt"
 GWY = "countries/Gwynedd.txt"
 MYO = "countries/Mayo.txt"
 OEL = "countries/Oriel.txt"
 OSS = "countries/Ossory.txt"
+PWY = "countries/Powys.txt"
+
+CLN = "countries/Clandeboye.txt"
+COT = "countries/Connacht.txt"
+CRK = "countries/Cork.txt"
+MHA = "countries/Mhaine.txt"
+WEX = "countries/Wexford.txt"
+WFD = "countries/Waterford.txt"
 
 #Balkans
 MAC = "countries/Macedonia.txt"
@@ -178,13 +188,12 @@ VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
 
 #Low Countries
+ARS = "countries/Artois.txt"
+BOI = "countries/Bouillon.txt"
 OVE = "countries/Oversitcht.txt"
 FSL = "countries/FrisianLands.txt"
 GRN = "countries/Groningen.txt"
 NAM = "countries/Namur.txt"
-
-ARS = "countries/Artois.txt"
-BOI = "countries/Bouillon.txt"
 
 #Maghreb
 SLY = "countries/BanuSulaym.txt"
@@ -230,7 +239,9 @@ TCY = "countries/Tacaynamics.txt"
 #Poland
 LGN = "countries/Legnica.txt"
 NYS = "countries/Nysa.txt"
+OLS = "countries/Olesnica.txt"
 OPV = "countries/Opava.txt"
+SVI = "countries/Svidnicka.txt"
 TCN = "countries/Teschen.txt"
 WRC = "countries/Wroclaw.txt"
 

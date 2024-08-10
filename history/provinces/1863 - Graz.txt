@@ -1,5 +1,9 @@
 #1863 - Graz
 
+latent_trade_goods = {
+	coal
+}
+
 owner = STY
 controller = STY
 add_core = STY

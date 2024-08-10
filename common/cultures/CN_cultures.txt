@@ -165,6 +165,71 @@ scandinavian = { #Nordic
 			"Vedel" "Bjelke" "Galle" "Griis"
 		}
 	}
+	norn = {
+		male_names = {
+				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjorn Arngrimr Arni Arne Arnfast
+				Asbjorn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjorn Beorn Bo Borkvard
+				Botulfr Bragi Brage Buoi Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
+				Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
+				Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guomundr
+				Gudmund Gudrod Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+				Holmger Hrafn Hrolfr Rolf Hrane Hosteinn Hjalmar Hysing
+				Ingofr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
+				Kjartan Klas Knut Kol Kolbjorn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+				Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rognvaldr
+				Ragnvald Skuli Skule Snorri Sigbjorn Sigtrygg Siguror Sigurd Starkad Steinn Sten
+				Sturla Styrbjorn Styrkar Somerled Suni Sune Sveinn Sven Sverker Somundr Somund
+				Sovi Sove Sorkver Tjudmund Toke Tolir Torbjorn Torbjorn oorfinn Torfinn Torbrandr Torbrand
+				oordr Tord oorgil Torkel oorsteinn Torsten oorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
+				Vagn Valdemar Vladimir oke Yngvar Ingvar orvar Orvar oysteinn Eysteinn Hokon Olav
+				Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjorn Daniel Edvard Eilert Elias Esben
+				Kasper Kennet Knut Ludvig Mikael Njod Njord Oddmund Peder Rikard Simon Soren Tollak
+		}
+		female_names = {
+			Torhild Aleta Alfhildr Alfhild Alfridh Alvor Anna Asa osa Aslaug Asta Astrid Beata
+			Birgitta Brigid Bjorg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjorg Ingeborg Ingjeror Ingegerd Ingrid Karin
+			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfrio Malmfrid Margareta Margaret
+			Maria Rikissa Rognfrid Ragnfrid Rognhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
+			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Yora Thora Tordis Thordis oyra
+			Thyra
+		}
+	}
+	faroese = {
+		male_names = {
+				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjorn Arngrimr Arni Arne Arnfast
+				Asbjorn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bjorn Beorn Bo Borkvard
+				Botulfr Bragi Brage Buoli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik
+				Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke
+				Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guomundr
+				Gudmund Gudrod Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming
+				Holmger Hrafn Hrolfr Rolf Hrane Hosteinn Hjalmar Hysing
+				Ingolfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund
+				Kjartan Klas Knut Kol Kolbjorn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr
+				Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rognvaldr
+				Ragnvald Skuli Skule Snorri Sigbjorn Sigtrygg Siguror Sigurd Starkad Steinn Sten
+				Sturla Styrbjorn Styrkar Somerled Suni Sune Sveinn Sven Sverker Somundr Somund
+				Solvi Solve Sorkver Tjudmund Toke Tolir oorbjorn Torbjorn oorfinn Torfinn oorbrandr Torbrand
+				oordr Tord oorgil Torkel oorsteinn Torsten oorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf
+				Vagn Valdemar Vladimir oke Yngvar Ingvar orvar Orvar oysteinn Eysteinn Hokon Olav
+				Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjorn Daniel Edvard Eilert Elias Esben
+				Kasper Kennet Knut Ludvig Mikael Njold Njord Oddmund Peder Rikard Simon Soren Tollak
+		}
+		female_names = {
+			Torhild Aleta Alfhildr Alfhild Alfridh Alvor Anna Asa osa Aslaug Asta Astrid Beata
+			Birgitta Brigid Bjorg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja
+			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjorg Ingeborg Ingjeror Ingegerd Ingrid Karin
+			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfrio Malmfrid Margareta Margaret
+			Maria Rikissa Rognfrid Ragnfrid Rognhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia
+			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa oora Thora oordis Thordis oyra
+			Thyra
+		}
+		dynasty_names = {
+
+		}
+	}
 	icelandic = {
 		primary = ICE
 		male_names = {
@@ -333,6 +398,117 @@ gaelic	= {
 			Haig
 			Lamont
 			MacCongáil MacDhiarmaid Moireach MacPharlain MacLeoid MacDhomhnaill MacDhonnachaidh Munro MacNab
+			Ncill
+			Rothach Ros
+			Stiubhart Singlear Sutherlarach
+		}
+	}
+	gall_ghaidheil = {
+		graphical_culture = westerngfx
+		primary = LOI
+		male_names = {
+			Aonghas Alasdair Ailbeart Adhamh Ailean Anndra Arailt Artair Aaron Amhlaidh Ailpein
+			Bhaltair Boisil Brian Benneit Beathan Boisil Brus Bruadar Breacan Bearnard Bhaltair
+			Cresdean Calum Conan Conal Cormac Cailean
+			Domhnall Donnchadh Dughall Daibhidh Diarmid Dolan Daniel Deorsa Dughlas
+			Eoghan Eobhann Eideard Eachann Eoin Eosaph Eanruig Ellair
+			Fearchar Faolan Fearghas Fionn Filib Frangan Friseal Fionnlagh
+			Gillebrighde Gillechreosd Gillecallum Gilleasp Gilleandrais Garbhan Goiridh Griogair
+			Hamish Harailt Horas
+			Iain Iacob Iosag Iomhar Iosaph Iona
+			Lucais Labhrainn
+			Maoilios Murchadh Martain Mascual Marcus Mata Mecheil Morgan Mungan Murchadh
+			Neacal Niall Niallghas
+			Oilbhreis Oisean
+			Padraig Pol Peadar
+			Raibeart Ruadh Ruaraidh Raghnall Ruiseart
+			Seumas Seoras Somhairle Seleas Samuel Sachairi Steaphan
+			Thomais Tadhg Toibaid
+			Uilleam Uisdean
+		}
+		female_names = {
+			Anna
+			Beathag Baraball Bearnas Beitiris Bhioctoria Brighde
+			Catreona Ceit Coinneach Claimha
+			Deirdre Deoiridh Diorbhail
+			Ealasaid Cibhlin Eubh
+			Floraidh Floireans Fionnaghal Frangag Fionnghuala
+			Gormal Gormlaith Giorsal
+			Iseabail
+			Liusaidh Leagsaidh Leitis Lucrais Leosa
+			Mairead Marsail Marta Milread Moibeal Moire Mor Mairi
+			Nansaidh
+			Olibhia Oighrig
+			Peanaidh
+			Rut Raonaid Rebeca
+			Seonag Sorcha Sene Siusan Seleas
+			Tearlag Teasag
+			Una
+		}
+		dynasty_names = {
+			Arasgain
+			Bochanan Beitean Brus
+			Caimbeul Cinneide Caimbeulach Comyn Cochran
+			Donohoe Dernly
+			Gordan Grannd Guinne
+			Haig
+			Lamont
+			MacCongï¿½il MacDhiarmaid Moireach MacPharlain MacLeoid MacDhomhnaill MacDhonnachaidh Munro MacNab
+			Ncill
+			Rothach Ros
+			Stiubhart Singlear Sutherlarach
+		}
+	}
+	manx = {
+		primary = KOI
+		male_names = {
+			Aonghas Alasdair Ailbeart Adhamh Ailean Anndra Arailt Artair Aaron Amhlaidh Ailpein
+			Bhaltair Boisil Brian Benneit Beathan Boisil Brus Bruadar Breacan Bearnard Bhaltair
+			Cresdean Calum Conan Conal Cormac Cailean
+			Domhnall Donnchadh Dughall Daibhidh Diarmid Dolan Daniel Deorsa Dughlas
+			Eoghan Eobhann Eideard Eachann Eoin Eosaph Eanruig Ellair
+			Fearchar Faolan Fearghas Fionn Filib Frangan Friseal Fionnlagh
+			Gillebraghde Gillechreosd Gillecallum Gilleasp Gilleandrais Garbhan Goiridh Griogair
+			Hamish Harailt Horas
+			Iain Iacob Iosag Iomhar Iosaph Iona
+			Lucais Labhrainn
+			Maoilios Murchadh Martain Mascual Marcus Mata Mecheil Morgan Mungan Murchadh
+			Neacal Niall Niallghas
+			Oilbhreis Oisean
+			Padraig Pol Peadar
+			Raibeart Ruadh Ruaraidh Raghnall Ruiseart
+			Seumas Seoras Somhairle Seleas Samuel Sachairi Steaphan
+			Thomais Tadhg Toibaid
+			Uilleam Uisdean
+		}
+		female_names = {
+			Anna
+			Beathag Baraball Bearnas Beitiris Bhioctoria Brighde
+			Catreona Ceit Coinneach Claimha
+			Deirdre Deoiridh Diorbhail
+			Ealasaid Cibhlin Eubh
+			Floraidh Floireans Fionnaghal Frangag Fionnghuala
+			Gormal Gormlaith Giorsal
+			Iseabail
+			Liusaidh Leagsaidh Leitis Lucrais Leosa
+			Mairead Marsail Marta Milread Moibeal Moire Mor Mairi
+			Nansaidh
+			Olibhia Oighrig
+			Peanaidh
+			Rut Raonaid Rebeca
+			Seonag Sorcha Sene Siusan Seleas
+			Tearlag Teasag
+			Una
+		}
+		dynasty_names = {
+			Arasgain
+			Bochanan Beitean Brus
+			Caimbeul Cinneide Caimbeulach Comyn Cochran
+			Donohoe Dernly
+			Gordan Grannd Guinne
+			Haig
+			Lamont
+			MacCongail MacDhiarmaid Moireach MacPharlain MacLeoid MacDhomhnaill MacDhonnachaidh Munro MacNab
 			Ncill
 			Rothach Ros
 			Stiubhart Singlear Sutherlarach
@@ -7453,38 +7629,6 @@ lost_cultures_group = {
 			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
 		}
 	}
-	anglosaxon = { #CK2
-		dynasty_names = {
-			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
-			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
-			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
-		}
-		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rædwald
-		}
-		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
-		}
-	}
 	babylonian = {
 		dynasty_names = {
 			Amorite Sealand Larsa Kassite 
@@ -10033,6 +10177,38 @@ british	= {
 			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
 		}
 	}
+	anglosaxon = { #CK2
+		dynasty_names = {
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
+		}
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
+			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
+			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
+			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
+			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
+			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+		}
+		female_names = {
+			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
+			Æthelburh Seaxburh Wihtburh
+		}
+	}
 	american = {
 		primary = USA
 		male_names = {
@@ -10147,6 +10323,48 @@ british	= {
 			Mirren Morag Mor Morna Moyna Mona Muriel Murron Nuala Finnguala Orabilia Peigi Margaret 
 			Rhonda Rodina Ronalda Ragnhild Ros Saundra Alexandra Sheena Shona Joan Sholto Slaine Sorcha 
 			Una
+		}
+	}
+	hibernian = {
+		graphical_culture = westerngfx
+		dynasty_names = {
+			Butler Fitzgerald Sanford Sweetman Fitzanthony Grant Rockett Grace
+			Cantwell Fitzrobert Comerford Forrestall "de la Freyne" Flood Alyward
+			Toler Marshall Purcell Rochford Howlin Shortall "d'Earley" Gore Raggett
+			Fitznorman Troy Laffan "St. John" Tobin Wall Roche Eustace Grennan
+			Fleming Morris Burke Archer Hackett Plunkett Walsh "le Poer" Keating
+			"de Braose" Lindsay Montague Bermingham Prendergast Forrestal Everard
+			"O'Brian" "MacCarthy" "O'Shea" Fitzstephen Sutton Esmonde Brown Rossiter
+			Wadding Hearns Whitty Hore Harper "le Denne" Fitzhenry Leigh Colclough
+			Devereux Sinnott Talbot Merris Carew Dalton Howell Hayes French Codd
+			Lambert Stafford "de Villiers" Redmond Stokes Cheevers Condon Barry Supple
+			Nugent Galway Hodnett Nagle Downing Hyde Terry Synan Lombard Stapleton
+			"de Cogan" Barrett Fant Maunsell Baggott "de Lacey" Daly Gunning Finniter
+			Hewson Courtenay Fitzmaurice Cantillon Hussey Ferriter
+			Bunyan Mulvihill Boyle "Mac Sheehy" Cotter "O'Hanley" "O'Casey"
+			"O'Donovan" "O'Mahony" "O'Hynes" Coppinger MacSweeney Blake Dillon
+			Halloran Jennings Coyne MacDonnell McPhilbin McEvilly McMorris McCostello
+			Jordan Phillips MacWilliam Athy Bodkin Browne "d'Arcy" Deane Ffont Ffrench
+			Joyce Kirwan Lynch Martin Skerritt Bigod "le Gros" Hartpole Riddlesford
+			"de Vesey" "de Clare" "de Bigarz" Costello Reynell Sherlock "de Taghmon"
+			Tuite Lowe "de Ginkel" Mortimer Haynes Bellew "de Verdon" Taaffe Bagnall
+			"de Gray" Rushe "de Courcey" Nesbitt Mitchell Sely Audley Mandeville Savage
+			Archbold "de Loundres" Lawless Brabazon Power Harold Loftus Fitzwilliam
+			Barnewall Taylor Locke Bathe Barber Aylmer Hereford
+			Connell Tyrrell "St. Lawrence" Russell Fitzrory Luttrell "de la Salle" Cornwalsh
+			"de Geneville" "d'Exetor" Bomford Dowdall Cussack White "St. Leger" Townley
+			Netterville Wogan Warren Bellingham Aston Clinton Dromgoole Gernon Babe
+		}	
+		male_names = {
+			Arthur Bartley Bertie Bert Darcy Hugh William Piers Raymond John Thomas
+			Aaron Abel Alwin Angus Augustine Walter Bran Kenneth Clemens Clement Nicholas Constantine
+			David Donald Duncan Douglas Eric Eugene Jacob Malcolm Nigel Oscar Peter Ernest
+			Paul Francis Roy Roderick Shaw Godfrey William Philip George Robert Jonathan Edmund Oliver
+			Gerald Richard Wentworth Lettice Edward Augustus Henry
+		}
+		female_names = {
+			Alice Elizabeth Darcy Joan Eva Agnes Margaret Muriel Catherine Christina Eleanor Martha
+			Maria Matilda Mary
 		}
 	}
 }

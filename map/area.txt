@@ -634,19 +634,23 @@ abruzzo_area = { #4
 ########################################
 
 munster_area = { #5
-	375 4118 4377 4378 5186
+	375 4118 4378 5186 5437
 }
 
-connacht_area = { #4
-	376 4119 5015 5212
+connacht_area = { #5
+	376 4119 5015 5212 5440
+}
+
+meath_area = { #5
+	373 4120 4379 5441 5442
 }
 
 leinster_area = { #5
-	373 374 4120 4379 5187
+	374 4377 5187 5438 5439
 }
 
-ulster_area = { #4
-	372 4121 4380 5188
+ulster_area = { #5
+	372 4121 4380 5188 5443
 }
 
 kingdom_of_the_isles_area = { #4
@@ -654,51 +658,67 @@ kingdom_of_the_isles_area = { #4
 }
 
 highlands_area = { #5
-	250 251 252 4110 4363
+	252 4110 4363 5431 5433
+}
+
+grampian_area = { #4
+	250 251 5430 5432
 }
 
 lowlands_area = { #4
-	246 248 4361 5190
+	248 4361 5428 5429
 }
 
 strathclyde_area = { #4
-	247 249 4362 5189
+	249 4362 5189 5427
 }
 
-wales_area = { #5
-	241 242 4366 4369 5191
+gwynedd_area = { #4
+	242 4366 5421 5422
 }
 
-scottish_marches_area = { #2
-	244 4375
+deheubarth_area = { #4
+	241 4369 5191 5420
 }
 
-yorkshire_area = { #4
-	245 4367 4368 4785
+scottish_marches_area = { #3
+	246 247 5190 5426
 }
 
-west_midlands_area = { #3
-	240 4372 5192
+lancashire_area = { #3
+	244 4375 5424
 }
 
-east_midlands_area = { #3
-	243 1861 4376
+yorkshire_area = { #5
+	245 4367 4368 4785 5425
 }
 
-wessex_area = { #4
-	239 4130 4374 5193
+west_midlands_area = { #4
+	240 4372 5192 5423
 }
 
-cornwall_area = { #2
-	233 4373
+east_midlands_area = { #4
+	243 1861 4376 5419
 }
 
-home_counties_area = { #5
-	234 235 236 237 4371 
+wessex_area = { #5
+	234 239 4130 4374 5193
 }
 
-east_anglia_area = { #5
-	238 1860 4370 5194 5195
+cornwall_area = { #3
+	233 4373 5416
+}
+
+home_counties_area = { #4
+	236 237 5194 5418
+}
+
+sussex_area = { #3
+	235 4371 5417
+}
+
+east_anglia_area = { #4
+	238 1860 4370 5195
 }
 
 ########################################
@@ -765,8 +785,12 @@ western_norway = { #4
 	23 24 4145 5322
 }
 
-subarctic_islands_area = { #4
-	1978 1979 370 371
+subarctic_islands_area = { #3
+	1978 1979 5436
+}
+
+iceland_area = { #4
+	370 371 5434 5435
 }
 
 greenland_area = { #2
@@ -1237,36 +1261,60 @@ mecklenburg_area = { #5
 # South Eastern Europe 				   #
 ########################################
 
-macedonia_area = { #5 (Macedonia)
-	148 1853 4702 4993 4994
+macedonia_area = { #4 (Macedonia)
+	148 1853 4994 5409
 }
 
-north_macedonia_area = { #2
-	3001 4780 
+east_macedonia_area = { #4
+	4702 4993 5398 5408
+}
+
+north_macedonia_area = { #3
+	3001 4780 5397
 }
 
 morea_area = { #4 Central Greece & Crete
-	145 163 1773 4701
+	145 1773 4701 5414
 }
 
-northern_greece_area = { #5 #Northern Greece
-	142 144 4699 4698 4995
+heptanese_area = { #2
+	142 4698
+}
+
+crete_area = { #2
+	163 5415
+}
+
+northern_greece_area = { #4 #Northern Greece
+	143 144 4699 5411
 }
 
 central_greece_area = { #4
-	146 147 3003 4996
+	146 3003 4996 5413
 }
 
-thrace_area = { #4
-	149 151 4779 4705
+thessaly_area = { #3
+	147 4995 5412
+}
+
+thrace_area = { #5
+	149 151 4779 5405 5406
+}
+
+north_thrace_area = { #4
+	1764 2750 5399 5400
+}
+
+west_thrace_area = { #3
+	4705 4992 5407
 }
 
 bulgaria_area = { #5
-	150 1765 2746 2750 4703
+	150 1765 2746 4703 4704
 }
 
-silistria_area = { #5
-	4704 4706 159 1764 4992
+moesia_area = { #5
+	159 4706 5401 5402 5403
 }
 
 oltenia_area = { #3
@@ -1318,15 +1366,23 @@ zakarpattia_area = { #3
 }
 
 serbia_area = { #5
-	141 3000 4176 4239 4757
+	141 4176 4239 5394 5395
 }
 
-rascia_area = { #4
-	138 1766 1827 4754
+rascia_area = { #3
+	1827 4757 5393
 }
 
-albania_area = { #4
-	143 4174 4175 4750
+montenegro_area = { #3
+	138 4754 5392
+}
+
+dardania_area = { #3
+	1766 3000 5396
+}
+
+albania_area = { #5
+	4174 4175 4750 5404 5410
 }
 
 bosnia_area = { #4
@@ -1345,17 +1401,17 @@ istria_area = { #3
 	130 4738 4989
 }
 
-croatia_area = { #3
+croatia_area = { #4
 	color = { 18 126 16 }
-	131 1826 4752
+	131 1826 4752 5391
 }
 
 slavonia_area = { #4
 	152 4756 1767 4173
 }
 
-east_adriatic_coast_area = { #3
-	136 137 4753
+east_adriatic_coast_area = { #4
+	136 137 4753 5390
 }
 
 alfold_area = { #4
@@ -4060,8 +4116,6 @@ magadan_area = { }
 netherlands_area = { }
 
 indonesian_islands_area = {  }
-
-iceland_area = { }
 
 south_laos_area = { }
 

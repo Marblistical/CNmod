@@ -1,5 +1,9 @@
 #228 - Beira
 
+latent_trade_goods = {
+	coal
+}
+
 owner = POR
 controller = POR
 culture = portugese

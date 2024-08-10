@@ -1,5 +1,9 @@
 # 88 Artois - Principal cities: Arras, Saint-Omer & Lille
 
+latent_trade_goods = {
+	coal
+}
+
 owner = FLA
 controller = FLA
 add_core = FLA

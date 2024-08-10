@@ -2,7 +2,7 @@
 
 owner = MAC
 controller = MAC
-culture = aromanian
+culture = bulgarian
 religion = orthodox
 capital = "Kastoria"
 trade_goods = fur

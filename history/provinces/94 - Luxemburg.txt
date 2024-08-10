@@ -1,5 +1,9 @@
 # 94 Luxembourg - Principal cities: Luxembourg
 
+latent_trade_goods = {
+	coal
+}
+
 owner = LUX
 controller = LUX
 capital = "Luxemburg"

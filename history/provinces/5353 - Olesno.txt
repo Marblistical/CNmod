@@ -12,6 +12,7 @@ is_city = yes
 trade_goods = grain
 base_manpower = 1
 add_core = OPL
+add_core = OLS
 
 
 

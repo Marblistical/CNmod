@@ -10,7 +10,7 @@ trade_goods = wine
 hre = no
 base_tax = 2
 base_production = 1
-base_manpower = 3
+base_manpower = 1
 is_city = yes
 fort_15th = yes #Fortress of Gallipoli
 

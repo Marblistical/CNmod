@@ -2,7 +2,7 @@
 
 owner = SCO
 controller = SCO
-culture = highland_scottish
+culture = manx
 religion = catholic
 hre = no
 base_tax = 1 

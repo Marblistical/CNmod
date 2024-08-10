@@ -1,0 +1,93 @@
+country_decisions = {
+
+	welsh_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			
+			NOT = { has_country_flag = formed_wales_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = WLS }
+			NOT = { tag = PAP }
+			NOT = { tag = ENG }
+			NOT = { tag = GBR }
+			NOT = { tag = SCO }
+			NOT = { tag = HSC }
+			NOT = { tag = IRE }
+			NOT = { tag = WLS }
+			primary_culture = welsh
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 242
+				province_id = 4369
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			owns_core_province = 242
+			owns_core_province = 4369
+			OR = {
+				AND = {
+					tag = DYF
+					NOT = { exists = GWY }
+				}
+				AND = {
+					tag = GWY
+					NOT = { exists = DYF }
+				}
+				AND = {
+					NOT = { exists = DYF }
+					NOT = { exists = GWY }
+				}
+			}
+		}
+		effect = {
+			add_prestige = 25
+			change_tag = WLS
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			deheubarth_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			gwynedd_area = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			set_country_flag = formed_wales_flag 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

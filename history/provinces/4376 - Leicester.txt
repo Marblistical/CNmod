@@ -1,5 +1,5 @@
 #1861 - Derby
-#Leicestershire+Rutland+Northamptonshire
+#Leicestershire+Rutland
 
 owner = ENG
 controller = ENG

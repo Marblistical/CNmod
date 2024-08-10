@@ -1,0 +1,32 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = welsh
+religion = catholic
+capital = 5420
+fixed_capital = 5420
+
+
+1403.12.1 = {
+	monarch = {
+		name = "Humphrey"
+		dynasty = "Stafford"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1455.9.4 = {
+	heir = {
+		name = "Henry"
+		monarch_name = "Henry"
+		dynasty = "Stafford"
+		birth_date = 1435.11.5
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,18 @@
+vassal = {
+	first = DYF
+	second = GWE
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+vassal = {
+	first = DYF
+	second = BCN
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+vassal = {
+	first = GWY
+	second = PWY
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}

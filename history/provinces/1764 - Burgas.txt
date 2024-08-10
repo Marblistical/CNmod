@@ -1,5 +1,9 @@
 #1764 - Burgas
 
+latent_trade_goods = {
+	coal
+}
+
 owner = VAR
 controller = VAR
 culture = greek

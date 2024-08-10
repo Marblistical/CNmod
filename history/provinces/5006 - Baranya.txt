@@ -1,9 +1,5 @@
 #5006 - Baranya
 
-latent_trade_goods = {
-	coal
-}
-
 owner = HUN
 controller = HUN 
 culture = hungarian

@@ -5,7 +5,7 @@ controller = SCO
 add_core = SCO
 add_core = LOI
 
-culture = highland_scottish
+culture = gall_ghaidheil
 religion = catholic
 capital = "Stornoway"
 

@@ -1,5 +1,9 @@
 #5235 - Uzes
 
+latent_trade_goods = {
+	coal
+}
+
 owner = TOU
 controller = TOU
 add_core = TOU

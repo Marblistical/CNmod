@@ -1,5 +1,9 @@
 #Leczyca
 
+latent_trade_goods = {
+	coal
+}
+
 owner = POL
 controller = POL
 capital = "Leczyca"

@@ -52,6 +52,7 @@ scandinavia_region = {
 		eastern_norway
 		western_norway
 		subarctic_islands_area
+		iceland_area
 		kola_area
 		vastra_gotaland_area
 		bergslagen_area
@@ -244,16 +245,21 @@ british_isles_region = {
 		cornwall_area
 		yorkshire_area
 		scottish_marches_area
+		lancashire_area
 		wessex_area
 		home_counties_area
+		sussex_area
 		east_anglia_area
-		wales_area
+		gwynedd_area
+		deheubarth_area
 		strathclyde_area
 		lowlands_area
 		highlands_area
+		grampian_area
 		kingdom_of_the_isles_area
 		munster_area
 		connacht_area
+		meath_area
 		leinster_area
 		ulster_area
 	}
@@ -320,7 +326,27 @@ crimea_region = {
 	}
 }
 
-balkan_region = {
+rumelia_region = {
+	areas = {
+		bulgaria_area
+		moesia_area
+		macedonia_area
+		east_macedonia_area
+		north_macedonia_area
+		northern_greece_area
+		morea_area
+		heptanese_area
+		crete_area
+		central_greece_area
+		thessaly_area
+		thrace_area
+		north_thrace_area
+		west_thrace_area
+		silistria_area
+	}
+}
+
+illyria_region = {
 	areas = {
 		slovenia_area
 		istria_area
@@ -328,17 +354,11 @@ balkan_region = {
 		east_adriatic_coast_area
 		bosnia_area
 		herzegovina_area
+		montenegro_area
 		serbia_area
 		rascia_area
-		bulgaria_area
-		macedonia_area
-		north_macedonia_area
-		northern_greece_area
-		morea_area
-		central_greece_area
-		thrace_area
+		dardania_area
 		albania_area
-		silistria_area
 		slavonia_area
 	}
 }

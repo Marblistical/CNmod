@@ -1,5 +1,9 @@
 #5268 - Saarbrücken
 
+latent_trade_goods = {
+	coal
+}
+
 capital = "Saarbrücken"
 culture = hessian
 religion = catholic

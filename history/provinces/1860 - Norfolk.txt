@@ -1,5 +1,8 @@
 #1860 - Norfolk
-#Includes Suffolk
+
+latent_trade_goods = {
+	coal
+}
 
 owner = ENG
 controller = ENG

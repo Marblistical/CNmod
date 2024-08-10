@@ -1,0 +1,23 @@
+#5411 - Metsovo
+
+owner = EPI
+controller = EPI
+culture = aromanian
+religion = orthodox
+capital = "Metsovo"
+trade_goods = dairy
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = EPI
+
+
+
+
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western
