@@ -1,8 +1,8 @@
 #2449 - Jufra
 
-culture = libyan
-religion = sunni
-capital = "Hun"
+culture = berber
+religion = ibadi
+capital = "Shwayrif"
 
 trade_goods = livestock
 hre = no

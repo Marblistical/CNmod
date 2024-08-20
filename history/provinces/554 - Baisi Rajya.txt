@@ -1,4 +1,19 @@
-#554 - Sivalik Hills
+#554 - Salyan
+
+owner = DNG
+controller = DNG
+add_core = DNG
+
+culture = tharu
+religion = hinduism
+capital = "Salyan"
+
+trade_goods = fur
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
 
 discovered_by = indian
 discovered_by = nomad_group

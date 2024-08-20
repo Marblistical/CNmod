@@ -1,10 +1,10 @@
 # - Ghadames
 
 culture = berber
-religion = sunni
+religion = ibadi
 capital = "Ghadames"
 
-trade_goods = spices #Dates
+trade_goods = dates
 hre = no
 base_tax = 1 
 base_production = 1

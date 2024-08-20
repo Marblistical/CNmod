@@ -1,20 +1,17 @@
 #2448 - Fezzan
 
-culture = libyan
+owner = FZA
+controller = FZA 
+culture = tuareg
 religion = sunni
 capital = "Murzuk"
-
-trade_goods = ivory
+trade_goods = dates
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
+is_city = yes
+add_core = FZA
 
-native_size = 30
-native_ferocity = 4
-native_hostileness = 9
-
-discovered_by = western
-discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman

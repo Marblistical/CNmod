@@ -1,0 +1,21 @@
+#5444 - Sidi Bennour
+
+owner = MRK
+controller = MRK
+add_core = MRK
+
+culture = moroccan
+religion = sunni
+capital = "Sidi Bennour"
+
+trade_goods = grain
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern

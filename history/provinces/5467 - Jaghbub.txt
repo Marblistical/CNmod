@@ -1,0 +1,19 @@
+#5467 - Jaghbub
+
+owner = SLY
+controller = SLY
+add_core = SLY
+culture = berber
+religion = sunni
+capital = "Al Jaghbub"
+trade_goods = dates
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

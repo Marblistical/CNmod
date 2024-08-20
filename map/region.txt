@@ -386,11 +386,12 @@ carpathia_region = {
 
 egypt_region = {
 	areas = {
-		lower_nubia_area
+		shamally_area
 		cyrenaica_area
 		gulf_of_arabia_area
 		al_wahat_area
 		delta_area
+		manzala_area
 		bahari_area
 		vostani_area
 		said_area
@@ -400,24 +401,33 @@ egypt_region = {
 
 maghreb_region = {
 	areas = {
-		fezzan_area
 		tunisia_area
+		kef_area
 		djerba_area
-		kabylia_area
-		tekna_area
-		hautes_plaines_area
-		north_saharan_area
+		constantine_area
+		oran_area
+		hodna_area
 		tafilalt_area
 		sus_area
 		marrekesh_area
+		oujda_area
 		ouled_nail_area
-		#fez_area
-		northern_morocco_area
-		southern_morocco_area
-		western_morocco_area
+		fez_area
+		rif_area
+		sale_area
+		safi_area
 		tripolitania_area
 		barbary_coast_area
 		macaronesia_area
+	}
+}
+
+sahara_region = {
+	areas = {
+		fezzan_area
+		ghadames_area
+		tekna_area
+		north_saharan_area
 	}
 }
 
@@ -600,6 +610,7 @@ horn_of_africa_region = {
 		majarteen_area
 		mogadishu_area
 		red_sea_coast_area
+		lower_nubia_area
 		middle_nubia_area
 		upper_nubia_area
 		sennar_area
@@ -827,10 +838,9 @@ hindusthan_region = {
 		bundelkhand_area
 		sind_sagar_area
 		peshawar_area
-		CN_koshi_area
-		CN_gandaki_area
-		CN_terai_area
-		CN_madhesh_area
+		koshi_area
+		gandaki_area
+		terai_area
 	}
 	monsoon = {
 		00.07.01

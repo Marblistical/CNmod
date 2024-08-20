@@ -5122,17 +5122,17 @@ province;red;green;blue;x;x
 5121;198;111;158;Himalayas;x
 5122;255;190;155;Mustang;x
 5123;77;101;135;Kantipur;x
-5124;206;198;156;Janakpur;x
+5124;178;204;75;Cantabrica;x
 5125;161;174;206;Sindhuli;x
 5126;230;255;201;Chaudandi;x
 5127;130;159;181;Monyul;x
 5128;178;98;124;Pokhara;x
 5129;69;137;69;Saga;x
 5130;255;179;38;Patan;x
-5131;188;188;255;Simraungadh;x
+5131;188;188;255;Kerkennah;x
 5132;255;170;172;Jiri;x
 5133;140;146;204;Khumbu;x
-5134;255;50;180;Ilam;x
+5134;216;32;179;Rif;x
 5135;173;255;73;Shilchaguri;x
 5136;43;110;126;North Frisia;x
 5137;62;141;48;Westfriesland;x
@@ -5148,7 +5148,7 @@ province;red;green;blue;x;x
 5147;178;82;178;Grosseto;x
 5148;177;166;194;Camerino;x
 5149;159;8;178;Settat;x
-5150;116;201;163;Tinghir;x
+5150;116;201;163;Taza;x
 5151;116;186;192;Tata;x
 5152;128;151;147;Tantan;x
 5153;163;58;163;Tekna;x
@@ -5178,11 +5178,11 @@ province;red;green;blue;x;x
 5177;67;78;193;Piombino;x
 5178;255;45;146;Dullu;x
 5179;188;255;45;Gorkha;x
-5180;255;82;43;Lower Himalayas;x
+5180;204;169;126;Ghat;x
 5181;255;188;239;Parasi;x
-5182;104;117;255;Lower Himalayas;x
-5183;54;81;124;Lower Himalayas;x
-5184;107;255;225;Lower Himalayas;x
+5182;161;218;167;Matruh;x
+5183;54;81;124;El Tih;x
+5184;99;74;211;Fezzan;x
 5185;122;255;135;Himalayas;x
 5186;93;55;124;Limerick;x
 5187;113;198;82;Ossory;x
@@ -5442,3 +5442,33 @@ province;red;green;blue;x;x
 5441;113;17;199;Meath;x
 5442;223;127;210;Drogheda;x
 5443;250;170;200;Down;x
+5444;86;45;144;Sidi Bennour;x
+5445;225;144;49;Azrou;
+5446;74;131;232;Araish;x
+5447;134;154;24;Ouezzane;x
+5448;154;211;154;Khazama;x
+5449;164;103;150;Debdou;x
+5450;136;57;90;Sijilmasa;x
+5451;239;76;215;Bechar;x
+5452;226;59;112;Mascara;x
+5453;188;156;98;Bayadh;x
+5454;109;85;98;Aflou;x
+5455;52;52;168;Ansam;x
+5456;105;151;101;Setif;x
+5457;69;136;43;Grand Erg;x
+5458;100;200;32;Bajah;x
+5459;127;167;207;Monastir;x
+5460;174;190;128;Kasserine;x
+5461;100;129;152;Gabes;x
+5462;204;173;73;Remada;x
+5463;160;117;188;Nafusa;x
+5464;155;85;95;Maradah;x
+5465;100;200;34;Agdabiya;x
+5466;128;155;136;Awjila;x
+5467;200;100;233;Jaghbub;x
+5468;100;200;234;Siwah;x
+5469;112;166;211;Natrun;x
+5470;181;198;27;Gizah;x
+5471;200;100;60;Beni Suef;x
+5472;3;13;112;Safaga;x
+5473;198;225;113;Arish;x

@@ -1,8 +1,8 @@
 #Demnate
 
-owner = MOR
-controller = MOR
-add_core = MOR
+owner = MRK
+controller = MRK
+add_core = MRK
 
 culture = berber
 religion = sunni

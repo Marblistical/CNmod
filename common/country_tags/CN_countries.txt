@@ -196,7 +196,14 @@ GRN = "countries/Groningen.txt"
 NAM = "countries/Namur.txt"
 
 #Maghreb
+#CYR = "countries.Cyrenaica.txt"
+#FEZ = "countries/Fez.txt"
+#GDM = "countries/Ghadame.txt"
+#LGH = "countries/Laghouat.txt"
+#OGL = "countries/Ouargla.txt"
+#RIF = "countries/Rif.txt"
 SLY = "countries/BanuSulaym.txt"
+#ZAB = "countries/Zab.txt"
 
 #Mesoamerica
 LCA = "countries/Lenca.txt"

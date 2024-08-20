@@ -1,8 +1,8 @@
 #2326 - Bardiyah
 
-owner = AKG
-controller = AKG
-add_core = AKG
+owner = SLY
+controller = SLY
+add_core = SLY
 
 culture = libyan
 religion = sunni

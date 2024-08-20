@@ -3,13 +3,12 @@
 owner = TFL
 controller = TFL
 add_core = TFL
-add_core = SOS
 
 culture = berber
 religion = sunni
 capital = "Ouarzazate"
 
-trade_goods = grain
+trade_goods = spices
 hre = no
 base_tax = 2 
 base_production = 2
