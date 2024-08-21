@@ -1,7 +1,7 @@
 # - Ouargla
 
-owner = TGT
-controller = TGT
+owner = OGL
+controller = OGL
 culture = berber
 religion = ibadi
 capital = "Ouargla"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = TGT
+add_core = OGL
 
 
 discovered_by = muslim

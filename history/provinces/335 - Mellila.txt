@@ -3,7 +3,7 @@
 owner = MOR
 controller = MOR
 add_core = MOR
-
+add_core = RIF
 culture = berber
 religion = sunni
 capital = "Melilla"

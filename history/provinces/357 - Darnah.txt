@@ -1,8 +1,8 @@
 #357 - Libya
 
-owner = SLY
-controller = SLY
-add_core = SLY
+owner = CYR
+controller = CYR
+add_core = CYR
 
 culture = libyan
 religion = sunni

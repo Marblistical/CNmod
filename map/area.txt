@@ -1745,12 +1745,16 @@ oran_area = { #4
 	336 337 4562 5452
 }
 
-barbary_coast_area = { #5
-	338 339 2461 2462 5455
+barbary_coast_area = { #4
+	338 339 2461 5455
 }
 
-constantine_area = { #4
-	340 1882 4169 5456
+saharan_atlas_area = { #3
+	2458 2459 2462 5474
+}
+
+constantine_area = { #5
+	340 1882 4169 5456 5475
 }
 
 hodna_area = { #3
@@ -1758,11 +1762,11 @@ hodna_area = { #3
 }
 
 ouled_nail_area = { #4
-	350 351 2458 2459 
+	350 351 5477
 }
 
-north_saharan_area = { #4
-	2456 2457 2472 5457
+north_saharan_area = { #5
+	2456 2457 2472 5457 5476
 }
 
 tafilalt_area = { #4

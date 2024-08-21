@@ -1,8 +1,8 @@
 #5467 - Jaghbub
 
-owner = SLY
-controller = SLY
-add_core = SLY
+owner = CYR
+controller = CYR
+add_core = CYR
 culture = berber
 religion = sunni
 capital = "Al Jaghbub"

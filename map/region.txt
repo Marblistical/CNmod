@@ -404,6 +404,7 @@ maghreb_region = {
 		tunisia_area
 		kef_area
 		djerba_area
+		saharan_atlas_area
 		constantine_area
 		oran_area
 		hodna_area

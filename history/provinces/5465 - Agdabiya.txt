@@ -3,6 +3,7 @@
 owner = SLY
 controller = SLY
 add_core = SLY
+add_core = TRP
 culture = libyan
 religion = sunni
 capital = "Agdabiya"
