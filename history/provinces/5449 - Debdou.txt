@@ -8,8 +8,8 @@ owner = MOR
 controller = MOR
 add_core = MOR
 
-culture = moroccan
-religion = sunni
+culture = sephardi
+religion = jewish
 capital = "Debdou"
 
 trade_goods = iron

@@ -113,7 +113,7 @@ NDiplomacy = {
 	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 	GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.33,	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
 
-	NUM_POSSIBLE_RIVALS = 3,
+	NUM_POSSIBLE_RIVALS = 5,
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
 	RIVAL_DISTANT_WAR_FACTOR = 0.25,			-- How much the distant war modifer is reduced when calling against rivals
