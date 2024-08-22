@@ -221,9 +221,11 @@ iberia_region = {
 		upper_andalucia_area
 		jaen_area
 		castile_area
+		guadalajara_area
 		murcia_area
 		toledo_area
 		leon_area
+		beira_area
 		alentejo_area
 		porto_area
 		burgos_area

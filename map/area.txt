@@ -437,8 +437,8 @@ north_brabant_area = { #3
 # Iberia					 		   #
 ########################################
 
-aragon_area = { #4
-	214 2990 4557 5201
+aragon_area = { #5
+	214 2990 4557 5201 5486
 }
 
 jaca_area = { #3
@@ -453,11 +453,11 @@ catalonia_area = { #3
 }
 
 valencia_area = { #5
-	220 1750 4549 4550
+	220 1750 4549 4550 5485
 }
 
-lower_andalucia_area = { #4
-	224 225 4548 5298
+lower_andalucia_area = { #5
+	224 225 4548 5298 5478
 }
 
 upper_andalucia_area = { #4
@@ -468,22 +468,26 @@ jaen_area = { #4
 	222 223 1748 5300
 }
 
-castile_area = { #5
+castile_area = { #4
 	color = { 58 58 207 }
-	217 2755 4551 4789 4980
+	217 4551 4789 5488
 }
 
-murcia_area = { #4
-color = { 78 170 194 }
-	221 2751 4547 5302
+guadalajara_area = { #4
+	2755 4980 5302 5487
 }
 
-burgos_area = { #4
-	215 1746 2989 4552
+murcia_area = { #5
+	color = { 78 170 194 }
+	221 2751 4547 5301 5483
 }
 
-galicia_area = { #4
-	206 4554 4555 4558
+burgos_area = { #5
+	215 1746 2989 4552 5489
+}
+
+galicia_area = { #5
+	206 4554 4555 4558 5491
 }
 
 baleares_area = {
@@ -491,36 +495,40 @@ baleares_area = {
 }
 
 toledo_area = { #4
-	219 2754 5207 5301
+	219 2754 5207 5482
 }
 
 basque_country = { #4
 	209 210 5208 5209
 }
 
-leon_area = { #4
+leon_area = { #5
 	color = { 243 235 28 }
-	208 216 4553 5205
+	208 216 4553 5205 5490
 }
 
 asturias_area = { #3
 	207 1745 5206
 }
 
-extremadura_area = { #4
-	218 1747 4788 5204
+extremadura_area = { #5
+	218 1747 4788 5204 5479
 }
 
-porto_area = { #4
-	231 232 4556 5203
+porto_area = { #3
+	231 232 5203
 }
 
-alentejo_area = { #4
-	229 230 4150 4979
+beira_area = { #4
+	228 1851 4556 5484
 }
 
-lisbon_area = { #5
-	227 228 1851 4787 5202
+alentejo_area = { #5
+	229 230 4150 4979 5480
+}
+
+lisbon_area = { #4
+	227 4787 5202 5481
 }
 
 macaronesia_area = { #3
