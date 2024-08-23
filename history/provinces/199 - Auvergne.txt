@@ -4,16 +4,17 @@ owner = AUV
 controller = AUV
 capital = "Clermont"
 is_city = yes
-culture = occitain
+culture = arvernolemosin
 religion = catholic
 hre = yes
 base_tax = 2
 base_production = 2
-trade_goods = grain
+trade_goods = paper
 base_manpower = 1
 add_core = AUV
 add_core = CLE
-
+extra_cost = 8
+center_of_trade = 1
 
 
 discovered_by = eastern

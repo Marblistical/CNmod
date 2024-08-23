@@ -1,8 +1,8 @@
 # - Urgell
 
-owner = URG
-controller = URG
-add_core = URG
+owner = PLL
+controller = PLL
+add_core = PLL
 culture = catalan
 religion = catholic
 hre = yes
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 1
 trade_goods = wool 
 base_manpower = 1
-capital = "Tàrrega" 
+capital = "Sort"
 is_city = yes 
 
 discovered_by = western

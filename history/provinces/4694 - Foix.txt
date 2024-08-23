@@ -2,12 +2,12 @@ owner = FOI
 controller = FOI
 capital = "Foix"
 is_city = yes
-culture = gascon
+culture = occitain
 religion = catholic
 hre = yes
 base_tax = 1
 base_production = 1
-trade_goods = wool
+trade_goods = iron
 base_manpower = 2
 add_core = FOI
 

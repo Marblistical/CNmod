@@ -1,17 +1,17 @@
 # 4951 Aube
 
-owner = TOE
-controller = TOE
-capital = "Sens"
+owner = CHP
+controller = CHP
+capital = "Bar-sur-Aube"
 is_city = yes
-culture = burgundian
+culture = champenois
 religion = catholic
 hre = yes
-base_tax = 1
-base_production = 1
-trade_goods = copper
+base_tax = 2
+base_production = 3
+trade_goods = silk
 base_manpower = 2
-add_core = TOE
+add_core = CHP
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

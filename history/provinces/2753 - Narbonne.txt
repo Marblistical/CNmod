@@ -13,6 +13,7 @@ trade_goods = wine
 base_manpower = 3
 add_core = TOU
 fort_15th = yes
+add_core = NRB
 
 discovered_by = eastern
 discovered_by = western

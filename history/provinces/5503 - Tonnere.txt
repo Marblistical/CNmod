@@ -1,0 +1,18 @@
+#5503 - Tonnere
+
+owner = TOE
+controller = TOE
+capital = "Tonnerre"
+is_city = yes
+culture = champenois
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = copper
+base_manpower = 2
+add_core = TOE
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

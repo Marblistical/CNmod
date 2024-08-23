@@ -2,15 +2,15 @@
 
 owner = PIC
 controller = PIC
-capital = "Boulogne-ser-mer"
+capital = "Boulogne-sur-mer"
 is_city = yes
-culture = wallonian
+culture = picard
 religion = catholic
 hre = yes
 base_tax = 2
-base_production = 2
+base_production = 1
 trade_goods = grain
-base_manpower = 2
+base_manpower = 1
 add_core = PIC
 discovered_by = eastern
 discovered_by = western

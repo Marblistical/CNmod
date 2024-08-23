@@ -2,8 +2,16 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = occitain
-add_accepted_culture = occitain
 religion = catholic
 technology_group = western
-capital = 4695 # Carcassonne
-fixed_capital = 4695 # Cannot move capital away from this province & no power cost to move to it
+capital = 2753
+
+1442.1.1 = {
+	monarch = {
+		name = "Peter"
+		dynasty = "de Tinieres"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

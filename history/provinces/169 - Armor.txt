@@ -2,9 +2,9 @@
 
 owner = BRI
 controller = BRI
-capital = "Saint-Malo"
+capital = "Saint-Brieuc"
 is_city = yes
-culture = angevin
+culture = armorican
 religion = catholic
 hre = yes
 base_tax = 2

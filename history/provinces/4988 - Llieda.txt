@@ -1,8 +1,8 @@
 # 4988 - Principal cities: Lleida
 
-owner = RIB
-controller = RIB
-add_core = RIB
+owner = URG
+controller = URG
+add_core = URG
 capital = "Lleida"
 is_city = yes
 culture = catalan

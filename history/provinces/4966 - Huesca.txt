@@ -12,6 +12,7 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Huesca"
 is_city = yes
+fort_15th = yes #Castiello de Lobarre
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

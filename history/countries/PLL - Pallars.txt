@@ -1,11 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = aragonese
-add_accepted_culture = catalan
+primary_culture = catalan
 religion = catholic
 technology_group = western
-capital = 211
+capital = 2987
 
 1040.1.1 = {
 	monarch = {

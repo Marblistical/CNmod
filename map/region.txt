@@ -23,11 +23,14 @@ france_region = {
 		savoy_dauphine_area
 		lyonnais_area
 		dauphine_area
+		trois_eveches_area
 		lorraine_area
 		champagne_area
 		ile_de_france_area
+		picardy_area
 		valois_area
 		berrichon_area
+		nivernais_area
 		south_champagne_area
 		gard_area
 		loire_area
@@ -35,6 +38,7 @@ france_region = {
 		west_burgundy_area
 		pyrenees_area
 		poitou_area
+		saintonge_area
 		orleans_area
 	}
 }
@@ -67,13 +71,12 @@ scandinavia_region = {
 	}
 }
 
-
 low_countries_region = {
 	areas = {
 		wallonia_area
 		luxembourg_area
 		flanders_area
-		picardy_area
+		artois_area
 		holland_area
 		frisia_area
 		guelders_area
@@ -112,7 +115,6 @@ italy_region = {
 	}
 }
 
-
 north_german_region = {
 	areas = { 
 		meissen_area
@@ -142,8 +144,26 @@ north_german_region = {
 	}
 }
 
-
-
+russia_region = {
+	areas = {
+		moscow_area
+		suzdal_area
+		novgorod_area
+		pskov_area
+		beloozero_area
+		pomor_area
+		ingria_area
+		ryazan_area
+		karelia_area
+		tver_area
+		yaroslavl_area
+		vladimir_area
+		oka_area
+		arkhangelsk_area
+		vologda_area
+		white_karelia_area
+	}
+}
 
 south_german_region = {
 	areas = { 
@@ -170,28 +190,6 @@ south_german_region = {
 		alsace_area
 	}
 }
-
-russia_region = {
-	areas = {
-		moscow_area
-		suzdal_area
-		novgorod_area
-		pskov_area
-		beloozero_area
-		pomor_area
-		ingria_area
-		ryazan_area
-		karelia_area
-		tver_area
-		yaroslavl_area
-		vladimir_area
-		oka_area
-		arkhangelsk_area
-		vologda_area
-		white_karelia_area
-	}
-}
-
 
 ural_region = {
 	areas = {

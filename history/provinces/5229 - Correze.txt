@@ -2,9 +2,9 @@
 
 owner = AQT
 controller = AQT
-capital = "Brive-la-Gaillarde"
+capital = "Turenne"
 is_city = yes
-culture = occitain
+culture = arvernolemosin
 religion = catholic
 hre = yes
 base_tax = 1

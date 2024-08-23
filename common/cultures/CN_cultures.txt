@@ -1650,6 +1650,30 @@ iberian	= {
 			Sancha S�ncia Sandrina Ugueta Zita Zoe
 		}
 	}
+	arvernolemosin = {
+		primary = AUV
+		dynasty_names = {
+			"de Peitieus" "de Tolosa" "de Foish" "d'Albert" "d'Auv�rnhe" "d'Escoubleau" "d'Armanhac"
+			"de Ro�rgue" "de Besi�rs" "de Narbona" "d'Al�s" "de Montpelhi�r" "de Trencav�l" "d'Arag�"
+			"de Barcelona"
+		}
+		male_names = {
+			Andriu Ant�ni Batistou Benedit Beneset Bernat Bertomieu Bertrand Camile Dgibril
+			Diagana Est�ve Eug�ni Evarist Exup�ri Ez�quias Ezequi�l Fabi Fabian Fabrici Falib�rt
+			Fan�on Felib�rt Frances Franceton Francicon Francilh Francilhon Francinet Frederic
+			Fredon Gir�ni Guilh�m Ives Ivon Jacme Jac�b Janou Jaufr� Jaume Jaus�p Joan Jordan
+			Jos�p Lo�s Maissen� Micheu Michon Patric Patrice P�ire Pierrounet Policarp Polidor
+			Polydore Pompeu Pon� Quintilian Quintin Rafa�l Raimond Renat Richard Romieg Samson
+			Samu�l San� Sanche Sergi Tahar Uber Ubert Ugues Zenon
+		}
+		female_names = {
+			Benedita Beneseta Bernada B�rta Camila Catarina Catarinon Catin Catisson Caton Cec�lia
+			Celestina Celina Ermengarda Ernestina Esclarmond�a Estela Est�r Esteveneta Eugenia �va
+			Francesa Fran�on Fran�oneta Frederica Ivona Jaus�pa Ludivina Lul� Magal� Marta Menon
+			Michela Michelon Mir�lha Patr�cia Quit�ira Radegonda Raimonda Renada Rhabia Rosalina
+			Sancha S�ncia Sandrina Ugueta Zita Zoe
+		}
+	}
 	provencal = {
 		primary = PRO
 		dynasty_names = {
@@ -10119,8 +10143,11 @@ french	= {
 	normand = {
 		primary = NRM
 	}
+	picard = {
+		primary = PIC
+	}
 	wallonian = {
-		primary = HAI
+		primary = NAM
 	}
 	louisianans = {
 		primary = LOU
@@ -10131,11 +10158,20 @@ french	= {
 	burgundian = {
 		primary = BUR
 	}
-	angevin = {
+	lorrain = {
+		primary = LOR
+	}
+	armorican = {
 		primary = ANJ
 		dynasty_names = {
 			"d'Anjou" "de la Tour"
 		}
+	}
+	poitevin = {
+		primary = POU
+	}
+	champenois = {
+		primary = CHP
 	}
 	arpitan = {
 		primary = DAU
