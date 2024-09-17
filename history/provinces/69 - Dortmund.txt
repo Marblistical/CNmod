@@ -4,10 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-culture = lower_saxon
-owner = RVA
-controller = RVA
-add_core = RVA
+culture = westphalian
+owner = DRT
+controller = DRT
+add_core = DRT
 capital = "Dortmund"
 religion = catholic
 trade_goods = wine

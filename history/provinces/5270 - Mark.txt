@@ -2,7 +2,7 @@
 
 owner = KLE
 controller = KLE
-culture = lower_saxon
+culture = westphalian
 religion = catholic
 trade_goods = grain
 capital = "Hamm"

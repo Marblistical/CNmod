@@ -2,7 +2,7 @@
 
 owner = OSN
 controller = OSN
-culture = lower_saxon
+culture = westphalian
 religion = catholic
 capital = "Osnabrück"
 trade_goods = salt

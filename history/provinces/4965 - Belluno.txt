@@ -2,7 +2,7 @@
 
 owner = BEL
 controller = BEL
-culture = venetian 
+culture = ladin
 religion = catholic 
 hre = yes
 base_tax = 1

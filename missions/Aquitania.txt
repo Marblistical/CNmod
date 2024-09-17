@@ -18,7 +18,9 @@ aquitainia_conquer = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 4386 #poitou
+				province_id = 5496 #parthenay
 				province_id = 190 #bourbonnais
+				province_id = 5500 #moulins
 			}	
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -28,8 +30,14 @@ aquitainia_conquer = {
 		}
 		trigger = {
 			OR = {
-				owns_core_province = 4386 #poitou
-				owns_core_province = 190 #bourbonnais
+				ROOT = {
+					owns_core_province = 4386 #poitou
+					owns_core_province = 5496 #parthenay
+				}
+				ROOT = {
+					owns_core_province = 190 #bourbonnais
+					owns_core_province = 5500 #moulins
+				}
 			}
 		}
 		effect = {
@@ -43,13 +51,37 @@ aquitainia_conquer = {
 					}
 					add_core = ROOT
 			}
+			2753 = {
+					limit = {
+						NOT = { is_core = ROOT }
+					}
+					add_core = ROOT
+			}
+			4695 = {
+					limit = {
+						NOT = { is_core = ROOT }
+					}
+					add_core = ROOT
+			}
+			5233 = {
+					limit = {
+						NOT = { is_core = ROOT }
+					}
+					add_core = ROOT
+			}
+			200 = {
+					limit = {
+						NOT = { is_core = ROOT }
+					}
+					add_core = ROOT
+			}
 			4945 = {
 					limit = {
 						NOT = { is_core = ROOT }
 					}
 					add_core = ROOT
 			}
-			4946 = {
+			5235 = {
 					limit = {
 						NOT = { is_core = ROOT }
 					}
@@ -1804,7 +1836,7 @@ aquitainia_centralize = {
 		}
 		trigger = {
 			development_in_provinces = {
-				value = 25
+				value = 15
 				area = pyrenees_area
 			}
 		}
@@ -2192,10 +2224,18 @@ aquitainia_enemies = {
 		position = 3
 		completed_by = 1444.1.1
 		provinces_to_highlight = {
-			owned_by = PRS
+			OR = {
+				province_id = 183 #paris
+				owned_by = PRS
+			}	
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		trigger = {
 			NOT = { exists = PRS }
+			owns_core_province = 183
 		}
 		effect = {
 			add_country_modifier = {
@@ -2233,10 +2273,18 @@ aquitainia_enemies = {
 		position = 4
 		completed_by = 1444.1.1
 		provinces_to_highlight = {
-			owned_by = BUR
+			OR = {
+				province_id = 192 #dijon
+				owned_by = BUR
+			}	
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
 		}
 		trigger = {
 			NOT = { exists = BUR }
+			owns_core_province = 192
 		}
 		effect = {
 			country_event = { id = flavor_aqt.13 }

@@ -1,5 +1,5 @@
 government = republic
-primary_culture = lower_saxon
+primary_culture = westphalian
 religion = protestant
 technology_group = western
 capital = 81	# Kassel

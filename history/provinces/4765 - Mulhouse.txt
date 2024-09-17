@@ -1,17 +1,17 @@
 # 4765 - Mulhouse. Primary city: Mülhausen
 
-owner = MLH
-controller = MLH
-capital = "Mülhausen"
+owner = HAG
+controller = HAG
+capital = "Haguenau"
 is_city = yes
-culture = swabian
+culture = alemannic
 religion = catholic
 hre = yes
 base_tax = 2 
 base_production = 2
-trade_goods = cloth
+trade_goods = wine
 base_manpower = 2
-add_core = MLH
+add_core = HAG
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

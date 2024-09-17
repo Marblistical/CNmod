@@ -424,8 +424,8 @@ luxembourg_area = { #3
 	94 4958 5260
 }
 
-holland_area = { #4
-	96 97 4383 5137
+holland_area = { #5
+	96 97 98 4383 5137
 }
 
 flanders_area = { #5
@@ -437,7 +437,7 @@ frisia_area = { #3
 }
 
 guelders_area = { #5
-	98 99 4381 4997 5196
+	99 4381 4997 5196 5508
 }
 
 brabant_area = { #5
@@ -1123,9 +1123,9 @@ upper_palatinate_area = { #4
 	1757 2957 5265 5266
 }
 
-upper_bavaria_area = { #3
+upper_bavaria_area = { #4
 	color = { 180 220 220 }
-	65 2955 4707 4708
+	65 2955 4708 5514
 }
 
 lower_bavaria_area = { #4
@@ -1137,20 +1137,20 @@ south_tirol_area = { #4
 } 
 
 lower_swabia_area = { #5 (West Swabia)
-	70 1872 4713 5263 5267
+	70 1872 4711 4713 5263
 }
 
 franconia_area = { #4 (Lower Franconia)
 	color = { 121 49 117 }
-	71 79 4715 4718
+	79 4715 4718 5267
 }
 
 upper_franconia_area = { #3
-	66 67 4717
+	66 67 71 4717
 }
 
 upper_swabia_area = { #5 (East Swabia)
-	68 1868 4711 4999 5264
+	68 1868 4999 5264 5513
 }
 
 northern_saxony_area = { #4 (Saxe-Altmark)
@@ -1183,8 +1183,8 @@ hinter_pommern_area = { #4
 	48 2995 4746 5282
 }
 
-tirol_area = { #4
-	73 76 4710 5000
+tirol_area = { #5
+	73 76 4710 5000 5515
 }
 
 austria_proper_area = { #4
@@ -1229,24 +1229,24 @@ osnabruck_area = { #4
 	56 2971 2973 5197
 }
 
-north_rhine_area = { #4
-	85 1878 2975 4768
+north_rhine_area = { #5
+	85 1878 2975 4768 5509
 }
 
-trier_area = { #3
-	80 1760 4998
+trier_area = { #4
+	80 1760 4998 5288
 }
 
 palatinate_area = { #5
-	77 1761 4767 5268 5288
+	77 1761 4767 5268 5512
 }
 
 westphalia_area = { #4 (South Westphalia)
 	82 2972 4775 5271
 }
 
-north_westphalia_area = { #4
-	84 86 69 5270
+north_westphalia_area = { #5
+	84 86 69 5270 5510
 }
 
 mainz_area = { #4
@@ -1257,8 +1257,8 @@ hesse_area = { #4
 	81 1762 4774 5272
 }
 
-braunschweig_area = { #3
-	57 1758 4773
+braunschweig_area = { #4
+	57 1758 4773 5511
 }
    
 weser_area = { #4

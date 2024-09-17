@@ -247,6 +247,11 @@ STR = "countries/Stargard.txt"
 WEI = "countries/Weimar.txt"
 WLD = "countries/Waldeck.txt"
 
+DRT = "countries/Dortmund.txt"
+ESN = "countries/Essen.txt"
+HAG = "countries/Haguenau.txt"
+WOM = "countries/Worms.txt"
+
 #Peru
 TCY = "countries/Tacaynamics.txt"
 

@@ -1,7 +1,7 @@
 #Paderborn
 owner = PAD
 controller = PAD
-culture = lower_saxon
+culture = westphalian
 religion = catholic
 trade_goods = beer
 capital = "Paderborn"

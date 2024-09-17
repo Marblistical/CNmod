@@ -1,9 +1,9 @@
 # 4767 - Zweibrücken
 
-capital = "Zweibrücken"
+capital = "Mannheim"
 culture = hessian
 religion = catholic
-trade_goods = wine
+trade_goods = paper
 owner = HES
 base_tax = 1
 base_production = 1

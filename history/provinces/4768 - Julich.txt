@@ -2,7 +2,7 @@
 
 owner = JCH
 controller = JCH
-culture = hessian
+culture = rhenish
 religion = catholic
 trade_goods = grain
 capital = "Jülich"

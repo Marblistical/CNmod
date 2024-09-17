@@ -2,7 +2,7 @@
 
 owner = AQU
 controller = AQU
-culture = venetian 
+culture = friulian
 religion = catholic 
 hre = yes
 base_tax = 1

@@ -3,7 +3,7 @@
 owner = BRG
 controller = BRG
 add_core = BRG
-culture = hessian
+culture = rhenish
 religion = catholic
 trade_goods = cloth
 capital = "Düsseldorf"

@@ -2,7 +2,7 @@
 
 owner = HAN
 controller = HAN
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 capital = "Göttingen"
 trade_goods = cloth

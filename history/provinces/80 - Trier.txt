@@ -1,6 +1,6 @@
 owner = TRI
 controller = TRI
-culture = hessian
+culture = rhenish
 religion = catholic
 trade_goods = grain
 capital = "Trier"

@@ -23,8 +23,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4364;4110;sea;1283;-1;-1;-1;-1;Inner Hebrides-Sutherland
 4364;4363;sea;1283;2718;1654;2721;1655;Inner Hebrides-Argyll
 5433;369;sea;1282;2757;1705;2757;1710;Caithness-Orkney
-97;100;sea;1269;2890;1581;2886;1576;Holland-Friesland
-96;5290;sea;1269;-1;-1;-1;-1;Zeeland-Hulst
+97;100;sea;1269;2891;1577;2888;1574;Holland-Friesland
+96;5290;sea;1269;2866;1547;2865;1544;Zeeland-Hulst
+4383;96;sea;1269;2874;1554;2872;1553;Haag-Zeeland
+95;96;sea;1269;2871;1552;2872;1550;Breda-Zeeland
 1017;1818;sea;1390;4853;1213;4848;1208;Suo-Chikuzen
 1014;4186;sea;1390;4860;1202;4872;1202;Bungo-Iyo
 4186;1825;sea;1390;4881;1219;4880;1214;Aki-Iyo

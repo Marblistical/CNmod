@@ -2,7 +2,7 @@
 
 owner = HAN
 controller = HAN
-culture = lower_saxon
+culture = westphalian
 religion = catholic
 trade_goods = cloth
 capital = "Münster"
