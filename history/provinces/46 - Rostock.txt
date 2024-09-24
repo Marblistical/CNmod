@@ -12,7 +12,8 @@ trade_goods = naval_supplies
 base_manpower = 2
 capital = "Rostock"
 is_city = yes
-
+extra_cost = 8
+center_of_trade = 1
 
 
 discovered_by = eastern

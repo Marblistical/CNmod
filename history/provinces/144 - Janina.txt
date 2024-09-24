@@ -12,7 +12,8 @@ base_production = 5
 base_manpower = 3
 is_city = yes
 add_core = EPI
-
+extra_cost = 8
+center_of_trade = 1
 
 
 

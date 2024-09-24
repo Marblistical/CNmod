@@ -15,6 +15,8 @@ fort_15th = yes # Klis Fortress
 add_core = CRO
 add_core = HRZ
 add_core = DAL
+extra_cost = 8
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

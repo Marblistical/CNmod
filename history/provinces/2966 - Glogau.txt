@@ -12,8 +12,8 @@ base_production = 2
 is_city = yes
 base_manpower = 1
 add_core = GLG
-
-
+extra_cost = 8
+center_of_trade = 1
 
 
 
