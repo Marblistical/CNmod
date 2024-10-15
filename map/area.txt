@@ -873,16 +873,20 @@ opillia_area = { #4
 	1940 2961 5364 5365
 }
 
-podolia_volhynia_area = { #3
-	281 4540 1943 
+podolia_volhynia_area = { #4
+	281 4540 1943 5521 
 }
 
 volhynia_area = { #4
-	279 2962 4539 4538
+	279 2962 4539 5517
 }
 
-pripyat_area = { #5
-	278 1941 4537 4545 5362
+polesia_area = { #4
+	278 1941 4115 5518
+}
+
+pripyat_area = { #3
+	4537 5362 5516
 }
 
 podlasie_area = { #3
@@ -926,49 +930,65 @@ lithuania_area = { #5
 }
 
 west_dniepr_area = { #4 Right Bank Ukraine
-	280 1942 1944 4247
+	280 1942 4247 5525
 }
 
 east_dniepr_area = { #4 Left bank Ukraine
-	290 2407 4542
+	290 4542 5533 5537
 }
 
-chernigov_area = {
-	1945 289 4543
+cherkasy_area = { #3
+	1944 5523 5524
 }
 
-sloboda_ukraine_area = { #4
-	291 298 299 2408
+chernigov_area = { #4
+	289 1945 2407 5532
 }
 
-yedisan_area = { #3
-	282 1974 2406
+sloboda_ukraine_area = { #5
+	291 298 299 4543 5539
 }
 
-zaporizhia_area = { #4
-	283 2411 2412 5012
+donets_area = { #4
+	2409 5538 5541 5542
 }
 
-azov_area = { #4
-	286 287 2413 2414
+yedisan_area = { #4
+	282 283 2406 5534
 }
 
-crimea_area = { #5
-	284 285 2410 2447 5011
+zaporizhia_area = { #3
+	2411 2412 5012
 }
 
-white_ruthenia_area = { #3
-	292 771 4246
+azov_area = { #5
+	286 287 468 2413 2414 
 }
 
-minsk_area = { #4
-	276 4115 4242 4544
+gazaria_area = { #4
+	285 2410 2447 5011
+}
+
+crimea_area = { #4
+	284 1974 5535 5536
+}
+
+gomel_area = { #3
+	4246 5526 5527
+}
+
+white_ruthenia_area = { #4
+	275 292 771 5520
+}
+
+minsk_area = { #5
+	276 4242 4544 4545 5519
 }
 
 #Opolye
 
-ryazan_area = { #4
-	301 302 1778 4255 
+ryazan_area = { #3
+	301 1778 4255 
 }
 
 moscow_area = { #4
@@ -983,16 +1003,20 @@ yaroslavl_area = { #4
 	308 1753 4117 4250
 }
 
-tver_area = { #5
-	294 1752 4243 4248 4249 
+tver_area = { #4
+	294 1752 4248 4249 
 }
 
 suzdal_area = { #4
 	1754 1956 4254 5200
 }
 
-smolensk_area = { #4
-	293 297 4244 4245
+bryansk_area = { #4
+	297 4244 5528 5529
+}
+
+smolensk_area = { #5
+	293 4243 4245 5530 5531
 }
 
 oka_area = { #4
@@ -1003,8 +1027,8 @@ novgorod_area = { #5
 	310 311 1959 2749 4260
 }
 
-pskov_area = { #4
-	274 275 1960 4148
+pskov_area = { #3
+	274 1960 4148
 }
 
 vologda_area = { #3
@@ -1015,16 +1039,16 @@ beloozero_area = { #3
 	312 4259 4261
 }
 
-astrakhan_area = { #4
-	464 466 5073 5115
+astrakhan_area = { #5
+	464 466 1971 5073 5115
 }
 
-majar_area = { #4
-	 468 2416 5074
+majar_area = { #5
+	2416 5074 5546 5547 5548
 }
 
-lower_don_area = { #4
-	288 467 1971 2409
+lower_don_area = { #5
+	288 467 5540 5543 5549
 }
 
 kazan_area = { #5
@@ -1075,12 +1099,12 @@ kama_area = { #3
 	305 1962 4266
 }
 
-penza_area = { #3
-	304 1081 2423
+penza_area = { #4
+	304 1081 2419 2423 
 }
 
 saratov_area = { #3
-	303 2415 2419
+	302 303 2415
 }
 
 ########################################
@@ -1357,8 +1381,8 @@ moldavia_area = { #5
 	268 4529 4530 5009 5388
 }
 
-moldova_area = { #4
-	1756 2405 5010 5389
+moldova_area = { #5
+	1756 2405 5010 5389 5522
 }
 
 crisana_area = { #3
@@ -1486,8 +1510,8 @@ shirvan_area = { #5 #Northern Azerbaijan
 	421 425 4299 4305 5083
 }
 
-circassia_area = { #3
-	463 2195 5075
+circassia_area = { #5
+	463 2195 5075 5544 5545
 }
 
 alania_area = { #4

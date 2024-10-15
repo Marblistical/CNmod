@@ -302,10 +302,14 @@ ruthenia_region = {
 	areas = {
 		west_dniepr_area
 		east_dniepr_area
+		cherkasy_area
 		sloboda_ukraine_area
 		white_ruthenia_area
 		podolia_volhynia_area
+		polesia_area
 		pripyat_area
+		gomel_area
+		bryansk_area
 		smolensk_area
 		minsk_area
 		podlasie_area
@@ -317,6 +321,8 @@ ruthenia_region = {
 crimea_region = {
 	areas = {
 		crimea_area
+		gazaria_area
+		donets_area
 		lower_don_area
 		astrakhan_area
 		majar_area
