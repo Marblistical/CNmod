@@ -286,14 +286,13 @@ poland_region = {
 		kalisz_area
 		krakow_area
 		kuyavia_area
-		halychia_area
-		opillia_area
 		plock_area
 		warsaw_area
 		silesia_area
 		central_poland_area
 		sandomierz_area
 		lublin_area
+		podlasie_area
 		upper_silesia_area
 	}
 }
@@ -312,8 +311,9 @@ ruthenia_region = {
 		bryansk_area
 		smolensk_area
 		minsk_area
-		podlasie_area
 		volhynia_area
+		halychia_area
+		opillia_area
 		chernigov_area
 	}
 }
