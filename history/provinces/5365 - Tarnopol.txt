@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital= "Tarnopol"
-culture = ruthenian
+culture = volhynian
 religion = orthodox
 trade_goods = fruit
 hre = no

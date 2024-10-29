@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital= "Bibrka"
-culture = ruthenian
+culture = volhynian
 religion = orthodox
 trade_goods = livestock
 hre = no

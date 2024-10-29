@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital = "Ortelsburg"
-culture = polish
+culture = mazovian
 religion = catholic
 trade_goods = grain
 hre = yes

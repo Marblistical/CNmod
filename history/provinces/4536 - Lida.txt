@@ -2,8 +2,8 @@
 
 owner = LIT
 controller = LIT
-religion = "catholic"
-culture = byelorussian
+religion = orthodox
+culture = polesian
 capital = "Lyda"
 trade_goods = livestock
 hre = no

@@ -3,7 +3,7 @@
 owner = BOH
 controller = BOH
 capital = "Jihlava"
-culture = czech
+culture = moravian
 religion = catholic
 trade_goods = iron
 hre = yes

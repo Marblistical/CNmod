@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital = "Warszawa"
-culture = polish
+culture = mazovian
 religion = catholic
 trade_goods = cloth
 hre = no

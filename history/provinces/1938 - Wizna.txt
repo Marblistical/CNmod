@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital = "Wizna"
-culture = polish
+culture = mazovian
 religion = catholic
 trade_goods = beer
 hre = no

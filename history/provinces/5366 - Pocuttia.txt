@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital= "Kolomea"
-culture = ruthenian
+culture = volhynian
 religion = orthodox
 trade_goods = paper
 hre = no

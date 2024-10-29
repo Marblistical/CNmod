@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 capital = "Rawa"
-culture = polish
+culture = mazovian
 religion = catholic
 trade_goods = copper
 hre = no
