@@ -2,12 +2,12 @@
 
 owner = SCY
 controller = SCY
-culture = mokshan
+culture = erzyan
 religion = sunni
 hre = no
 base_tax = 1
 base_production = 1
-trade_goods = grain
+trade_goods = honey
 base_manpower = 1
 capital = "Alatyr"
 is_city = yes

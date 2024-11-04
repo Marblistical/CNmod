@@ -1,9 +1,5 @@
 #291 - Kharkov
 
-latent_trade_goods = {
-	coal
-}
-
 owner = LIT
 controller = LIT
 culture = ruthenian
