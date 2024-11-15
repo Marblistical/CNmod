@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = MLK
 
 culture = armenian
-religion = coptic
+religion = apostolic
 capital = "Khankendi"
 
 trade_goods = wool

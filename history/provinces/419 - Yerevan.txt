@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = ARM 
 
 culture = armenian
-religion = coptic
+religion = apostolic
 capital = "Yerevan"
 
 trade_goods = paper

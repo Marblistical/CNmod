@@ -790,7 +790,7 @@ kola_area = { #4
 }
 
 ingria_area = { #3
-	33 34 1961
+	33 34 5550
 }
 
 karelia_area = { #5
@@ -992,15 +992,15 @@ ryazan_area = { #3
 }
 
 moscow_area = { #4
-	295 4251 4252
+	295 4251 4252 5559
 }
 
 vladimir_area = { #3
-	307 4147 4253
+	307 1956 4147 4253
 }
 
-yaroslavl_area = { #4
-	308 1753 4117 4250
+yaroslavl_area = { #3
+	308 1753 4250
 }
 
 tver_area = { #4
@@ -1008,7 +1008,7 @@ tver_area = { #4
 }
 
 suzdal_area = { #4
-	1754 1956 4254 5200
+	306 1754 4254 5200
 }
 
 bryansk_area = { #4
@@ -1019,24 +1019,36 @@ smolensk_area = { #5
 	293 4243 4245 5530 5531
 }
 
-oka_area = { #4
-	296 300 4116 5013
+oka_area = { #5
+	296 4116 5013 5560 5561
+}
+
+upper_don_area = { #3
+	300 2408 5562
 }
 
 novgorod_area = { #5
-	310 311 1959 2749 4260
+	310 311 5551 5552 5553
+}
+
+ladoga_area = { #4
+	1961 2749 4942 5554
+}
+
+bezhetsk_area = { #4
+	1959 4117 4260 5555
 }
 
 pskov_area = { #3
 	274 1960 4148
 }
 
-vologda_area = { #3
-	314 4262 4263
+vologda_area = { #4
+	314 4259 4262 5557
 }
 
 beloozero_area = { #3
-	312 4259 4261
+	312 4261 5558
 }
 
 astrakhan_area = { #5
@@ -1076,7 +1088,7 @@ ural_area = { #5
 }
 
 pomor_area = { #4
-	313 1776 1958 4258
+	313 1958 4258 5556
 }
 
 arkhangelsk_area = { #4
@@ -1091,16 +1103,20 @@ volga_area = { #3
 	2421 4265 1972
 }
 
-galich_area = { #4
-	306 1079 1083 1957
+galich_area = { #3
+	1755 1957 4263
+}
+
+vyatka_area = { #2
+	1079 1083
 }
 
 kama_area = { #3
 	305 1962 4266
 }
 
-penza_area = { #4
-	304 1081 2419 2423 
+penza_area = { #5
+	304 1081 2419 2423 5563
 }
 
 saratov_area = { #3
@@ -3109,8 +3125,8 @@ irkutsk_area = { #5
 	1060 1062 1063 2442 2443
 }
 
-perm_area = { #5
-	1077 1755 1963 1964 4129
+perm_area = { #4
+	1077 1963 1964 4129
 }
 
 balchasj_area = { #5

@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = ERE
 
 culture = armenian
-religion = coptic
+religion = apostolic
 capital = "Erzindjan"
 trade_goods = copper
 hre = no

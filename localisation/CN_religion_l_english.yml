@@ -145,3 +145,17 @@
    zarni_an_aspect:0 "Pray to Zarni An"
    desc_zarni_an_aspect:0 "Zarni An is the most influential spirit in Komi Esköm, often being referred to as a goddess in her own right. Statues of her line the rivers of Komi Mu and people pray for good fortune and wealth. She is associated with gold, and is often depicted covered in such."
 
+  #Apostolic
+  apostolic: "Apostolic"
+  apostolic_religion_desc: "Founded by the Apostles Bartholomew and Thaddeus with St. Gregory the Illuminator as it's first head, the Armenian Apostolic Church rapidly gained followers in the region and shepherded the Kingdom of Armenia into becoming the first state ever to adopt Christianity as its official religion."
+
+  DYOPHYSITES: "Dyophysites"
+  ICONOGRAPHERS: "Iconographers"
+  SHIMUN: "Shimun"
+
+  apostolic_rebels_demand: "Convert $COUNTRYNAME$"
+  apostolic_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+  apostolic_rebels_title: "Religious"
+  apostolic_rebels_name: "$RELIGION$ Zealots"
+  apostolic_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers.
+  apostolic_rebels_army: "$RELIGION$ Army"

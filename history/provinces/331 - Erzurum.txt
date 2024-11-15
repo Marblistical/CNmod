@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = AKK
 
 culture = armenian
-religion = coptic
+religion = apostolic
 capital = "Erzurum"
 
 trade_goods = livestock

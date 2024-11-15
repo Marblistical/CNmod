@@ -17,7 +17,7 @@ christian = {
 	
 	
 	catholic = {
-		color = { 167 167 15 }
+		color = { 226 212 177 }
 		icon = 1
 		allowed_conversion = {
 			reformed
@@ -318,7 +318,7 @@ christian = {
 	}
 
 	anglican = {
-		color = { 135 77 255 }
+		color = { 122 37 219 }
 		icon = 28
 		allow_female_defenders_of_the_faith = yes
 
@@ -356,7 +356,7 @@ christian = {
 	}
 	
 	hussite = {
-		color = { 143 35 30 }
+		color = { 207 207 109 }
 		icon = 22
 
 		allowed_center_conversion = {
@@ -391,7 +391,7 @@ christian = {
 	}
 	
 	protestant = {
-		color = { 0 0 178 }
+		color = { 0 69 173 }
 		icon = 2
 
 		allowed_conversion = {
@@ -532,7 +532,7 @@ christian = {
 	}
 
 	reformed = {
-		color = { 76 76 229 }
+		color = { 131 131 239 }
 		icon = 3
 		allowed_conversion = {
 			protestant
@@ -651,7 +651,7 @@ christian = {
 	}
 
 	orthodox = {
-		color = { 155 103 13 }
+		color = { 137 42 94 }
 		icon = 4
 		country = {
 			stability_cost_modifier = -0.1
@@ -810,7 +810,7 @@ christian = {
 	}
 
 	lollard = {
-		color = { 173 68 184 }
+		color = { 217 159 224 }
 		icon = 31
 		allowed_conversion = {
 			reformed
@@ -887,7 +887,7 @@ christian = {
 	}
 
 	capet = {
-		color = { 44 89 112 }
+		color = { 176 85 80 }
 		icon = 36
 
 		allowed_center_conversion = {
@@ -941,7 +941,7 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 168 66 123 }
+		color = { 201 161 95 }
 		icon = 14
 		country = {
 			defensiveness = 0.15
@@ -959,7 +959,7 @@ christian = {
 		
 		misguided_heretic = yes
 		
-		holy_sites = { 358 1227 2313 1234 419 }
+		holy_sites = { 358 1227 2313 1234 379 }
 		
 		blessings = {
 			legitimize_government
@@ -970,9 +970,44 @@ christian = {
 		}
 	}
 
+	apostolic = {
+
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+
+		color = { 219 30 134 }
+		icon = 39
+		country = {
+			state_maintenance_modifier = -0.1
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			state_maintenance_modifier = -0.05
+			tolerance_heathen = 1
+		}
+		province = {
+			local_missionary_strength = -0.03
+		}
+
+		heretic = { DYOPHYSITES ICONOGRAPHERS SHIMUN }
+
+		misguided_heretic = yes
+		#has_patriarchs = yes
+
+		holy_sites = { 419 2306 379 2313 2301 }
+
+		blessings = {
+			cultural_acceptance
+			travelling_missionaries
+			influential_courtiers
+			philosphers_and_scientists
+			metropolitan_sees
+		}
+	}
+
 	nestorian = {
         icon = 33
-        color = { 201 183 95 }
+        color = { 198 188 43 }
         country = {
 			adm_tech_cost_modifier = -0.1
 			spy_offence = 0.2
@@ -988,7 +1023,7 @@ christian = {
 	}
 
 	humlian = {
-		color = { 181 92 28 }
+		color = { 196 100 31 }
 		icon = 34
 
 		allowed_center_conversion = {
@@ -1540,7 +1575,7 @@ muslim = {
 	}
 	
 	sunni = {
-		color = { 5 150 3 }
+		color = { 0 137 64 }
 		icon = 5
 		country = {
 			cav_to_inf_ratio = 0.10
@@ -1560,7 +1595,7 @@ muslim = {
 	}
 
 	shiite = {
-		color = { 10 194 15 }
+		color = { 38 204 0 }
 		icon = 6
 		country = {
 			heir_chance = 1.0
@@ -1580,7 +1615,7 @@ muslim = {
 	}
 	
 	ibadi = {
-		color = { 10 102 0 }
+		color = { 79 150 21 }
 		icon = 16
 		country = {
 			heir_chance = 1.0
@@ -1610,7 +1645,7 @@ eastern = {
 	flag_emblem_index_range = { 58 80 }
 
 	buddhism = { #Theravada
-		color = { 184 66 0 }
+		color = { 178 127 0 }
 		icon = 24
 		allowed_conversion = {
 			vajrayana
@@ -1641,7 +1676,7 @@ eastern = {
 	}
 	
 	vajrayana = {
-		color = { 181 85 85 }
+		color = { 196 104 104 }
 		icon = 25
 		allowed_conversion = {
 			mahayana
@@ -1672,7 +1707,7 @@ eastern = {
 	}
 	
 	mahayana = {
-		color = { 191 76 130 }
+		color = { 204 76 127 }
 		icon = 23
 		allowed_conversion = {
 			vajrayana
@@ -1703,7 +1738,7 @@ eastern = {
 	}
 
 	confucianism = {
-		color = { 194 209 130 }
+		color = { 214 229 140 }
 		icon = 9
 		country = {
 			tolerance_heretic = 2
@@ -1748,7 +1783,7 @@ dharmic = {
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
 	hinduism = {
-		color = { 5 184 184 }
+		color = { 0 204 204 }
 		icon = 8
 		allowed_conversion = {
 			sikhism
@@ -1779,7 +1814,7 @@ dharmic = {
 	}
 
 	sikhism = {
-		color = { 0 153 153 }
+		color = { 41 219 139 }
 		icon = 15
 		allowed_conversion = {
 			hinduism
@@ -2401,7 +2436,7 @@ pagan = {
 	flag_emblem_index_range = { 83 96 }
 
 	animism = {
-		color = { 127 0 0 }
+		color = { 38 68 76 }
 		icon = 11
 		country = {
 			tolerance_own = 1
@@ -2562,7 +2597,7 @@ pagan = {
 	
 	tengri_pagan_reformed = {
 		icon = 27
-		color = { 60 110 197 }
+		color = { 135 206 235 }
 		country = {
 			cav_to_inf_ratio = 0.25
 			global_regiment_cost = -0.2
@@ -2573,7 +2608,7 @@ pagan = {
 	
 	dreamtime = {
 		icon = 29
-		color = { 197 133 43 }
+		color = { 137 84 11 }
 		country = {
 			shock_damage_received = -0.05
 			diplomatic_reputation = 1
@@ -2598,7 +2633,7 @@ jewish_group = {
 
 	jewish = {
 		icon = 20
-		color = { 28 186 104 }
+		color = { 60 110 197 }
 		country = {
 			tolerance_own = 2
 			advisor_pool = 1
@@ -2726,7 +2761,7 @@ zoroastrian_group = {
 	flag_emblem_index_range = { 110 110 }
 	zoroastrian = {
 		icon = 26
-		color = { 127 178 51 }
+		color = { 154 173 117 }
 		province = {
 			local_missionary_strength = -0.02
 		}

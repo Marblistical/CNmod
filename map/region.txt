@@ -149,6 +149,8 @@ russia_region = {
 		moscow_area
 		suzdal_area
 		novgorod_area
+		ladoga_area
+		bezhetsk_area
 		pskov_area
 		beloozero_area
 		pomor_area
@@ -158,7 +160,9 @@ russia_region = {
 		tver_area
 		yaroslavl_area
 		vladimir_area
+		galich_area
 		oka_area
+		upper_don_area
 		arkhangelsk_area
 		vologda_area
 		white_karelia_area
@@ -196,7 +200,7 @@ ural_region = {
 		ural_area
 		perm_area
 		kazan_area
-		galich_area
+		vyatka_area
 		saratov_area
 		penza_area
 		kama_area

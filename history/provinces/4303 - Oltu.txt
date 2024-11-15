@@ -8,7 +8,7 @@ add_core = GEO
 add_core = ARM
 
 culture = armenian
-religion = coptic
+religion = apostolic
 capital = "Oltu"
 
 trade_goods = wool

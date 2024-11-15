@@ -8,7 +8,7 @@ add_core = SME
 add_core = ARM
 
 culture = armenian
-religion = coptic
+religion = apostolic
 capital = "Akhaltsikhe"
 
 trade_goods = wine
