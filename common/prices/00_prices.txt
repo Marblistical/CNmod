@@ -168,6 +168,49 @@ silver = {
 	goldtype = yes
 }
 
+softwood = {
+	base_price = 1.5
+}
+
+pottery = {
+	base_price = 2
+}
+
+jewelry = {
+	base_price = 5
+}
+
+seafood = {
+	base_price = 1.5
+}
+
+whales = {
+	base_price = 3
+}
+
+potatoes = {
+	base_price = 1
+}
+
+tomatoes = {
+	base_price = 2.5
+}
+
+herbs = {
+	base_price = 1.5
+}
+
+rice = {
+	base_price = 1
+}
+
+maize = {
+	base_price = 1
+}
+millet = {
+	base_price = 1
+}
+
 unknown = {
 	base_price = 0
 }
