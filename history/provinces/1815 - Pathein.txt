@@ -9,7 +9,7 @@ culture = mon
 religion = buddhism
 capital = "Pathein"
 
-trade_goods = grain
+trade_goods = fruit
 hre = no
 base_tax = 3
 base_production = 3

@@ -11,7 +11,7 @@ culture = avadhi
 religion = hinduism
 capital = "Lucknow"
 
-trade_goods = glass #Center for the production of "Mughal Glass"
+trade_goods = jewelry
 hre = no
 base_tax = 4
 base_production = 4

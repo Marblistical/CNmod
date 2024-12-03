@@ -9,7 +9,7 @@ culture = bengali
 religion = hinduism
 capital = "Satgaon"
 
-trade_goods = spices
+trade_goods = lumber
 hre = no
 base_tax = 5
 base_production = 5

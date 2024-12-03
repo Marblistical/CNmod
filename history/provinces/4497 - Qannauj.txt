@@ -11,7 +11,7 @@ culture = avadhi
 religion = hinduism
 capital = "Qannauj"
 
-trade_goods = grain
+trade_goods = incense
 hre = no
 base_tax = 4
 base_production = 4

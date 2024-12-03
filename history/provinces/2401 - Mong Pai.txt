@@ -9,7 +9,7 @@ culture = karen
 religion = animism
 capital = "Mong Pai"
 
-trade_goods = tropical_wood
+trade_goods = rice
 hre = no
 base_tax = 2 
 base_production = 2

@@ -1,8 +1,7 @@
 # 4743 - Weimar
 
-owner = THU
-controller = THU
-add_core = THU
+owner = WEI
+controller = WEI
 add_core = WEI
 culture = saxon
 religion = catholic

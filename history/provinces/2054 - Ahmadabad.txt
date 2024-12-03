@@ -8,7 +8,7 @@ culture = gujarati
 religion = hinduism
 capital = "Ahmadabad"
 
-trade_goods = paper
+trade_goods = jewelry
 hre = no
 base_tax = 5 
 base_production = 5

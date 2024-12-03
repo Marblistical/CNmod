@@ -9,7 +9,7 @@ culture = jin
 religion = confucianism
 capital = "Ningwu"
 
-trade_goods = grain
+trade_goods = gold
 hre = no
 base_tax = 1 
 base_production = 1

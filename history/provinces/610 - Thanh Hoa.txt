@@ -9,7 +9,7 @@ culture = vietnamese
 religion = mahayana
 capital = "Thanh Hoa"
 
-trade_goods = grain
+trade_goods = spices
 hre = no
 base_tax = 7
 base_production = 4

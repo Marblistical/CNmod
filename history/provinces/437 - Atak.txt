@@ -9,7 +9,7 @@ culture = turkmeni
 religion = sunni
 capital = "Nisa"
 
-trade_goods = livestock
+trade_goods = silk
 hre = no
 base_tax = 1 
 base_production = 1

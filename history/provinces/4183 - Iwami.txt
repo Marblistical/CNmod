@@ -9,7 +9,7 @@ culture = japanese
 religion = shinto
 capital = "Hamada"
 
-trade_goods = fish
+trade_goods = silver
 hre = no
 base_tax = 4
 base_manpower = 2

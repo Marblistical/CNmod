@@ -9,7 +9,7 @@ culture = marathi
 religion = hinduism
 capital = "Karanja"
 
-trade_goods = cotton
+trade_goods = spices
 hre = no
 base_tax = 3
 base_production = 3

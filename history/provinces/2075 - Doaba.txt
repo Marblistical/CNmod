@@ -11,7 +11,7 @@ culture = panjabi
 religion = hinduism
 capital = "Jalandhar"
 
-trade_goods = dyes
+trade_goods = cloth
 hre = no
 base_tax = 7
 base_production = 7

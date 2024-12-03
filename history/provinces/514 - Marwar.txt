@@ -9,7 +9,7 @@ culture = rajput
 religion = hinduism
 capital = "Mandore"
 
-trade_goods = cotton
+trade_goods = cloth
 hre = no
 base_tax = 2
 base_production = 2

@@ -9,7 +9,7 @@ culture = central_thai
 religion = buddhism
 capital = "Phitsanulok"
 
-trade_goods = livestock
+trade_goods = fruit
 hre = no
 base_tax = 4 
 base_production = 4

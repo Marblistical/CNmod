@@ -8,7 +8,7 @@ culture = rongkup
 religion = hinduism
 capital = "Siliguri"
 
-trade_goods = livestock
+trade_goods = spices
 hre = no
 base_tax = 1
 base_production = 1

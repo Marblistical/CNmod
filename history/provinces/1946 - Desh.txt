@@ -10,7 +10,7 @@ culture = marathi
 religion = hinduism
 capital = "Satara"
 
-trade_goods = naval_supplies
+trade_goods = rice
 hre = no
 base_tax = 3
 base_production = 3

@@ -10,7 +10,7 @@ culture = kanauji
 religion = hinduism
 capital = "Mathura"
 
-trade_goods = silk
+trade_goods = cloth
 hre = no
 base_tax = 10
 base_production = 10

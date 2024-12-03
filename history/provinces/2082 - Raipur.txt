@@ -9,7 +9,7 @@ culture = gondi
 religion = hinduism
 capital = "Raipur"
 
-trade_goods = grain
+trade_goods = rice
 hre = no
 base_tax = 3
 base_production = 3

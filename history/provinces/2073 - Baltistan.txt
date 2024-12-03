@@ -9,7 +9,7 @@ culture = kashmiri #Dardic/Shina and Balti
 religion = buddhism
 capital = "Skardu"
 
-trade_goods = wool
+trade_goods = fruit
 hre = no
 base_tax = 1 
 base_production = 1

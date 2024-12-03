@@ -9,7 +9,7 @@ culture = tibetan
 religion = vajrayana
 capital = "Markam"
 
-trade_goods = livestock
+trade_goods = salt
 hre = no
 base_tax = 1 
 base_production = 1

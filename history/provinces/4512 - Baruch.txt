@@ -8,7 +8,7 @@ culture = gujarati
 religion = hinduism
 capital = "Bharuch"
 
-trade_goods = silk #Silk
+trade_goods = spices
 hre = no
 base_tax = 4
 base_production = 4

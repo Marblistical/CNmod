@@ -1,0 +1,35 @@
+﻿l_english:
+ cnprices.1.t: "Reinheitsgebot"
+ cnprices.1.d: "The Reinheitsgebot was adopted, perhaps the oldest food regulation. The Gebot ordered that the ingredients of beer be restricted to water, barley, and hops. Food regulation law was applied throughout Germany And made beer making more restricted."
+ cnprices.1.a: "Yes, Please"
+ REIN: "Reinheitsgebot"
+
+ cnprices.2.t: "Introducing potatoes to Europe"
+ cnprices.2.d: "The potato was introduced into the Europe in the second half of the 16th century, part of the Columbian exchange. The staple was subsequently conveyed by European mariners to territories and ports throughout the world."
+ cnprices.2.a: "Great"
+
+ cnprices.3.t: "The Silk industry in Como"
+ cnprices.3.d: "Pietro Boldoni of Bellano was the first to establish the silk industry in Como, Italy and following his initial efforts, the industry in the region boomed, quickly surpassing most of Europe’s leading manufacturing centers."
+ cnprices.3.a: "We will support his initiative."
+ cnprices.3.b: "Sorry, we are broke."
+ 
+ cnprices.4.t: "Introducing tomatoes to Europe"
+ cnprices.4.d: "The tomato was introduced into the Europe in the second half of the 16th century, part of the Columbian exchange. The staple was subsequently conveyed by European mariners to territories and ports throughout the world."
+ 
+ cnprices.5.t: "Cheese variations"
+ cnprices.5.d: "With the time passing the advancement of the cheese art in Europe expanded to new cheese variations like Cheddar or Parmesan, which had a positive effect on the prices."
+ cnprices.5.a: "Great"
+ CHEESE_ART: "Cheese Art"
+ 
+ cnprices.6.t: "Effects of Deforestation"
+ cnprices.6.d: "As the population grows and ever more land is being cleared for farming, alongside increasing demands for wood for various industries, the world grew gradually more deforested, leading to a shortage in lumber and higher prices."
+ cnprices.6.a: "A log, a log, my kingdom for a log!"
+ DEFORESTATION_HAPPEN: "Deforestation Effects"
+ 
+ cnprices.7.t: "Collapse of the Silk Road"
+ cnprices.7.d: "As the Celestial Empire fragments itself into various feudatory states, the once reliable supply of silk fabrics and fine porcelain have been strangled by chaos and civil war. Merchants from Beijing to Constantinople have abandoned the Silk Road as trade in the Orient becomes dangerous and unstable."
+ cnprices.18.a: "Not the silk!"
+ COLLAPSE_OF_THE_SILK_ROAD: "Collapse of the Silk Road Effects"
+
+ potato_tooltip: "Potato Trade Good will spread into Europe."
+ tomato_tooltip: "Tomato Trade Good will spread into Europe."

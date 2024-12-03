@@ -13,7 +13,7 @@ culture = sumatran
 religion = hinduism
 capital = "Bengkulu"
 
-trade_goods = spices
+trade_goods = fish
 hre = no
 base_tax = 3
 base_production = 3

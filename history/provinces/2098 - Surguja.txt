@@ -11,7 +11,7 @@ culture = gondi
 religion = hinduism
 capital = "Surguja"
 
-trade_goods = cotton
+trade_goods = herbs
 hre = no
 base_tax = 1 
 base_production = 1

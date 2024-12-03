@@ -8,7 +8,7 @@ culture = magar
 religion = vajrayana
 capital = "Rukumkot"
 
-trade_goods = gold
+trade_goods = tea
 hre = no
 base_tax = 1
 base_production = 1

@@ -9,7 +9,7 @@ culture = bengali
 religion = hinduism
 capital = "Bagerhat"
 
-trade_goods = grain #Rice
+trade_goods = rice
 hre = no
 base_tax = 1 
 base_production = 1

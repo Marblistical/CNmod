@@ -8,7 +8,7 @@ culture = gujarati
 religion = hinduism
 capital = "Patan"
 
-trade_goods = cloth
+trade_goods = silk
 hre = no
 base_tax = 3
 base_production = 3

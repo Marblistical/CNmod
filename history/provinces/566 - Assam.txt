@@ -9,7 +9,7 @@ culture = assamese
 religion = hinduism
 capital = "Charaideo"
 
-trade_goods = grain
+trade_goods = copper
 hre = no
 base_tax = 4
 base_production = 4

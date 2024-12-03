@@ -8,7 +8,7 @@ culture = kalmyk
 religion = vajrayana
 capital = "Buzuluk"
 
-trade_goods = iron
+trade_goods = grain
 hre = no
 base_tax = 1
 base_production = 1

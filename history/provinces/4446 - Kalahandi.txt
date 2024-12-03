@@ -9,7 +9,7 @@ culture = garjati
 religion = hinduism
 capital = "Kalahandi"
 
-trade_goods = tropical_wood
+trade_goods = millet
 hre = no
 base_tax = 1 
 base_production = 1

@@ -9,7 +9,7 @@ culture = uyghur
 religion = sunni
 capital = "Kashgar"
 
-trade_goods = wool
+trade_goods = cotton
 hre = no
 base_tax = 2 
 base_production = 2

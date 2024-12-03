@@ -9,7 +9,7 @@ culture = tamil
 religion = hinduism
 capital = "Tiruchirapalli"
 
-trade_goods = cotton #Calicoes
+trade_goods = herbs
 hre = no
 base_tax = 3 
 base_production = 3

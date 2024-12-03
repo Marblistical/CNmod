@@ -9,7 +9,7 @@ culture = qashqai
 religion = sunni
 capital = "Shahreza"
 
-trade_goods = grain
+trade_goods = pottery
 hre = no
 base_tax = 2
 base_production = 1

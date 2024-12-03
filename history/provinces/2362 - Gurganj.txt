@@ -9,7 +9,7 @@ culture = turkmeni
 religion = sunni
 capital = "Gurganj"
 
-trade_goods = wool
+trade_goods = cloth
 hre = no
 base_tax = 2
 base_production = 3

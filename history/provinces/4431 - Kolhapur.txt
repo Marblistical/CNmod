@@ -10,7 +10,7 @@ culture = marathi
 religion = hinduism
 capital = "Kolhapur"
 
-trade_goods = naval_supplies
+trade_goods = jewelry
 hre = no
 base_tax = 4
 base_production = 4

@@ -9,7 +9,7 @@ culture = malayan
 religion = sunni
 capital = "Thalang"
 
-trade_goods = fish
+trade_goods = ivory
 hre = no
 base_tax = 4
 base_production = 4

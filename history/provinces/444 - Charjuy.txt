@@ -9,7 +9,7 @@ culture = uzbehk
 religion = nestorian
 capital = "Charjuy"
 
-trade_goods = livestock
+trade_goods = cloth
 hre = no
 base_tax = 2 
 base_production = 2

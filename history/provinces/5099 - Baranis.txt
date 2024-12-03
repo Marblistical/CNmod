@@ -8,7 +8,7 @@ culture = al_misr_arabic
 religion = coptic
 capital = "Baranis"
 
-trade_goods = livestock
+trade_goods = fish
 hre = no
 base_tax = 1
 base_production = 1

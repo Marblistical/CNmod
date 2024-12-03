@@ -9,7 +9,7 @@ culture = malayan
 religion = sunni
 capital = "Pattani"
 
-trade_goods = tropical_wood
+trade_goods = fish
 hre = no
 base_tax = 6
 base_production = 6

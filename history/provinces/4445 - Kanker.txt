@@ -8,7 +8,7 @@ culture = gondi
 religion = hinduism
 capital = "Kanker"
 
-trade_goods = tropical_wood
+trade_goods = honey
 hre = no
 base_tax = 1 
 base_production = 1

@@ -12,7 +12,7 @@ culture = panjabi
 religion = hinduism
 capital = "Lahore"
 
-trade_goods = silk
+trade_goods = cotton
 hre = no
 base_tax = 10
 base_production = 10

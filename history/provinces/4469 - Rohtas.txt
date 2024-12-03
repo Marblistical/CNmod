@@ -1,5 +1,9 @@
 #4469 - Rohtas
 
+latent_trade_goods = {
+	coal
+}
+
 owner = HJS
 controller = HJS
 add_core = HJS
@@ -9,7 +13,7 @@ culture = jharkhandi
 religion = hinduism
 capital = "Rohtasgarh"
 
-trade_goods = salt
+trade_goods = fruit
 hre = no
 base_tax = 3
 base_production = 3

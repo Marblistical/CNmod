@@ -9,7 +9,7 @@ culture = sumatran
 religion = sunni
 capital = "Siak"
 
-trade_goods = chinaware
+trade_goods = pottery
 hre = no
 base_tax = 5
 base_production = 5

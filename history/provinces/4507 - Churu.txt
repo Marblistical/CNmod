@@ -9,7 +9,7 @@ culture = rajput
 religion = hinduism
 capital = "Churu"
 
-trade_goods = livestock
+trade_goods = cloth
 hre = no
 base_tax = 1 
 base_production = 1

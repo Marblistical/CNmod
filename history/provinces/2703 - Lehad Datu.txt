@@ -9,7 +9,7 @@ culture = bornean
 religion = sunni
 capital = "Lehad Datu"
 
-trade_goods = spices
+trade_goods = pottery
 hre = no
 base_tax = 3 
 base_production = 3

@@ -1,8 +1,7 @@
 #5278 - Dannenberg
 
-owner = HAN
-controller = HAN
-add_core = HAN
+owner = LUN
+controller = LUN
 add_core = LUN
 culture = hannoverian
 religion = catholic

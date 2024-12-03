@@ -1,0 +1,338 @@
+namespace = cnprices
+
+country_event = {
+	id = cnprices.1
+	title = cnprices.1.t
+	desc = cnprices.1.d
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+	
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		is_year = 1516
+		culture_group = germanic
+		NOT = { has_global_flag = beerislove }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = {
+		name = cnprices.1.a
+		ai_chance = { factor = 100 }
+		change_price = {
+			trade_goods = beer
+			key = REIN
+			value = 0.20
+			duration = -1
+		}
+		set_global_flag = beerislove
+	}
+}
+
+country_event = {
+	id = cnprices.2
+	title = cnprices.2.t
+	desc = cnprices.2.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		AND = {
+			OR = {
+				any_subject_country = {
+					is_colonial_nation = yes
+					any_owned_province = {
+						trade_goods = potatoes
+					}
+				}
+				any_owned_province = {
+					trade_goods = potatoes
+					continent = new_world
+				}
+				any_owned_province = {
+					trade_goods = potatoes
+					continent = north_america
+				}
+				any_owned_province = {
+					trade_goods = potatoes
+					continent = south_america
+				}
+			}
+			capital_scope = { continent = europe }
+			NOT = { has_global_flag = potatoislove }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = cnprices.2.a
+		ai_chance = { factor = 100 }
+		custom_tooltip = potato_tooltip
+		hidden_effect = {
+			every_province = {
+				limit = {
+					AND = {
+						OR = {	
+							trade_goods = livestock
+							trade_goods = grain
+						}
+						continent = europe 
+					}
+				}
+				
+				random = { 
+					chance = 20
+
+					change_trade_goods = potatoes
+				}			
+				
+			}
+		}
+		set_global_flag = potatoislove
+		add_years_of_income  = 0.15
+		add_prestige = 20
+	}
+}
+
+country_event = {
+	id = cnprices.3
+	title = cnprices.3.t
+	desc = cnprices.3.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		owns = 4740
+		is_year = 1510
+		NOT = { has_global_flag = como_silk }
+		
+		4740 = {
+			NOT = { trade_goods = silk }
+			NOT = { has_province_flag = has_latent_good }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = cnprices.3.a
+		ai_chance = { factor = 75 }
+		4740 = {
+			change_trade_goods = silk
+		}
+		ROOT = {
+			add_treasury = -100
+		}
+		
+		set_global_flag = como_silk
+		
+	}
+	
+	option = {
+		name = cnprices.3.b
+		ai_chance = { factor = 25 }
+		set_global_flag = como_silk
+		add_prestige = -5
+	}
+}
+
+country_event = {
+	id = cnprices.4
+	title = cnprices.4.t
+	desc = cnprices.4.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		AND = {
+			OR = {
+				any_subject_country = {
+					is_colonial_nation = yes
+					any_owned_province = {
+						trade_goods = tomatoes
+					}
+				}
+				any_owned_province = {
+					trade_goods = tomatoes
+					continent = new_world
+				}
+				any_owned_province = {
+					trade_goods = tomatoes
+					continent = north_america
+				}
+				any_owned_province = {
+					trade_goods = tomatoes
+					continent = south_america
+				}
+			}
+			capital_scope = { continent = europe }
+			NOT = { has_global_flag = tomatoislove }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = cnprices.4.a
+		ai_chance = { factor = 100 }
+		custom_tooltip = tomato_tooltip
+		hidden_effect = {
+			every_province = {
+				limit = {
+					AND = {
+						OR = {	
+							trade_goods = livestock
+							trade_goods = grain
+							trade_goods = wine
+						}
+						
+						OR = {
+							region = france_region
+							region = italy_region
+							region = balkan_region
+							region = iberia_region
+						}
+					}
+				}
+				
+				random = { 
+					chance = 20
+
+					change_trade_goods = es
+				}			
+				
+			}
+		}
+		set_global_flag = tomatoislove
+		add_years_of_income  = 0.15
+		add_prestige = 20
+	}
+}
+
+
+country_event = {
+	id = cnprices.5
+	title = cnprices.5.t
+	desc = cnprices.5.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		dip_tech = 16
+		cheese = 2
+		NOT = { has_global_flag = cheeseislove }
+		OR = {
+			culture_group = latin
+			culture_group = french
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = cnprices.5.a
+		ai_chance = { factor = 100 }
+		change_price = {
+			trade_goods = cheese
+			key = CHEESE_ART
+			value = 0.10
+			duration = -1
+		}
+		add_years_of_income  = 0.15
+		add_prestige = 20
+		set_global_flag = cheeseislove
+	}
+}
+
+country_event = {
+    id = cnprices.6
+    title = cnprices.6.t
+    desc = cnprices.6.d
+    picture = TRADEGOODS_eventPicture
+
+    fire_only_once = yes
+    
+    major = yes
+
+    trigger = {
+        adm_tech = 21
+    }
+    
+    mean_time_to_happen = {
+        months = 600
+    }
+
+    option = {
+        name = cnprices.6.a
+        change_price = {
+            trade_goods = lumber
+            key = DEFORESTATION_HAPPEN
+            value = 0.5
+            duration = -1
+        }
+    }
+}
+
+country_event = {
+    id = cnprices.7
+    title = cnprices.7.t
+    desc = cnprices.7.d
+    picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+
+    fire_only_once = yes
+    major = yes
+
+    trigger = {
+        AND = {
+            is_emperor_of_china = yes
+            NOT = { num_of_cities = 30 }
+        }
+        NOT = { has_global_flag = collapse_of_the_silk_road_flag }
+    }
+    
+    mean_time_to_happen = {
+        months = 1
+    }
+
+    option = {
+        name = cnprices.7.a    #Not the silk!
+        ai_chance = { factor = 100 }
+        change_price = {
+            trade_goods = silk
+            key = COLLAPSE_OF_THE_SILK_ROAD
+            value = 0.35
+            duration = -1
+        }
+        change_price = {
+            trade_goods = chinaware
+            key = COLLAPSE_OF_THE_SILK_ROAD
+            value = 0.35
+            duration = -1
+        }
+        set_global_flag = collapse_of_the_silk_road_flag
+    }
+}

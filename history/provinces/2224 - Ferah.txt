@@ -11,7 +11,7 @@ culture = pashto
 religion = sunni
 capital = "Ferah"
 
-trade_goods = livestock
+trade_goods = fruit
 hre = no
 base_tax = 1 
 base_production = 1

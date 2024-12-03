@@ -1,8 +1,8 @@
 #1080 - North Urals
 
 capital = "Pelym"
-culture = komi
-religion = komifaith
+culture = mansi
+religion = ukonusko
 
 trade_goods = unknown
 hre = no

@@ -1,5 +1,9 @@
 #2050 - Chanda
 
+latent_trade_goods = {
+	coal
+}
+
 owner = CDP
 controller = CDP
 add_core = CDP
@@ -10,7 +14,7 @@ culture = gondi
 religion = hinduism
 capital = "Ballarsah"
 
-trade_goods = tropical_wood
+trade_goods = paper
 hre = no
 base_tax = 2 
 base_production = 1

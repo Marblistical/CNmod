@@ -7,7 +7,7 @@ culture = sundanese
 religion = hinduism
 capital = "Pangguyanan"
 
-trade_goods = grain
+trade_goods = tea
 hre = no
 base_tax = 3 
 base_production = 3

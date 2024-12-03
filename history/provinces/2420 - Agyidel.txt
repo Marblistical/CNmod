@@ -2,7 +2,7 @@
 
 owner = NOG
 controller = NOG
-culture = bashkir
+culture = nogaybak
 religion = sunni
 hre = no
 base_tax = 1

@@ -1,5 +1,9 @@
 #2040 - Sadiya
 
+latent_trade_goods = {
+	coal
+}
+
 owner = HJS
 controller = HJS
 add_core = HJS

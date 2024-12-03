@@ -8,7 +8,7 @@ culture = uzbehk
 religion = nestorian
 capital = "Samarkand"
 
-trade_goods = paper
+trade_goods = silk
 hre = no
 base_tax = 7 
 base_production = 7

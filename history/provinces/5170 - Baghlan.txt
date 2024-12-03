@@ -9,7 +9,7 @@ culture = tajik
 religion = sunni
 capital = "Puli Khumri"
 
-trade_goods = grain
+trade_goods = sugar
 hre = no
 base_tax = 1
 base_production = 2

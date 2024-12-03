@@ -8,7 +8,7 @@ culture = magar
 religion = vajrayana
 capital = "Pokhara"
 
-trade_goods = livestock
+trade_goods = lumber
 hre = no
 base_tax = 1
 base_production = 1

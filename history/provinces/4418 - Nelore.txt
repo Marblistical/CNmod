@@ -9,7 +9,7 @@ culture = telegu
 religion = hinduism
 capital = "Nellore"
 
-trade_goods = cotton
+trade_goods = dairy
 hre = no
 base_tax = 4
 base_production = 4

@@ -9,7 +9,7 @@ culture = bihari
 religion = "hinduism"
 capital = "Ghazipur"
 
-trade_goods = cloth
+trade_goods = pottery
 hre = no
 base_tax = 3
 base_production = 3

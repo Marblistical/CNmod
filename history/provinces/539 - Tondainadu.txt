@@ -8,7 +8,7 @@ culture = tamil
 religion = hinduism
 capital = "Pulicat"
 
-trade_goods = cloth
+trade_goods = salt
 hre = no
 base_tax = 4
 base_production = 4

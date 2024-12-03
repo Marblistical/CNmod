@@ -9,7 +9,7 @@ culture = rajput
 religion = hinduism
 capital = "Jaisalmer"
 
-trade_goods = wool
+trade_goods = paper
 hre = no
 base_tax = 1 
 base_production = 1

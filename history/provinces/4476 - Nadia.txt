@@ -9,7 +9,7 @@ culture = bengali
 religion = hinduism
 capital = "Nadia"
 
-trade_goods = silk
+trade_goods = naval_supplies
 hre = no
 base_tax = 7
 base_production = 7

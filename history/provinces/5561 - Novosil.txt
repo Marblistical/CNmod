@@ -1,0 +1,21 @@
+#5561 - Novosil
+
+owner = KRS
+controller = KRS
+add_core = OKA
+culture = vyatichi
+religion = orthodox
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = beer
+base_manpower = 1
+capital = "Novosil"
+is_city = yes
+add_core = KRS
+add_core = VYA
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group

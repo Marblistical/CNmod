@@ -9,7 +9,7 @@ culture = telegu
 religion = hinduism
 capital = "Udayagiri"
 
-trade_goods = cotton
+trade_goods = lumber
 hre = no
 base_tax = 2
 base_production = 4

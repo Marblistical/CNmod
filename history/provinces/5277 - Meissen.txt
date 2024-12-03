@@ -1,7 +1,7 @@
 #5277 - Meissen
 
-owner = SAX
-controller = SAX
+owner = MEI
+controller = MEI
 culture = saxon
 religion = catholic
 capital = "Meissen"
@@ -11,7 +11,6 @@ base_tax = 2
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = SAX
 add_core = MEI
 discovered_by = eastern
 discovered_by = western

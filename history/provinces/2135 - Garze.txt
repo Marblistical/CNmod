@@ -9,7 +9,7 @@ culture = tibetan
 religion = vajrayana
 capital = "Garze"
 
-trade_goods = grain
+trade_goods = rice
 hre = no
 base_tax = 1 
 base_production = 1

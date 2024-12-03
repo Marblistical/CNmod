@@ -8,7 +8,7 @@ culture = rai
 religion = mundhum
 capital = "Chaudandi"
 
-trade_goods = cloth
+trade_goods = fruit
 hre = no
 base_tax = 2
 base_production = 2

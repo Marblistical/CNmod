@@ -9,7 +9,7 @@ culture = uzbehk
 religion = sunni
 capital = "Urgench"
 
-trade_goods = grain
+trade_goods = pottery
 hre = no
 base_tax = 4 
 base_production = 4

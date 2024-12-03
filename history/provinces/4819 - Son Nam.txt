@@ -7,7 +7,7 @@ culture = vietnamese
 religion = mahayana
 capital = "Son Nam"
 
-trade_goods = grain
+trade_goods = rice
 hre = no
 base_tax = 4 
 base_production = 3

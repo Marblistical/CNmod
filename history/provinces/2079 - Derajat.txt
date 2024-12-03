@@ -9,7 +9,7 @@ culture = panjabi
 religion = sunni
 capital = "Dera Ghazi Khan"
 
-trade_goods = wool
+trade_goods = dairy
 hre = no
 base_tax = 3 
 base_production = 3

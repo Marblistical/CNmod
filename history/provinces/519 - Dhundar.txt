@@ -9,7 +9,7 @@ culture = rajput
 religion = hinduism
 capital = "Amber"
 
-trade_goods = copper
+trade_goods = jewelry
 hre = no
 base_tax = 3
 base_production = 3

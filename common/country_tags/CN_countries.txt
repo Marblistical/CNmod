@@ -29,6 +29,9 @@ PTD = "countries/PatriarchialDomain.txt"
 SFY = "countries/Sofia.txt"
 VAR = "countries/Varna.txt"
 
+#Carniola
+#Rijeka
+
 #Canada
 VIN = "countries/Vinland.txt"
 
@@ -60,6 +63,7 @@ ANG = "countries/Angoumois.txt"
 ANJ = "countries/Anjou.txt"
 AGN = "countries/Agennais.txt"
 AQT	= "countries/Aquitania.txt"
+AUR = "countries/Auxerrois.txt"
 BEA = "countries/Beauvais.txt"
 BGR = "countries/Bigorre.txt"
 BLS = "countries/Blois.txt"
@@ -83,6 +87,7 @@ MET = "countries/Metz.txt"
 MTI = "countries/Montiaur.txt"
 MTP = "countries/Montpellier.txt"
 NEM = "countries/Nemours.txt"
+NRB = "countries/Narbonne.txt"
 ONG = "countries/Orange.txt"
 PGD = "countries/Perigord.txt"
 PRS = "countries/Paris.txt"
@@ -92,18 +97,10 @@ SAA = "countries/Saintonge.txt"
 SAC = "countries/Sancerre.txt"
 TOI = "countries/Touraine.txt"
 TOE = "countries/Tonnerre.txt"
+TUL = "countries/Toul.txt"
 VAS = "countries/Valois.txt"
 VDM = "countries/Vendome.txt" 
 VDN = "countries/Verdun.txt"
-
-AUR = "countries/Auxerrois.txt"
-NRB = "countries/Narbonne.txt"
-TUL = "countries/Toul.txt"
-
-#BSY = "countries/Balensiya.txt"
-#CST = "countries/Castello.txt"
-#GIR = "countries/Girona.txt"
-#JAE = "countries/Jaen.txt"
 
 #Iberia
 ANA = "countries/Andorra.txt"
@@ -119,6 +116,11 @@ SEV = "countries/Seville.txt"
 TOL = "countries/Toledo.txt"
 TRR = "countries/Tarragona.txt"
 URG = "countries/Urgell.txt"
+
+#BSY = "countries/Balensiya.txt"
+#CST = "countries/Castello.txt"
+#GIR = "countries/Girona.txt"
+#JAE = "countries/Jaen.txt"
 
 #India
 BLL = "countries/Ballari.txt"
@@ -195,6 +197,8 @@ TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
 
+#Carnia
+
 #Low Countries
 ARS = "countries/Artois.txt"
 BOI = "countries/Bouillon.txt"
@@ -202,6 +206,10 @@ OVE = "countries/Oversitcht.txt"
 FSL = "countries/FrisianLands.txt"
 GRN = "countries/Groningen.txt"
 NAM = "countries/Namur.txt"
+
+#Breda
+#Drenthe
+#Zupthen
 
 #Maghreb
 CYR = "countries/Cyrenaica.txt"
@@ -246,6 +254,9 @@ STP = "countries/Stolp.txt"
 STR = "countries/Stargard.txt"
 WEI = "countries/Weimar.txt"
 WLD = "countries/Waldeck.txt"
+
+#Tecklenburg
+#Wittenberg
 
 DRT = "countries/Dortmund.txt"
 ESN = "countries/Essen.txt"
@@ -309,6 +320,9 @@ SIZ = "countries/SiebenZenden.txt"
 STG = "countries/StGallen.txt"
 VAU = "countries/Vaud.txt"
 ZUR = "countries/Zurich.txt"
+
+#Brixen
+#Freising
 
 #Himalayas
 CDD = "countries/Chaudandi.txt"

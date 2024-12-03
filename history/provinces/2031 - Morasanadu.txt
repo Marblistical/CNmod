@@ -9,7 +9,7 @@ culture = kannada
 religion = hinduism
 capital = "Devarayanagara"
 
-trade_goods = grain
+trade_goods = herbs
 hre = no
 base_tax = 3
 base_production = 3

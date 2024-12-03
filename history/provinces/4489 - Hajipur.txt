@@ -9,7 +9,7 @@ culture = bihari
 religion = hinduism
 capital = "Hajipur"
 
-trade_goods = glass
+trade_goods = fruit
 hre = no
 base_tax = 4
 base_production = 4

@@ -7,7 +7,7 @@ culture = vietnamese
 religion = mahayana
 capital = "Nghe An"
 
-trade_goods = grain
+trade_goods = gold
 hre = no
 base_tax = 4
 base_production = 3

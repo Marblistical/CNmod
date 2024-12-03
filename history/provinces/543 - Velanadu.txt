@@ -9,7 +9,7 @@ culture = telegu
 religion = hinduism
 capital = "Masulipatnam"
 
-trade_goods = gems
+trade_goods = herbs
 hre = no
 base_tax = 4
 base_production = 4

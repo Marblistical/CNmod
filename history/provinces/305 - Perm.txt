@@ -1,8 +1,8 @@
 #305 - Perm
 
-owner = BSH
-controller = BSH
-add_core = BSH
+owner = SIB
+controller = SIB
+add_core = SIB
 add_core = PRM
 culture = komi
 religion = komifaith

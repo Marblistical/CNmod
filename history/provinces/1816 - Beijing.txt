@@ -9,7 +9,7 @@ culture = chihan
 religion = confucianism
 capital = "Beijing"
 
-trade_goods = grain
+trade_goods = fruit
 hre = no
 base_tax = 13
 base_production = 13

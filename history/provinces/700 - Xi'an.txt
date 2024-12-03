@@ -8,7 +8,7 @@ culture = xibei
 religion = confucianism
 capital = "Xi'an"
 
-trade_goods = grain
+trade_goods = beer
 hre = no
 base_tax = 7
 base_production = 7

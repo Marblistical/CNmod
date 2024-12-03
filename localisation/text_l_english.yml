@@ -603,6 +603,8 @@
  lumberDESC:0 "Lumber, a fundamental trade good, refers to processed wood used for various construction, manufacturing, and crafting purposes. It is obtained by cutting, sawing, and shaping logs of trees into standardized dimensions for easy handling and transportation."
  jewelry:0 "Jewelry"
  jewelryDESC:0 "Jewelry consists of decorative items worn for personal adornment, such as brooches, rings, necklaces, earrings, pendants, bracelets, and cufflinks. Jewelry may be attached to the body or the clothes."
+ pottery:0 "Pottery"
+ potteryDESC:0 """
  seafood:0 "Seafood"
  seafoodDESC:0 "Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish. Shellfish include various species of molluscs and crustaceans."
  whales:0 "Whales"

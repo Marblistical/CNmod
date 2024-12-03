@@ -9,7 +9,7 @@ culture = paman
 religion = dreamtime
 capital = "Awngthim"
 
-trade_goods = tropical_wood
+trade_goods = lumber
 hre = no
 is_city = yes
 base_tax = 2 

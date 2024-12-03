@@ -9,7 +9,7 @@ culture = kachin
 religion = buddhism
 capital = "Mong Kawng"
 
-trade_goods = gems
+trade_goods = silk
 hre = no
 base_tax = 2
 base_production = 3

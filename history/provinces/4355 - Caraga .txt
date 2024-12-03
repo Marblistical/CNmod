@@ -3,7 +3,7 @@
 culture = filipino
 religion = animism
 capital = "Caraga"
-trade_goods = grain
+trade_goods = fish
 hre = no
 base_tax = 1 
 base_production = 2

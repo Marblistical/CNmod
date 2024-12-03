@@ -9,7 +9,7 @@ culture = togoku
 religion = shinto
 capital = "Nagano"
 
-trade_goods = livestock
+trade_goods = rice
 hre = no
 base_tax = 2
 base_manpower = 2

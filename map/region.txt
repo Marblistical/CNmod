@@ -161,6 +161,7 @@ russia_region = {
 		yaroslavl_area
 		vladimir_area
 		galich_area
+		nizhny_novgorod_area
 		oka_area
 		upper_don_area
 		arkhangelsk_area
@@ -197,18 +198,21 @@ south_german_region = {
 
 ural_region = {
 	areas = {
+		lower_yik_area
+		buzuluk_area
 		ural_area
+		yvchegda_area
+		pechora_area
 		perm_area
 		kazan_area
-		vyatka_area
 		saratov_area
-		penza_area
+		mordovia_area
 		kama_area
 		bashkiria_area
 		samara_area
 		volga_area
-		CN1_area
-		CN2_area
+		mari_area
+		nenets_area
 	}
 }
 
@@ -714,7 +718,6 @@ central_asia_region = {
 		ferghana_area
 		jetysuu_area
 		arys_area
-		lower_yik_area
 		syr_darya_area
 		kashgaria_area
 		tarim_basin_area

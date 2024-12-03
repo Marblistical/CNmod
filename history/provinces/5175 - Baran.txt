@@ -10,7 +10,7 @@ culture = kanauji
 religion = hinduism
 capital = "Baran"
 
-trade_goods = paper
+trade_goods = dyes
 hre = no
 base_tax = 5
 base_production = 3

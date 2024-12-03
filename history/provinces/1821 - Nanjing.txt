@@ -8,7 +8,7 @@ culture = jianghuai
 religion = confucianism
 capital = "Nanjing"
 
-trade_goods = silk
+trade_goods = paper
 hre = no
 base_tax = 15 
 base_production = 15

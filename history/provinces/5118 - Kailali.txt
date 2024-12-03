@@ -8,7 +8,7 @@ culture = tharu
 religion = hinduism
 capital = "Dhangadhi"
 
-trade_goods = tropical_wood
+trade_goods = fruit
 hre = no
 base_tax = 1
 base_production = 1

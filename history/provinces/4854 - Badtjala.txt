@@ -9,7 +9,7 @@ religion = sunni
 capital = "Badtajala"
 
 hre = no
-trade_goods = grain
+trade_goods = rice
 base_manpower = 2
 base_tax = 4
 base_production = 3

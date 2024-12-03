@@ -9,7 +9,7 @@ culture = marathi
 religion = hinduism
 capital = "Dharangaon"
 
-trade_goods = cotton
+trade_goods = fruit
 hre = no
 base_tax = 3
 base_production = 3

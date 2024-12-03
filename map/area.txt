@@ -945,8 +945,8 @@ chernigov_area = { #4
 	289 1945 2407 5532
 }
 
-sloboda_ukraine_area = { #5
-	291 298 299 4543 5539
+sloboda_ukraine_area = { #4
+	291 298 4543 5539
 }
 
 donets_area = { #4
@@ -996,7 +996,7 @@ moscow_area = { #4
 }
 
 vladimir_area = { #3
-	307 1956 4147 4253
+	307 1754 4253
 }
 
 yaroslavl_area = { #3
@@ -1007,8 +1007,12 @@ tver_area = { #4
 	294 1752 4248 4249 
 }
 
-suzdal_area = { #4
-	306 1754 4254 5200
+suzdal_area = { #3
+	1956 4147 5200
+}
+
+nizhny_novgorod_area = { #4
+	306 4254 5116 5117
 }
 
 bryansk_area = { #4
@@ -1023,8 +1027,8 @@ oka_area = { #5
 	296 4116 5013 5560 5561
 }
 
-upper_don_area = { #3
-	300 2408 5562
+upper_don_area = { #4
+	299 300 2408 5562
 }
 
 novgorod_area = { #5
@@ -1063,16 +1067,16 @@ lower_don_area = { #5
 	288 467 5540 5543 5549
 }
 
-kazan_area = { #5
-	1082 2422 4264 5116 5117
+kazan_area = { #4
+	1082 2422 4264 5574
 }
 
 samara_area = { #4
-	473 2418 1965 4267
+	473 1081 2419 4267
 }
 
-lower_yik_area = { #4
-	474 2365 2367
+lower_yik_area = { #5
+	474 2365 2418 2367 5565
 }
 
 nogai_area = { #3
@@ -1083,8 +1087,8 @@ aktobe_area = { #5
 	470 471 472 2366 5114
 }
 
-ural_area = { #5
-	1080 1078 1780 2427
+ural_area = { #3
+	1080 1078 2427
 }
 
 pomor_area = { #4
@@ -1095,28 +1099,36 @@ arkhangelsk_area = { #4
 	1955 4122 4256 4257
 }
 
-bashkiria_area = { #4
-	475 1966 2420 2444
+bashkiria_area = { #5
+	475 1966 2444 5566 5568
+}
+
+mari_area = { #3
+	1083 5573 5575
 }
 
 volga_area = { #3
-	2421 4265 1972
+	1079 4266 5572
 }
 
 galich_area = { #3
-	1755 1957 4263
+	1957 4263 5576
 }
 
-vyatka_area = { #2
-	1079 1083
+yvchegda_area = { #4
+	1755 1964 4129 5577
 }
 
-kama_area = { #3
-	305 1962 4266
+kama_area = { #5
+	1972 2421 4265 5570 5571
 }
 
-penza_area = { #5
-	304 1081 2419 2423 5563
+mordovia_area = { #4
+	304 2423 5563 5564
+}
+
+buzuluk_area = { #4
+	1965 2420 5567 5586
 }
 
 saratov_area = { #3
@@ -3125,8 +3137,12 @@ irkutsk_area = { #5
 	1060 1062 1063 2442 2443
 }
 
-perm_area = { #4
-	1077 1963 1964 4129
+pechora_area = { #5
+	1780 5578 5579 5580 5581
+}
+
+perm_area = { #5
+	305 1077 1962 1963 5569
 }
 
 balchasj_area = { #5
@@ -4219,16 +4235,8 @@ south_laos_area = { }
 # CN AREAS #
 ############
 
-CN1_area = {
-	4967 4968
-}
-
-CN2_area = {
-	4971 4974
-}
-
-CN3_area = {
-	4977
+nenets_area = {
+	4967 4968 4971 4974 4977
 }
 
 vasterbotten_area = { #3

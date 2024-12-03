@@ -108,7 +108,7 @@ country_event = {
 	}
 }
 
-#Johann Friedrich Bï¿½ttger
+#Johann Friedrich Böttger
 country_event = {
 	id = prices.3
 	title = prices.3.t
@@ -164,7 +164,7 @@ country_event = {
 					limit = { 
 						owner = { adm_tech = 16 } 
 					}
-					add_building = mills 
+				add_building = mills
 				}
 				else = { add_or_upgrade_production_building = yes }
 			}
@@ -218,6 +218,12 @@ country_event = {
 		name = prices.4.a
 		change_price = {
 			trade_goods = fish
+			key = PROTESTANT_DONT_EAT_FISH
+			value = -0.1
+			duration = -1
+		}
+		change_price = {
+			trade_goods = seafood
 			key = PROTESTANT_DONT_EAT_FISH
 			value = -0.1
 			duration = -1
@@ -525,37 +531,37 @@ country_event = {
 			always = yes
 		}
 		else = {
-			has_idea = quest_for_the_new_world
-			num_of_ports = 4
-			NOT = {
-				capital_scope = {
-					continent = asia
-				}
+		has_idea = quest_for_the_new_world
+		num_of_ports = 4
+		NOT = {
+			capital_scope = {
+				continent = asia
 			}
-			NOT = {
-				capital_scope = {
-					continent = oceania
-				}
-			}
-			has_discovered = 1460 # Cape of Good Hope
-			technology_group = western
-			any_active_trade_node = {
-				has_merchant = PREV
-				OR = {
-					province_id = 1361 # Straits of Johor
-					province_id = 1343 # Ganges Delta
-					province_id = 504 # Thatta
-					province_id = 1340 # Comorin Cape
-				}
-			}
-			NOT = { has_global_flag = spice_trade_happened }
 		}
+		NOT = {
+			capital_scope = {
+				continent = oceania
+			}
+		}
+		has_discovered = 1460 # Cape of Good Hope
+		technology_group = western
+		any_active_trade_node = {
+			has_merchant = PREV
+			OR = {
+				province_id = 1361 # Straits of Johor
+				province_id = 1343 # Ganges Delta
+				province_id = 504 # Thatta
+				province_id = 1340 # Comorin Cape
+			}
+		}
+		NOT = { has_global_flag = spice_trade_happened }
+	}
 	}
 	
 	mean_time_to_happen = {
 		months = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_global_flag = spice_trade_happened
@@ -568,9 +574,26 @@ country_event = {
 		change_price = {
 			trade_goods = spices
 			key = SPICE_TRADE
-			value = 0.5
+			value = 0.3333333333
 			duration = -1
 		}
+		
+		change_price = {
+			trade_goods = herbs
+			key = SPICE_TRADE
+			value = 0.285714
+			duration = -1
+		}
+		
+		change_price = {
+			trade_goods = cloves
+			key = SPICE_TRADE
+			value = 0.285714
+			duration = -1
+		}
+		
+		
+		
 		add_years_of_income  = 0.25
 		add_prestige = 20
 	}
@@ -650,6 +673,42 @@ country_event = {
 			value = -0.75
 			duration = 730
 		}
+		change_price = {
+			trade_goods = olives
+			key = HUAYNAPUTINA
+			value = -0.75
+			duration = 730
+		}
+		change_price = {
+			trade_goods = fruit
+			key = HUAYNAPUTINA
+			value = -0.75
+			duration = 730
+		}
+		change_price = {
+			trade_goods = beer
+			key = HUAYNAPUTINA
+			value = -0.25
+			duration = 730
+		}
+		change_price = {
+			trade_goods = cheese
+			key = HUAYNAPUTINA
+			value = -0.25
+			duration = 730
+		}
+		change_price = {
+			trade_goods = tomatoes
+			key = HUAYNAPUTINA
+			value = -0.25
+			duration = 730
+		}
+		change_price = {
+			trade_goods = millet
+			key = HUAYNAPUTINA
+			value = -0.25
+			duration = 730
+		}
 	}
 }
 
@@ -685,8 +744,39 @@ country_event = {
 			value = -0.25
 			duration = 3650
 		}
+		
 		change_price = {
 			trade_goods = livestock #Agriculture is having a hard time coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = honey #Agriculture is having a hard time coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = seafood #Agriculture is having a hard time coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}	
+		change_price = {
+			trade_goods = fruit #Agriculture is having a hard time coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = potatoes #Agriculture is having a hard time coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = tomatoes #Agriculture is having a hard time coping.
 			key = LITTLE_ICE_AGE
 			value = -0.25
 			duration = 3650
@@ -699,6 +789,18 @@ country_event = {
 		}
 		change_price = {
 			trade_goods = fish #Fishing fleets are having a hard time to coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = seafood #Fishing fleets are having a hard time to coping.
+			key = LITTLE_ICE_AGE
+			value = -0.25
+			duration = 3650
+		}
+		change_price = {
+			trade_goods = whales #Fishing fleets are having a hard time to coping.
 			key = LITTLE_ICE_AGE
 			value = -0.25
 			duration = 3650
@@ -749,6 +851,24 @@ country_event = {
 			duration = -1
 		}
 		change_price = {
+			trade_goods = olives
+			key = WINE_CORKS
+			value = 0.142857
+			duration = -1
+		}
+		change_price = {
+			trade_goods = lumber
+			key = WINE_CORKS
+			value = 0.142857
+			duration = -1
+		}
+		change_price = {
+			trade_goods = pottery
+			key = WINE_CORKS
+			value = 0.10
+			duration = -1
+		}
+		change_price = {
 			trade_goods = glass
 			key = WINE_CORKS
 			value = 0.15
@@ -783,7 +903,7 @@ country_event = {
 		change_price = {
 			trade_goods = cloth
 			key = NEW_DRAPERIES
-			value = 0.20
+			value = 0.10
 			duration = -1
 		}
 		change_price = {
@@ -808,6 +928,7 @@ country_event = {
 
 	trigger = {
 		mil_tech = 21
+		uniforms = 1
 		NOT = { has_global_flag = regulated_uniforms_happened }
 	}
 	mean_time_to_happen = {
@@ -820,19 +941,19 @@ country_event = {
 		change_price = {
 			trade_goods = cloth
 			key = REGULATED_UNIFORMS
-			value = 0.15
+			value = 0.10
 			duration = -1
 		}
 		change_price = {
 			trade_goods = wool
 			key = REGULATED_UNIFORMS
-			value = 0.1
+			value = 0.05
 			duration = -1
 		}
 		change_price = {
 			trade_goods = dyes
 			key = REGULATED_UNIFORMS
-			value = 0.25
+			value = 0.15
 			duration = -1
 		}
 	}
@@ -1018,7 +1139,7 @@ country_event = {
 		change_price = {
 			trade_goods = fur
 			key = FELT_HATS
-			value = 0.35
+			value = 0.25
 			duration = -1
 		}
 	}
@@ -1050,13 +1171,31 @@ country_event = {
 		change_price = {
 			trade_goods = naval_supplies
 			key = PERMANENT_NAVIES
-			value = 0.5
+			value = 0.3
+			duration = -1
+		}
+		change_price = {
+			trade_goods = seafood
+			key = PERMANENT_NAVIES
+			value = 0.3
+			duration = -1
+		}
+		change_price = {
+			trade_goods = whales
+			key = PERMANENT_NAVIES
+			value = 0.3
 			duration = -1
 		}
 		change_price = {
 			trade_goods = glass
 			key = PERMANENT_NAVIES
 			value = 0.15
+			duration = -1
+		}
+		change_price = {
+			trade_goods = fruit
+			key = PERMANENT_NAVIES
+			value = 0.40
 			duration = -1
 		}
 		change_price = {
@@ -1081,7 +1220,6 @@ country_event = {
 
 	trigger = {
 		mil_tech = 7
-		copper = 1
 		NOT = { has_global_flag = bronze_cannons_happened }
 	}
 	mean_time_to_happen = {
@@ -1094,9 +1232,10 @@ country_event = {
 		change_price = {
 			trade_goods = copper
 			key = BRONZE_CANNONS
-			value = 0.5
+			value = 0.3
 			duration = -1
 		}
+		set_global_flag = bronze_cannons_happened
 	}
 }
 
@@ -1177,7 +1316,21 @@ country_event = {
 		change_price = {
 			trade_goods = spices
 			key = DECLINE_OF_SPICE_TRADE
-			value = -0.4
+			value = -0.333333333
+			duration = -1
+		}
+		
+		change_price = {
+			trade_goods = cloves
+			key = DECLINE_OF_SPICE_TRADE
+			value = -0.285714
+			duration = -1
+		}
+		
+		change_price = {
+			trade_goods = herbs
+			key = DECLINE_OF_SPICE_TRADE
+			value = -0.285714
 			duration = -1
 		}
 	}
@@ -1250,52 +1403,52 @@ country_event = {
 	trigger = {
 		OR = {
 			AND = {
-				capital_scope = { continent = europe }
-				dip_tech = 18
-				OR = {
-					current_age = age_of_absolutism #Not before this
-					current_age = age_of_revolutions
+		capital_scope = { continent = europe }
+		dip_tech = 18
+		OR = {
+			current_age = age_of_absolutism #Not before this
+			current_age = age_of_revolutions
+		}
+		OR = {
+			504 = { #Indus
+				trade_share = {
+					country = ROOT
+					share = 10
 				}
-				OR = {
-					504 = { #Indus
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-					524 = { #Deccan
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-					1340 = { #Ceylon
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-					1343 = { #Bengal
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-					1371 = { #Guanghzou
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-					684 = { #Hangzhou
-						trade_share = {
-							country = ROOT
-							share = 10
-						}
-					}
-				}
-				NOT = { has_global_flag = popular_silk_happened }
 			}
+			524 = { #Deccan
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+			1340 = { #Ceylon
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+			1343 = { #Bengal
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+			1371 = { #Guanghzou
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+			684 = { #Hangzhou
+				trade_share = {
+					country = ROOT
+					share = 10
+				}
+			}
+		}
+		NOT = { has_global_flag = popular_silk_happened }
+	}
 			AND = {
 				tag = MNG 
 				mission_completed = mng_restore_royal_road
@@ -1442,6 +1595,12 @@ country_event = {
 			value = 0.5
 			duration = -1
 		}
+		change_price = {
+			trade_goods = lumber
+			key = VENEERING
+			value = 0.5
+			duration = -1
+		}
 	}
 }
 
@@ -1474,6 +1633,7 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
+		
 	}
 }
 
@@ -1502,13 +1662,13 @@ country_event = {
 		change_price = {
 			trade_goods = iron
 			key = IRON_WORKING
-			value = 0.5
+			value = 0.3
 			duration = -1
 		}
 		change_price = {
 			trade_goods = copper
 			key = IRON_WORKING
-			value = -0.35
+			value = -0.20
 			duration = -1
 		}
 	}
@@ -2170,6 +2330,18 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
+		change_price = {
+			trade_goods = maize
+			key = COLUMBIAN_EXCHANGE
+			value = 0.20
+			duration = -1
+		}
+		change_price = {
+			trade_goods = potatoes
+			key = COLUMBIAN_EXCHANGE
+			value = 0.20
+			duration = -1
+		}
 	}
 }
 
@@ -2193,7 +2365,9 @@ country_event = {
 			renaissance = 100
 			OR = {
 				trade_goods = glass
+				trade_good = pottery
 				trade_goods = gems
+				trade_goods = jewelry
 			}
 			development = 15
 			is_state = yes
@@ -2214,7 +2388,9 @@ country_event = {
 					renaissance = 100
 					OR = {
 						trade_goods = glass
+						trade_good = pottery
 						trade_goods = gems
+						trade_goods = jewelry
 					}
 					development = 15
 					is_state = yes
@@ -2248,6 +2424,20 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
+		
+		change_price = {
+			trade_goods = amber
+			key = FACETING
+			value = 0.142857
+			duration = -1
+		}
+		
+		change_price = {
+			trade_goods = pearls
+			key = FACETING
+			value = 0.125
+			duration = -1
+		}	
 	}
 }
 
@@ -2494,6 +2684,12 @@ country_event = {
 			value = 0.35
 			duration = -1
 		}
+		change_price = {
+			trade_goods = camel
+			key = SELECTIVE_BREEDING
+			value = 0.2
+			duration = -1
+		}
 		random_owned_province = {
 			limit = {
 				enlightenment = 100
@@ -2680,7 +2876,7 @@ country_event = {
 
 	trigger = {
 		#has_dlc = "Rule Britannia"
-		#NOT = { has_global_flag = steam_engine_happened }
+		NOT = { has_global_flag = steam_engine_happened }
 		has_country_flag = watt_steam_engine_flag #Set by Industrialization Events
 		has_country_flag = coke_blast_furnaces_flag #Set by Industrialization Events.
 		has_institution = enlightenment

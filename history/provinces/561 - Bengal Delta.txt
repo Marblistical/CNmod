@@ -9,7 +9,7 @@ culture = bengali
 religion = hinduism
 capital = "Howrah"
 
-trade_goods = silk
+trade_goods = seafood
 hre = no
 base_tax = 5
 base_production = 5

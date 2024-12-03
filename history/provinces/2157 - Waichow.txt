@@ -9,7 +9,7 @@ culture = hakka
 religion = confucianism
 capital = "Waichow"
 
-trade_goods = grain
+trade_goods = seafood
 hre = no
 base_tax = 7
 base_production = 7

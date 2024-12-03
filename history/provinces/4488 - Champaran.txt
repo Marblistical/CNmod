@@ -9,7 +9,7 @@ culture = bihari
 religion = hinduism
 capital = "Simraon"
 
-trade_goods = grain
+trade_goods = fur
 hre = no
 base_tax = 3
 base_production = 3

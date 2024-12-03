@@ -3,11 +3,11 @@
 owner = SIB
 controller = SIB
 add_core = SIB
-add_core = PRM
+add_core = KMA
 capital = "Neromkar"
-culture = komi
-religion = komifaith
-trade_goods = unknown
+culture = mansi
+religion = ukonusko
+trade_goods = iron
 hre = no
 base_tax = 1 
 base_production = 1

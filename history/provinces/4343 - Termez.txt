@@ -8,7 +8,7 @@ culture = uzbehk
 religion = sunni
 capital = "Termez"
 
-trade_goods = livestock
+trade_goods = jewelry
 hre = no
 base_tax = 1
 base_production = 1

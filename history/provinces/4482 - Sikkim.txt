@@ -8,7 +8,7 @@ culture = rongkup
 religion = vajrayana
 capital = "Yuksom"
 
-trade_goods = wool
+trade_goods = copper
 hre = no
 base_tax = 1
 base_production = 1

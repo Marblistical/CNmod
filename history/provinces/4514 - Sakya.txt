@@ -9,7 +9,7 @@ culture = tibetan
 religion = vajrayana
 capital = "Sakya"
 
-trade_goods = livestock
+trade_goods = paper
 hre = no
 base_tax = 2
 base_production = 2

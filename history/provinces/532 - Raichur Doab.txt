@@ -9,7 +9,7 @@ culture = kannada
 religion = hinduism
 capital = "Raichur"
 
-trade_goods = cloth
+trade_goods = gold
 hre = no
 base_tax = 5
 base_production = 5

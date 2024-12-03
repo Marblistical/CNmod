@@ -9,7 +9,7 @@ culture = tibetan
 religion = vajrayana
 capital = "Songqu"
 
-trade_goods = livestock
+trade_goods = herbs
 hre = no
 base_tax = 1 
 base_production = 1

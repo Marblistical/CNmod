@@ -7,7 +7,7 @@ culture = acehnese
 religion = sunni
 capital = "Langkat"
 
-trade_goods = spices
+trade_goods = fur
 hre = no
 base_tax = 4
 base_production = 4

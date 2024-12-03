@@ -6,7 +6,7 @@ add_core = NOG
 
 culture = nogaybak
 religion = sunni
-capital = "Ukek"
+capital = "Piterka"
 
 hre = no
 base_tax = 1

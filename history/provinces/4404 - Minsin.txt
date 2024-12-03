@@ -9,7 +9,7 @@ culture = kachin
 religion = animism
 capital = "Minsin"
 
-trade_goods = grain
+trade_goods = gems
 hre = no
 base_tax = 1
 base_production = 1

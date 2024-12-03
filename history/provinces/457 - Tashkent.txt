@@ -8,7 +8,7 @@ culture = uzbehk
 religion = nestorian
 capital = "Tashkent"
 
-trade_goods = tea
+trade_goods = herbs
 hre = no
 base_tax = 3 
 base_production = 3

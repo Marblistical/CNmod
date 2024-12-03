@@ -7,7 +7,7 @@ culture = khazak
 religion = sunni
 capital = "Ulanbel"
 
-trade_goods = cloth
+trade_goods = wool
 hre = no
 base_tax = 1 
 base_production = 1

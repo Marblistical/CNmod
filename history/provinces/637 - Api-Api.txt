@@ -9,7 +9,7 @@ culture = bornean
 religion = sunni
 capital = "Api-Api"
 
-trade_goods = spices
+trade_goods = herbs
 hre = no
 base_tax = 3 
 base_production = 3

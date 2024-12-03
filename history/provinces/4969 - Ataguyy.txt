@@ -7,7 +7,7 @@ culture = turkmeni
 religion = sunni
 capital = "Ataguyy"
 
-trade_goods = livestock
+trade_goods = wool
 hre = no
 base_tax = 1 
 base_production = 1

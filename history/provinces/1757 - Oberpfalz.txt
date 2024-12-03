@@ -1,8 +1,8 @@
 #1757 - Oberpfalz
 
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = PAL
+controller = PAL
+add_core = PAL
 culture = bavarian
 religion = catholic
 base_tax = 1

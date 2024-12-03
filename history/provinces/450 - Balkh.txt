@@ -1,5 +1,9 @@
 #450 - Balkh
 
+latent_trade_goods = {
+	coal
+}
+
 owner = SLJ
 controller = SLJ
 add_core = SLJ
@@ -9,7 +13,7 @@ culture = tajik
 religion = sunni
 capital = "Balkh"
 
-trade_goods = cotton
+trade_goods = copper
 hre = no
 base_tax = 2
 base_production = 1

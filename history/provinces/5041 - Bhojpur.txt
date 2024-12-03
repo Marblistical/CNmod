@@ -9,7 +9,7 @@ culture = bihari
 religion = hinduism
 capital = "Arrah"
 
-trade_goods = salt
+trade_goods = dairy
 hre = no
 base_tax = 3
 base_production = 4

@@ -8,7 +8,7 @@ culture = bengali
 religion = hinduism #A good case could be made that this province was atleast 50% buddhist
 capital = "Chittagong"
 
-trade_goods = cotton
+trade_goods = naval_supplies
 hre = no
 base_tax = 5
 base_production = 5

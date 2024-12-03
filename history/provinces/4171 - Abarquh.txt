@@ -9,7 +9,7 @@ culture = persian
 religion = shiite
 capital = "Abarquh"
 
-trade_goods = livestock #known for its pastures for Timurid armies
+trade_goods = fruit
 hre = no
 base_tax = 1
 base_production = 1

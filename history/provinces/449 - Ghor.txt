@@ -9,7 +9,7 @@ culture = hazara
 religion = shiite
 capital = "Ahangaran"
 
-trade_goods = wool
+trade_goods = iron
 hre = no
 base_tax = 1
 base_production = 1

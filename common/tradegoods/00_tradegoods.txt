@@ -1317,7 +1317,7 @@ coffee = {
 }
 
 cotton = {
-	color = { 0.52 0.68 0.6 }
+	color = { 0.6 0.7 0.6 }
 	modifier = {
 		global_colonial_growth = 20
 	}
@@ -1952,7 +1952,7 @@ incense = {
 }
 
 glass = {
-	color = { 0.0 0.60 0.45 }
+	color = { 0.40 0.80 0.60 }
 	modifier = {
 		dip_tech_cost_modifier = -0.05
 	}
@@ -2307,6 +2307,16 @@ dates = {
 			}
 		}
 		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+				has_terrain = drylands
+				has_terrain = desert
+				has_terrain = coastal_desert
+				}
+			}
+		}
+		modifier = {
 			factor = 2
 			FROM = {
 				OR = {
@@ -2342,6 +2352,7 @@ fruit = {
 				has_terrain = forest
 				has_terrain = woods
 				has_terrain = hills
+				has_terrain = jungle
 			}
 		}
 		modifier = {
@@ -2532,7 +2543,7 @@ silver = {
 	}
 }
 
-softwood = {
+lumber = {
 	color = { 0.50 0.27 0.05 }
 	modifier = {
 		global_ship_cost = -0.15
@@ -2615,7 +2626,7 @@ seafood = {
 
 whales = {
 	is_valuable = yes
-	color = { 0.11 0.85 0.4 }
+	color = { 0.1 0.60 0.3 }
 	modifier = {
 		production_efficiency = 0.1
 	}
@@ -2757,7 +2768,7 @@ potatoes = {
 
 tomatoes = { 
 	is_valuable = yes
-	color = { 255 102 26 } 
+	color = { 229 48 32 } 
 	modifier = { 
 		placed_merchant_power = 5
 	}
@@ -2765,13 +2776,15 @@ tomatoes = {
 		local_regiment_cost = 0.25
 	} 
 	chance = { 
-		factor = 20
+		factor = 10
 		modifier = {
 			factor = 1.5
 			OR = {
 				has_terrain = drylands
 				has_terrain = savannah
 				has_terrain = steppe
+				has_terrain = jungle
+				has_terrain = mountain
 			}
 		}
 		modifier = {
@@ -2780,6 +2793,9 @@ tomatoes = {
 				OR = {
 					region = colombia_region
 					region = brazil_region
+					region = central_america_region
+					region = upper_peru_region
+					region = peru_region
 					region = carribeans_region
 					region = rio_grande_region
 					region = mexico_region
@@ -2868,7 +2884,7 @@ herbs = {
 
 rice = { 
 	is_valuable = yes
-	color = { 0.80 0.80 0.65 } 
+	color = { 0.92 0.85 0.80 }
 	modifier = { 
 		global_manpower_modifier = 0.10 
 	} 

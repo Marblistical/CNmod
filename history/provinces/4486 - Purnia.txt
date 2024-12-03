@@ -9,7 +9,7 @@ culture = bihari
 religion = hinduism
 capital = "Purnia"
 
-trade_goods = silk
+trade_goods = rice
 hre = no
 base_tax = 3
 base_production = 3

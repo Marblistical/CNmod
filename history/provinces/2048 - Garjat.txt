@@ -9,7 +9,7 @@ culture = garjati
 religion = hinduism
 capital = "Jeypore"
 
-trade_goods = tropical_wood
+trade_goods = pottery
 hre = no
 base_tax = 1 
 base_production = 1

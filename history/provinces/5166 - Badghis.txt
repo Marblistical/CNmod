@@ -9,7 +9,7 @@ culture = tajik
 religion = sunni
 capital = "Marwarudh"
 
-trade_goods = grain
+trade_goods = wool
 hre = no
 base_tax = 1
 base_production = 1

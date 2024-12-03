@@ -8,7 +8,7 @@ culture = limbu
 religion = mundhum
 capital = "Phedap"
 
-trade_goods = cloth
+trade_goods = fruit
 hre = no
 base_tax = 2 
 base_production = 1
