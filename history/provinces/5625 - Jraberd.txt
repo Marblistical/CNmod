@@ -1,4 +1,4 @@
-#2202 - Melikates
+#5625 - Jraberd
 
 owner = SLJ
 controller = SLJ
@@ -7,12 +7,12 @@ add_core = MLK
 
 culture = armenian
 religion = apostolic
-capital = "Khankendi"
+capital = "Jraberd"
 
-trade_goods = wool
+trade_goods = livestock
 hre = no
 base_tax = 1
-base_production = 2
+base_production = 1
 base_manpower = 1
 is_city = yes
 

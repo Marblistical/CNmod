@@ -3,7 +3,7 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = QAR
+add_core = MLK
 
 culture = azerbaijani
 religion = shiite
