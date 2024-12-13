@@ -1,20 +1,23 @@
-#5066 - Mysia
+#5601 - Philadelphia
 
-owner = PTD
-controller = PTD
+owner = SLJ
+controller = SLJ
+add_core = SLJ
+add_core = GRM
+
 culture = greek
 religion = orthodox
-capital = "Cyzicus"
-trade_goods = honey
+capital = "Alashehir"
+
+trade_goods = wine
 hre = no
 base_tax = 2
-base_production = 2
+base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = PTD
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-

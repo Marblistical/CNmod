@@ -3,7 +3,6 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = TUR
 add_core = KNI
 add_core = AYD
 
@@ -11,10 +10,10 @@ culture = greek
 religion = orthodox
 capital = "Izmirni"
 
-trade_goods = cotton #Major producer and exporter of Cotton
+trade_goods = salt
 hre = no
 base_tax = 3
-base_production = 3
+base_production = 4
 base_manpower = 2
 is_city = yes
 fort_15th = yes

@@ -463,16 +463,22 @@ mashriq_region = {
 anatolia_region = {
 	areas = {
 		hudavendigar_area
+		karasi_area
 		aydin_area
 		antalya_area
+		cappadocia_area
 		karaman_area
+		ottoman_area
 		rum_area
 		kastamonu_area
 		trebizond_area
 		erzurum_area
+		ayrarat_area
+		vaspurakan_area
 		north_kurdistan_area
 		dulkadir_area
 		cukurova_area
+		cyprus_area
 		ankara_area
 		aegean_archipelago_area
 		germiyan_area
@@ -521,6 +527,8 @@ caucasia_region = {
 		alania_area
 		shirvan_area
 		armenia_area
+		artsakh_area
+		kura_area
 		dagestan_area
 		imereti_area
 		samtskhe_area

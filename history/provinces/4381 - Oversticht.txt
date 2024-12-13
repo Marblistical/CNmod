@@ -1,7 +1,7 @@
 # 4381 - Oversticht
 
-owner = OVE
-controller = OVE
+owner = UTR
+controller = UTR
 capital = "Zwolle"
 is_city = yes
 culture = westphalian
@@ -11,6 +11,7 @@ base_tax = 3
 base_production = 3
 trade_goods = livestock
 base_manpower = 2
+add_core = UTR
 add_core = OVE
 discovered_by = eastern
 discovered_by = western

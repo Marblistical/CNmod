@@ -3,6 +3,7 @@ add_government_reform = leading_clergy_reform
 technology_group = western
 religion = catholic
 primary_culture = rhenish
+elector = yes
 capital = 80	# Trier
 fixed_capital = 80 # Cannot move capital away from this province & no power cost to move to it
 

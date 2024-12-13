@@ -1,7 +1,7 @@
 # - Vogtland
 
-owner = SAX
-controller = SAX
+owner = VOG
+controller = VOG
 culture = saxon
 religion = catholic
 capital = "Plauen"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = SAX
+add_core = VOG
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

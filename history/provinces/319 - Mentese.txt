@@ -1,10 +1,13 @@
 #319 - Mentese
 
+latent_trade_goods = {
+	coal
+}
+
 owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = MEN
-add_core = TUR
 
 culture = greek
 religion = orthodox

@@ -9,7 +9,7 @@ culture = daur
 religion = tengri_pagan_reformed
 capital = "Mergen"
 
-trade_goods = naval_supplies
+trade_goods = lumber
 hre = no
 base_tax = 4 
 base_production = 4

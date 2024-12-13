@@ -2,7 +2,7 @@
 
 owner = SLJ
 controller = SLJ
-culture = laz
+culture = georgian
 religion = orthodox
 capital = "Batumi"
 trade_goods = fruit

@@ -3,15 +3,13 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = TUR
-add_core = KAR
 add_core = ERE
 
 culture = turkish
 religion = sunni
 capital = "Kirshehir"
 
-trade_goods = livestock
+trade_goods = coffee
 hre = no
 base_tax = 1
 base_production = 1

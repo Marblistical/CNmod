@@ -1,18 +1,17 @@
-#5511 - Hameln
+#5511 - Hildesheim
 
-owner = HAN
-controller = HAN
+owner = HIL
+controller = HIL
 culture = hannoverian
 religion = catholic
-capital = "Hameln"
+capital = "Hildesheim"
 trade_goods = livestock
 hre = yes
 base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = CLB
-add_core = HAN
+add_core = HIL
 
 
 

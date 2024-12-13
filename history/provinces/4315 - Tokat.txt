@@ -3,11 +3,10 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = TUR
 add_core = ERE
 
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 capital = "Tokat"
 
 trade_goods = copper

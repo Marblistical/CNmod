@@ -1,0 +1,22 @@
+#5617 - Paypert
+
+owner = SLJ
+controller = SLJ
+add_core = SLJ
+add_core = ERE
+
+culture = armenian
+religion = apostolic
+capital = "Paypert"
+trade_goods = livestock
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group

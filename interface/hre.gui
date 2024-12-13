@@ -446,9 +446,9 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "hre_electors"
-			position = { x = 135 y = 277 }
+			position = { x = 118 y = 290 }
 			size = { width = 200 height = 600 }
-			slotsize = { width = 54 height = 58 }
+			slotsize = { width = 63 height = 94 }
 			max_slots_horizontal = 3
 			format = "UPPER_LEFT"
 		}
@@ -564,7 +564,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="elector_shield"
-			quadTextureSprite = "GFX_shield_medium"
+			quadTextureSprite = "GFX_shield_midsize"
 			position = { x= 0 y = 0 }
 			tooltip = ""
 			tooltipText =""
@@ -576,7 +576,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="elector_vote_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 11 y = 32 }
+			position = { x= 12 y = 65 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -585,7 +585,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "relation"
-			position = { x = 35 y = 45}
+			position = { x = 38 y = 70}
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -601,11 +601,11 @@ guiTypes = {
 		name = "hre_empty_elector"
 		backGround = ""
 		position = { x=0 y=0 }
-		size = { x=48 y=48 }
+		size = { x=63 y=94 }
 
 		guiButtonType = {
 			name ="elector_shield"
-			quadTextureSprite = "GFX_shield_medium"
+			quadTextureSprite = "GFX_shield_midsize"
 			position = { x= 0 y = 0 }
 			tooltip = ""
 			tooltipText =""

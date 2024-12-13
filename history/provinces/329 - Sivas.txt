@@ -3,11 +3,10 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = TUR
 add_core = ERE
 
 culture = armenian
-religion = sunni
+religion = apostolic
 capital = "Sivas"
 
 trade_goods = grain

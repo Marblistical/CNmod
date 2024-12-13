@@ -255,8 +255,10 @@ STR = "countries/Stargard.txt"
 WEI = "countries/Weimar.txt"
 WLD = "countries/Waldeck.txt"
 
-#Tecklenburg
-#Wittenberg
+HIL = "countries/Hildesheim.txt"
+TEC = "countries/Tecklenburg.txt"
+VOG = "countries/Vogtland.txt"
+WIT = "countries/Wittenberg.txt"
 
 DRT = "countries/Dortmund.txt"
 ESN = "countries/Essen.txt"

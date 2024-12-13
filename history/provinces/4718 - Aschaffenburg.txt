@@ -1,5 +1,5 @@
-owner = ASC
-controller = ASC
+owner = MAI
+controller = MAI
 capital = "Aschaffenburg"
 is_city = yes
 culture = franconian
@@ -8,8 +8,9 @@ hre = yes
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = lumber
 add_core = ASC
+add_core = MAI
 
 discovered_by = eastern
 discovered_by = western

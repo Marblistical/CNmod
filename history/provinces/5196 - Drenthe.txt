@@ -1,7 +1,7 @@
 #5196 - Drenthe
 
-owner = OVE
-controller = OVE
+owner = UTR
+controller = UTR
 capital = "Assen"
 is_city = yes
 culture = westphalian
@@ -9,9 +9,10 @@ religion = catholic
 hre = yes
 base_tax = 1
 base_production = 1
-trade_goods = grain
+trade_goods = lumber
 base_manpower = 1
 add_core = OVE
+add_core = UTR
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

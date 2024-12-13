@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = DUL
 
 culture = armenian
-religion = sunni
+religion = apostolic
 capital = "Divrigi"
 
 trade_goods = iron

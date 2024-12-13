@@ -161,6 +161,16 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 
+	maskedShieldType = {
+		name = "GFX_shield_midsize"
+		textureFile1 = "gfx/interface/shield_midsize.dds"
+		textureFile2 = "gfx/interface/shield_midsize_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		noOfFrames = 121
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+
 	spriteType = {
 		name = "GFX_hre_feature_no_emperor_bg"
 		texturefile = "gfx/interface/hre_no_emperor_feature_bg.ddr"

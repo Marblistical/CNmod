@@ -1,11 +1,14 @@
 #317 - Bursa
 
+latent_trade_goods = {
+	coal
+}
+
 owner = SLJ
 controller = SLJ
 add_core = KAR
-add_core = ERE
-culture = turkish
-religion = sunni
+culture = cappadocian
+religion = orthodox
 capital = "Nigde"
 trade_goods = fruit
 hre = no

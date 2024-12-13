@@ -1,7 +1,7 @@
 # Meppen
 
-owner = HAN
-controller = HAN
+owner = SAX
+controller = SAX
 culture = westphalian
 religion = catholic
 trade_goods = livestock
@@ -11,8 +11,8 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 hre = yes
-add_core = HAN
-add_core = MUN
+add_core = SAX
+add_core = TEC
 
 
 

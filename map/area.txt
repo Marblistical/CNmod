@@ -1516,26 +1516,34 @@ central_hungary_area = { #5
 # Caucasia 							   #
 ########################################
 
-imereti_area = { #4
-	422 462 1856 5080
+imereti_area = { #5
+	422 462 1856 5080 5621
 }
 
-samtskhe_area = { #3
-	2196 2204 4303
+samtskhe_area = { #5
+	2196 2204 4303 5619 5620
 }
 
-kartli_kakheti_area = { #4
+kartli_kakheti_area = { #5
 	color = { 174 56 66 }
-	423 2203 4301 5081
+	423 2203 4301 5081 5621
 }
 
-armenia_area = { #5
-	420 419 2202 2205 5082
+armenia_area = { #4
+	419 2205 5623 5624
+}
+
+artsakh_area = { #4
+	420 2202 5622 5625
+}
+
+kura_area = { #3
+	4305 5082 5626
 }
 
 shirvan_area = { #5 #Northern Azerbaijan
 	color = { 225 231 53 }
-	421 425 4299 4305 5083
+	421 425 4299 5083 5627
 }
 
 circassia_area = { #5
@@ -1556,56 +1564,79 @@ dagestan_area = { #5
 ########################################
 
 rum_area = { #5
-	329 1846 2300 4314 4315
+	329 1846 2300 4310 4315
 }
 
-erzurum_area = { #5
-	331 2305 2306 2307 4302 
+ayrarat_area = { #3
+	4302 5615 5616
+}
+
+vaspurakan_area = { #3
+	2306 2307 4296
+}
+
+erzurum_area = { #4
+	331 2305 5614 5617
 }
 
 hudavendigar_area = { #4
-	316 317 2296 5066
+	316 317 5598 5599
+}
+
+karasi_area = { #4
+	2296 5066 5595 5597
+}
+
+ottoman_area = { #4
+	322 4311 4312 5603
 }
 
 germiyan_area = { #4
 	color = { 234 145 65 }
-	322 1848 4308 4311
+	1848 4308 5601 5602
 }
 
 aydin_area = { #5
 	color = { 239 70 86 }
-	318 2297 4309 5067
+	318 2297 4309 5067 5596
 }
 
+cappadocia_area = { #4
+	2301 5069 5607 5610
+}
 
-ankara_area = { #3
+ankara_area = { #4
 	color = { 57 154 172 }
-	326 4312 4313
+	326 4313 4314 5606
 }
 
-antalya_area = { #3
-	319 2298 5068
+antalya_area = { #4
+	319 2298 5068 5600
 }
 
 aegean_archipelago_area = { #4
 	164 320 2348 4700
 }
 
-kastamonu_area = { #3
-	325 328 2299 
+kastamonu_area = { #4
+	325 328 2299 5605
 }
 
-trebizond_area = { #3
-	330 2304 5072
+trebizond_area = { #4
+	330 2304 5072 5618
 }
 
-karaman_area = { #5
-	323 324 2301 4307 5069
+karaman_area = { #4
+	323 324 4307 5604
+}
+
+cyprus_area = { #3
+	321 5608 5609
 }
 
 cukurova_area = { #5
 	color = { 50 177 200 }
-	321 327 2302 5070 5071
+	327 2302 5070 5071 5611
 }
 
 aleppo_area = { #4
@@ -1628,9 +1659,9 @@ CN_sinai_area = { #3
 	365 4268 5473
 }
 
-dulkadir_area = { # 4
+dulkadir_area = { #5
 	color = { 184 54 72 }
-	332 2303 4298 4310
+	332 2303 4298 5612 5613
 }
 
 iraq_arabi_area = { #3 Lower Mesopotamia
@@ -1645,8 +1676,8 @@ luristan_area = { #5
 	413 414 2209 2210 2211
 }
 
-north_kurdistan_area = { #5
-	418 4295 2308 4292 4296
+north_kurdistan_area = { #4
+	418 4295 2308 4292
 }
 
 khuzestan_area = { #5
