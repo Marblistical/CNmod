@@ -1,17 +1,17 @@
 #5094 - Thamud
 
-owner = MHR
-controller = MHR
 culture = mahri_culture
 religion = sunni
 capital = "Thamud"
-trade_goods = dates
+native_size = 10
+native_ferocity = 7
+native_hostileness = 5
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-is_city = yes
-add_core = MHR
+is_city = no
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

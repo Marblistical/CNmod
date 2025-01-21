@@ -2,7 +2,7 @@
 
 owner = SRV
 controller = SRV
-culture = azerbaijani
+culture = udi
 religion = shiite
 capital = "Shaki"
 trade_goods = wool

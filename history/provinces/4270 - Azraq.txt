@@ -1,21 +1,17 @@
 #4270 - Azraq
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = FAD
-add_core = SYR
-
 culture = bedouin_arabic
 religion = sunni
 capital = "Al Azraq"
-
-trade_goods = livestock
+native_size = 10
+native_ferocity = 4
+native_hostileness = 5
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1
-base_manpower = 2
-is_city = yes
+base_manpower = 1
+is_city = no
 
 discovered_by = east_african
 discovered_by = muslim

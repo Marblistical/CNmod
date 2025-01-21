@@ -1,12 +1,11 @@
 #5088 - Samman
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = ALH
+controller = ALH
 add_core = ALH
 
 culture = gulf_arabic
-religion = sunni
+religion = shiite
 capital = "Al Nairyah"
 
 trade_goods = fish

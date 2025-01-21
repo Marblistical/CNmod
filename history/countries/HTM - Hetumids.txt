@@ -6,7 +6,7 @@ technology_group = muslim
 religion = sunni
 religious_school = shafii_school
 
-primary_culture = armenian
+primary_culture = cilician
 
 capital = 327 #Adana
 

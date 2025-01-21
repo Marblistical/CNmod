@@ -7,7 +7,7 @@ add_core = SME
 add_core = GEO
 add_core = ARM
 
-culture = armenian
+culture = karin
 religion = apostolic
 capital = "Alashkert"
 

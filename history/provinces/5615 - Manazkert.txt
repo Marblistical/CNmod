@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = ARM
 
-culture = armenian
+culture = karin
 religion = apostolic
 capital = "Manazkert"
 

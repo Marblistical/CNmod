@@ -5,8 +5,8 @@ controller = SLJ
 add_core = SLJ
 add_core = MLK
 
-culture = azerbaijani
-religion = shiite
+culture = armenian
+religion = apostolic
 capital = "Ganja"
 
 trade_goods = cotton

@@ -6,8 +6,8 @@ add_core = SLJ
 add_core = QAR
 add_core = TBR
 
-culture = kurdish
-religion = sunni
+culture = armenian
+religion = apostolic
 capital = "Khoy"
 
 trade_goods = salt

@@ -2,7 +2,7 @@
 
 owner = HTM
 controller = HTM
-culture = armenian
+culture = cilician
 religion = apostolic
 capital = "Zeytun"
 trade_goods = livestock

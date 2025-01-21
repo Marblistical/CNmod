@@ -7,7 +7,7 @@ add_core = BHT
 
 culture = kurdish
 religion = sunni
-capital = "Sulimaniyeh"
+capital = "Zalm"
 
 trade_goods = wool
 hre = no

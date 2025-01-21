@@ -4,8 +4,8 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 
-culture = assyrian
-religion = nestorian
+culture = kurdish
+religion = sunni
 capital = "Duhok"
 
 trade_goods = cloth

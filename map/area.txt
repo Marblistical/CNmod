@@ -15,6 +15,10 @@ black_sea_area = {
 	1321 1322 1323 1324 5315 5316 5317
 }
 
+caspian_sea_area = {
+	1326 5639 5640 5641 5642 5643 5644
+}
+
 baltic_area = {
 	1252 1253 1254 1255 1256 1257 1926 1927 1928
 }
@@ -40,7 +44,7 @@ red_sea_area = {
 }
 
 persian_gulf_area = { #(+Makran)
-	1332 1334 1335 1336 4347
+	1332 1334 1335 1336 4347 5683
 }
 
 arabian_sea_area = {
@@ -1550,8 +1554,8 @@ circassia_area = { #5
 	463 2195 5075 5544 5545
 }
 
-alania_area = { #4
-	2201 2197 5076 5077
+alania_area = { #5
+	2201 2197 5076 5077 5628
 }	
 
 dagestan_area = { #5
@@ -1639,20 +1643,24 @@ cukurova_area = { #5
 	327 2302 5070 5071 5611
 }
 
+jazira_area = { #4
+	407 2314 5645 5646
+}
+
 aleppo_area = { #4
-	377 407 1849 2314
+	377 405 1849 5647
 }
 
 syria_area = { #4
-	382 405 4271 4297
+	382 4271 4297 5650
 }
 
 trans_jordan_area = { #4
-	380 381 2327 4270
+	380 381 2327 4270 5652
 }
 
-palestine_area = { #4 
-	364 379 1854 5086
+palestine_area = { #5
+	364 379 1854 5086 5653
 }
 
 CN_sinai_area = { #3
@@ -1676,8 +1684,16 @@ luristan_area = { #5
 	413 414 2209 2210 2211
 }
 
-north_kurdistan_area = { #4
-	418 4295 2308 4292
+north_kurdistan_area = { #5
+	418 4295 2308 4292 5634
+}
+
+harput_area = { #5
+	5629 5630 5631 5632 5633
+}
+
+hakkari_area = { #4
+	5635 5636 5637 5638
 }
 
 khuzestan_area = { #5
@@ -1707,75 +1723,111 @@ bahrain_area = { #2
 	395 396
 }
 
-pirate_coast_area = { #4
-	397 398 404 2333
+milh_area = { #3
+	397 404 2333
+}
+
+pirate_coast_area = { #3
+	398 5681 5682
+}
+
+summan_area = { #3
+	2338 5656 5657
 }
 
 nafud_area = { #3
-	393 2338 4272
+	4270 4272 5654
 }
 
-tabuk_area = { #4
-	383 2328 4269 5087
+hail_area = { #3
+	393 5655 5661
 }
 
-medina_area = { #3
+tabuk_area = { #5
+	383 2328 4269 5087 5663
+}
+
+medina_area = { #5
 	color = { 225 158 92 }
-	384 2329 2330
+	384 2329 2330 5662 5664
 }
 
-mecca_area = { #5
-	385 2331 2332 4277 4278
+mecca_area = { #4
+	385 2331 4277 5666
 }
 
-asir_area = { #3
-	386 391 4282
+bishah_area = { #3
+	386 2332 4278
 }
 
-tihama_al_yemen_area = { #5
-	387 2346 4279 5096 5097
+asir_area = { #4
+	391 5097 5667 5668
 }
 
-upper_yemen_area = { #3
+tihama_al_yemen_area = { #3
+	2346 4279 5096
+}
+
+upper_yemen_area = { #5
 	color = { 220 41 155 }
-	390 2344 4281
+	390 2344 4281 4282 5670
 }
 
-yemen_area = { #Lower Yemen #
-	388 4280 5095
+yemen_area = { #Lower Yemen #3
+	387 4280 5671
+}
+
+aden_area = { #3
+	388 5095 5672
+}
+
+shabwah_area = { #4
+	2345 5673 5674 5675
 }
 
 hadramut_area = { #4
-	389 2343 2345 4283
+	389 2343 4283 5676
 }
 
 mahra_area = { #4
 	402 1099 4284 5094
 }
 
-yamamah_area = { #4
-	2335 2336 2339 4275
+yamamah_area = { #5
+	392 2337 4274 5659 5660
 }
 
-qasim_area = { #5
-	392 2337 4273 4274 5089
+kharj_area = { #5
+	2335 2336 2339 4275 5658
+}
+
+qasim_area = { #3
+	4273 5089 5665
 }
 
 dhofar_area = { #4 (Dhofar + Wusta)
 	401 2342 5093 5092
 }
 
-oman_area = { #4 (Oman Proper)
-	403 4285 4287 5091
+masirah_area = { #3 (Masirah)
+	2341 5091 5677
+}
+
+oman_area = { #5 (Oman Proper)
+	403 4285 4287 5678 5679
 }
 
 mascat_area = { #4 (Batinah and Muscat coast
-	399 400 2341 4286
+	399 400 4286 5680
 }
 
 phoenicia_area = { #4
 	color = { 219 30 57 }
-	 378 1855 2313 5085
+	2313 5085 5648 5649
+}
+
+lebanon_area = { #3
+	378 1855 5651
 }
 
 ########################################

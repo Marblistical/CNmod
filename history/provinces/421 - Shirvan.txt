@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = SRV
 
-culture = azerbaijani
+culture = tati
 religion = shiite
 capital = "Baku"
 

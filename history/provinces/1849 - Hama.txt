@@ -4,16 +4,15 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = SYR
-add_core = FAD
 
 culture = al_suryah_arabic
-religion = sunni
+religion = shiite
 capital = "Hama"
 
 trade_goods = cotton
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 2
+base_production = 3
 base_manpower = 2
 is_city = yes
 

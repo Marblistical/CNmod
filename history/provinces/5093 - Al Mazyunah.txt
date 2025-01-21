@@ -1,16 +1,17 @@
 #5093 - Al Mazyunah
 
-owner = MHR
-controller = MHR
 culture = mahri_culture
 religion = sunni
 capital = "Al Mazyunah"
-trade_goods = livestock
+native_size = 10
+native_ferocity = 7
+native_hostileness = 5
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-is_city = yes
+is_city = no
 add_core = MHR
 discovered_by = muslim
 discovered_by = ottoman

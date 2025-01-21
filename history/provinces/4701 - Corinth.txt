@@ -1,6 +1,6 @@
 owner = ATH
 controller = ATH
-culture = greek
+culture = arvanite
 religion = orthodox
 capital = "Corinth"
 trade_goods = cloth

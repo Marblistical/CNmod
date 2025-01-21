@@ -2,7 +2,7 @@
 
 owner = KLB
 controller = KLB
-culture = neapolitan 
+culture = italiot
 religion = catholic 
 hre = no 
 base_tax = 1

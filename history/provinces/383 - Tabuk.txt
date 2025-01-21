@@ -3,7 +3,7 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-
+add_core = ANZ
 culture = bedouin_arabic
 religion = sunni
 capital = "Tabuk"

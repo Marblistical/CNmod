@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = SRV
 add_core = QUB
 
-culture = lezgin
+culture = tati
 religion = sunni
 capital = "Quba"
 

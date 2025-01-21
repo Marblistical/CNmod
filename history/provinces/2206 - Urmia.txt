@@ -4,10 +4,9 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = QAR
-add_core = MGR
 
-culture = kurdish
-religion = sunni
+culture = assyrian
+religion = nestorian
 capital = "Urmiyeh"
 
 trade_goods = wine

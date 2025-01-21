@@ -14,6 +14,8 @@ ugric = {
 	}
 	szekely = {
 	}
+	szavard = {
+	}
 	dynasty_names = {
 		Báthory Hunyadi Szapolyai Rákóczy Bocskai Bethlen Almásy Andrássy Batthyány Csáky Dessewffy
 		Erdody Eszterházy Festetics Hajdú Károlyi Kun Magyary Perényi Rónai Széchenyi Szepessy 

@@ -2,7 +2,7 @@
 
 owner = API
 controller = API
-culture = neapolitan 
+culture = italiot
 religion = catholic 
 hre = no 
 base_tax = 2

@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = ERE
 
-culture = armenian
+culture = arevmdian
 religion = apostolic
 capital = "Kamakh"
 trade_goods = grain

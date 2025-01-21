@@ -9,11 +9,11 @@ culture = al_suryah_arabic
 religion = sunni
 capital = "Ar Rakkah"
 
-trade_goods = pottery
+trade_goods = grain
 hre = no
-base_tax = 3
-base_production = 2
-base_manpower = 2
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
 
 discovered_by = east_african

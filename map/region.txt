@@ -456,7 +456,9 @@ mashriq_region = {
 		basra_area
 		trans_jordan_area
 		phoenicia_area
+		lebanon_area
 		aleppo_area
+		jazira_area
 	}
 }
 
@@ -476,6 +478,8 @@ anatolia_region = {
 		ayrarat_area
 		vaspurakan_area
 		north_kurdistan_area
+		harput_area
+		hakkari_area
 		dulkadir_area
 		cukurova_area
 		cyprus_area
@@ -541,21 +545,29 @@ arabia_region = {
 		tabuk_area
 		medina_area
 		mecca_area
+		bishah_area
 		asir_area
 		tihama_al_yemen_area
 		upper_yemen_area
 		yemen_area
+		aden_area
+		shabwah_area
 		mahra_area
 		hadramut_area
 		bahrain_area
 		hasa_area
 		oman_area
 		pirate_coast_area
+		milh_area
 		dhofar_area
 		mascat_area
+		masirah_area
+		summan_area
 		qasim_area
 		yamamah_area
+		kharj_area
 		nafud_area
+		hail_area
 	}
 }
 
@@ -1554,6 +1566,7 @@ mediterrenean_region = {
 		eastern_mediterrenean_area
 		western_mediterrenean_area
 		black_sea_area
+		caspian_sea_area
 	}
 }
 

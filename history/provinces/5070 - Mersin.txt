@@ -3,7 +3,7 @@
 owner = SLJ
 controller = SLJ
 add_core = KAR
-culture = armenian
+culture = cilician
 religion = apostolic
 capital = "Mersin"
 trade_goods = olives

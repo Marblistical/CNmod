@@ -44,6 +44,11 @@ KHZ = "countries/Khazaria.txt"
 TKK = "countries/Tarki.txt"
 QUB = "countries/Quba.txt"
 
+#Derbent
+#Ingushetia
+#Szavardia
+#Utik
+
 #Central Asia
 LIA = "countries/WesternLiao.txt"
 LIU = "countries/Liu.txt"
@@ -235,11 +240,15 @@ ATI = "countries/Altai.txt"
 TUV = "countries/Tuva.txt"
 
 #North Germany	
+DRT = "countries/Dortmund.txt"
 ERF = "countries/Erfurt.txt"
+ESN = "countries/Essen.txt"
+HIL = "countries/Hildesheim.txt"
 HOY = "countries/Hoya.txt"
 JCH = "countries/Julich.txt"
 KMI = "countries/Kammin.txt"
 KTZ = "countries/Katzenelnbogen.txt"
+HAG = "countries/Haguenau.txt"
 HEN = "countries/Henneberg.txt"
 HLB = "countries/Halberstadt.txt"
 MMK = "countries/Mark.txt"
@@ -252,17 +261,11 @@ SPH = "countries/Sponheim.txt"
 SLW = "countries/Schleswig.txt"
 STP = "countries/Stolp.txt"
 STR = "countries/Stargard.txt"
-WEI = "countries/Weimar.txt"
-WLD = "countries/Waldeck.txt"
-
-HIL = "countries/Hildesheim.txt"
 TEC = "countries/Tecklenburg.txt"
 VOG = "countries/Vogtland.txt"
+WEI = "countries/Weimar.txt"
 WIT = "countries/Wittenberg.txt"
-
-DRT = "countries/Dortmund.txt"
-ESN = "countries/Essen.txt"
-HAG = "countries/Haguenau.txt"
+WLD = "countries/Waldeck.txt"
 WOM = "countries/Worms.txt"
 
 #Peru

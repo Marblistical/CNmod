@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = HED
 
 culture = hejazi_culture
-religion = shiite
+religion = sunni
 capital = "Qunfudhah"
 
 trade_goods = fish

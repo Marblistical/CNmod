@@ -2,7 +2,7 @@
 
 owner = CYP
 controller = CYP
-culture = greek
+culture = cypriot
 religion = orthodox
 capital = "Famagusta"
 trade_goods = silk
