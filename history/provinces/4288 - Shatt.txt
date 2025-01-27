@@ -7,7 +7,7 @@ add_core = BSR
 add_core = MSY
 
 culture = al_iraqiya_arabic
-religion = sunni
+religion = shiite
 capital = "al-Qurna"
 
 trade_goods = dates

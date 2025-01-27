@@ -459,6 +459,8 @@ mashriq_region = {
 		lebanon_area
 		aleppo_area
 		jazira_area
+		batihah_area
+		dulaim_area
 	}
 }
 

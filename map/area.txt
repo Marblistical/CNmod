@@ -1672,12 +1672,12 @@ dulkadir_area = { #5
 	332 2303 4298 5612 5613
 }
 
-iraq_arabi_area = { #3 Lower Mesopotamia
-	409 410 4291
+iraq_arabi_area = { #4 Lower Mesopotamia
+	410 4291 5687 5689
 }
 
 basra_area = { #4
-	408 2311 2312 4288
+	408 4288 5684 5686
 }
 
 luristan_area = { #5
@@ -1700,14 +1700,22 @@ khuzestan_area = { #5
 	412 2217 4289 4290 4342
 }
 
-shahrizor_area = {	#4
+shahrizor_area = {	#5
 	color = { 152 102 102 }
-	415 4293 4294 5084
+	415 4293 4294 5690 5691
 }
 
 mosul_area = { #4
 	color = { 92 200 92 }
-	406 411 2310 2309
+	411 2310 2309 5084
+}
+
+dulaim_area = { #3
+	406 409 5688
+}
+
+batihah_area = { #3
+	2311 2312 5685
 }
 
 

@@ -1,4 +1,4 @@
-#2310 - Tikrit
+#5690 - Sehrizor
 
 owner = SLJ
 controller = SLJ
@@ -7,9 +7,9 @@ add_core = IRQ
 
 culture = al_iraqiya_arabic
 religion = sunni
-capital = "Tikrit"
+capital = "Sare Zur"
 
-trade_goods = grain
+trade_goods = dates
 hre = no
 base_tax = 2
 base_production = 2
