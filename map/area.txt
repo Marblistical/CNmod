@@ -1503,11 +1503,6 @@ transdanubia_area = { #4
 	1864 4240 5006 5373
 }
 
-transdanubia_area = { #4
-	color = { 171 92 22 }
-	1864 4240 5006 5373
-}
-
 kisalfold_area = { #3
 	135 5372 5374
 }

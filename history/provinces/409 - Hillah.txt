@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = IRQ
 add_core = QAR
 
-culture = al_iraqiya_arabic
+culture = moslawi_arabic
 religion = shiite
 capital = "Karbala"
 

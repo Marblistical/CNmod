@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = YZD
 
-culture = persian
+culture = raji
 religion = shiite
 capital = "Ardakan"
 

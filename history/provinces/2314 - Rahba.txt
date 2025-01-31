@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = SYR
 
-culture = al_iraqiya_arabic
+culture = moslawi_arabic
 religion = sunni
 capital = "Deir ez-Zor"
 

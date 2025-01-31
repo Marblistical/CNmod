@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = IRQ
 
-culture = al_iraqiya_arabic
+culture = moslawi_arabic
 religion = sunni
 capital = "Baqubah"
 

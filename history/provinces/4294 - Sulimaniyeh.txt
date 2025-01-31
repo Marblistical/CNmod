@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = BHT
 
-culture = kurdish
+culture = sorani
 religion = sunni
 capital = "Zalm"
 

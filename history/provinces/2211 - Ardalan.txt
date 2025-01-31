@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = ARD
 
-culture = kurdish
+culture = sorani
 religion = sunni
 capital = "Sanandaj"
 

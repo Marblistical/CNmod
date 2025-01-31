@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = ISF
 
-culture = persian
+culture = raji
 religion = shiite
 capital = "Kashan"
 

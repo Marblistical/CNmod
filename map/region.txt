@@ -356,7 +356,6 @@ rumelia_region = {
 		thrace_area
 		north_thrace_area
 		west_thrace_area
-		silistria_area
 	}
 }
 
