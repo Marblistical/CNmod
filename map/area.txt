@@ -349,9 +349,9 @@ west_burgundy_area = { #5
 	192 1877 5224 5501 5502
 }
 
-massif_central_area = { #5
+massif_central_area = { #3
 	color = { 26 26 217 }
-	190 199 4947 5238 5500
+	199 4947 5238
 }
 
 savoy_dauphine_area = { #3 Savoy, Upper Burgundy 
@@ -797,8 +797,8 @@ ingria_area = { #3
 	33 34 5550
 }
 
-karelia_area = { #5
-	32 309 4124 4942 5338
+karelia_area = { #4
+	32 309 4124 5338
 }
 
 northern_norway = { #3
@@ -1515,8 +1515,8 @@ central_hungary_area = { #5
 # Caucasia 							   #
 ########################################
 
-imereti_area = { #5
-	422 462 1856 5080 5621
+imereti_area = { #4
+	422 462 1856 5080
 }
 
 samtskhe_area = { #5
@@ -1651,7 +1651,7 @@ syria_area = { #4
 }
 
 trans_jordan_area = { #4
-	380 381 2327 4270 5652
+	380 381 2327 5652
 }
 
 palestine_area = { #5
