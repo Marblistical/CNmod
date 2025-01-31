@@ -401,7 +401,6 @@ carpathia_region = {
 egypt_region = {
 	areas = {
 		shamally_area
-		cyrenaica_area
 		gulf_of_arabia_area
 		al_wahat_area
 		delta_area
@@ -410,6 +409,12 @@ egypt_region = {
 		vostani_area
 		said_area
 		CN_sinai_area
+		syria_area
+		palestine_area
+		trans_jordan_area
+		phoenicia_area
+		lebanon_area
+		aleppo_area
 	}
 }
 
@@ -432,6 +437,7 @@ maghreb_region = {
 		sale_area
 		safi_area
 		tripolitania_area
+		cyrenaica_area
 		barbary_coast_area
 		macaronesia_area
 	}
@@ -448,19 +454,18 @@ sahara_region = {
 
 mashriq_region = {
 	areas = {
-		syria_area
-		palestine_area
 		mosul_area
 		iraq_arabi_area
 		shahrizor_area
 		basra_area
-		trans_jordan_area
-		phoenicia_area
-		lebanon_area
-		aleppo_area
 		jazira_area
 		batihah_area
 		dulaim_area
+		vaspurakan_area
+		north_kurdistan_area
+		harput_area
+		hakkari_area
+		khuzestan_area
 	}
 }
 
@@ -477,11 +482,6 @@ anatolia_region = {
 		kastamonu_area
 		trebizond_area
 		erzurum_area
-		ayrarat_area
-		vaspurakan_area
-		north_kurdistan_area
-		harput_area
-		hakkari_area
 		dulkadir_area
 		cukurova_area
 		cyprus_area
@@ -496,22 +496,25 @@ persia_region = {
 		luristan_area
 		farsistan_area
 		iraq_e_ajam_area
+		ray_area
+		qumis_area
 		tabarestan_area
 		azerbaijan_area
+		ardabil_area
 		isfahan_area
 		kerman_area
 		persian_gulf_coast
-		south_azerbaijan_area
+		zanjan_area
 		urmia_area
 		gilak_area
 		qashqaistan_area
-		khuzestan_area
 		mogostan_area
 	}
 }
 
 khorasan_region = {
 	areas = {
+		gurgan_area
 		merv_area
 		balkh_area
 		kabulistan_area
@@ -532,6 +535,7 @@ caucasia_region = {
 		circassia_area
 		alania_area
 		shirvan_area
+		ayrarat_area
 		armenia_area
 		artsakh_area
 		kura_area

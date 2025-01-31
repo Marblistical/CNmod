@@ -1,19 +1,18 @@
-#4339 - Rasht
+#5696 - Fuman
 
 owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = BPI
-add_core = KRY
 
 culture = mazandarani
 religion = sunni
-capital = "Rasht"
+capital = "Fuman"
 
-trade_goods = silk
+trade_goods = rice
 hre = no
 base_tax = 2
-base_production = 3
+base_production = 1
 base_manpower = 2
 is_city = yes
 

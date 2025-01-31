@@ -1,4 +1,4 @@
-#5157 - Ruyan
+#4341 - Sari
 
 owner = SLJ
 controller = SLJ
@@ -7,13 +7,13 @@ add_core = TAB
 
 culture = mazandarani
 religion = shiite
-capital = "Rustamdar"
+capital = "Savadkuh"
 
-trade_goods = fruit
+trade_goods = honey
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 2
+base_production = 1
+base_manpower = 1
 is_city = yes
 
 discovered_by = eastern

@@ -1680,8 +1680,8 @@ basra_area = { #4
 	408 4288 5684 5686
 }
 
-luristan_area = { #5
-	413 414 2209 2210 2211
+luristan_area = { #4
+	413 2209 2210 2211
 }
 
 north_kurdistan_area = { #5
@@ -2529,6 +2529,10 @@ ghor_area = { #4
 	449 2225 5167 5168
 }
 
+gurgan_area = { #4
+	2214
+}
+
 merv_area = { #3
 	color = { 60 186 134 }
 	444 445 2350
@@ -2558,32 +2562,44 @@ qashqaistan_area = { #3
 	4331 5161 5162
 }
 
-iraq_e_ajam_area = { #5
-	427 428 2213 2216 4337
+iraq_e_ajam_area = { #4
+	414 2213 4337 5160
+}
+
+qumis_area = { #3
+	427 2216 5699
+}
+
+ray_area = { #3
+	428 5700 5701
 }
 
 azerbaijan_area = { #5
-	416 424 2207 4300 5155
+	416 2207 4300 5155 5693
 }
 
-isfahan_area = { #5
-	429 433 2222 4335 5160
+ardabil_area = { #3
+	424 5694 5695
 }
 
-south_azerbaijan_area = { #3
-	2212 2215 4338
+isfahan_area = { #4
+	429 433 2222 4335
 }
 
-urmia_area = { #3
-	2206 4304 5156
+zanjan_area = { #4
+	2212 2215 4338 5702
 }
 
-tabarestan_area = { #4
-	426 2214 4341 5157
+urmia_area = { #4
+	2206 4304 5156 5692
 }
 
-gilak_area = { #3
-	417 4339 4340
+tabarestan_area = { #5
+	426 4341 5157 5697 5698
+}
+
+gilak_area = { #4
+	417 4339 4340 5696
 }
 
 ########################################
