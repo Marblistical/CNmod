@@ -364,10 +364,18 @@ alliance = {
 	end_date = 1807.12.10
 }
 
+#Aragon and Valencia
+union = {
+	first = ARA
+	second = VAL
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+
 #Vassals
 vassal = {
 	first = ADU
-	second = VAL
+	second = BSY
 	start_date = 1415.1.1
 	end_date = 1822.1.1
 }

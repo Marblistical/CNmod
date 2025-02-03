@@ -1,9 +1,9 @@
 #5014 - Selonia
 
-owner = LIT
-controller = LIT
-add_core = LIT
-add_core = KUR
+owner = LIV
+controller = LIV
+add_core = LIV
+add_core = CUR
 culture = latvian
 religion = catholic
 hre = no

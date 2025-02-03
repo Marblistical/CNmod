@@ -1,7 +1,7 @@
 # 4989 - Fiume
 
-owner = STY
-controller = STY
+owner = RIJ
+controller = RIJ
 culture = dalmatian
 religion = catholic 
 hre = yes
@@ -11,7 +11,7 @@ base_manpower = 2
 trade_goods = cloth
 capital = "Fiume"
 is_city = yes # Estimated
-add_core = STY
+add_core = RIJ
 add_core = DAL
 
 discovered_by = western

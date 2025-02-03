@@ -1,7 +1,7 @@
 #5145 - Carnia
 
-owner = AQU
-controller = AQU
+owner = CNA
+controller = CNA
 culture = friulian
 religion = catholic 
 hre = yes
@@ -11,6 +11,7 @@ trade_goods = lumber
 base_manpower = 1
 capital = "Tolmezzo"
 is_city = yes # Estimated
+add_core = CNA
 add_core = AQU
 
 

@@ -2,7 +2,7 @@
 
 owner = STY
 controller = STY
-add_core = CLI
+add_core = CAR
 add_core = STY
 culture = slovene
 religion = catholic

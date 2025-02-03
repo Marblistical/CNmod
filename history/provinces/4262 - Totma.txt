@@ -13,7 +13,6 @@ add_local_autonomy = 50
 capital = "Totma"
 is_city = yes
 add_core = SCY
-add_core = NOV
 add_core = MRY
 
 discovered_by = eastern

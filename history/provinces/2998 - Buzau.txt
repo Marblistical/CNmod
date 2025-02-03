@@ -1,8 +1,7 @@
 # - Buzau
 
-owner = RMN
-controller = RMN
-add_core = RMN
+owner = WAL
+controller = WAL
 add_core = WAL
 
 culture = romanian

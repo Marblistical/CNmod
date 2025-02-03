@@ -24,13 +24,23 @@ WEX = "countries/Wexford.txt"
 WFD = "countries/Waterford.txt"
 
 #Balkans
+CAR = "countries/Carniola.txt"
 MAC = "countries/Macedonia.txt"
 PTD = "countries/PatriarchialDomain.txt"
+RIJ = "countries/Rijeka.txt"
 SFY = "countries/Sofia.txt"
 VAR = "countries/Varna.txt"
 
-#Carniola
-#Rijeka
+#Baltics
+
+CUR = "countries/Curonia.txt"
+DOR = "countries/Dorpat.txt"
+#KSB - Kashubia
+OSE = "countries/OselWiek.txt"
+#PRR = Pruthenia
+REV = "countries/Reval.txt"
+#SMG - Samogitia
+#YOT - Yotvingia
 
 #Canada
 VIN = "countries/Vinland.txt"
@@ -111,7 +121,10 @@ VDN = "countries/Verdun.txt"
 ANA = "countries/Andorra.txt"
 BDJ = "countries/Badajoz.txt"
 BLC = "countries/Barcelona.txt"
+BSY = "countries/Balensiya.txt"
 DEN = "countries/Denia.txt"
+GIR = "countries/Girona.txt"
+JAE = "countries/Jaen.txt"
 MUR = "countries/Murcia.txt"
 ORC = "countries/OrderChrist.txt"
 PLL = "countries/Pallars.txt"
@@ -121,11 +134,6 @@ SEV = "countries/Seville.txt"
 TOL = "countries/Toledo.txt"
 TRR = "countries/Tarragona.txt"
 URG = "countries/Urgell.txt"
-
-#BSY = "countries/Balensiya.txt"
-#CST = "countries/Castello.txt"
-#GIR = "countries/Girona.txt"
-#JAE = "countries/Jaen.txt"
 
 #India
 BLL = "countries/Ballari.txt"
@@ -181,6 +189,7 @@ BOB = "countries/Bobbio.txt"
 BRC = "countries/Brescia.txt"
 CLR = "countries/Calabria.txt"
 CMR = "countries/Camerino.txt"
+CNA = "countries/Carnia.txt"
 FOG = "countries/Foggia.txt"
 FNL = "countries/Finale.txt"
 FRL = "countries/Forli.txt"
@@ -201,8 +210,6 @@ TRO = "countries/Treviso.txt"
 TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
-
-#Carnia
 
 #Low Countries
 ARS = "countries/Artois.txt"
@@ -284,6 +291,7 @@ WRC = "countries/Wroclaw.txt"
 BEZ = "countries/Bezhetskaya.txt"
 BJA = "countries/Bjarmaland.txt"
 IZH = "countries/Izhora.txt"
+GLC = "countries/Galich.txt"
 KIP = "countries/Kipchak.txt"
 KMA = "countries/Khantia-Mansia.txt"
 KMK = "countries/Kalmykia.txt"
@@ -293,20 +301,27 @@ MRY = "countries/MeryaAl.txt"
 MRD = "countries/Mordovia.txt"
 NEN = "countries/Nenetsia.txt"
 SCY = "countries/ScythoRus.txt"
+SUD = "countries/Sudzal.txt"
 UDM = "countries/Udmurtia.txt"
 UKO = "countries/Ukko.txt"
 VEP = "countries/Vepsia.txt"
 VLB = "countries/VolgaBulgaria.txt"
+VLD = "countries/Vladimir.txt"
+VLG = "countries/Vologda.txt"
 VYA = "countries/Vyatichi.txt"
 
-#SUD = "countries/Sudzal.txt"
-#GLC = "countries/Galich.txt"
-#VLD = "countries/Vladimir.txt"
-#VOL = "countries/Volgoda.txt"
+#Ruthenia
+
+#Starodub
+#Halych
+#Pereyaslav
+#Bratslavschyn
+#Turov
 
 #South Germany
 ASC = "countries/Aschaffenburg.txt"
 BRN = "countries/Bern.txt"
+BRX = "countries/Brixen.txt"
 BSL = "countries/Basel.txt"
 CMA = "countries/Colmar.txt"
 CMO = "countries/Como.txt"
@@ -314,6 +329,7 @@ CNT = "countries/Carinthia.txt"
 EIH = "countries/Eichstatt.txt"
 FBG = "countries/Fribourg.txt"
 FLD = "countries/Fulda.txt"
+FRE = "countries/Freising.txt"
 FUB = "countries/Furstenberg.txt"
 FUR = "countries/Vorlande.txt"
 GRZ = "countries/Gorizia.txt"
@@ -325,9 +341,6 @@ SIZ = "countries/SiebenZenden.txt"
 STG = "countries/StGallen.txt"
 VAU = "countries/Vaud.txt"
 ZUR = "countries/Zurich.txt"
-
-#Brixen
-#Freising
 
 #Himalayas
 CDD = "countries/Chaudandi.txt"

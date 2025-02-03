@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = FRE
+controller = FRE
 capital = "Freising"
 is_city = yes
 culture = bavarian
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = dairy #Weihenstephaner beer
-add_core = BAV
+add_core = FRE
 
 discovered_by = eastern
 discovered_by = western

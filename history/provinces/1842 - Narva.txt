@@ -1,8 +1,8 @@
 #Narva
 
-owner = LVA
-controller = LVA
-add_core = LVA
+owner = LIV
+controller = LIV
+add_core = LIV
 add_core = EST
 culture = estonian
 religion = catholic

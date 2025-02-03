@@ -11,7 +11,7 @@ trade_goods = lumber
 base_manpower = 1
 capital = "Ustye"
 is_city = yes
-add_core = NOV
+add_core = VLG
 add_core = SCY
 
 discovered_by = eastern

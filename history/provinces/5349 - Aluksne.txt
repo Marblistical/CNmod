@@ -1,8 +1,8 @@
 #5349 - Aluksne
 
-owner = LVA
-controller = LVA
-add_core = LVA
+owner = LIV
+controller = LIV
+add_core = LIV
 culture = latvian
 religion = catholic
 capital = "Aluksne"

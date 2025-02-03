@@ -1,8 +1,8 @@
 #Dorpat
 
-owner = LVA
-controller = LVA
-add_core = LVA
+owner = DOR
+controller = DOR
+add_core = DOR
 add_core = EST
 culture = estonian
 religion = catholic

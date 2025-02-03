@@ -1,7 +1,8 @@
 #5285 - Brixen
 
-owner = TIR
-controller = TIR
+owner = BRX
+controller = BRX
+add_core = BRX
 add_core = TIR
 culture = bavarian
 religion = catholic

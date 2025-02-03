@@ -1,8 +1,8 @@
 #Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
 
-owner = LVA
-controller = LVA
-add_core = LVA
+owner = REV
+controller = REV
+add_core = REV
 add_core = EST
 culture = estonian
 religion = catholic

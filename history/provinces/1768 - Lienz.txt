@@ -1,8 +1,8 @@
 #1768 - Lienz
 
-owner = TIR
-controller = TIR
-add_core = TIR
+owner = GRZ
+controller = GRZ
+add_core = GRZ
 culture = bavarian
 religion = catholic
 base_tax = 2

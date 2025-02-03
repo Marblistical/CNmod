@@ -4,9 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = RMN
-controller = RMN
-add_core = RMN
+owner = MOL
+controller = MOL
 add_core = MOL
 
 culture = romanian

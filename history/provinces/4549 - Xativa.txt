@@ -1,8 +1,8 @@
 #1750 - Xativa
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = BSY
+controller = BSY
+add_core = BSY
 culture = andalucian
 religion = sunni
 hre = no

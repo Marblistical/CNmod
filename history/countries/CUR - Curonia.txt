@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = curonian
+religion = orthodox
+government_rank = 1
+capital = 39
+technology_group = eastern
+
+
+1415.1.1 = {
+	monarch = {
+		name = "Girdenis II"
+		dynasty = "Gostautas"
+		birth_date = 1405.9.1
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+
+}

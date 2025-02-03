@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = HUN
-controller = HUN 
+owner = TRA
+controller = TRA
 culture = romanian
 religion = orthodox
 capital = "Hunyadvár"
@@ -15,7 +15,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = HUN
 add_core = TRA
 
 

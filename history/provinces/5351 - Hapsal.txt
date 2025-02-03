@@ -1,7 +1,7 @@
 #5351 - Hapsal
 
-owner = LVA
-controller = LVA
+owner = OSE
+controller = OSE
 culture = estonian
 religion = catholic
 capital = "Haapsalu"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = LVA
+add_core = OSE
 add_core = EST
 discovered_by = western
 discovered_by = eastern

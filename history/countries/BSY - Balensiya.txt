@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = taifa_government
+religion = sunni
+primary_culture = andalucian
+technology_group = muslim
+capital = 220	# Valencia

@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = VAR
-add_core = RMN
+add_core = WAL
 
 
 
