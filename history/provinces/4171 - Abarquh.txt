@@ -3,7 +3,7 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = FRS
+add_core = YZD
 
 culture = persian
 religion = shiite

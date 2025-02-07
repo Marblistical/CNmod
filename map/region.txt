@@ -465,6 +465,7 @@ mashriq_region = {
 		harput_area
 		hakkari_area
 		khuzestan_area
+		karun_area
 	}
 }
 
@@ -501,12 +502,16 @@ persia_region = {
 		azerbaijan_area
 		ardabil_area
 		isfahan_area
+		yazd_area
 		kerman_area
 		persian_gulf_coast
 		zanjan_area
 		urmia_area
 		gilak_area
+		kohgiluyeh_area 
+		zagros_area
 		qashqaistan_area
+		irahistan_area
 		mogostan_area
 	}
 }
@@ -519,12 +524,14 @@ khorasan_region = {
 		kabulistan_area
 		ghor_area
 		kandahar_area
-		west_makran_area
+		kohistan_area
 		makran_area
 		kalat_area
 		birjand_area
+		torshiz_area
 		herat_area
 		mashhad_area
+		nishapur_area
 	}
 }
 

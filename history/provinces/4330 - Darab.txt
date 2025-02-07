@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = FRS
 
 culture = persian
-religion = shiite
+religion = sunni
 capital = "Darab"
 
 trade_goods = spices #Saffron - Could also produce salt due to the salt lakes

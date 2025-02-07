@@ -117,6 +117,14 @@ VAS = "countries/Valois.txt"
 VDM = "countries/Vendome.txt" 
 VDN = "countries/Verdun.txt"
 
+#Himalayas
+CDD = "countries/Chaudandi.txt"
+DLK = "countries/Dolakha.txt"
+KKI = "countries/Kaski.txt"
+LOM = "countries/Lo.txt"
+PPA = "countries/Palpa.txt"
+RUK = "countries/Rukumkot.txt"
+
 #Iberia
 ANA = "countries/Andorra.txt"
 BDJ = "countries/Badajoz.txt"
@@ -242,6 +250,41 @@ HTM = "countries/Hetumids.txt"
 MUS = "countries/Musaids.txt"
 RIA = "countries/Riganids.txt"
 
+#Ruwallah
+#Qassim
+#Unaizah
+#Utbah
+#Maadeed
+#Sudair
+#Harb
+#Otaibah
+#Tamim
+#Kharj
+
+#Shabwah
+#Wahidi
+#Beihan
+#Aulaqi
+#Fadhli
+#Asir
+#Bishah
+#Lahej
+
+#Cemisgezek
+#Palu
+#Egil
+#Sason
+#Bohtan
+#Si'irt
+#Hakkari
+#Bahdinan
+#Tyari
+#Baban
+
+#Qashqaistan
+#Larestan
+#Talysh
+
 #Mongolia
 ATI = "countries/Altai.txt"
 TUV = "countries/Tuva.txt"
@@ -341,11 +384,3 @@ SIZ = "countries/SiebenZenden.txt"
 STG = "countries/StGallen.txt"
 VAU = "countries/Vaud.txt"
 ZUR = "countries/Zurich.txt"
-
-#Himalayas
-CDD = "countries/Chaudandi.txt"
-DLK = "countries/Dolakha.txt"
-KKI = "countries/Kaski.txt"
-LOM = "countries/Lo.txt"
-PPA = "countries/Palpa.txt"
-RUK = "countries/Rukumkot.txt"

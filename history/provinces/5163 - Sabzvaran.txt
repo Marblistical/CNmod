@@ -3,12 +3,11 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = BAL
 add_core = KRM
 
-culture = baluchi
+culture = persian
 religion = shiite
-capital = "Sabzevaran"
+capital = "Jiroft"
 
 trade_goods = grain
 hre = no

@@ -1,4 +1,4 @@
-#5084 - Nineveh
+#5084 - Zakho
 
 owner = SLJ
 controller = SLJ
@@ -6,9 +6,9 @@ add_core = SLJ
 
 culture = kurdish
 religion = sunni
-capital = "Duhok"
+capital = "Zakho"
 
-trade_goods = cloth
+trade_goods = grain
 hre = no
 base_tax = 2
 base_production = 3

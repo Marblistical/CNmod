@@ -1676,7 +1676,7 @@ basra_area = { #4
 }
 
 luristan_area = { #4
-	413 2209 2210 2211
+	413 5705 5706 5707 
 }
 
 north_kurdistan_area = { #5
@@ -1691,8 +1691,8 @@ hakkari_area = { #4
 	5635 5636 5637 5638
 }
 
-khuzestan_area = { #5
-	412 2217 4289 4290 4342
+khuzestan_area = {  #4
+	4290 412 5709 5710 
 }
 
 shahrizor_area = {	#5
@@ -2462,12 +2462,12 @@ makran_area = { #3
 	575 2231 2232
 }
 
-west_makran_area = { #3
-	434 2233 5165
+kohistan_area = { #5
+	434 2233 5165 5724 5725
 }
 
-kandahar_area = { #4
-	447 2229 2230 5169
+kandahar_area = { #5
+	435 447 2229 2230 5169
 }
 
 kalat_area = { #3
@@ -2508,15 +2508,23 @@ transcaspia_area = { #4
 }
 
 mashhad_area = { #5
-	2221 2235 2236 4325 4326 
+	2221 2236 4325 5730 5731
+}
+
+nishapur_area = { #3
+	2235 4326 5732
 }
 
 herat_area = {	#3
 	446 2224 5166 
 }
 
-birjand_area = { #5
-	435 436 4324 4334 4336 
+torshiz_area = { #4
+	4334 4336 5728 5729
+}
+
+birjand_area = { #4
+	436 4324 5726 5727
 }
 
 ghor_area = { #4
@@ -2525,7 +2533,7 @@ ghor_area = { #4
 }
 
 gurgan_area = { #4
-	2214
+	2214 5733
 }
 
 merv_area = { #3
@@ -2541,24 +2549,44 @@ kerman_area = { #5
 	432 2220 2234 4345 5163
 }
 
-persian_gulf_coast = { #4
-	430 2219 2223 4332 
+yazd_area = { #4
+	433 2222 4171 5717
 }
 
-mogostan_area = { #3
-	431 2999 4327
+persian_gulf_coast = { #3
+	430 4332 5720
+}
+
+irahistan_area = { #3
+	2219 2223 5721 
+}
+
+mogostan_area = { #5
+	431 2999 4327 5722 5723
 }
 
 farsistan_area = { #4
-	2218 4171 4329 4330
+	2218 4329 4330 5718
 }
 
-qashqaistan_area = { #3
-	4331 5161 5162
+qashqaistan_area = {  #3
+	4331 5162 5719
 }
 
-iraq_e_ajam_area = { #4
-	414 2213 4337 5160
+zagros_area = { #5
+	2209 2210 5703 2211 5704 
+}
+
+karun_area = { #4
+	5711 4342 4289 5708 
+}
+
+kohgiluyeh_area = {  #3
+	5713 2217 5712 
+}
+
+iraq_e_ajam_area = { #5
+	414 2213 4337 5160 5714
 }
 
 qumis_area = { #3
@@ -2577,8 +2605,8 @@ ardabil_area = { #3
 	424 5694 5695
 }
 
-isfahan_area = { #4
-	429 433 2222 4335
+isfahan_area = { #5
+	429 4335 5161 5715 5716
 }
 
 zanjan_area = { #4

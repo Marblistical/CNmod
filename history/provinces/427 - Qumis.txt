@@ -9,7 +9,7 @@ culture = khorasani
 religion = shiite
 capital = "Damghan"
 
-trade_goods = wool
+trade_goods = cloth
 hre = no
 base_tax = 1
 base_production = 1

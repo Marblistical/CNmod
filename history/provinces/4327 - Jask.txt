@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = BAL
 add_core = ORM
 
-culture = gulf_arabic
+culture = baluchi
 religion = shiite
 capital = "Jask"
 

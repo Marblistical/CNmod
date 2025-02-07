@@ -6,14 +6,14 @@ add_core = SLJ
 add_core = BAL
 add_core = KRM
 
-culture = baluchi
+culture = persian
 religion = shiite
 capital = "Bam"
 
 trade_goods = cotton
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 2
+base_production = 3
 base_manpower = 1
 is_city = yes
 

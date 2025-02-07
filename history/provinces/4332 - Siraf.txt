@@ -9,7 +9,7 @@ culture = persian
 religion = shiite
 capital = "Siraf"
 
-trade_goods = spices
+trade_goods = dyes
 hre = no
 base_tax = 1
 base_production = 1

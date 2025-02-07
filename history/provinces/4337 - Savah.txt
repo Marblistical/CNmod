@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = QOM
 
 culture = persian
-religion = shiite
+religion = sunni
 capital = "Savah"
 
 trade_goods = grain

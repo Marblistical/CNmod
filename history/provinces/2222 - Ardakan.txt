@@ -5,15 +5,15 @@ controller = SLJ
 add_core = SLJ
 add_core = YZD
 
-culture = raji
+culture = persian
 religion = shiite
 capital = "Ardakan"
 
-trade_goods = incense
+trade_goods = glass
 hre = no
-base_tax = 2 
-base_production = 2
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
 
 discovered_by = muslim

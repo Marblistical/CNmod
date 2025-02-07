@@ -9,11 +9,11 @@ culture = persian
 religion = shiite
 capital = "Bushehr"
 
-trade_goods = silk
+trade_goods = cloth
 hre = no
 base_tax = 2
-base_production = 2
-base_manpower = 1
+base_production = 3
+base_manpower = 2
 is_city = yes
 
 discovered_by = east_african
