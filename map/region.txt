@@ -518,7 +518,7 @@ persia_region = {
 
 khorasan_region = {
 	areas = {
-		gurgan_area
+		gorgan_area
 		merv_area
 		balkh_area
 		kabulistan_area

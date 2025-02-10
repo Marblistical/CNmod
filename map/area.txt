@@ -2532,7 +2532,7 @@ ghor_area = { #4
 	449 2225 5167 5168
 }
 
-gurgan_area = { #4
+gorgan_area = { #4
 	2214 5733
 }
 

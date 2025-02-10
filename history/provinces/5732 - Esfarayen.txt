@@ -1,23 +1,20 @@
-#2214 - Golestan
+#5732 - Esfarayen
 
 owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = KHO
-add_core = TAB
-add_core = KHI
 
-culture = turkmeni
+culture = khorasani
 religion = sunni
-capital = "Asatarabad"
+capital = "Esfarayen"
 
-trade_goods = paper
+trade_goods = wine
 hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
-base_manpower = 3
+base_manpower = 1
 is_city = yes
-fort_15th = yes
 
 discovered_by = muslim
 discovered_by = ottoman
