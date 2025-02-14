@@ -588,8 +588,8 @@ novara_area = { #4
 	2979 2981 5245 5246
 }
 
-south_tuscany_area = { #3
-	117 5147 5177
+south_tuscany_area = { #4
+	117 5147 5177 5743
 }
 
 north_tuscany_area = { #5
@@ -1361,8 +1361,8 @@ heptanese_area = { #2
 	142 4698
 }
 
-crete_area = { #2
-	163 5415
+south_aegean_area = { #5
+	163 164 320 5415 5737
 }
 
 northern_greece_area = { #4 #Northern Greece
@@ -1477,8 +1477,8 @@ slovenia_area = { #4
 	129 1769 4751 5253
 }
 
-istria_area = { #3
-	130 4738 4989
+istria_area = { #4
+	130 4738 4989 5742
 }
 
 croatia_area = { #4
@@ -1486,12 +1486,12 @@ croatia_area = { #4
 	131 1826 4752 5391
 }
 
-slavonia_area = { #4
-	152 4756 1767 4173
+slavonia_area = { #5
+	152 4756 1767 4173 5741
 }
 
-east_adriatic_coast_area = { #4
-	136 137 4753 5390
+east_adriatic_coast_area = { #5
+	136 137 4753 5390 5740
 }
 
 alfold_area = { #4
@@ -1587,12 +1587,16 @@ karasi_area = { #4
 }
 
 ottoman_area = { #4
-	322 4311 4312 5603
+	4312 5603 5734 5735
 }
 
 germiyan_area = { #4
 	color = { 234 145 65 }
-	1848 4308 5601 5602
+	322 4308 5601 5736
+}
+
+hamid_area = { #3
+	1848 4311 5602
 }
 
 aydin_area = { #5
@@ -1614,7 +1618,7 @@ antalya_area = { #4
 }
 
 aegean_archipelago_area = { #4
-	164 320 2348 4700
+	2348 4700 5738 5739
 }
 
 kastamonu_area = { #4

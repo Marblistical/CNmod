@@ -1,3 +1,41 @@
+#Anatolia
+HTM = "countries/Hetumids.txt"
+MUS = "countries/Musaids.txt"
+
+#Ahis
+#Karasid
+#Hamid
+#Sahib
+#Teke
+
+#Arabia
+AKG = "countries/Akgulids.txt"
+
+#Antioch
+#Alawite
+#Al-Quds
+#Karak
+
+#Ruwallah
+#Qassim
+#Unaizah
+#Utbah
+#Maadeed
+#Sudair
+#Harb
+#Otaibah
+#Tamim
+#Kharj
+
+#Shabwah
+#Wahidi
+#Beihan
+#Aulaqi
+#Fadhli
+#Asir
+#Bishah
+#Lahej
+
 #Australia
 AQJ = "countries/QarnJadid.txt"
 BTJ = "countries/Badtjala.txt"
@@ -32,7 +70,6 @@ SFY = "countries/Sofia.txt"
 VAR = "countries/Varna.txt"
 
 #Baltics
-
 CUR = "countries/Curonia.txt"
 DOR = "countries/Dorpat.txt"
 #KSB - Kashubia
@@ -54,10 +91,22 @@ KHZ = "countries/Khazaria.txt"
 TKK = "countries/Tarki.txt"
 QUB = "countries/Quba.txt"
 
+#Abkhazia
 #Derbent
+#Erzurum
+#Kakheti
+#Kartli
+#Lazistan
+#Mingrelia
+#Nakhichevan
 #Ingushetia
+#Sebastia
+#Svaneti
 #Szavardia
+#Turuberan
 #Utik
+#Vaspurakan
+#Yerevan
 
 #Central Asia
 LIA = "countries/WesternLiao.txt"
@@ -219,6 +268,20 @@ TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
 
+#Kurdistan
+
+#Cemisgezek
+#Donboli
+#Palu
+#Egil
+#Sason
+#Bohtan
+#Si'irt
+#Hakkari
+#Bahdinan
+#Tyari
+#Baban
+
 #Low Countries
 ARS = "countries/Artois.txt"
 BOI = "countries/Bouillon.txt"
@@ -242,48 +305,6 @@ ZAB = "countries/Zab.txt"
 
 #Mesoamerica
 LCA = "countries/Lenca.txt"
-
-#Middle East
-AKG = "countries/Akgulids.txt"
-SLJ = "countries/Seljuqids.txt"
-HTM = "countries/Hetumids.txt"
-MUS = "countries/Musaids.txt"
-RIA = "countries/Riganids.txt"
-
-#Ruwallah
-#Qassim
-#Unaizah
-#Utbah
-#Maadeed
-#Sudair
-#Harb
-#Otaibah
-#Tamim
-#Kharj
-
-#Shabwah
-#Wahidi
-#Beihan
-#Aulaqi
-#Fadhli
-#Asir
-#Bishah
-#Lahej
-
-#Cemisgezek
-#Palu
-#Egil
-#Sason
-#Bohtan
-#Si'irt
-#Hakkari
-#Bahdinan
-#Tyari
-#Baban
-
-#Qashqaistan
-#Larestan
-#Talysh
 
 #Mongolia
 ATI = "countries/Altai.txt"
@@ -317,6 +338,20 @@ WEI = "countries/Weimar.txt"
 WIT = "countries/Wittenberg.txt"
 WLD = "countries/Waldeck.txt"
 WOM = "countries/Worms.txt"
+
+#Persia 
+RIA = "countries/Riganids.txt"
+SLJ = "countries/Seljuqids.txt"
+
+#Amol
+#Biapish
+#Larestan
+#Rustamdar
+#Sarab
+#Sari
+#Talysh
+#Qashqaistan
+#Urmia
 
 #Peru
 TCY = "countries/Tacaynamics.txt"

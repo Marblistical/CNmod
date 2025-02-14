@@ -350,7 +350,8 @@ rumelia_region = {
 		northern_greece_area
 		morea_area
 		heptanese_area
-		crete_area
+		south_aegean_area
+		aegean_archipelago_area
 		central_greece_area
 		thessaly_area
 		thrace_area
@@ -486,8 +487,9 @@ anatolia_region = {
 		cukurova_area
 		cyprus_area
 		ankara_area
-		aegean_archipelago_area
+		hamid_area
 		germiyan_area
+
 	}
 }
 
