@@ -69,15 +69,21 @@ RIJ = "countries/Rijeka.txt"
 SFY = "countries/Sofia.txt"
 VAR = "countries/Varna.txt"
 
+#Lemnos
+#Lesbos
+#Negroponte
+#Samos
+#Thessaly
+
 #Baltics
 CUR = "countries/Curonia.txt"
 DOR = "countries/Dorpat.txt"
-#KSB - Kashubia
+#KSB = "countries/Kashubia.txt"
 OSE = "countries/OselWiek.txt"
-#PRR = Pruthenia
+#PRR = "countries/Pruthenia.txt"
 REV = "countries/Reval.txt"
-#SMG - Samogitia
-#YOT - Yotvingia
+#SMG = "countries/Samogitia.txt"
+#YOT = "countries/Yotvingia.txt"
 
 #Canada
 VIN = "countries/Vinland.txt"
@@ -267,6 +273,11 @@ TRO = "countries/Treviso.txt"
 TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
+
+#Elba
+#Lucania
+#Molise
+#Salento
 
 #Kurdistan
 

@@ -1,7 +1,7 @@
 #152 - Varazd
 
-owner = HUN
-controller = HUN
+owner = CLI
+controller = CLI
 culture = croatian
 religion = catholic
 capital = "Varazdin"
@@ -11,7 +11,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = HUN
+add_core = CLI
 add_core = CRO
 
 

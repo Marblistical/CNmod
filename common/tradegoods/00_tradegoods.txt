@@ -2340,7 +2340,6 @@ fruit = {
 		naval_attrition = -0.15
 	}
 	province = {
-		local_prosperity_growth = 0.05
 		garrison_growth = 0.25
 	}
 	chance = {

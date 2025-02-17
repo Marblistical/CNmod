@@ -158,3 +158,4 @@
 5615 = "Manzikert"
 5617 = "Bayburt"
 5618 = "Lazistan"
+5736 = "Usak"

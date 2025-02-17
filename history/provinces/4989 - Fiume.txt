@@ -2,7 +2,7 @@
 
 owner = RIJ
 controller = RIJ
-culture = dalmatian
+culture = croatian
 religion = catholic 
 hre = yes
 base_tax = 2

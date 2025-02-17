@@ -1,7 +1,7 @@
 #5597 - Mysia
 
-owner = PTD
-controller = PTD
+owner = SLJ
+controller = SLJ
 culture = greek
 religion = orthodox
 capital = "Mysia"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = PTD
+add_core = SLJ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

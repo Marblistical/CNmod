@@ -86,3 +86,6 @@
 5612 = { "Ablasta" "Ablasta" }
 5613 = { "Dalenda" "Dalenda" }
 5614 = { "Kamachon" "Kamachon" }
+
+5734 = { "Anastasiopolis" "Anastasiopolis" }
+5735 = { "Nakoleia" "Nakoleia" }
