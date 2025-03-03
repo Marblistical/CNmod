@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = POL
 add_core = TEU
+add_core = YOT
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

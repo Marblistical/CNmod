@@ -6,7 +6,7 @@ add_core = SLJ
 
 culture = assyrian
 religion = nestorian
-capital = "Colemêrg"
+capital = "Colemerg"
 
 trade_goods = livestock
 hre = no

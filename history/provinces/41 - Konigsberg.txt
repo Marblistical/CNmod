@@ -12,6 +12,7 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 fort_15th = yes
+add_core = PRR
 add_core = POL
 add_core = TEU
 discovered_by = eastern

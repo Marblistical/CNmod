@@ -78,12 +78,13 @@ VAR = "countries/Varna.txt"
 #Baltics
 CUR = "countries/Curonia.txt"
 DOR = "countries/Dorpat.txt"
-#KSB = "countries/Kashubia.txt"
+KSB = "countries/Kashubia.txt"
+LAT = "countries/Latvia.txt"
 OSE = "countries/OselWiek.txt"
-#PRR = "countries/Pruthenia.txt"
+PRR = "countries/Pruthenia.txt"
 REV = "countries/Reval.txt"
-#SMG = "countries/Samogitia.txt"
-#YOT = "countries/Yotvingia.txt"
+SMG = "countries/Samogitia.txt"
+YOT = "countries/Yotvingia.txt"
 
 #Canada
 VIN = "countries/Vinland.txt"
@@ -404,7 +405,7 @@ VYA = "countries/Vyatichi.txt"
 #Starodub
 #Halych
 #Pereyaslav
-#Bratslavschyn
+#Bratslav
 #Turov
 
 #South Germany

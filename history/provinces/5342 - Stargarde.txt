@@ -4,6 +4,7 @@ owner = POL
 controller = POL
 add_core = POL
 add_core = TEU
+add_core = KSB
 capital = "Stargarde"
 culture = kashubian
 religion = catholic

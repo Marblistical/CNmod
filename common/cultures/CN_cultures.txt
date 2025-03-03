@@ -1189,6 +1189,7 @@ baltic = {
 		}
 	}
 	latvian = {
+		primary = LAT
 		male_names = {
 			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
 			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
@@ -1234,6 +1235,7 @@ baltic = {
 		}
 	}
 	samogitian = {
+		primary = SMG
 		male_names = {
 			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
 			Algirdas Stanislovas Svitrigaila Mindaugas Albertas Andrius Antanas Aras Arturas Azuolas 
@@ -1250,6 +1252,7 @@ baltic = {
 		}
 	}
 	yotvingian = {
+		primary = YOT
 		male_names = {
 			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
 			Algirdas Stanislovas Svitrigaila Mindaugas Albertas Andrius Antanas Aras Arturas Azuolas 
@@ -1266,6 +1269,7 @@ baltic = {
 		}
 	}
 	pruthenian = { #moved from lost cultures
+		primary = PRR
 		male_names = {
 		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas
 		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
@@ -8988,6 +8992,7 @@ west_slavic = {
 	}
 	kashubian = {
 		graphical_culture = easterngfx
+		primary = KSB
 		male_names = {
 			August Wladyslaw Stanislaw Kazimierz Aleksander Henryk Albert Kazimierz Michal Stefan
 			August Aleksander Karol Kazimierz Krzysztof Fryderyk Olbracht Jan Karol Patryk

@@ -571,11 +571,17 @@
  CUR_ADJ:0 "Curonian"
  DOR:0 "Dorpat"
  DOR_ADJ:0 "Dorpater"
- #KSB - Kashubia
+ KSB:0 "Kashubia"
+ KSB_ADJ:0 "Kashubian"
+ LAT:0 "Latvia"
+ LAT_ADJ:0 "Latvian"
  OSE:0 "Ösel-Wiek"
  OSE_ADJ:0 "Ösel-Wieker"
- #PRR = Pruthenia
+ PRR:0 "Pruthenia"
+ PRR_ADJ:0 "Pruthenian"
  REV:0 "Reval"
  REV_ADJ:0 "Revalan"
- #SMG - Samogitia
- #YOT - Yotvingia
+ SMG:0 "Samogitia"
+ SMG_ADJ:0 "Samogitian"
+ YOT:0 "Yotvingia"
+ YOT_ADJ:0 "Yotvingian"
