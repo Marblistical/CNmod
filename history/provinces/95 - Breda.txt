@@ -3,6 +3,7 @@
 owner = BRB
 controller = BRB
 add_core = BRB
+add_core = BRD
 is_city = yes
 capital = "Breda"
 culture = dutch

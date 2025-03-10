@@ -275,10 +275,18 @@ TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
 
-#Elba
+##Aosta
+###Arborea
+#Bari
+#Benevento
+###Caligari
+##Elba
+###Gallura
+##Ivrea
+###Logudoro
 #Lucania
 #Molise
-#Salento
+#Taranto
 
 #Kurdistan
 
@@ -297,14 +305,14 @@ WRE = "countries/WesternRomanEmpire.txt"
 #Low Countries
 ARS = "countries/Artois.txt"
 BOI = "countries/Bouillon.txt"
+BRD = "countries/Breda.txt"
+DRE = "countries/Drenthe.txt"
+LBG = "countries/Limburg.txt"
 OVE = "countries/Oversitcht.txt"
 FSL = "countries/FrisianLands.txt"
 GRN = "countries/Groningen.txt"
 NAM = "countries/Namur.txt"
-
-#Breda
-#Drenthe
-#Zupthen
+ZUT = "countries/Zutphen.txt"
 
 #Maghreb
 CYR = "countries/Cyrenaica.txt"
@@ -405,7 +413,7 @@ VYA = "countries/Vyatichi.txt"
 #Starodub
 #Halych
 #Pereyaslav
-#Bratslav
+#Podolia
 #Turov
 
 #South Germany

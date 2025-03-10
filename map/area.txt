@@ -304,8 +304,12 @@ rouen_area = { #4
 	167 5138 5217 5499
 }
 
-provence_area = { #5
-	201 2991 4696 5236 5237
+provence_area = { #4
+	201 4696 5748 5749
+}
+
+forcalquier_area = { #3
+	2991 5236 5237
 }
 
 poitou_area = { #4
@@ -604,20 +608,24 @@ corsica_area = { #3
 	1247 4962 5303
 }
 
-sardinia_area = { #5
-	127 2986 4735 5304 5305
+logudoro_area = { #3
+	127 5304 5305
+}
+
+sardinia_area = { #3
+	2986 4735 5747
 }
 
 sicily_area = { #4 # now Eastern Sicily
 	124 126 2982 5306
 }
 
-western_sicily_area = { #3
-	125 4736 4737
+western_sicily_area = { #4
+	125 4736 4737 5746
 }
 
-naples_area = { #4  #Campania
-	121 2983 4734 4983
+naples_area = { #5  #Campania
+	121 2983 4734 4983 5744
 }
 
 lazio_area = { #3
@@ -628,8 +636,8 @@ umbria_area = { #4
 	2976 4731 5254 5255
 }
 
-calabria_area = { #4 (+Lucania)
-	123 1934 2984 4981
+calabria_area = { #5 (+Lucania)
+	123 1934 2984 4981 5745
 }
 
 apulia_area = { #5
@@ -1353,8 +1361,8 @@ north_macedonia_area = { #3
 	3001 4780 5397
 }
 
-morea_area = { #4 Central Greece & Crete
-	145 1773 4701 5414
+morea_area = { #5 Central Greece & Crete
+	145 1773 4701 5414 5751
 }
 
 heptanese_area = { #2
@@ -1365,8 +1373,8 @@ south_aegean_area = { #5
 	163 164 320 5415 5737
 }
 
-northern_greece_area = { #4 #Northern Greece
-	143 144 4699 5411
+northern_greece_area = { #5 #Northern Greece
+	143 144 4699 5411 5750
 }
 
 central_greece_area = { #4

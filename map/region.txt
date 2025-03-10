@@ -15,6 +15,7 @@ france_region = {
 		normandy_area
 		rouen_area
 		provence_area
+		forcalquier_area
 		guyenne_area
 		languedoc_area
 		septimania_area
@@ -97,6 +98,7 @@ italy_region = {
 		north_tuscany_area
 		liguria_area
 		corsica_area
+		logudoro_area
 		sardinia_area
 		sicily_area
 		naples_area
