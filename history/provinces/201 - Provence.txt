@@ -1,8 +1,8 @@
-# 201 Provence - Principal cities: Aix-en-Provence, Marseille
+# 201 Provence - Principal cities: Marseille
 
 owner = PRO
 controller = PRO 
-capital = "Aix-en-Provence"
+capital = "Marseille"
 is_city = yes
 culture = provencal
 religion = waldensian

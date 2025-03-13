@@ -3,7 +3,7 @@
 owner = PIE
 controller = PIE
 add_core = PIE
-culture = provencal
+culture = ligurian
 religion = waldensian
 hre = yes
 base_tax = 3

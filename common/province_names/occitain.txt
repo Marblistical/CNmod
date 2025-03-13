@@ -128,7 +128,7 @@
 5234 = "Milhau"
 5235 = "Usès"
 5236 = "Avinhon"
-5237 = "Draguinhan"
+5237 = "Dinha"
 5238 = "Tièrn"
 5239 = "Sant Estève"
 5240 = "Viana"
@@ -149,6 +149,8 @@
 5505 = "Tout"
 5506 = "Sarregueminas"
 5507 = "Vermandés"
+5748 = "Frejús"
+5749 = "Aics"
 
 #Iberia
 197 = "Rosselhon"
