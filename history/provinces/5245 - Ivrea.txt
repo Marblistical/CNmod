@@ -12,6 +12,7 @@ base_manpower = 2
 capital = "Ivrea"
 is_city = yes
 add_core = PIE
+add_core = IVR
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

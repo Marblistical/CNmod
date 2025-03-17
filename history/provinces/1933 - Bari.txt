@@ -12,6 +12,7 @@ base_manpower = 3
 capital = "Bari"
 is_city = yes # Estimated 
 add_core = API
+add_core = BAI
 
 
 

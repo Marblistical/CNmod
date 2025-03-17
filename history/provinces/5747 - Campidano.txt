@@ -4,10 +4,11 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SAR
-controller = SAR
+owner = ARR
+controller = ARR
+add_core = ARR
 add_core = SAR
-
+add_core = CAG
 culture = sardinian 
 religion = catholic 
 capital = "Iglesias"

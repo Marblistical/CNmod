@@ -1,7 +1,7 @@
 # 2986 - Cagliari
 
-owner = SAR
-controller = SAR
+owner = CAG
+controller = CAG
 culture = sardinian 
 religion = catholic 
 hre = no 
@@ -12,6 +12,7 @@ base_manpower = 1
 capital = "Cagliari" 
 is_city = yes # Estimated 
 add_core = SAR
+add_core = CAG
 extra_cost = 8
 center_of_trade = 1
 

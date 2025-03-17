@@ -1,9 +1,9 @@
 # 4725 - Arborea
 
-owner = SAR
-controller = SAR
+owner = ARR
+controller = ARR
+add_core = ARR
 add_core = SAR
-
 culture = sardinian 
 religion = catholic 
 capital = "Oristano"

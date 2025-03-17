@@ -3,6 +3,7 @@
 owner = PIE
 controller = PIE
 add_core = PIE
+add_core = NIC
 culture = ligurian
 religion = waldensian
 hre = yes

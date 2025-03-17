@@ -12,6 +12,7 @@ base_manpower = 2
 capital = "Lecce"
 is_city = yes 
 add_core = API
+add_core = TRN
 
 
 

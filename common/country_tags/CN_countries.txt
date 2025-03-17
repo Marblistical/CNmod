@@ -275,18 +275,17 @@ TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
 
-##Aosta
-###Arborea
-#Bari
-#Benevento
-###Caligari
-##Elba
-###Gallura
-##Ivrea
-###Logudoro
-#Lucania
-#Molise
-#Taranto
+AOS = "countries/Aosta.txt"
+ARR = "countries/Arborea.txt"
+BAI = "countries/Bari.txt"
+BVN = "countries/Benevento.txt"
+CAG = "countries/Cagliari.txt"
+ELB = "countries/Elba.txt"
+IVR = "countries/Ivrea.txt"
+LCN = "countries/Lucania.txt"
+MSE = "countries/Molise.txt"
+NIC = "countries/Nice.txt"
+TRN = "countries/Taranto.txt"
 
 #Kurdistan
 

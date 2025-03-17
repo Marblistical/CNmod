@@ -11,6 +11,7 @@ trade_goods = fruit
 base_manpower = 1
 capital = "Benevento"
 is_city = yes	# Estimated
+add_core = BVN
 add_core = PAP
 discovered_by = western
 discovered_by = eastern
