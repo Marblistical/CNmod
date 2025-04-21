@@ -1,8 +1,7 @@
 #325 - Kastamonu
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = CND
+controller = CND
 add_core = CND
 
 culture = turkish

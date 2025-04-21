@@ -1,8 +1,9 @@
 #4308 - Divrigi
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = RUM
+controller = RUM
+add_core = RUM
+add_core = ERE
 add_core = DUL
 
 culture = arevmdian

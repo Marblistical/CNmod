@@ -1,7 +1,7 @@
 #5537 - Kremenchuk
 
-owner = LIT
-controller = LIT 
+owner = KRE
+controller = KRE
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -12,8 +12,7 @@ base_manpower = 1
 capital = "Kremenchuk"
 is_city = yes
 #add_local_autonomy = 10
-add_core = CHR
-add_core = LIT
+add_core = KRE
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

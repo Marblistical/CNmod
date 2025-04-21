@@ -90,7 +90,6 @@ dependency = {
 
 
 #Hungarian Appanages
-
 dependency = {
 	subject_type = appanage
 	first = HUN
@@ -103,6 +102,71 @@ dependency = {
 	subject_type = appanage
 	first = HUN
 	second = TRA
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+
+#Lithuanian Appanages
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = SMG
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = STD
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = CHR
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = PEY
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = KRE
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = ZAZ
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = KIE
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = PDL
+	start_date = 1415.1.1
+	end_date = 1836.1.1
+}
+dependency = {
+	subject_type = appanage
+	first = LIT
+	second = VOL
 	start_date = 1415.1.1
 	end_date = 1836.1.1
 }

@@ -1,7 +1,7 @@
 #5527 - Rahachow
 
 owner = LIT
-controller = LIT  
+controller = LIT
 culture = byelorussian
 religion = orthodox
 hre = no
@@ -11,6 +11,7 @@ trade_goods = grain
 base_manpower = 1
 capital = "Rahachow"
 is_city = yes
+add_core = STD
 add_core = LIT
 discovered_by = western
 discovered_by = eastern

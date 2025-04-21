@@ -1,7 +1,7 @@
 #5521 - Ushytsia
 
-owner = LIT
-controller = LIT
+owner = PDL
+controller = PDL
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -12,8 +12,7 @@ base_manpower = 1
 capital = "Ushytsia"
 is_city = yes
 add_local_autonomy = 25
-add_core = KIE
-add_core = LIT
+add_core = PDL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

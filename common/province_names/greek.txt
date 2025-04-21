@@ -72,8 +72,8 @@
 2746 = "Vidyne"
 332 = { "Germanikeia" "Germanikeia" }
 2303 = { "Melitene" "Melitene" }
-4298 = { "Germanikeia" "Kalonoros" }
-5068 = { "Telouch" "Telouch" }
+4298 = { "Telouch" "Telouch" }
+5068 = { "Kalonoros " "Kalonoros" }
 5069 = { "Magida" "Magida" }
 5070 = { "Zephyrium" "Zephyrium" }
 5072 = "Cerasus"

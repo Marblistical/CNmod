@@ -1,7 +1,7 @@
 #5534 - Kryvyi Rih
 
-owner = LIT
-controller = LIT
+owner = ZAZ
+controller = ZAZ
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,6 @@ trade_goods = grain
 base_manpower = 1
 capital = "Kryvyi Rih"
 is_city = yes
-add_core = LIT
 add_core = ZAZ
 discovered_by = western
 discovered_by = eastern

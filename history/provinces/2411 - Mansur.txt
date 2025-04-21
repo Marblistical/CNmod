@@ -1,7 +1,7 @@
 #2411 - Mansur
 
-owner = LIT
-controller = LIT
+owner = KRE
+controller = KRE
 culture = crimean
 religion = sunni
 hre = no
@@ -11,7 +11,7 @@ trade_goods = honey
 base_manpower = 1
 capital = "Mansur"
 is_city = yes
-add_core = LIT
+add_core = KRE
 add_core = CRI
 discovered_by = western
 discovered_by = eastern

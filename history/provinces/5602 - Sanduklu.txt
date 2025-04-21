@@ -1,9 +1,8 @@
 #5602 - Sanduklu
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = GRM
+owner = SHB
+controller = SHB
+add_core = SHB
 
 culture = turkish
 religion = sunni

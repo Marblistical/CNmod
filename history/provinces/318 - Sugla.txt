@@ -1,8 +1,7 @@
 #318 - Sugla
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = AYD
+controller = AYD
 add_core = KNI
 add_core = AYD
 

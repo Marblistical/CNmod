@@ -1,7 +1,7 @@
 #282 - Yedisan
 
-owner = LIT
-controller = LIT
+owner = ZAZ
+controller = ZAZ
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -12,7 +12,6 @@ base_manpower = 1
 capital = "Hajibey"
 is_city = yes
 add_local_autonomy = 25
-add_core = LIT
 add_core = ZAZ
 discovered_by = western
 discovered_by = eastern

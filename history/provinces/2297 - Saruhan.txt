@@ -1,8 +1,7 @@
 #2297 - Saruhan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = SRU
+controller = SRU
 add_core = SRU
 
 culture = greek

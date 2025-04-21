@@ -1,7 +1,7 @@
 #283 - Zaporozhia
 
-owner = LIT
-controller = LIT
+owner = ZAZ
+controller = ZAZ
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,6 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Sich"
 is_city = yes
-add_core = LIT
 add_core = ZAZ
 discovered_by = western
 discovered_by = eastern

@@ -1,7 +1,7 @@
 #5535 - Perekop
 
-owner = LIT
-controller = LIT
+owner = ZAZ
+controller = ZAZ
 culture = crimean
 religion = sunni
 hre = no
@@ -11,7 +11,7 @@ trade_goods = salt
 base_manpower = 1
 capital = "Perekop"
 is_city = yes
-add_core = LIT
+add_core = ZAZ
 add_core = CRI
 
 

@@ -1,9 +1,10 @@
 #2301 - Kayseri
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = RUM
+controller = RUM
+add_core = RUM
 add_core = KAR
+add_core = ERE
 
 culture = cappadocian
 religion = orthodox

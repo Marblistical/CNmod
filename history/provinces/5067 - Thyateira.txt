@@ -1,7 +1,7 @@
 #5067 - Thyateira
 
-owner = SLJ
-controller = SLJ
+owner = SRU
+controller = SRU
 culture = greek
 religion = orthodox
 capital = "Thyateira"
@@ -12,7 +12,6 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = SRU
-add_core = SLJ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -1,12 +1,12 @@
 #Anatolia
+AHI = "countries/Ahis.txt"
+CIK = "countries/Canik.txt"
+HMD = "countries/Hamid.txt"
 HTM = "countries/Hetumids.txt"
 MUS = "countries/Musaids.txt"
-
-#Ahis
-#Karasid
-#Hamid
-#Sahib
-#Teke
+KRI = "countries/Karasid.txt"
+SHB = "countries/SahibAta.txt"
+TKK = "countries/Teke.txt"
 
 #Arabia
 AKG = "countries/Akgulids.txt"
@@ -69,11 +69,25 @@ RIJ = "countries/Rijeka.txt"
 SFY = "countries/Sofia.txt"
 VAR = "countries/Varna.txt"
 
+#Banat
+#Cephalonia
+#Chios
+#Karvuna
+#Kiralyfold
+#Kunsag
 #Lemnos
 #Lesbos
 #Negroponte
+#Oltenia
 #Samos
+#Severin
+#Slavonia
+#Szekelyfold
+#Prilep
 #Thessaly
+#Velbazhd
+#Vidin
+#Zakarpattia
 
 #Baltics
 CUR = "countries/Curonia.txt"
@@ -95,7 +109,7 @@ BLK = "countries/Balkaria.txt"
 DUR = "countries/Durdzuketia.txt"
 KAI = "countries/Kaitag.txt"
 KHZ = "countries/Khazaria.txt"
-TKK = "countries/Tarki.txt"
+TRK = "countries/Tarki.txt"
 QUB = "countries/Quba.txt"
 
 #Abkhazia
@@ -289,17 +303,17 @@ TRN = "countries/Taranto.txt"
 
 #Kurdistan
 
-#Cemisgezek
-#Donboli
-#Palu
-#Egil
-#Sason
-#Bohtan
-#Si'irt
-#Hakkari
-#Bahdinan
-#Tyari
-#Baban
+#BAB = "countries/Baban
+#BHD = "countries/Bahdinan
+#BHT = "countries/Bohtan
+#CGZ = "countries/Cemisgezek
+#DBL = "countries/Donboli
+#EGL = "countries/Egil
+#HKK = "countries/Hakkari
+#PLU = "countries/Palu
+#SRT = "countries/Si'irt
+#SSO = "countries/Sason
+#TYA = "countries/Tyari
 
 #Low Countries
 ARS = "countries/Artois.txt"
@@ -408,12 +422,12 @@ VLG = "countries/Vologda.txt"
 VYA = "countries/Vyatichi.txt"
 
 #Ruthenia
-
-#Starodub
-#Halych
-#Pereyaslav
-#Podolia
-#Turov
+HAL = "countries/Halych.txt"
+KRE = "countries/Kremenchuk.txt"
+PDL = "countries/Podolia.txt"
+PEY = "countries/Pereyaslav.txt"
+STD = "countries/Starodub.txt"
+TUV = "countries/Turov.txt"
 
 #South Germany
 ASC = "countries/Aschaffenburg.txt"

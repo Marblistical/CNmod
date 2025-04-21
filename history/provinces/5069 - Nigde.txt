@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SLJ
-controller = SLJ
+owner = KAR
+controller = KAR
 add_core = KAR
 culture = cappadocian
 religion = orthodox
@@ -16,7 +16,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = SLJ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

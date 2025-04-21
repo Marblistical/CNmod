@@ -1,8 +1,7 @@
 #5736 - Traianopolis
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = GRM
+controller = GRM
 add_core = GRM
 
 culture = greek

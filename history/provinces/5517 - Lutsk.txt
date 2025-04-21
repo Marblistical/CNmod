@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LIT
-controller = LIT
+owner = VOL
+controller = VOL
 culture = volhynian
 religion = orthodox
 hre = no
@@ -16,7 +16,6 @@ base_manpower = 2
 capital = "Lutsk"
 is_city = yes
 add_core = VOL
-add_core = LIT
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

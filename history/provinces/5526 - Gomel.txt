@@ -1,7 +1,7 @@
 #5526 - Gomel
 
 owner = LIT
-controller = LIT  
+controller = LIT
 culture = byelorussian
 religion = orthodox
 hre = no
@@ -12,6 +12,7 @@ base_manpower = 1
 capital = "Gomel"
 is_city = yes
 add_core = LIT
+add_core = STD
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

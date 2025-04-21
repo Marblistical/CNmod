@@ -1,9 +1,8 @@
 #2304 - Canik
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = CND
+owner = CIK
+controller = CIK
+add_core = CIK
 
 culture = pontic_greek
 religion = orthodox

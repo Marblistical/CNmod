@@ -8581,6 +8581,7 @@ kipchak = {
 		"Chagatay" "Edigüid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
 	}
 	kumyk = {
+		primary = TRK
 		male_names = {
 			placeholder
 		}

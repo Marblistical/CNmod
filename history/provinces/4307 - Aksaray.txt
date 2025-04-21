@@ -1,8 +1,7 @@
 #4307 - Aksaray
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KAR
+controller = KAR
 add_core = KAR
 
 culture = turkish

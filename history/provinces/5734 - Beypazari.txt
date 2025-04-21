@@ -1,8 +1,7 @@
 #5734 - Beypazari
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = TUR
+controller = TUR
 add_core = TUR
 
 culture = turkish

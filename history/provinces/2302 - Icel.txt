@@ -1,9 +1,8 @@
 #2302 - Içel
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = KAR
+owner = HTM
+controller = HTM
+add_core = HTM
 
 culture = cappadocian
 religion = orthodox

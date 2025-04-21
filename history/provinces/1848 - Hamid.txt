@@ -1,9 +1,8 @@
 #1848 - Hamid
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = KAR
+owner = HMD
+controller = HMD
+add_core = HMD
 
 culture = greek
 religion = orthodox

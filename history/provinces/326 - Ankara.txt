@@ -1,9 +1,8 @@
 #326 - Ankara
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = TUR
+owner = AHI
+controller = AHI
+add_core = AHI
 
 culture = turkish
 religion = sunni

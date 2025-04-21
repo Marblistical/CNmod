@@ -1,0 +1,84 @@
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = CIK
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = AHI
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = KAR
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = TKK
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = SHB
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = TUR
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = GRM
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = HMD
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = MEN
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = AYD
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = SRU
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = RUM
+	second = KRI
+	start_date = 1415.1.1
+	end_date = 1822.1.1
+}

@@ -12,7 +12,7 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = POL
-add_core = VOL
+add_core = HAL
 extra_cost = 8
 center_of_trade = 1
 

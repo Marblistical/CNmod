@@ -1,9 +1,8 @@
 #5601 - Philadelphia
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = GRM
+owner = SRU
+controller = SRU
+add_core = SRU
 
 culture = greek
 religion = orthodox

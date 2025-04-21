@@ -1,9 +1,8 @@
 #5596 - Adramyttium
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = SRU
+owner = KRI
+controller = KRI
+add_core = KRI
 
 culture = greek
 religion = orthodox

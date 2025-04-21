@@ -1,9 +1,8 @@
 #5068 - Alaiye
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = MEN
+owner = TKK
+controller = TKK
+add_core = TKK
 
 culture = greek
 religion = orthodox

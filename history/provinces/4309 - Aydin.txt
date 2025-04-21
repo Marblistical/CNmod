@@ -1,8 +1,7 @@
 #4309 - Aydin
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = AYD
+controller = AYD
 add_core = AYD
 
 culture = greek

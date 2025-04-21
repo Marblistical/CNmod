@@ -12,6 +12,7 @@ base_manpower = 1
 capital = "Minsk"
 is_city = yes
 add_core = LIT
+add_core = PLT
 #fort_15th = yes
 discovered_by = western
 discovered_by = eastern

@@ -4,9 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = TUR
+controller = TUR
 add_core = TUR
 
 culture = greek

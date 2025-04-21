@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LIT
-controller = LIT
+owner = KRE
+controller = KRE
 culture = crimean
 religion = sunni
 hre = no
@@ -15,7 +15,7 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Tyn"
 is_city = yes
-add_core = LIT
+add_core = KRE
 add_core = CRI
 discovered_by = western
 discovered_by = eastern
