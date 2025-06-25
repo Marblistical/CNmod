@@ -1,12 +1,12 @@
-#5637 - Hakkari
+#5637 - Gevas"
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = MHM
+controller = MHM
+add_core = MHM
 
-culture = assyrian
-religion = nestorian
-capital = "Colemerg"
+culture = kurdish
+religion = sunni
+capital = "Gevas"
 
 trade_goods = livestock
 hre = no

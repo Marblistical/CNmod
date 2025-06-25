@@ -5,7 +5,7 @@ controller = SLJ
 add_core = SLJ
 add_core = QOM
 
-culture = persian
+culture = halach
 religion = sunni
 capital = "Soltan Abad"
 

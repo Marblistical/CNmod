@@ -3,7 +3,8 @@
 owner = GEO
 controller = GEO
 add_core = GEO
-add_core = ARM 
+add_core = YER
+add_core = KRT
 
 culture = armenian
 religion = apostolic

@@ -3,10 +3,10 @@
 owner = KHZ
 controller = KHZ
 add_core = KHZ
-add_core = CIR
+add_core = UBY
 
-culture = circassian
-religion = orthodox
+culture = ubykh
+religion = animism
 capital = "Sochi"
 
 trade_goods = honey

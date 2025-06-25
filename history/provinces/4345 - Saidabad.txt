@@ -9,7 +9,7 @@ culture = persian
 religion = shiite
 capital = "Saidabad"
 
-trade_goods = livestock
+trade_goods = nuts
 hre = no
 base_tax = 1
 base_production = 1

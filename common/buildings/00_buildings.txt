@@ -2372,6 +2372,7 @@ plantations = {
 		tobacco
 		tea
 		cocoa
+		nuts
 	}
 	onmap = yes
 	on_built = {
@@ -2466,6 +2467,8 @@ farm_estate = {
 		olives
 		beer
 		honey
+		horses
+		legumes
 	}
 	onmap = yes
 	on_built = {
@@ -2688,6 +2691,7 @@ soldier_households = {
 		olives
 		beer
 		honey
+		horses
 	}
 
 	modifier = {

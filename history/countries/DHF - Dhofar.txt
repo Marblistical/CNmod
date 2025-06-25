@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = dhofari_culture
+religion = sunni
+technology_group = muslim
+capital = 401
+religious_school = shafii_school
+
+
+1415.1.1 = {		#Fictional
+	monarch = {
+		name = "Ibrahim"
+		dynasty = "al-Habudi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

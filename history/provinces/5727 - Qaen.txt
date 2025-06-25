@@ -1,8 +1,7 @@
 #5727 - Qaen
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
 add_core = KHO
 
 culture = khorasani

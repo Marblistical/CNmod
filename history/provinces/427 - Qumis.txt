@@ -1,12 +1,11 @@
 #427 - Qumis
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
 add_core = KHO
 
 culture = khorasani
-religion = shiite
+religion = sunni
 capital = "Damghan"
 
 trade_goods = cloth

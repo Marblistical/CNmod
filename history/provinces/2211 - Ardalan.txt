@@ -1,8 +1,7 @@
 #2211 - Ardalan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = ARD
+controller = ARD
 add_core = ARD
 
 culture = sorani

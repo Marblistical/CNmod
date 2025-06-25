@@ -1,15 +1,15 @@
 #449 - Ghor
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
+add_core = KHO
 add_core = AFG
 
 culture = hazara
 religion = shiite
 capital = "Ahangaran"
 
-trade_goods = iron
+trade_goods = lead
 hre = no
 base_tax = 1
 base_production = 1

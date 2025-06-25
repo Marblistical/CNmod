@@ -1,9 +1,9 @@
 #2306 - Mush
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = AKK
+owner = BTL
+controller = BTL
+add_core = BTL
+add_core = TUB
 
 culture = karin
 religion = apostolic

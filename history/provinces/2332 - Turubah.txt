@@ -1,9 +1,8 @@
 #2332 - Truba
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = HED
+owner = BHH
+controller = BHH
+add_core = BHH
 
 culture = hejazi_culture
 religion = sunni

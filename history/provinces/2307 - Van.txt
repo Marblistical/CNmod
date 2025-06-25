@@ -1,10 +1,9 @@
 #2307 - Van
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = BTL
-add_core = ARM
+owner = QAR
+controller = QAR
+add_core = QAR
+add_core = VSP
 
 culture = armenian
 religion = apostolic

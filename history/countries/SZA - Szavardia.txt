@@ -1,0 +1,11 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = nomad_group
+
+religion = tengri_pagan_reformed
+
+primary_culture = szavard
+
+capital = 5076
+

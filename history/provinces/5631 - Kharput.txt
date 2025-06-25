@@ -5,8 +5,8 @@ controller = SLJ
 add_core = SLJ
 add_core = AKK
 
-culture = zaza
-religion = sunni
+culture = arevmdian
+religion = apostolic
 capital = "Kharput"
 
 trade_goods = cloth

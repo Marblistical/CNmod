@@ -8,7 +8,7 @@ culture = cham
 religion = hinduism
 capital = "Vijaya"
 
-trade_goods = tropical_wood
+trade_goods = tin
 hre = no
 base_tax = 5
 base_production = 5

@@ -1,11 +1,10 @@
 #5076 - Tserlona
 
-owner = KHZ
-controller = KHZ
-add_core = KHZ
-add_core = DUR
+owner = SZA
+controller = SZA
+add_core = SZA
 culture = szavard
-religion = jewish
+religion = tengri_pagan_reformed
 capital = "Tserlona"
 
 trade_goods = iron

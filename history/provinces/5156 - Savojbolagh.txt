@@ -1,10 +1,9 @@
 #2035 - Urmia
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = QAR
-add_core = MGR
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = URM
 
 culture = sorani
 religion = sunni

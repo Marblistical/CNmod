@@ -10,7 +10,7 @@ culture = malayan
 religion = sunni
 capital = "Kelang"
 
-trade_goods = rice
+trade_goods = tin
 hre = no
 base_tax = 3 
 base_production = 3

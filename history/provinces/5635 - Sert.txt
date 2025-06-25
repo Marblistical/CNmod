@@ -1,12 +1,12 @@
 #5635 - Sert
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = SRT
+controller = SRT
+add_core = SRT
 
 culture = kurdish
 religion = sunni
-capital = "Sêrt"
+capital = "Sert"
 
 trade_goods = cloth
 hre = no

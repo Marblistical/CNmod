@@ -1,9 +1,8 @@
 #5615 - Manazkert
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = ARM
+owner = TUB
+controller = TUB
+add_core = TUB
 
 culture = karin
 religion = apostolic

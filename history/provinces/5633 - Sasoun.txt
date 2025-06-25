@@ -1,9 +1,8 @@
 #5633 - Sasoun
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = AKK
+owner = SSO
+controller = SSO
+add_core = SSO
 
 culture = karin
 religion = apostolic

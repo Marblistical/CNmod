@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = yemen_culture
+religion = sunni
+technology_group = muslim
+capital = 4283
+religious_school = shafii_school
+historical_rival = HDR
+historical_rival = MHR
+historical_friend = SOC
+
+1882.1.1 = {
+	monarch = {
+		name = "Abdullah bin Omar"
+		dynasty = "Al Quaiti"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

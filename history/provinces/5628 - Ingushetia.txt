@@ -3,6 +3,7 @@
 owner = DUR
 controller = DUR
 add_core = DUR
+add_core = IGS
 
 culture = ingush
 religion = animism

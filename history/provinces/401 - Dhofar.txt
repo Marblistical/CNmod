@@ -1,8 +1,8 @@
 #401 - Dhofar
 
-owner = MHR
-controller = MHR
-culture = mahri_culture
+owner = DHF
+controller = DHF
+culture = dhofari_culture
 religion = sunni
 capital = "Salalah"
 trade_goods = incense
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = MHR
+add_core = DHF
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

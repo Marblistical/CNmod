@@ -4,7 +4,6 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = IRQ
-add_core = QAR
 
 culture = al_iraqiya_arabic
 religion = sunni
@@ -12,8 +11,8 @@ capital = "Baghdad"
 
 trade_goods = jewelry
 hre = no
-base_tax = 4
-base_production = 4
+base_tax = 5
+base_production = 5
 base_manpower = 4
 is_city = yes
 fort_15th = yes

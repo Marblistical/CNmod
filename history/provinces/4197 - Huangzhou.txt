@@ -12,7 +12,7 @@ culture = hubei
 religion = confucianism
 capital = "Huangzhou"
 
-trade_goods = rice
+trade_goods = legumes
 hre = no
 base_tax = 2
 base_production = 2

@@ -1,10 +1,10 @@
 #2035 - Khoy
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = QAR
-add_core = TBR
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = DBL
+add_core = VSP
 
 culture = armenian
 religion = apostolic

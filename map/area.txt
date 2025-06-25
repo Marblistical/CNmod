@@ -1548,9 +1548,9 @@ kura_area = { #3
 	4305 5082 5626
 }
 
-shirvan_area = { #5 #Northern Azerbaijan
+shirvan_area = { #4 #Northern Azerbaijan
 	color = { 225 231 53 }
-	421 425 4299 5083 5627
+	421 425 4299 5627
 }
 
 circassia_area = { #5
@@ -1570,20 +1570,20 @@ dagestan_area = { #5
 # Anatolia, The Levant & Mesopotamia   #
 ########################################
 
-rum_area = { #5
-	329 1846 2300 4310 4315
+amasya_area = {	#3
+	1846 2300 4315
 }
 
-ayrarat_area = { #3
-	4302 5615 5616
+rum_area = { #4
+	329 4310 5614 5758
 }
 
-vaspurakan_area = { #3
-	2306 2307 4296
+ayrarat_area = { #4
+	4302 5615 5616 5752
 }
 
-erzurum_area = { #4
-	331 2305 5614 5617
+erzurum_area = { #3
+	331 2305 5617
 }
 
 hudavendigar_area = { #4
@@ -1655,11 +1655,15 @@ jazira_area = { #4
 }
 
 aleppo_area = { #4
-	377 405 1849 5647
+	377 4298 5647 5761
+}
+
+homs_area = { #4
+	405 1849 4297 5762
 }
 
 syria_area = { #4
-	382 4271 4297 5650
+	382 4271 5650 5763
 }
 
 trans_jordan_area = { #4
@@ -1676,11 +1680,11 @@ CN_sinai_area = { #3
 
 dulkadir_area = { #5
 	color = { 184 54 72 }
-	332 2303 4298 5612 5613
+	332 2303 5612 5613 5760
 }
 
-iraq_arabi_area = { #4 Lower Mesopotamia
-	410 4291 5687 5689
+iraq_arabi_area = { #5 Lower Mesopotamia
+	410 4291 5687 5689 5756
 }
 
 basra_area = { #4
@@ -1692,15 +1696,23 @@ luristan_area = { #4
 }
 
 north_kurdistan_area = { #5
-	418 4295 2308 4292 5634
+	418 2308 4292 5634 5759
 }
 
-harput_area = { #5
-	5629 5630 5631 5632 5633
+harput_area = { #4
+	5629 5630 5631 5632
 }
 
-hakkari_area = { #4
-	5635 5636 5637 5638
+mush_area = { #4
+	2306 4296 5633 5635
+}
+
+bohtan_area = { #4
+	4295 5084 5636 5757
+}
+
+gevas_area = { #3
+	2307 5637 5638 
 }
 
 khuzestan_area = {  #4
@@ -1714,7 +1726,7 @@ shahrizor_area = {	#5
 
 mosul_area = { #4
 	color = { 92 200 92 }
-	411 2310 2309 5084
+	411 2310 2309 5753
 }
 
 dulaim_area = { #3
@@ -2609,12 +2621,12 @@ ray_area = { #3
 	428 5700 5701
 }
 
-azerbaijan_area = { #5
-	416 2207 4300 5155 5693
+azerbaijan_area = { #4
+	416 2207 5155 5693
 }
 
-ardabil_area = { #3
-	424 5694 5695
+ardabil_area = { #4
+	424 4300 5694 5695
 }
 
 isfahan_area = { #5
@@ -2634,7 +2646,11 @@ tabarestan_area = { #5
 }
 
 gilak_area = { #4
-	417 4339 4340 5696
+	417 4339 5696 5755
+}
+
+mughan_area = { #3
+	4340 5083 5754
 }
 
 ########################################

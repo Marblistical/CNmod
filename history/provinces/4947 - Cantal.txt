@@ -10,7 +10,7 @@ religion = catholic
 hre = yes
 base_tax = 1
 base_production = 1
-trade_goods = beer
+trade_goods = tin
 base_manpower = 1
 
 discovered_by = eastern

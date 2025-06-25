@@ -1,9 +1,9 @@
 #5694 - Sarab
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = ARL
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = SRA
 
 culture = azerbaijani
 religion = shiite

@@ -9,32 +9,40 @@ SHB = "countries/SahibAta.txt"
 TKK = "countries/Teke.txt"
 
 #Arabia
+AKA = "countries/Akoura.txt"
 AKG = "countries/Akgulids.txt"
-
-#Antioch
-#Alawite
-#Al-Quds
-#Karak
-
-#Ruwallah
-#Qassim
-#Unaizah
-#Utbah
-#Maadeed
-#Sudair
-#Harb
-#Otaibah
-#Tamim
-#Kharj
-
-#Shabwah
-#Wahidi
-#Beihan
-#Aulaqi
-#Fadhli
-#Asir
-#Bishah
-#Lahej
+AKR = "countries/Karak.txt"
+ALP = "countries/Aleppo.txt"
+ALW = "countries/Alawites.txt"
+AQI = "countries/Aulaqi.txt"
+ASR = "countries/Asir.txt"
+ATC = "countries/Antioch.txt"
+BHH = "countries/Bishah.txt"
+BHN = "countries/Beihan.txt"
+DHF = "countries/Dhofar.txt"
+DSS = "countries/Damascus.txt"
+FDI = "countries/Fadhli.txt"
+HDH = "countries/Hudaydah.txt"
+HRB = "countries/Harb.txt"
+JAZ = "countries/Jazira.txt"
+KHJ = "countries/Kharj.txt"
+MEE = "countries/Maadeed.txt"
+MRU = "countries/Diryah.txt"
+OTB = "countries/Otaibah.txt"
+QSS = "countries/Qassim.txt"
+QTI = "countries/Quaiti.txt"
+QUD = "countries/Quds.txt"
+RWL = "countries/Ruwallah.txt"
+SDR = "countries/Sudair.txt"
+SHW = "countries/Shabwah.txt"
+SOC = "countries/Socotra.txt"
+THR = "countries/Tahir.txt"
+TMM = "countries/Tamim.txt"
+UBA = "countries/Utbah.txt"
+UNZ = "countries/Unaizah.txt"
+WHD = "countries/Wahidi.txt"
+ZAI = "countries/Zaid.txt"
+ZBI = "countries/Zabid.txt"
 
 #Australia
 AQJ = "countries/QarnJadid.txt"
@@ -104,30 +112,31 @@ YOT = "countries/Yotvingia.txt"
 VIN = "countries/Vinland.txt"
 
 #Caucasus
+ABK = "countries/Abkhazia.txt"
 ALN = "countries/Alania.txt"
 BLK = "countries/Balkaria.txt"
+DER = "countries/Derbent.txt"
 DUR = "countries/Durdzuketia.txt"
+ERZ = "countries/Erzurum.txt"
+KAB = "countries/Kabardia.txt"
 KAI = "countries/Kaitag.txt"
+KAK = "countries/Kakheti.txt"
 KHZ = "countries/Khazaria.txt"
-TRK = "countries/Tarki.txt"
+KRT = "countries/Kartli.txt"
+LAZ = "countries/Lazistan.txt"
+MGL = "countries/Mingrelia.txt"
+NKH = "countries/Nakhichevan.txt"
+IGS = "countries/Ingushetia.txt"
 QUB = "countries/Quba.txt"
-
-#Abkhazia
-#Derbent
-#Erzurum
-#Kakheti
-#Kartli
-#Lazistan
-#Mingrelia
-#Nakhichevan
-#Ingushetia
-#Sebastia
-#Svaneti
-#Szavardia
-#Turuberan
-#Utik
-#Vaspurakan
-#Yerevan
+SVA = "countries/Svaneti.txt"
+SVS = "countries/Sebastia.txt"
+SZA = "countries/Szavardia.txt"
+TUB = "countries/Turuberan.txt"
+TKU = "countries/Tarki.txt"
+UBY = "countries/Ubykh.txt"
+UTK = "countries/Utik.txt"
+YER = "countries/Yerevan.txt"
+VSP = "countries/Vaspurakan.txt"
 
 #Central Asia
 LIA = "countries/WesternLiao.txt"
@@ -254,27 +263,37 @@ TMR = "countries/Timor.txt"
 
 #Italy
 ABR = "countries/Abruzzo.txt"
+AOS = "countries/Aosta.txt"
 ANC = "countries/Ancona.txt"
 API = "countries/Apulia.txt"	
 ARE = "countries/Arezzo.txt"
+ARR = "countries/Arborea.txt"
 ASD = "countries/Alessandria.txt"
 AQL = "countries/D'Aquila.txt"
+BAI = "countries/Bari.txt"
 BIE = "countries/Biella.txt"
 BTA = "countries/Bastia.txt"
 BEL = "countries/Belluno.txt"
 BEG = "countries/Bergamo.txt"
 BOB = "countries/Bobbio.txt"
 BRC = "countries/Brescia.txt"
+BVN = "countries/Benevento.txt"
+CAG = "countries/Cagliari.txt"
 CLR = "countries/Calabria.txt"
 CMR = "countries/Camerino.txt"
 CNA = "countries/Carnia.txt"
+ELB = "countries/Elba.txt"
 FOG = "countries/Foggia.txt"
 FNL = "countries/Finale.txt"
 FRL = "countries/Forli.txt"
 GRO = "countries/Grosseto.txt"
+IVR = "countries/Ivrea.txt"
 KLB = "countries/Kalbids.txt"
+LCN = "countries/Lucania.txt"
+MSE = "countries/Molise.txt"
 MSS = "countries/Massa.txt"
 MNC = "countries/Monaco.txt"
+NIC = "countries/Nice.txt"
 NVA = "countries/Novara.txt"
 PCZ = "countries/Piacenza.txt"
 PIE = "countries/Piedmont.txt"
@@ -284,36 +303,37 @@ RAV = "countries/Ravenna.txt"
 RGO = "countries/Reggio.txt"
 RMI = "countries/Rimini.txt"
 SAN = "countries/SanMarino.txt"
+TRN = "countries/Taranto.txt"
 TRO = "countries/Treviso.txt"
 TST = "countries/Trieste.txt"
 VIC = "countries/Vicenza.txt"
 WRE = "countries/WesternRomanEmpire.txt"
 
-AOS = "countries/Aosta.txt"
-ARR = "countries/Arborea.txt"
-BAI = "countries/Bari.txt"
-BVN = "countries/Benevento.txt"
-CAG = "countries/Cagliari.txt"
-ELB = "countries/Elba.txt"
-IVR = "countries/Ivrea.txt"
-LCN = "countries/Lucania.txt"
-MSE = "countries/Molise.txt"
-NIC = "countries/Nice.txt"
-TRN = "countries/Taranto.txt"
+#Khorasan
+
+#Bampur
+#Geh
+#Gorgan
+#Kalat
+#Kharan
+#Sarhad
+#Shastoon
 
 #Kurdistan
-
-#BAB = "countries/Baban
-#BHD = "countries/Bahdinan
-#BHT = "countries/Bohtan
-#CGZ = "countries/Cemisgezek
-#DBL = "countries/Donboli
-#EGL = "countries/Egil
-#HKK = "countries/Hakkari
-#PLU = "countries/Palu
-#SRT = "countries/Si'irt
-#SSO = "countries/Sason
-#TYA = "countries/Tyari
+BAB = "countries/Baban.txt"
+BHD = "countries/Bahdinan.txt"
+CGZ = "countries/Cemisgezek.txt"
+DBL = "countries/Donboli.txt"
+EGL = "countries/Egil.txt"
+HKK = "countries/Hakkari.txt"
+KLS = "countries/Kilis.txt"
+MHM = "countries/Mahmudi.txt"
+PLU = "countries/Palu.txt"
+SNJ = "countries/Sinjar.txt"
+SRN = "countries/Soran.txt"
+SRT = "countries/Si'irt.txt"
+SSO = "countries/Sason.txt"
+TYA = "countries/Tyari.txt"
 
 #Low Countries
 ARS = "countries/Artois.txt"
@@ -376,15 +396,20 @@ WOM = "countries/Worms.txt"
 RIA = "countries/Riganids.txt"
 SLJ = "countries/Seljuqids.txt"
 
-#Amol
-#Biapish
-#Larestan
-#Rustamdar
-#Sarab
-#Sari
-#Talysh
-#Qashqaistan
-#Urmia
+AML = "countries/Amol.txt"
+AZE = "countries/Azerbaijan.txt"
+#BSK Bashkerd
+#BTK Bastak
+GIL = "countries/Gilan.txt"
+KDG = "countries/Karadagh.txt"
+#KHL Khalajestan
+RUD = "countries/Rustamdar.txt"
+SRA = "countries/Sarab.txt"
+SRI = "countries/Sari.txt"
+TLY = "countries/Talysh.txt"
+#QSH Qashqaistan
+URM = "countries/Urmia.txt"
+ZJN = "countries/Zanjan.txt"
 
 #Peru
 TCY = "countries/Tacaynamics.txt"

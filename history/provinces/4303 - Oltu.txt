@@ -1,14 +1,12 @@
 #4303 - Oltu
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = SME
+controller = SME
 add_core = SME
-add_core = GEO
-add_core = ARM
+add_core = ERZ
 
 culture = karin
-religion = apostolic
+religion = orthodox
 capital = "Oltu"
 
 trade_goods = wool

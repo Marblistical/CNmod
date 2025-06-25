@@ -4,7 +4,6 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = LEB
-add_core = SYR
 
 culture = al_suryah_arabic
 religion = sunni
@@ -12,8 +11,8 @@ capital = "Trablos" #Tripoli in the East.
 
 trade_goods = sugar
 hre = no
-base_tax = 5
-base_production = 5
+base_tax = 3
+base_production = 4
 base_manpower = 4
 is_city = yes
 

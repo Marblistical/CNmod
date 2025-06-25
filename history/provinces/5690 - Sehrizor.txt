@@ -1,9 +1,8 @@
 #5690 - Sehrizor
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = IRQ
+owner = BAB
+controller = BAB
+add_core = BAB
 
 culture = sorani
 religion = sunni

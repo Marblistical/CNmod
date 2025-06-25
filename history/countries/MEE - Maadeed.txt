@@ -1,0 +1,18 @@
+government_rank = 1
+government = tribal
+add_government_reform = bedouin_tribe
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = sunni
+capital = 5657
+religious_school = hanbali_school			
+
+1415.1.1 = {		#Ficional
+	monarch = {
+		name = "Mudar bin Nizar"
+		dynasty = "al Thani"
+		dip = 5
+		mil = 3
+		adm = 5
+	}
+}

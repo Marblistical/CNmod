@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+mercantilism = 25
+primary_culture = gilaki
+add_accepted_culture = talysh
+religion = sunni
+technology_group = muslim
+capital = 4339 # Rasht
+religious_school = shafii_school

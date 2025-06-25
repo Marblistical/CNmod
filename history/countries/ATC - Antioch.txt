@@ -1,0 +1,11 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+primary_culture = antiochian
+religion = orthodox
+technology_group = muslim
+capital = 2313
+government_rank = 1
+
+
+
+

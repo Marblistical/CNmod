@@ -1,7 +1,7 @@
 #5080 - Svaneti
 
-owner = GEO
-controller = GEO
+owner = IME
+controller = IME
 culture = svan
 religion = orthodox
 capital = "Mestia"
@@ -12,7 +12,7 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = IME
-add_core = GEO
+add_core = SVA
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

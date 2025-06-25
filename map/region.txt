@@ -416,6 +416,7 @@ egypt_region = {
 		trans_jordan_area
 		phoenicia_area
 		lebanon_area
+		homs_area
 		aleppo_area
 	}
 }
@@ -463,10 +464,11 @@ mashriq_region = {
 		jazira_area
 		batihah_area
 		dulaim_area
-		vaspurakan_area
 		north_kurdistan_area
 		harput_area
-		hakkari_area
+		bohtan_area
+		mush_area
+		gevas_area
 		khuzestan_area
 		karun_area
 	}
@@ -482,6 +484,7 @@ anatolia_region = {
 		karaman_area
 		ottoman_area
 		rum_area
+		amasya_area
 		kastamonu_area
 		trebizond_area
 		erzurum_area
@@ -512,6 +515,7 @@ persia_region = {
 		zanjan_area
 		urmia_area
 		gilak_area
+		mughan_area
 		kohgiluyeh_area 
 		zagros_area
 		qashqaistan_area

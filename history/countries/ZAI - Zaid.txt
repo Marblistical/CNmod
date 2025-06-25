@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = bedouin_arabic
+religion = sunni
+technology_group = muslim
+capital = 5659
+religious_school = hanbali_school
+
+1415.1.1 = {		#Fictional
+	monarch = {
+		name = "Khair"
+		dynasty = "Bani Zaid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

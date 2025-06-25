@@ -1,8 +1,8 @@
 # 2350 - Konjikala
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
+add_core = KHO
 add_core = KHI
 
 culture = turkmeni

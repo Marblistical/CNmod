@@ -32,3 +32,31 @@ union = {
 	start_date = 1400.1.1
 	end_date = 1822.1.1
 }
+
+union = {
+	first = SLJ
+	second = QUD
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+union = {
+	first = SLJ
+	second = HED
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+union = {
+	first = SLJ
+	second = AZE
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}
+
+union = {
+	first = SLJ
+	second = KHO
+	start_date = 1400.1.1
+	end_date = 1822.1.1
+}

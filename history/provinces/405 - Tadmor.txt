@@ -1,10 +1,8 @@
 #405 - Tadmor
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = FAD
+controller = FAD
 add_core = FAD
-add_core = SYR
 
 culture = bedouin_arabic
 religion = sunni

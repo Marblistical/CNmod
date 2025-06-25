@@ -1,9 +1,8 @@
 #2207 - Maragheh
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = QAR
+owner = AZE
+controller = AZE
+add_core = AZE
 add_core = MGR
 
 culture = azerbaijani

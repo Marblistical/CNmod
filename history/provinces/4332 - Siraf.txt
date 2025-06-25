@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = FRS
 
 culture = persian
-religion = shiite
+religion = sunni
 capital = "Siraf"
 
 trade_goods = dyes

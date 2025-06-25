@@ -1,15 +1,15 @@
 #5695 - Khalkal
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = AZE
+controller = AZE
+add_core = AZE
 add_core = ARL
 
 culture = adhari
 religion = shiite
 capital = "Khalkal"
 
-trade_goods = livestock
+trade_goods = horses
 hre = no
 base_tax = 1
 base_production = 1

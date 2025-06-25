@@ -1,12 +1,11 @@
 #5703 - Garrus
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = ARD
+controller = ARD
 add_core = ARD
 
 culture = sorani
-religion = sunni
+religion = shiite
 capital = "Garrus"
 
 trade_goods = silk

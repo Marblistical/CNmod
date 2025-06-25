@@ -1,10 +1,9 @@
 #2212 - Zanjan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = QOM
-add_core = ARL
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = ZJN
 
 culture = adhari
 religion = shiite

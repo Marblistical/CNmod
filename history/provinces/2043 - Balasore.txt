@@ -9,7 +9,7 @@ culture = oriya
 religion = hinduism
 capital = "Balasore"
 
-trade_goods = cloth
+trade_goods = nuts
 hre = no
 base_tax = 4 
 base_production = 4

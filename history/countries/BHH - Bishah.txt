@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = hejazi_culture
+religion = shiite
+technology_group = muslim
+capital = 386
+religious_school = zaidi_school
+
+1415.1.1 = {
+	monarch = {		#Fictional
+		name = "Abu I"
+		dynasty = "al-Shahran"
+		birth_date = 1390.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

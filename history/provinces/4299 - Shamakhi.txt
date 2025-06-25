@@ -1,12 +1,11 @@
 #4299 - Shamakhi
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = SRV
+controller = SRV
 add_core = SRV
 
 culture = tati
-religion = shiite
+religion = sunni
 capital = "Shamakhi"
 
 trade_goods = silk

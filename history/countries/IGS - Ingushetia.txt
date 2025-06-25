@@ -1,0 +1,19 @@
+government = tribal
+add_government_reform = clan_council
+government_rank = 1
+primary_culture = ingushetian
+religion = animism
+technology_group = eastern
+capital = 5628
+
+
+1415.1.1 = {
+        monarch = {
+		name = "(Interregnum)"
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}
+	

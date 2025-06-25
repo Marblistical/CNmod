@@ -1,8 +1,7 @@
 #5666 - Al Lith
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = HED
+controller = HED
 add_core = HED
 
 culture = hejazi_culture

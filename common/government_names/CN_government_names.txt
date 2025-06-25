@@ -129,3 +129,27 @@ gov_taifa_government = {
 		has_reform = taifa_government
 	}
 }
+
+gov_bedouin_tribe = {
+	rank = {
+		1 = SHEIKHDOM
+		2 = EMIRATE
+		3 = SULTANATE
+	}
+
+	ruler_male = {
+		1 = SHEIKH
+		2 = EMIR
+		3 = SULTAN
+	}
+
+	ruler_female = {
+		1 = SHAYKAH
+		2 = EMIRA
+		3 = SULTANA
+	}
+
+	trigger = {
+		has_reform = bedouin_tribe
+	}
+}

@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = kurdish
+religion = sunni
+technology_group = ottoman
+capital = 5761
+religious_school = shafii_school
+historical_friend = SNJ

@@ -1,8 +1,9 @@
 #380 - Al Karak
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = QUD
+controller = QUD
+add_core = QUD
+add_core = AKR
 
 culture = antiochian
 religion = orthodox

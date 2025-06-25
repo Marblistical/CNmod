@@ -1,8 +1,7 @@
 #2328 - Al-Ula
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = ANZ
+controller = ANZ
 add_core = ANZ
 
 culture = hejazi_culture

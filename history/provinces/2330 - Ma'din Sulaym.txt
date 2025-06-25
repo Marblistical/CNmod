@@ -1,9 +1,8 @@
 #2330 - Ma'din Sulaym
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = MDA
+owner = HED
+controller = HED
+add_core = HED
 
 culture = hejazi_culture
 religion = sunni

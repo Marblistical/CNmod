@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = yemeni_culture
+religion = sunni
+technology_group = muslim
+capital = 5674
+religious_school = shafii_school
+
+#Fully United Sultanate
+1415.1.1 = {		#Fictional
+	monarch = {
+		name = "Nasir"
+		dynasty = "al-Wahidi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

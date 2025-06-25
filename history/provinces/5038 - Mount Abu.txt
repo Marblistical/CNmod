@@ -10,7 +10,7 @@ culture = rajput
 religion = hinduism
 capital = "Mount Abu"
 
-trade_goods = livestock
+trade_goods = horses
 hre = no
 base_tax = 1
 base_production = 1

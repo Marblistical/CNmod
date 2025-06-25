@@ -1,8 +1,7 @@
 #5627 - Quba
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = SRV
+controller = SRV
 add_core = SRV
 add_core = QUB
 

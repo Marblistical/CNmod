@@ -15,6 +15,7 @@ ugric = {
 	szekely = {
 	}
 	szavard = {
+		primary = SZA
 	}
 	dynasty_names = {
 		Báthory Hunyadi Szapolyai Rákóczy Bocskai Bethlen Almásy Andrássy Batthyány Csáky Dessewffy

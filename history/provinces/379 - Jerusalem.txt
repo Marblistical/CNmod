@@ -1,8 +1,8 @@
 #379 - Judea
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = QUD
+controller = QUD
+add_core = QUD
 
 culture = al_suryah_arabic
 religion = sunni

@@ -1,8 +1,7 @@
 #2331 - Jeddah
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = HED
+controller = HED
 add_core = HED
 
 culture = hejazi_culture

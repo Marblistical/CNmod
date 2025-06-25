@@ -4,9 +4,10 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = AKK
+add_core = CGZ
 
 culture = zaza
-religion = sunni
+religion = shiite
 capital = "Cemisgezek"
 
 trade_goods = livestock

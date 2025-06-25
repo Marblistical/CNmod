@@ -1,9 +1,9 @@
 #4396 - Bitlis and Hakkari
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = BTL
+controller = BTL
 add_core = BTL
+add_core = TUB
 
 culture = kurdish
 religion = sunni

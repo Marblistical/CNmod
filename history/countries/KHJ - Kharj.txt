@@ -1,0 +1,18 @@
+government_rank = 1
+government = tribal
+add_government_reform = iqta
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = sunni
+capital = 4275
+religious_school = hanbali_school
+
+1415.1.1 = {
+	monarch = {
+		name = "Khawlan"
+		dynasty = "bin Zamil"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

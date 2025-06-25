@@ -4,7 +4,7 @@ owner = SLJ
 controller = SLJ
 add_core = SLJ
 add_core = LEB
-add_core = SYR
+add_core = AKA
 
 culture = maronite
 religion = catholic

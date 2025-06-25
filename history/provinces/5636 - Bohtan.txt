@@ -1,8 +1,8 @@
 #5636 - Bohtan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = BHT
+controller = BHT
+add_core = BHT
 
 culture = kurdish
 religion = sunni

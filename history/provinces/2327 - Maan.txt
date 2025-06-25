@@ -1,14 +1,15 @@
 #2327 - Maan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = QUD
+controller = QUD
+add_core = QUD
+add_core = AKR
 
 culture = bedouin_arabic
 religion = sunni
 capital = "Maan"
 
-trade_goods = livestock
+trade_goods = honey
 hre = no
 base_tax = 2 
 base_production = 1

@@ -3,7 +3,7 @@
 owner = AST
 controller = AST
 add_core = AST
-add_core = TRK
+add_core = TKU
 culture = kumyk
 religion = sunni
 capital = "Mozdok"

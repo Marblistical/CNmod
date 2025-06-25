@@ -1,8 +1,7 @@
 #4395 - Hisn Kayfa
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = HSN
+controller = HSN
 add_core = HSN
 
 culture = kurdish

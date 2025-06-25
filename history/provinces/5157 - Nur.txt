@@ -1,9 +1,8 @@
 #5157 - Nur
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = TAB
+owner = RUD
+controller = RUD
+add_core = RUD
 
 culture = mazandarani
 religion = shiite

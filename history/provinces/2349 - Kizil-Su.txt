@@ -1,15 +1,15 @@
 # 2349 - Kizil-Su
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
+add_core = KHO
 add_core = KHI
 
 culture = turkmeni
 religion = sunni
 capital = "Kizil-Su"
 
-trade_goods = fish
+trade_goods = horses
 hre = no
 base_tax = 1 
 base_production = 1

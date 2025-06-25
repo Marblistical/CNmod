@@ -9,7 +9,7 @@ culture = bulgar
 religion = sunni
 capital = "Suar"
 
-trade_goods = grain
+trade_goods = horses
 hre = no
 base_tax = 1
 base_production = 1

@@ -1,8 +1,7 @@
 #420 - Qarabagh
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = MLK
+controller = MLK
 add_core = MLK
 
 culture = armenian

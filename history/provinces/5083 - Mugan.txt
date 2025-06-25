@@ -1,8 +1,9 @@
 #5083 - Mugan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = KDG
 
 culture = azerbaijani
 religion = shiite
@@ -12,7 +13,7 @@ trade_goods = cotton
 hre = no
 base_tax = 1
 base_production = 2
-base_manpower = 2
+base_manpower = 1
 is_city = yes
 
 discovered_by = muslim

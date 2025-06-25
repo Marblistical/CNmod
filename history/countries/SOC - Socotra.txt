@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 1
+primary_culture = soqotri
+religion = nestorian
+technology_group = muslim
+capital = 1099
+historical_rival = MHR
+historical_friend = QTI
+
+1415.1.1 = {		#Fictionalish
+	monarch = {
+		name = "Mariam"
+		dynasty = "Sho'o"
+		adm = 4
+		dip = 4
+		mil = 1
+		female = yes
+	}
+}

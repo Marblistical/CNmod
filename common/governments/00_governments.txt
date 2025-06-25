@@ -926,6 +926,8 @@ tribal = {
 		matrilineal_system_legacy
 		feudal_tribe_legacy
 		great_man_legacy
+		#charlemagne's nightmare
+		bedouin_tribe_legacy
 	}
 
 	reform_levels = {
@@ -949,6 +951,7 @@ tribal = {
 				great_man
 				#charlemagne's nightmare
 				scytho_rus_reform
+				bedouin_tribe
 			}
 		}
 		tribal_cultural_values = {
@@ -1477,6 +1480,10 @@ pre_dharma_mapping = {
 	siberian_native_council = {
 		government = tribal
 		legacy_government = siberian_native_council
+	}
+	bedouin_tribe = {
+		government = tribal
+		legacy_government = bedouin_tribe_legacy
 	}
 	english_monarchy = {
 		government = monarchy

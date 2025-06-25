@@ -310,3 +310,44 @@ papacy_reform = {
 		locked_government_type = yes
 	}
 }
+
+bedouin_tribe = {
+	icon = "muslim"
+	allow_normal_conversion = yes
+	allow_migration = yes
+	potential = {
+		OR = {
+			culture_group = turko_semitic
+			culture_group = maghrebi
+		}
+	}
+	legacy_equivalent = bedouin_tribe_legacy
+	nomad = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		OR = {
+			culture_group = turko_semitic
+			culture_group = maghrebi
+		}
+	}
+
+	lock_level_when_selected = yes
+
+	start_territory_to_estates = 0.5
+
+	modifiers = {
+		global_manpower_modifier = -0.15
+		global_institution_spread = -0.15
+		cav_to_inf_ratio = 0.2
+		caravan_power = 0.2
+		movement_speed = 0.2
+		land_attrition = -0.1
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+}

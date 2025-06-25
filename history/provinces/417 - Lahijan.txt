@@ -1,8 +1,7 @@
 #417 - Lahijan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KRY
+controller = KRY
 add_core = KRY
 
 culture = gilaki

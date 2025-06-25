@@ -9,7 +9,7 @@ culture = tamil
 religion = hinduism
 capital = "Kuddaluru"
 
-trade_goods = cloth
+trade_goods = legumes
 hre = no
 base_tax = 4
 base_production = 4

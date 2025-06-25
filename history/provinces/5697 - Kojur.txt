@@ -1,9 +1,8 @@
 #5697 - Kojur
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = TAB
+owner = KRY
+controller = KRY
+add_core = KRY
 
 culture = mazandarani
 religion = shiite

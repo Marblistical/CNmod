@@ -1,7 +1,7 @@
 #388 - Aden
 
-owner = ADE #Tahirids
-controller = ADE #Tahirids
+owner = YEM
+controller = YEM 
 culture = yemeni_culture
 religion = sunni
 capital = "Aden"

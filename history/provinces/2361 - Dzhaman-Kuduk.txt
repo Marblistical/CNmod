@@ -9,7 +9,7 @@ culture = khazak
 religion = sunni
 capital = "Dzhaman-Kuduk"
 
-trade_goods = grain
+trade_goods = horses
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,9 +1,8 @@
 #426 - Amol
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = TAB
+owner = AML
+controller = AML
+add_core = AML
 
 culture = mazandarani
 religion = shiite

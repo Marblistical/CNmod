@@ -1,10 +1,8 @@
 #425 - Dagestan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = SRV
-add_core = QUB
+owner = DER
+controller = DER
+add_core = DER
 
 culture = lezgin
 religion = sunni

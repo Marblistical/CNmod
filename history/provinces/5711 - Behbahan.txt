@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = MSY
 
 culture = persian
-religion = shiite
+religion = sunni
 capital = "Behbahan"
 
 trade_goods = cotton

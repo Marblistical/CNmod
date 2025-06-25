@@ -1,8 +1,7 @@
 #4339 - Rasht
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = BPI
+controller = BPI
 add_core = BPI
 add_core = KRY
 

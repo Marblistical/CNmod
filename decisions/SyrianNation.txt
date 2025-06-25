@@ -1,0 +1,109 @@
+country_decisions = {
+	
+	syria_nation = {
+	major = yes
+	potential = {
+		NOT = { has_country_flag = formed_syria_flag }
+		SYR = { exists = no }
+		NOT = {
+			OR = {
+				government = native
+				government = tribal
+				tag = BYZ
+				tag = TUR
+				tag = RUM
+				tag = MAM
+				tag = PER
+				tag = TIM
+				tag = MUG
+			}
+		}
+		primary_culture = al_suryah_arabic
+	}
+	provinces_to_highlight = {
+		OR = {
+				province_id = 377			#Aleppo
+				province_id = 382			#Damascus
+				province_id = 1849			#Hama
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}	
+	}
+	allow = {
+		is_free_or_tributary_trigger = yes
+		is_at_war = no
+		owns_core_province = 377			#Aleppo
+		owns_core_province = 382			#Damascus
+		owns_core_province = 1849			#Hama
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { government_rank = 2 }
+			}
+			set_government_rank = 2
+		}
+		add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+		}
+		add_prestige = 25
+		set_country_flag = formed_syria_flag
+		change_tag = SYR
+		swap_non_generic_missions = yes
+		on_change_tag_effect = yes
+		if = {
+			limit = { has_custom_ideas = no }
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		phoenicia_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = SYR
+		}
+		lebanon_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = SYR
+		}
+		aleppo_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = SYR
+		}
+		syria_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = SYR
+		}
+		trans_jordan_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = SYR
+		}
+		palestine_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = SYR
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+	ai_importance = 400 
+	}
+}

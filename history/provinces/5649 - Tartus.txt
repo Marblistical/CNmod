@@ -3,8 +3,9 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
+add_core = ALW
 
-culture = al_suryah_arabic
+culture = alawite
 religion = shiite
 capital = "Tartus"
 

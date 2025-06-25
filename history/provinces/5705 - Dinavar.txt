@@ -6,7 +6,7 @@ add_core = SLJ
 add_core = LRI
 
 culture = sorani
-religion = sunni
+religion = shiite
 capital = "Dinavar"
 
 trade_goods = grain

@@ -1,9 +1,9 @@
 #2205 - Nakhchivan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = ARM 
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = NKH
 
 culture = armenian
 religion = apostolic

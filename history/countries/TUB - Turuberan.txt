@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform 
+primary_culture = karin
+religion = apostolic
+technology_group = eastern
+capital = 5615
+government_rank = 1
+
+1415.1.1 = {
+	monarch = {
+		name = "(Interregnum)"
+		adm = 3
+		mil = 3
+		dip = 3
+		regent = yes
+	}
+}

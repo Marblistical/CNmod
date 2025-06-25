@@ -1,9 +1,9 @@
 #331 - Erserum
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = AKK
+controller = AKK
 add_core = AKK
+add_core = ERZ
 
 culture = karin
 religion = apostolic

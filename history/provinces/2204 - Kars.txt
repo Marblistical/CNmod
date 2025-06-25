@@ -1,15 +1,13 @@
 #2204 - Kars
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = GEO
+owner = SME
+controller = SME
 add_core = SME
-add_core = ARM
+add_core = YER
 
 culture = armenian
 religion = apostolic
-capital = "Akhaltsikhe"
+capital = "Kars"
 
 trade_goods = wine
 hre = no

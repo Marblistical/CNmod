@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
+add_core = KHO
 add_core = AFG
 
 culture = tajik

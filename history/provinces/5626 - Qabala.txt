@@ -1,12 +1,11 @@
 #5626 - Qabala
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = SRV
+owner = UTK
+controller = UTK
+add_core = UTK
 
 culture = udi
-religion = shiite
+religion = apostolic
 capital = "Shamakhi"
 
 trade_goods = silk

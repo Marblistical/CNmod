@@ -1323,7 +1323,56 @@ baltic = {
 	}
 }
 
-placeholderplaceholder = {}
+mahri_soqotri = {
+	mahri_culture = { #South Arabs
+		primary = MHR
+		dynasty_names = {
+			"Banu Afrar" "Al-Mahra" Qahtan Jibbali "Al-Hakli" "Al-Shahri" "Al-Barami" "Al-Mashaiki" "Al-Bat'hari"
+		}
+		male_names = {
+			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
+			'Abdullah Turki Faisal Al-Rahman Khalid Fahd Aziz Abu-Bakr Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir 
+			Abdul-Wahab Abdul Abdul Abdullah Abdullah Aghlab Akin Ali Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Hasan Husam Hussayn Hussayn Ibrahim Abraham Idris 
+			Is'mail Ismail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud Mahmud
+			Mansur Mirza Mubarak Muhammad Muhammad Mukhtar Murad Musa Moses Muslihiddin Muzaffaraddin Najib 
+			Nasr Nizam Qawurd Ramadan Sa'daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Solomon Talib Ubayd Uways Yahya Yahya Ya'qub Jacob Youkhanna John Yusuf 
+			Joseph Zeyd 
+		}
+		female_names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+	soqotri = {
+		primary = SOC
+		dynasty_names = {
+			"Banu Afrar" "Al-Mahra" Qahtan "Al-Hakli" "Al-Shahri" "Al-Barami" "Al-Mashaiki"
+		}
+		male_names = {
+			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
+			'Abdullah Turki Faisal Al-Rahman Khalid Fahd Aziz Abu-Bakr Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir
+			Abdul-Wahab Abdul Abdul Abdullah Abdullah Aghlab Akin Ali Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Hasan Husam Hussayn Hussayn Ibrahim Abraham Idris
+			Is'mail Ismail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud Mahmud
+			Mansur Mirza Mubarak Muhammad Muhammad Mukhtar Murad Musa Moses Muslihiddin Muzaffaraddin Najib
+			Nasr Nizam Qawurd Ramadan Sa'daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Solomon Talib Ubayd Uways Yahya Yahya Ya'qub Jacob Youkhanna John Yusuf
+			Joseph Zeyd
+		}
+		female_names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+}
 
 ethiopic = {
 	graphical_culture = africangfx
@@ -1910,6 +1959,7 @@ iranian	= {
 		}
 	}
 	tati = {
+		primary = SRV
 		male_names = {
 			Bisutun "Adud ud-Dawlah" Kayumarth "Bakir Almaluf" "Kai-Ka'us" Jahangir Aziz "Sa'ad ud-Dawlah" Bahman
 		}
@@ -6722,7 +6772,7 @@ central_indic = {
 	}
 }
 
-turko_semitic = { #Levantine
+turko_semitic = { #Mashriqi
 	graphical_culture = muslimgfx
 	
 	al_misr_arabic = { #Egyptian Arab
@@ -6762,7 +6812,27 @@ turko_semitic = { #Levantine
 			Rajiya Sadiya Salma Sitara Thana Zahra Zahra Zuhayra
 		}
 	}
+	alawite = {
+		primary = ALW
+		dynasty_names = {
+			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
+			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli
+		}
+		male_names = {
+			al-Nasr al-Mu'azzam al-Salih al-'Adil al-Kamil al-Ashraf al-Afdal Tadj Mujir ud-Din Djamal ud-Din
+			ud-Din Shams Saif 'Abbas 'Abd al-Rahman Anwar Atuf Bakr Fahd Hakim Harun Hikmat Hisham Husayn
+			Jamaal Karim Mal???k Mirza Muhammad Rash???d Rusul Shimun Tar???q Usama Yasir Yusuf Zaid Z???yad Isma'il
+			Jafar Shihab
+		}
+		female_names = {
+			Ihsan Marwa Aisha Aziza Duha Farida Golbahar Gulnar Gulnaz Gulpari Hafsa Hasti Huma Ibtisam Jalila Kamala
+			Karima Khandan Khaterah Khatira Kinah Lala Madiha Mahdokht Nazy Neelab Negar Niki Nikoo Noushin Rabiya
+			Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah Nahal Najela Nasiba Nastaran Nazaneen
+			Rajiya Sadiya Salma Sitara Thana Zahra Zahra Zuhayra
+		}
+	}
 	moslawi_arabic = { #Moslawi Arab
+		primary = JAZ
 		dynasty_names = {
 			"Saadun" "Jalili" "Hasanid" "Sabah" Javid
 			"Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
@@ -6778,7 +6848,7 @@ turko_semitic = { #Levantine
 			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra Zahra
 		}
 	}
-	al_iraqiya_arabic = { #Mashriqi Arab
+	al_iraqiya_arabic = { #Iraqi Arab
 		primary = IRQ
 		dynasty_names = {
 			"Saadun" "Jalili" "Hasanid" "Sabah" Javid
@@ -6798,7 +6868,7 @@ turko_semitic = { #Levantine
 	gulf_arabic = {
 		primary = ALH
 		dynasty_names = {
-			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
+			"Saud" "Rasulid" "Tahirid" "Jabrid" "al-Qasimi"
 			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
 		}
 		male_names = {
@@ -6823,32 +6893,14 @@ turko_semitic = { #Levantine
 	bedouin_arabic = { #Bedouin Arab
 		primary = NAJ
 		dynasty_names = {
-			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
-			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
-		}
-		male_names = {
-			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
-			'Abdullah Turki Faisal Al-Rahman Khalid Fahd Aziz Abu-Bakr Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir 
-			Abdul-Wahab Abdul Abdul Abdullah Abdullah Aghlab Akin Ali Ali Alim Aram Azam Bahir Burhanaddin
-			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Hasan Husam Hussayn Hussayn Ibrahim Abraham Idris 
-			Is'mail Ismail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud Mahmud
-			Mansur Mirza Mubarak Muhammad Muhammad Mukhtar Murad Musa Moses Muslihiddin Muzaffaraddin Najib 
-			Nasr Nizam Qawurd Ramadan Sa'daddin Sadiq Sami Samir Shaiban
-			Shamir Shujah Sulayman Solomon Talib Ubayd Uways Yahya Yahya Ya'qub Jacob Youkhanna John Yusuf 
-			Joseph Zeyd 
-		}
-		female_names = {
-			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
-			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
-			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
-			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
-			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
-		}
-	}
-	mahri_culture = { #South Arabs
-		primary = MHR
-		dynasty_names = {
-			"Banu Afrar" "Al-Mahra" Qahtan Jibbali "Al-Hakli" "Al-Shahri" "Al-Barami" "Al-Mashaiki" "Al-Bat'hari"
+			"Saud" "Rasulid" "Tahirid" "Jabrid" "al-Qasimi"
+			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim" "al-Dawasir" 
+			"al-Abida" "al-Janab" "al-Buqum" "al-Qahtan" "al-Mu'awiya" "al-Subay" 
+			"al-Otaibah" Suhul Ajman Bargha Subai "Bani Lam" Mutair Mirrah Jabir Bishr Manasir 
+			"Bani Hajir" "Bani Khalid" Awazim "al-Qassim" "Bani Abdallah" Saiyah "Bani Harb" "al-Harb"
+			 Shammar Abda Sulaiman "Wulad Sulaiman" "Bani Rashid" "Bani Wahab" Mawahib Hutaym "Wulad Ali"
+			  Anaizah Amarat Ruwalla Huwaitat Sirhan Dhafir Dahamsha "Bani Sakhr" Dulaim Awazim Hawazim Fedan 
+			  "al-Muntafiq" "Bani Tamim" "al-Majali" "al-Thani" "al-Khater" "Al ash-Sheikh" "al-Khalifa" "Bani Utbah" "Al Ali" Rashid
 		}
 		male_names = {
 			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
@@ -6896,7 +6948,7 @@ turko_semitic = { #Levantine
 	omani_culture = {
 		primary = OMA
 		dynasty_names = {
-			"Tahiride" "Jabrid" "al-Qasimi"
+			"Tahirid" "Jabrid" "al-Qasimi"
 			"Nabhani" "Yaruba" "Usfurid" "Jarwanid" "Hashim"
 		}
 		male_names = {
@@ -6918,10 +6970,34 @@ turko_semitic = { #Levantine
 			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
 		}
 	}
-	yemeni_culture = {
-		primary = ADE
+	dhofari_culture = {
+		primary = DHF
 		dynasty_names = {
-			"Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
+			"al-Kathir" "Bayt Kathir" "al-Hawashim" "al-Ghassani" "al-Sayl" "al-Qara" "al-Mahra" "al-Rawwas" "Bayt Marhun" "al-Shanafir" "al-Awamir" "al-Masaliha" "al-Hafiz" "al-Ghazzali" "al-Bahhara"
+		}
+		male_names = {
+			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
+			'Abdullah Turki Faisal Al-Rahman Khalid Fahd Aziz Abu-Bakr Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir
+			Abdul-Wahab Abdul Abdul Abdullah Abdullah Aghlab Akin Ali Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Hasan Husam Hussayn Hussayn Ibrahim Abraham Idris
+			Is'mail Ismail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud Mahmud
+			Mansur Mirza Mubarak Muhammad Muhammad Mukhtar Murad Musa Moses Muslihiddin Muzaffaraddin Najib
+			Nasr Nizam Qawurd Ramadan Sa'daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Solomon Talib Ubayd Uways Yahya Yahya Ya'qub Jacob Youkhanna John Yusuf
+			Joseph Zeyd
+		}
+		female_names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+	yemeni_culture = {
+		primary = YEM
+		dynasty_names = {
+			"Rasulid" "Tahirid" "Jabrid" "al-Qasimi"
 			"Nabhani" "Yaruba" "Usfurid" "Jarwanid"
 		}
 		male_names = {
@@ -8695,6 +8771,19 @@ oghuz = {
 			Hooda Malaika Munira Rabiya Rafiqa Ksyusha Sabina Zarina Hatyra Gulnaza Selbi Aziza Jeren Zeynab Myahri
 		}
 	}
+	horasanli = {
+		male_names = {
+			Aba Sa'ad Babur Bada al-Zaman Husayn Bayqara Abu al-Qasim Mahmad Shah Rukh Ulugh Beg 'Abbas 'Abd
+			'Abd al-Rahman 'Ala 'Abdallah Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
+			Karim Khalil Malak Mirza Muhammad Qasim Rashad Sulayman Taraq 'Umar Usama Yasir Yusuf Zaid Zayad
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
+		}
+	}
 	azerbaijani = {
 		primary = ARL
 		dynasty_names = {
@@ -8756,6 +8845,17 @@ oghuz = {
 			placeholder
 		}
 	}
+	halach = {
+		dynasty_names = {
+			placeholder
+		}
+		male_names = {
+			placeholder
+		}
+		female_names = {
+			placeholder
+		}
+	}
 }
 
 circassic = {
@@ -8784,15 +8884,52 @@ circassic = {
 			Hatuqwai Khegaik Khetuk C�bein Shapsug Beslenei Ubykh Tazryt Okhlov
 		}
 	}
-	abkhaz = {
-		dynasty_names = {
-			placeholder
-		}
+	kabardian = {
+		primary = KAB
 		male_names = {
-			placeholder
+			Petrezok Verzacht Belzebuk Parsabok Smbat Stepanos Stephen Tachat Taniel Daniel Tatoul Tigran Tornik
+			Tornik Tovmas Thomas Thoros Theodore Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat
+			Vartan Vassak Vesd Vrtanes Zakare Zarmihr
+
+			Bougatchik Tanachouk Sibok Atsymtchouk Toutaryk Ezgbold Koudadik Kavklytch Kanoukov
+			Temriouk Tazriout Tchiourak Baachik Machik Boulgairouk Namstriouk Chopchouk
+			Mait Kanboulat Koudenet Khoudenet Otchikan Damaniouk Domaniouk Isbouldoug Anzarouk
+			Chimgalei Kanglytchev Bitemriouk Cholokh Tachbsaroukov Papchouk Oslonbek Iansokh
+			Kaitouk Nastriouk Nartchov Pchimakha Iansokh Ademir Kazanalp Boudatcheis Sountchelei
+			Olegouk Khotokiouki Ildar Tchapolov Saltankoul Saouslan Tazryt Okhlov Moudar
+			Kounmourza Kanchov Slanbek inarmas Klytch Sataltanmagnout Kazy
 		}
 		female_names = {
-			placeholder
+			Zuliyzhan Susane Babishe Zmroukhd Adrine Elsapet Sarine Khazbiika Kheeda Kurbiika Laila Laliita Lamaara Liiza Looli
+			Lulii Maali Maaret Madiina Makka Maliika Malkan Marjam Marzhan Milaana Nurbiika Nurishat Nuura Peet'mat Qoqa
+		}
+		dynasty_names = {
+			Guaye Adamiy Abzakh Zhaney Mamkhegh Mokhosh Natukhai Temirgoy
+			Hatuqwai Khegaik Khetuk C???bein Shapsug Beslenei Ubykh Tazryt Okhlov
+		}
+	}
+	abkhaz = {
+		primary = ABK
+		male_names = {
+			Abga Abragh Abrskil Aidamyr Adgur Alkhas Akhra Bagrat Baslakhu Bashnukh Bzou Gazia Giorgi Gozar David Damir Daur Jamlat Jamsukh Zhabal Edgi Yezygu Zaur Zukhur Zekan Inal Kaimet Karach Konstantin Lasha Levan Manuchar Murat Nuri Ratmir Sandro Tariel Teimuraz Khuap Sharakh Sharmat Shahbaz
+		}
+		female_names = {
+			Alzira Amza Arianda Asha Branyp Guaschahan Gumala Gunda Zamira Zimana Lamara Maktina Maschiko Mramza Naala Nazira Nutsa Saida Sariya Khibla Khimtsa Khifa Khfaf Schazina Shakhusna Esma
+		}
+		dynasty_names = {
+			Achba Chkhotua Lau Chaablyrkhua Shat-Ipa Aublaa Anuaa Adgua-Ipa Sogum-Ipa Mazlou Mtsvaguacha Braskyl Shakryl Chaabalyrkhua Inal-Ipa Alkhorba Tsimtsba Butba Lakrba Kvadzba Chachba Sashvyrkhua Kalgi Kilba Latsushba
+		}
+	}
+	ubykh = {
+		primary = UBY
+		male_names = {
+			Abga Abragh Abrskil Aidamyr Adgur Alkhas Akhra Bagrat Baslakhu Bashnukh Bzou Gazia Giorgi Gozar David Damir Daur Jamlat Jamsukh Zhabal Edgi Yezygu Zaur Zukhur Zekan Inal Kaimet Karach Konstantin Lasha Levan Manuchar Murat Nuri Ratmir Sandro Tariel Teimuraz Khuap Sharakh Sharmat Shahbaz
+		}
+		female_names = {
+			Alzira Amza Arianda Asha Branyp Guaschahan Gumala Gunda Zamira Zimana Lamara Maktina Maschiko Mramza Naala Nazira Nutsa Saida Sariya Khibla Khimtsa Khifa Khfaf Schazina Shakhusna Esma
+		}
+		dynasty_names = {
+			Achba Chkhotua Lau Chaablyrkhua Shat-Ipa Aublaa Anuaa Adgua-Ipa Sogum-Ipa Mazlou Mtsvaguacha Braskyl Shakryl Chaabalyrkhua Inal-Ipa Alkhorba Tsimtsba Butba Lakrba Kvadzba Chachba Sashvyrkhua Kalgi Kilba Latsushba
 		}
 	}
 }
@@ -9446,6 +9583,7 @@ finnic = {
 caspian = { #northeast caucasian
 	graphical_culture = muslimgfx
 	ingush = { 
+		primary = IGS
 		dynasty_names = {
 			placeholder
 		}
@@ -9469,6 +9607,7 @@ caspian = { #northeast caucasian
 		}
 	}
 	lezgin = {
+		primary = DER
 		dynasty_names = {
 			placeholder
 		}
@@ -9516,6 +9655,7 @@ caspian = { #northeast caucasian
 		}
 	}
 	udi = {
+		primary = UTK
 		dynasty_names = {
 			placeholder
 		}
@@ -9779,7 +9919,7 @@ maghrebi = {
 	libyan = {
 		primary = TRP
 		dynasty_names = {
-			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi" "Nabhani" "Yaruba" "al-Said" "Usfurid"
+			"Saud" "Rasulid" "Tahirid" "Jabrid" "al-Qasimi" "Nabhani" "Yaruba" "al-Said" "Usfurid"
 			 "Jarwanid" "Hashim" "Banu Khazrun"
 		}
 		male_names = {
@@ -10401,6 +10541,7 @@ hellenic = {
 	italiot = {
 	}
 	antiochian = {
+		primary = ATC
 	}
 	male_names = {
 		Adrianos Adrian Akakios Alexandros Alexander Alexios Alexis Anastasios Anastasius Anatolios 
@@ -10607,6 +10748,7 @@ french	= {
 
 aramaic = {
 	assyrian = {
+		primary = TYA
 		dynasty_names = {
 			"Puzur-Ashur"  "Shamshi-Adad"  "Amorite" "Adaside" "Sargonid"
 		}
@@ -10631,6 +10773,7 @@ aramaic = {
 		}
 	}
 	maronite = {
+		primary = AKA
 		graphical_culture = muslimgfx
 		dynasty_names = {
 			"Mirdasid" "Maanid" "al-Shihab"  Yakubid Hassanid
@@ -11124,6 +11267,7 @@ kartvelian = {
 		}
 	}
 	laz = {
+		primary = LAZ
 		dynasty_names = {
 			placeholder
 		}
@@ -11132,6 +11276,7 @@ kartvelian = {
 		}
 	}
 	mingrelian = {
+		primary = MGL
 		dynasty_names = {
 			placeholder
 		}
@@ -11143,6 +11288,7 @@ kartvelian = {
 		}
 	}
 	svan = {
+		primary = SVA
 		dynasty_names = {
 			placeholder
 		}
@@ -11160,11 +11306,13 @@ placeholder9 = {}
 armenic = {
 	graphical_culture = easterngfx
 	armenian = {
-		primary = ARM
+		primary = YER
 	}
 	karin = {
+		primary = ERZ
 	}
 	arevmdian = {
+		primary = SVS
 	}
 	cilician = {
 		primary = HTM

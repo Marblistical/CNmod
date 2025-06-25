@@ -1,9 +1,8 @@
 #415 - Sharazor
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = BHT
+owner = BAB
+controller = BAB
+add_core = BAB
 
 culture = sorani
 religion = sunni

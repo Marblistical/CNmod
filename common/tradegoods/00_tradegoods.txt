@@ -497,7 +497,7 @@ salt = {
 }
 
 naval_supplies = {
-	color = { 0.11 0.17 0.4 }
+	color = { 0.15 0.16 0.74 }
 	modifier = {
 		naval_forcelimit_modifier = 0.20
 	}
@@ -507,7 +507,7 @@ naval_supplies = {
 	}
 
 	chance = {
-		factor = 15
+		factor = 8
 		modifier = {
 			factor = 0
 			OR = {
@@ -2456,6 +2456,24 @@ beer = {
 	chance = {
 		factor = 20
 		modifier = {
+			factor = 0
+			OR = {
+				has_winter = severe_winter
+				has_climate = arctic
+				has_climate = arid
+				has_climate = tropical
+				has_terrain = jungle
+				has_terrain = drylands
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = marsh
+				has_terrain = savannah
+				has_terrain = glacier
+				religion_group = muslim
+			}
+		}
+		modifier = {
 			factor = 1.5
 			OR = {
 				superregion = europe_superregion
@@ -2552,7 +2570,62 @@ lumber = {
 		local_build_cost = -0.05
 	}
 	chance = {
-		factor = 0
+		factor = 12
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = glacier
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = drylands
+				has_terrain = savannah
+				has_terrain = marsh
+				has_terrain = steppe
+				has_terrain = highlands
+				has_terrain = farmlands
+			}
+		}
+		modifier = {
+			factor = 0
+			area = newfoundland_area
+		}
+		modifier = {
+			factor = 0.65
+			region = carribeans_region
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				has_terrain = mountain
+				has_terrain = grasslands
+				region = central_africa_region
+			}
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				has_terrain = coastline
+				has_climate = tropical
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = hills
+				has_terrain = jungle
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				OR = {
+					has_increased_trade_goods_discovery = { trade_goods = lumber }
+					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = lumber } }
+				}
+			}
+		}
 	}
 }
 
@@ -2813,6 +2886,7 @@ herbs = {
 	}
 	province = {
 		local_prosperity_growth = 0.025
+		local_monthly_devastation = -0.025
 	}
 	chance = {
 		factor = 25
@@ -2987,7 +3061,7 @@ maize = {
 		local_tolerance_of_heathens = 1
 	}
 	chance = { 
-		factor = 25
+		factor = 35
 		modifier = {
 			factor = 0
 			OR = {
@@ -3068,6 +3142,342 @@ millet = {
 	}
 	chance = {
 		factor = 0
+	}
+}
+
+horses = {
+	color = { 0.50 0.60 0.35 }
+	modifier = { 
+		cavalry_power = 0.1
+	}
+	province = { 
+		local_friendly_movement_speed = 0.2
+	}
+	chance = { 
+		factor = 2 
+		modifier = { 
+			factor = 0
+			OR = {
+				has_climate = arid
+				has_climate = arctic
+				has_terrain = desert
+				has_terrain = jungle
+				continent = africa
+				has_winter = severe_winter	
+			}
+		}
+		modifier = {
+			factor = 0 
+			OR = {
+				AND = {
+					is_random_new_world = no
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+				}
+				continent = oceania
+			}
+			FROM = { 
+				OR = {
+					capital_scope = { continent = north_america }
+					capital_scope = { continent = south_america }
+					capital_scope = { continent = oceania }
+					capital_scope = { continent = new_world }
+				}
+				NOT = {
+					OR = {
+						is_colonial_nation = yes
+						technology_group = western
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_climate = tropical
+				has_terrain = coastal_desert
+				has_terrain = mountain
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = hills
+				has_winter = normal_winter
+			}
+		}
+	} 
+}
+
+legumes = {
+	color = { 0.55 0.70 0.28 }
+	modifier = {
+		global_prov_trade_power_modifier = 0.02
+	}
+	province = {
+		allowed_num_of_buildings = 1
+	}
+	chance = {
+		factor = 8
+		modifier = {
+			factor = 0.15
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = jungle
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = desert
+				has_terrain = glacier
+				has_climate = arctic
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				OR = {
+					has_increased_trade_goods_discovery = { trade_goods = legumes }
+					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = legumes } }
+				}
+			}
+		}
+	}
+}
+
+nuts = {
+	color = { 0.53 0.27 0.23 }
+	modifier = {
+		land_morale = 0.1
+	}
+	province = {
+		local_tax_modifier = 0.15
+	}
+	chance = {
+		factor = 4
+		modifier = {
+			factor = 0.15
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = jungle
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = glacier
+				has_climate = arctic
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				OR = {
+					has_increased_trade_goods_discovery = { trade_goods = nuts }
+					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = nuts } }
+				}
+			}
+		}
+	}
+}
+
+alum = {
+	color = { 0.61 0.74 0.77 }
+	modifier = {
+		development_cost_modifier = -0.05
+	}
+	province = {
+		province_trade_power_value = 0.5
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 0
+			normal_or_historical_nations = yes
+			is_random_new_world = no
+		}
+		modifier = {
+			factor = 1.2
+			normal_or_historical_nations = no
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				OR = {
+					has_increased_trade_goods_discovery = { trade_goods = alum }
+					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = alum } }
+				}
+			}
+		}
+	}
+}
+
+tin = {
+	color = { 0.52 0.43 0.30 }
+	modifier = {
+		artillery_cost = -0.1
+	}
+	province = {
+		regiment_recruit_speed = -0.05
+		local_manpower = 0.5
+	}
+	chance = {
+		factor = 15
+		modifier = {
+			factor = 0
+			area = newfoundland_area
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_terrain = steppe
+				has_terrain = desert
+				has_terrain = coastal_desert
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = coastline
+				has_terrain = glacier
+				has_terrain = jungle
+				has_terrain = farmlands
+				has_terrain = woods
+			}
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = no
+			NOT = { province_id = 990 } #St Maurice ironworks
+			NOT = { area = minas_gerais_area }
+			NOT = { area = diamantina_area }
+			NOT = { area = mato_grosso_area }
+			NOT = { area = great_valley_area }
+			NOT = { area = susquehanna_area }
+			NOT = { area = hudson_valley_area }
+			NOT = { area = lake_superior_area }
+			NOT = { area = south_iroquoisia_area }
+			NOT = { area = upper_ontario_area }
+			NOT = { area = laurentian_area }
+			NOT = { area = inner_ontario_area }
+			NOT = { area = maryland_area }
+			NOT = { area = ofaie_area }
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
+			NOT = { region = central_africa_region }
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = yes
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
+			NOT = { continent = new_world }
+		}
+		modifier = {
+			factor = 0.7
+			region = central_africa_region
+		}
+		modifier = {
+			factor = 1.1
+			is_random_new_world = yes
+			OR = {
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				area = minas_gerais_area
+				area = diamantina_area
+				area = mato_grosso_area
+				area = ofaie_area
+				area = great_valley_area
+				area = susquehanna_area
+				area = hudson_valley_area
+				area = lake_superior_area
+				area = south_iroquoisia_area
+				region = west_siberia_region
+				region = east_siberia_region
+			}
+		}
+	}
+}
+
+lead = {
+	color = { 0.24 0.26 0.43 }
+	modifier = {
+		free_mil_policy = 1
+	}
+	province = {
+		local_build_cost = -0.05
+		local_regiment_cost = -0.05
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 0
+			area = newfoundland_area
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				region = cascadia_region
+				region = great_plains_region
+				region = california_region
+			}
+		}
+		modifier = {
+			factor = 0
+			normal_or_historical_nations = yes
+			OR = {
+				NOT = { region = west_siberia_region }
+				NOT = { region = east_siberia_region }
+				NOT = { region = central_africa_region }
+				NOT = { area = great_valley_area }
+				NOT = { area = susquehanna_area }
+				NOT = { area = hudson_valley_area }
+				NOT = { area = lake_superior_area }
+				NOT = { area = south_iroquoisia_area }
+				NOT = { area = upper_ontario_area }
+				NOT = { area = laurentian_area }
+				NOT = { area = inner_ontario_area }
+				NOT = { area = maryland_area }
+				NOT = { area = ofaie_area }
+			}
+			is_random_new_world = no
+		}
+		modifier = {
+			factor = 1.2
+			normal_or_historical_nations = no
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
 	}
 }
 

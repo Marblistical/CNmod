@@ -1,8 +1,8 @@
 #424 - Ardabil
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = AZE
+controller = AZE
+add_core = AZE
 add_core = ARL
 
 culture = azerbaijani

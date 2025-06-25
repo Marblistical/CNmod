@@ -1,10 +1,9 @@
 #4302 - Bayazid
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = BTL
-add_core = ARM
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = YER
 
 culture = armenian
 religion = apostolic

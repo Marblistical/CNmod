@@ -89,3 +89,6 @@
 
 5734 = { "Anastasiopolis" "Anastasiopolis" }
 5735 = { "Nakoleia" "Nakoleia" }
+5758 = { "Chaldia" "Tzantzakon" }
+5760 = { "Arsameia" "Arsameia" }
+5761 = { "Kiliza" "Kiliza" }

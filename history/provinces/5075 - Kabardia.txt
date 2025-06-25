@@ -3,9 +3,9 @@
 owner = KHZ
 controller = KHZ
 add_core = KHZ
-add_core = CIR
+add_core = KAB
 
-culture = circassian
+culture = kabardian
 religion = animism
 capital = "Čerkessk"
 

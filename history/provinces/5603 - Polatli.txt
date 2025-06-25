@@ -8,7 +8,7 @@ culture = turkish
 religion = sunni
 capital = "Polatli"
 
-trade_goods = livestock
+trade_goods = alum
 hre = no
 base_tax = 1
 base_production = 1

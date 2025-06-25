@@ -8,7 +8,7 @@ culture = berber
 religion = sunni
 capital = "Sijilmasa"
 
-trade_goods = grain
+trade_goods = alum
 hre = no
 base_tax = 2 
 base_production = 1

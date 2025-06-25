@@ -1,8 +1,8 @@
 #5473 - Arish
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = QUD
+controller = QUD
+add_core = QUD
 
 culture = al_misr_arabic
 religion = sunni

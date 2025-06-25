@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = mingrelian
+religion = orthodox
+technology_group = eastern
+capital = 462 # Mingrelia
+
+
+1415.1.1 = {
+	monarch = {
+		name = "Liparit"
+		dynasty = "Dadiani"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}

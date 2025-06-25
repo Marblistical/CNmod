@@ -1,8 +1,8 @@
 #Country Name: Please see filename.
 
-graphical_culture = easterngfx
+graphical_culture = muslimgfx
 
-color = { 188 122 44 }
+color = { 63 64 46 }
 
 revolutionary_colors = { 137 87 54 }
 

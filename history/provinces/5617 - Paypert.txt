@@ -1,9 +1,10 @@
 #5617 - Paypert
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = RUM
+controller = RUM
+add_core = RUM
 add_core = ERE
+add_core = ERZ
 
 culture = karin
 religion = apostolic

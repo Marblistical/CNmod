@@ -211,6 +211,30 @@ millet = {
 	base_price = 1
 }
 
+horses = {
+	base_price = 2.5
+}
+
+legumes = {
+	base_price = 2.5
+}
+
+nuts = {
+	base_price = 2.5
+}
+
+alum = {
+	base_price = 4
+}
+
+tin = {
+	base_price = 1.5
+}
+
+lead = {
+	base_price = 2.5
+}
+
 unknown = {
 	base_price = 0
 }

@@ -1,7 +1,7 @@
 #5089 - Sharaf
 
-owner = NAJ
-controller = NAJ
+owner = OTB
+controller = OTB
 culture = bedouin_arabic
 religion = sunni
 capital = "Fadak"
@@ -12,7 +12,7 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_local_autonomy = 90
-add_core = NAJ
+add_core = OTB
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian

@@ -3,7 +3,7 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
-add_core = SYR
+add_core = JAZ
 
 culture = moslawi_arabic
 religion = sunni

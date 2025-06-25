@@ -1,9 +1,9 @@
 #2035 - Urmia
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = QAR
+owner = AZE
+controller = AZE
+add_core = AZE
+add_core = URM
 
 culture = assyrian
 religion = nestorian

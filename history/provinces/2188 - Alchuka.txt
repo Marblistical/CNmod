@@ -9,7 +9,7 @@ culture = manchu
 religion = tengri_pagan_reformed
 capital = "Alchuka"
 
-trade_goods = grain
+trade_goods = legumes
 hre = no
 base_tax = 4 
 base_production = 4

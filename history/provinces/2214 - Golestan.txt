@@ -1,13 +1,11 @@
 #2214 - Golestan
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = KHO
+controller = KHO
 add_core = KHO
-add_core = TAB
 add_core = KHI
 
-culture = turkmeni
+culture = horasanli
 religion = sunni
 capital = "Asatarabad"
 

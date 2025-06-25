@@ -159,3 +159,5 @@
 5617 = "Bayburt"
 5618 = "Lazistan"
 5736 = "Usak"
+5752 = "Hinis"
+5758 = "Gümüshane" 

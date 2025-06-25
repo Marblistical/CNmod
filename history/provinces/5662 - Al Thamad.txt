@@ -1,8 +1,8 @@
 #5662 - Al Thamad
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = HED
+controller = HED
+add_core = HED
 add_core = MDA
 
 culture = hejazi_culture

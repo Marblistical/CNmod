@@ -9,7 +9,7 @@ culture = turkish
 religion = sunni
 capital = "Amasya"
 
-trade_goods = fruit
+trade_goods = tin
 hre = no
 base_tax = 1
 base_production = 3

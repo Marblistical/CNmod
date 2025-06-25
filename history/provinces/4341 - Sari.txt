@@ -1,9 +1,8 @@
 #4341 - Sari
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = TAB
+owner = SRI
+controller = SRI
+add_core = SRI
 
 culture = mazandarani
 religion = shiite

@@ -8,7 +8,7 @@ culture = kannada
 religion = hinduism
 capital = "Ummatur"
 
-trade_goods = spices
+trade_goods = millet
 hre = no
 base_tax = 3
 base_production = 3

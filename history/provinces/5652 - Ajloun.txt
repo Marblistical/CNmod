@@ -3,6 +3,7 @@
 owner = SLJ
 controller = SLJ
 add_core = SLJ
+add_core = AKR
 
 culture = al_suryah_arabic
 religion = sunni

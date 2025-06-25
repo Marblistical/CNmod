@@ -9,7 +9,7 @@ culture = manchu
 religion = confucianism
 capital = "Girin"
 
-trade_goods = grain
+trade_goods = legumes
 hre = no
 base_tax = 5 
 base_production = 5

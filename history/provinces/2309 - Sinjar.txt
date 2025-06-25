@@ -1,12 +1,10 @@
 #2309 - Sinjar
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = IRQ
-add_core = QAR
+owner = SNJ
+controller = SNJ
+add_core = SNJ
 
-culture = moslawi_arabic
+culture = kurdish
 religion = sunni
 capital = "Sindjar"
 

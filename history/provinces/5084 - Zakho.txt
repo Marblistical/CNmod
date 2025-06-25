@@ -1,8 +1,8 @@
 #5084 - Zakho
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
+owner = BHD
+controller = BHD
+add_core = BHD
 
 culture = kurdish
 religion = sunni

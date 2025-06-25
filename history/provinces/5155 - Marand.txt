@@ -1,10 +1,10 @@
 #2035 - Khoy
 
-owner = SLJ
-controller = SLJ
-add_core = SLJ
-add_core = QAR
+owner = AZE
+controller = AZE
+add_core = AZE
 add_core = TBR
+add_core = VSP
 
 culture = azerbaijani
 religion = shiite
